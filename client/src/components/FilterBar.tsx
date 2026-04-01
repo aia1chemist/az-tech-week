@@ -37,13 +37,13 @@ export default function FilterBar({
       {/* Search + Filter Toggle Row */}
       <div className="px-4 pt-3 pb-2 flex gap-2 items-center">
         <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-primary/60" />
           <input
             type="text"
-            placeholder="Search events, organizers, cities..."
+            placeholder="Search events, organizers, topics, descriptions..."
             value={filters.search}
             onChange={(e) => updateFilter("search", e.target.value)}
-            className="w-full pl-9 pr-8 py-2.5 rounded-xl bg-secondary/60 border border-border/50 text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary/50 transition-all"
+            className="w-full pl-10 pr-8 py-3 rounded-xl bg-white border-2 border-border shadow-sm text-sm font-medium placeholder:text-muted-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary/60 focus:shadow-md transition-all"
           />
           {filters.search && (
             <button

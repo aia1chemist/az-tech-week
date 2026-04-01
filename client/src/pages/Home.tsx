@@ -1,7 +1,7 @@
 /*
  * Design: Copper Circuit — Warm, Scandinavian-meets-Southwest
  * Mobile-first event calendar with day tabs, filters, time-grouped cards
- * Now with: trending section, sort bar, swipe to change day
+ * Search mode: searches across ALL days and groups results by day
  */
 import { useEvents } from "@/hooks/useEvents";
 import { useSwipe } from "@/hooks/useSwipe";
@@ -31,6 +31,8 @@ export default function Home() {
     dayStats,
     activeFilterCount,
     totalEvents,
+    isSearchActive,
+    searchDayBreakdown,
   } = useEvents();
 
   const swipeHandlers = useSwipe(nextDay, prevDay);
@@ -40,17 +42,19 @@ export default function Home() {
       {/* Hero */}
       <HeroSection totalEvents={totalEvents} totalCities={allCities.length} />
 
-      {/* Day Selector — sticky */}
-      <DaySelector
-        selectedDay={filters.day}
-        onSelectDay={(day) => updateFilter("day", day)}
-      />
+      {/* Day Selector — sticky (dimmed when searching across all days) */}
+      <div className={isSearchActive ? "opacity-40 pointer-events-none" : ""}>
+        <DaySelector
+          selectedDay={filters.day}
+          onSelectDay={(day) => updateFilter("day", day)}
+        />
+      </div>
 
-      {/* Quick Stats */}
-      <QuickStats selectedDay={filters.day} />
+      {/* Quick Stats — hide when searching */}
+      {!isSearchActive && <QuickStats selectedDay={filters.day} />}
 
-      {/* Trending Section */}
-      <TrendingSection events={trendingEvents} />
+      {/* Trending Section — hide when searching */}
+      {!isSearchActive && <TrendingSection events={trendingEvents} />}
 
       {/* Filters */}
       <FilterBar
@@ -64,18 +68,25 @@ export default function Home() {
         resultCount={events.length}
       />
 
-      {/* Sort Bar */}
-      <div className="max-w-6xl mx-auto">
-        <SortBar
-          sort={filters.sort}
-          onSortChange={(sort) => updateFilter("sort", sort)}
-          resultCount={events.length}
-        />
-      </div>
+      {/* Sort Bar — hide when searching (search has its own sort) */}
+      {!isSearchActive && (
+        <div className="max-w-6xl mx-auto">
+          <SortBar
+            sort={filters.sort}
+            onSortChange={(sort) => updateFilter("sort", sort)}
+            resultCount={events.length}
+          />
+        </div>
+      )}
 
       {/* Event List */}
       <main className="max-w-6xl mx-auto">
-        <EventList groupedEvents={groupedEvents} totalFiltered={events.length} />
+        <EventList
+          groupedEvents={groupedEvents}
+          totalFiltered={events.length}
+          isSearchMode={isSearchActive}
+          searchDayBreakdown={searchDayBreakdown}
+        />
       </main>
 
       {/* Scroll to top */}

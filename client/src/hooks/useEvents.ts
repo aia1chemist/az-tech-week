@@ -50,7 +50,6 @@ function sortEvents(events: Event[], sort: SortOption): Event[] {
       break;
     case "filling":
       sorted.sort((a, b) => {
-        // Sold out first, then by fill percentage (highest first), then by spots left (lowest first)
         if (a.sold_out && !b.sold_out) return -1;
         if (!a.sold_out && b.sold_out) return 1;
         if (a.spots_left === 0 && b.spots_left !== 0) return -1;
@@ -65,6 +64,52 @@ function sortEvents(events: Event[], sort: SortOption): Event[] {
       break;
   }
   return sorted;
+}
+
+function matchesSearch(e: Event, q: string): boolean {
+  return (
+    e.title.toLowerCase().includes(q) ||
+    e.organizer.toLowerCase().includes(q) ||
+    e.city.toLowerCase().includes(q) ||
+    e.categories.some((c) => c.toLowerCase().includes(q)) ||
+    (e.description ? e.description.toLowerCase().includes(q) : false)
+  );
+}
+
+function applyNonDayFilters(events: Event[], filters: Filters): Event[] {
+  let result = events;
+
+  // Category filter
+  if (filters.categories.length > 0) {
+    result = result.filter((e) =>
+      filters.categories.some((cat) => e.categories.includes(cat))
+    );
+  }
+
+  // City filter
+  if (filters.city) {
+    result = result.filter((e) => e.city === filters.city);
+  }
+
+  // Time of day filter
+  if (filters.timeOfDay) {
+    result = result.filter((e) => e.time_of_day === filters.timeOfDay);
+  }
+
+  // Search filter
+  if (filters.search) {
+    const q = filters.search.toLowerCase();
+    result = result.filter((e) => matchesSearch(e, q));
+  }
+
+  // Invite only filter
+  if (filters.inviteOnly === "public") {
+    result = result.filter((e) => !e.invite_only);
+  } else if (filters.inviteOnly === "invite") {
+    result = result.filter((e) => e.invite_only);
+  }
+
+  return result;
 }
 
 export function useEvents() {
@@ -107,59 +152,62 @@ export function useEvents() {
     });
   }, []);
 
+  // When search is active, search across ALL days; otherwise filter to selected day
+  const isSearchActive = filters.search.length > 0;
+
   const filteredEvents = useMemo(() => {
     let result = data.events as Event[];
 
-    // Day filter
-    if (filters.day) {
-      result = result.filter((e) => e.full_date === filters.day);
-    }
-
-    // Category filter
-    if (filters.categories.length > 0) {
-      result = result.filter((e) =>
-        filters.categories.some((cat) => e.categories.includes(cat))
-      );
-    }
-
-    // City filter
-    if (filters.city) {
-      result = result.filter((e) => e.city === filters.city);
-    }
-
-    // Time of day filter
-    if (filters.timeOfDay) {
-      result = result.filter((e) => e.time_of_day === filters.timeOfDay);
-    }
-
-    // Search filter
-    if (filters.search) {
-      const q = filters.search.toLowerCase();
-      result = result.filter(
-        (e) =>
-          e.title.toLowerCase().includes(q) ||
-          e.organizer.toLowerCase().includes(q) ||
-          e.city.toLowerCase().includes(q) ||
-          e.categories.some((c) => c.toLowerCase().includes(q)) ||
-          (e.description && e.description.toLowerCase().includes(q))
-      );
-    }
-
-    // Invite only filter
-    if (filters.inviteOnly === "public") {
-      result = result.filter((e) => !e.invite_only);
-    } else if (filters.inviteOnly === "invite") {
-      result = result.filter((e) => e.invite_only);
+    if (isSearchActive) {
+      // Search across ALL days — don't restrict to current day
+      result = applyNonDayFilters(result, filters);
+    } else {
+      // Normal mode: filter by day first, then apply other filters
+      if (filters.day) {
+        result = result.filter((e) => e.full_date === filters.day);
+      }
+      result = applyNonDayFilters(result, filters);
     }
 
     // Sort
-    result = sortEvents(result, filters.sort);
+    if (isSearchActive) {
+      // When searching, group by day then sort within each day
+      const dayOrder = data.days;
+      result = [...result].sort((a, b) => {
+        const dayDiff = dayOrder.indexOf(a.full_date) - dayOrder.indexOf(b.full_date);
+        if (dayDiff !== 0) return dayDiff;
+        return parseTime(a.time) - parseTime(b.time);
+      });
+    } else {
+      result = sortEvents(result, filters.sort);
+    }
 
     return result;
-  }, [filters]);
+  }, [filters, isSearchActive]);
 
-  // Group events by time of day
+  // Cross-day search results breakdown (when searching)
+  const searchDayBreakdown = useMemo(() => {
+    if (!isSearchActive) return null;
+    const breakdown: Record<string, number> = {};
+    filteredEvents.forEach((e) => {
+      breakdown[e.full_date] = (breakdown[e.full_date] || 0) + 1;
+    });
+    return breakdown;
+  }, [filteredEvents, isSearchActive]);
+
+  // Group events by time of day (or by day when searching)
   const groupedEvents = useMemo(() => {
+    if (isSearchActive) {
+      // Group by day when searching across all days
+      const groups: Record<string, Event[]> = {};
+      filteredEvents.forEach((e) => {
+        const day = e.full_date;
+        if (!groups[day]) groups[day] = [];
+        groups[day].push(e);
+      });
+      return groups;
+    }
+    // Normal: group by time of day
     const groups: Record<string, Event[]> = {
       Morning: [],
       Afternoon: [],
@@ -173,9 +221,9 @@ export function useEvents() {
       }
     });
     return groups;
-  }, [filteredEvents]);
+  }, [filteredEvents, isSearchActive]);
 
-  // Trending events for current day (top by going + interested)
+  // Trending events for current day
   const trendingEvents = useMemo(() => {
     const dayEvents = (data.events as Event[]).filter((e) => e.full_date === filters.day);
     return dayEvents
@@ -227,5 +275,7 @@ export function useEvents() {
     dayStats,
     activeFilterCount,
     totalEvents: data.events.length,
+    isSearchActive,
+    searchDayBreakdown,
   };
 }

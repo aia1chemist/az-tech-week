@@ -261,11 +261,11 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
                 rel="noopener noreferrer"
                 className={`flex-shrink-0 inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 ${
                   cap.isFull
-                    ? "bg-muted text-muted-foreground"
+                    ? "bg-amber-100 text-amber-800 border border-amber-300 hover:bg-amber-200"
                     : "bg-primary text-primary-foreground hover:opacity-90"
                 }`}
               >
-                {cap.isFull ? "Full" : "RSVP"}
+                {cap.isFull ? "Waitlist" : "RSVP"}
                 <ExternalLink className="w-3 h-3" />
               </a>
             )}
