@@ -1,0 +1,6657 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "organizer": "Club Lumen",
+      "title": "THE MORNING RAVE\u2122@ #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "7:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/1sFehjt8fRAZBBdy1zjQ",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 2,
+      "organizer": "PADT",
+      "title": "ADVICE FOR STARTUP ADVISORS- #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "7:30 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/ii1MLnS3SHXw4DQl0SLO",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 3,
+      "organizer": "ARIZONA VENTURE ALLIANCE",
+      "title": "VC COFFEE HOURS",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/IqFzsNDp8O75dM8zI0QQ",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 4,
+      "organizer": "ASU School of Technology for Public Health",
+      "title": "HEALTH TECH REIMAGINED - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "8:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/DlNEFjA1ZhKBjMrQgyBg",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 5,
+      "organizer": "WESTMARC",
+      "title": "WESTMARC BUSINESS TECHNOLOGY SUMMIT 2026",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "8:00 am",
+      "city": "Buckeye",
+      "link": "https://partiful.com/e/JMpYr3VwDiddrpOEEk4W",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 6,
+      "organizer": "Phoenix Bioscience Core",
+      "title": "XLR8 INVESTOR CORNER @ 850 PBC - AZ TECH WEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/JccFF7KXj5GRFsvNkR2D",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC",
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 7,
+      "organizer": "City of Mesa of Economic Development",
+      "title": "AI DEFINED NETWORKING WITH NETGEAR - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "8:30 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/9zzZkMP7uOFIMzAqYuct",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 8,
+      "organizer": "The Funding Studio",
+      "title": "CURATED COFFEE AND REVENUE GROWTH - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "9:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/snb1di736DC9I5lL8kE2",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 9,
+      "organizer": "City of Maricopa",
+      "title": "RAIL: TECHNOLOGY OF THE PAST & THE FUTURE?",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "9:00 am",
+      "city": "Maricopa",
+      "link": "https://partiful.com/e/R9yulhG1FyLvUoBuk4Gg",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 10,
+      "organizer": "WayLucid / City of El Mirage",
+      "title": "CITY OF EL MIRAGE 75TH ANNIVERSARY SCAVENGER HUNT",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "9:00 am",
+      "city": "El Mirage",
+      "link": "https://partiful.com/e/OUU7HaxVYgj10BNHTNeR",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 11,
+      "organizer": "City of Mesa of Economic Development",
+      "title": "REIMAGINING EVERY INDUSTRY IN THE AGE OF AI",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "9:30 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/AdItO605T6lARPwPpme3",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 12,
+      "organizer": "Honeywell Aerospace",
+      "title": "HON AERO - DV SITE TOUR (US ONLY) - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/9osTRels5L0f7CmG0mr3",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 13,
+      "organizer": "Kemabonta Ventures",
+      "title": "BUILDING DEEP TECH VENTURES IN AZ - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/ZYIrGpN4NorCErn7yvUF",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 14,
+      "organizer": "Snell & Wilmer",
+      "title": "AI AT THE CROSSROADS - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/hbmmeQ2m7QxsVtQpXeLC",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 15,
+      "organizer": "ASU Core Facilities and Econ Dev",
+      "title": "ASU CORE FACILITIES - MAKE YOUR TECH TANGIBLE",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "10:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/BVEF8d2CNUqV0qOhxEoF",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 16,
+      "organizer": "City of Mesa of Economic Development",
+      "title": "15 DAYS OF WORK IN 2: A LIVE LOOK AT SCALING A TECH COMPANY WITH CLAUDE COWORK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "10:15 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/OkmvgtEfArsXMsbSd4p5",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 17,
+      "organizer": "City of Maricopa",
+      "title": "POWER: WHO HAS IT? WHO CAN GET IT? IS THERE MORE?",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "10:30 am",
+      "city": "Maricopa",
+      "link": "https://partiful.com/e/qoW0pCrwbgA9UVjq06bV",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 18,
+      "organizer": "Tesla",
+      "title": "FULL SELF-DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/PjIDoq1c75HQtxyGt39x",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 19,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/qcDOBKAVJLBrxH1Fepge",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 20,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "https://partiful.com/e/iSSeS2X5zWyVYwlk2zvB",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 21,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/CrjwJEwgAvbjozxSlvdz",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 22,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/fJ49Vi8WD2JceHWUw14a",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 23,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/LRE3lDSOrMGN2tPholPb",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 24,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/Ce3B8d3xf9pbrXiYnmxH",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 25,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/6V5GNvkUhJ2fkx2snPCn",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 26,
+      "organizer": "Lucid Motors",
+      "title": "LUCID MOTORS - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/qoVFDgmiL3GvtaiFy7CB",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 27,
+      "organizer": "CTO Lunches",
+      "title": "CTO LUNCHES PHOENIX - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/80yl7EwPejkoxliQ3vQc",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 28,
+      "organizer": "City of Maricopa",
+      "title": "LUNCH & TOUR OF THE CITY OF MARICOPA",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "12:00 pm",
+      "city": "Maricopa",
+      "link": "https://partiful.com/e/Xi2seaQLFv0zuzrPaCwc",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 29,
+      "organizer": "Thoron",
+      "title": "CITY & STATE CIO INNOVATION TECH LUNCH #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/MuRP5oMpI3QNt3JInyxk",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": true,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 30,
+      "organizer": "AZ StRUT",
+      "title": "AZ STRUT COMPUTER REFURB-A-THON! -> #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "1:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/YRzMIxOOPraitPvjjH9S",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 31,
+      "organizer": "PLUG AND PLAY ACCELERATEAZ",
+      "title": "MINING INNOVATION FORUM",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "1:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/cDw5oJMyCNh7mbrxd7cO",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 32,
+      "organizer": "Mesa Business Builder",
+      "title": "BOEING - FROM AUTOMATION TO AUTONOMY",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "1:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/58yeKQuoVXEYB80LN3Nu",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 33,
+      "organizer": "U of A Research and Partnerships",
+      "title": "RICHARD F. CARIS MIRROR LAB TOURS - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "1:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/WjioKEttoO8T4bsp22EN",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 34,
+      "organizer": "S2RC",
+      "title": "SBIR/STTR - ALL YOU NEED TO KNOW FROM A SBIR EVALUATOR, TPOC, AND SBC WITH MULTIPLE SBIRS",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "1:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/GkkCbSKyjHmrvRPTuF2B",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 35,
+      "organizer": "Yo Tech This Out!",
+      "title": "LIVE \u2014 MEDIA DAY + WAYMO + TEDX HOST",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "1:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/12B1HmErm8raTcIQrhH1",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 36,
+      "organizer": "InnovateAZ",
+      "title": "INNOVATEAZ UNIVERSITY STARTUP SHOWCASE-#AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/rOBIiQXKXqLM71E830BB",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 37,
+      "organizer": "moatly\u2122",
+      "title": "A PATENT-PENDING PARTY #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/I4Wi9mYretGat6vDoS7J",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social",
+        "Legal & Policy"
+      ]
+    },
+    {
+      "id": 38,
+      "organizer": "GOTYOU",
+      "title": "STOP PAYING FOR CLICKS. START PAYING FOR CUSTOMERS",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/LmbGJsrilpRQRAlPxapA",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Sales & Marketing",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 39,
+      "organizer": "Huijia Health",
+      "title": "SMART AGING & HOME CARE",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/LRgYIwTQ4UlvLgMboHuo",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 40,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "THE RELATIONSHIP ECONOMY BUILT ON ENGINEERED TRUST",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "2:30 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/cxWrsCwcTV18vETjy3bH",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 41,
+      "organizer": "FreeFall Aerospace",
+      "title": "FROM UNIVERSITY TO ORBIT #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "3:30 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/hRwDHlSC9ddnGhA6a1Vh",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 42,
+      "organizer": "Plug and Play",
+      "title": "CHARGING THE FUTURE: ARIZONA'S BATTERY FORUM",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "3:30 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/mdfI6rS6eNQue4NvGJ3A",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Energy & Sustainability"
+      ]
+    },
+    {
+      "id": 43,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "ENTREPRENEUR FOUNDER'S PANEL - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "3:45 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/JMQ9o3LnAMSzBwQXQyl5",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 44,
+      "organizer": "Venture Growth Advisors",
+      "title": "THE COLOR OF MONEY - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "4:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/R3qoE0lTpfAKDr6ZtDGL",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 45,
+      "organizer": "TUBR",
+      "title": "FROM LONDON TO PHOENIX IN 90 DAYS",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "4:30 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/dOEW64aIzDI3UyWdmSmx",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 46,
+      "organizer": "Arizona State University",
+      "title": "POWERING ARIZONA\u2019S NEXT-GEN TALENT - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "4:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/Yo7MXh6naNBayrJCe2cF",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Afternoon",
+      "invite_only": true,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 47,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "NETWORKING RECEPTION - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "5:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/Qlr3mwTtxRMxmHpEWOZK",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 48,
+      "organizer": "The InnovationHub",
+      "title": "BUSINESS BASICS AT THE INNOVATIONHUB #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "5:00 pm",
+      "city": "Goodyear",
+      "link": "https://partiful.com/e/XPeYiupJr2CxUsTw0zcR",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 49,
+      "organizer": "Nucleate Arizona",
+      "title": "VIRTUAL GENESIS SPOTLIGHT WEBINAR",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "5:00 pm",
+      "city": "Virtual",
+      "link": "https://partiful.com/e/G7p9xegp22raYInXi7IK",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 50,
+      "organizer": "PHX FWD",
+      "title": "RAISING CAPITAL TODAY: FOUNDER STORIES #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "5:30 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/eKH63HHJQ7cG6VEDvgSO",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 51,
+      "organizer": "Triptimize and Musa Capital",
+      "title": "AZ TECH WEEK OPENING NIGHT PARTY - #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "6:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/xID8S8XZB4l4Bdxqshd3",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 52,
+      "organizer": "MBB @ The Studios",
+      "title": "BRAND & MARKETING MASTER BLUEPRINT #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "6:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/x9eEWKWp9YDhLXfHDze8",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 53,
+      "organizer": "Joseline Nyinawabera",
+      "title": "FIND THE GAP. OWN THE MARKET. #AZTECHWEEK",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "6:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/cygbDUK7AS0QmPH6M2jB",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 54,
+      "organizer": "WayLucid Inc.",
+      "title": "MAGAZINE STREET MYSTERY",
+      "day_of_week": "Mon",
+      "date": "4/6",
+      "time": "7:00 pm",
+      "city": "New Orleans",
+      "link": "https://partiful.com/e/yY2o4EYOJE4CjeQJCtLu",
+      "full_date": "Monday, April 6",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 55,
+      "organizer": "PADT",
+      "title": "ARIZONA HARDTECH: IT\u2019S DIFFERENT #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/EsmnM3QSVKRsZbSiNvHL",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 56,
+      "organizer": "Plug and Play accelerateAZ",
+      "title": "ACCELERATEAZ EXPO",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/ljV4jeXHjESUcxO3ibnj",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 57,
+      "organizer": "Pangaea Ventures",
+      "title": "PANGAEA VENTURES ANNUAL LIMITED PARTNER MEETING",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/JccFF7KXj5GRFsvNkR2D",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": true,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 58,
+      "organizer": "City of Peoria",
+      "title": "WOMEN IN TECH NETWORKING COFFEE HOUR - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:00 am",
+      "city": "Peoria",
+      "link": "https://partiful.com/e/HWmsapy1DKywLAxFUNvz",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 59,
+      "organizer": "PLUG AND PLAY ACCELERATEAZ",
+      "title": "VC COFFEE HOURS",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/NxGyvPYubfkKGbQCmQEW",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 60,
+      "organizer": "Phoenix Bioscience Core",
+      "title": "XLR8 INVESTOR CORNER @ 850 PBC - AZ TECH WEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/FPJu6doqR90rb0Ksi96P",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC",
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 61,
+      "organizer": "AZAdvances",
+      "title": "AZADVANCES HEALTH INNOVATION SHOWCASE #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/sgYyHx2CzWIeQJiASspD",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 62,
+      "organizer": "Fric",
+      "title": "FOUNDER FLOW AT #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/t8ehNBLossRUd8mLo7Je",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 63,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "HOW TECHNOLOGY ENABLES SUSTAINABLE BUSINESS GROWTH",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:30 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/vAKidXDGkQRPdZxI5nky",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Energy & Sustainability"
+      ]
+    },
+    {
+      "id": 64,
+      "organizer": "Optics Valley Arizona & AmeriCOM",
+      "title": "THE SOUTHERN ARIZONA OPTICS INDUSTRY & LEGISLATIVE BREAKFAST",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "8:30 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/Rsd3XglsDjzrlmfHEwmV",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": true,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 65,
+      "organizer": "Lori Richardson and Kristie Jones",
+      "title": "GETTING YOUR FIRST 100 CUSTOMERS - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/WVPwhfBpAdbqo2jhJfhN",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 66,
+      "organizer": "City of Avondale in partnership with Freeway + Tesoro.vc",
+      "title": "AVONDALE VENTURE 500 - A BOLD PITCH COMPETITION",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:00 am",
+      "city": "Avondale",
+      "link": "https://partiful.com/e/Df0kVyGSBnIaghYWZ6zi",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 67,
+      "organizer": "GCU College of Engineering and Technology",
+      "title": "HIGH SCHOOL RESEARCH FEEDBACK FORUM - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/6QddsNkwEE1xRDO9HXcJ?c=qKBFxFaG",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 68,
+      "organizer": "Yuma Proving Grounds",
+      "title": "THINGS THAT MAKE IT GO BOOM!!- YPG #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/LcUJQ9USzIBza7Jy3FTI",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 69,
+      "organizer": "City of Maricopa & Global Water Resources",
+      "title": "WATER IN THE DESERT. GROWTH, DROUGHT & SMART USAGE",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:00 am",
+      "city": "Maricopa",
+      "link": "https://partiful.com/e/2qdVU8cD2QVo1a4ZgqG0",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Energy & Sustainability",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 70,
+      "organizer": "6|21 Private Wealth",
+      "title": "THE FOUNDERS' TALE: A STORY OF BENEVOLENT PIRACY",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/QzOwRLjkY95kfWQ5TuNR",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 71,
+      "organizer": "TENWEST",
+      "title": "ARIZONA RUNS ON COFFEE (AND ENTREPRENEURS)",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/TlSbEIBWEdg4Gaz77nh7",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 72,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "HOW ANGELS DECIDE THE INVESTOR MINDSET #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:30 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/nuDmPZ8Hey14vTw0yV5f",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 73,
+      "organizer": "Cecelia Holland-Braithwaite",
+      "title": "PITCH YOUR PODCAST - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "9:30 am",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/CaR3D5OBiEuRlDr2vq3D",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 74,
+      "organizer": "Honeywell",
+      "title": "HON AERO FLIGHT LINE TOUR (US ONLY) - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/FedDjAwjsLAgnn3mMJc8?",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 75,
+      "organizer": "Techquity Advisors",
+      "title": "IS YOUR BUSINESS AI READY FOR 2026? - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/zuvuSStI1k3yJEdQBzLy?",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 76,
+      "organizer": "MJS Designs, Inc.",
+      "title": "SUCCESSFUL ELECTRONICS PRODUCT DEVELOPMENT - WEBEX",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/B7ljGB2AmfT5m42BtE09",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 77,
+      "organizer": "WEST Center",
+      "title": "U OF A WEST CENTER TOUR- #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/HMo6zKToz2n0T4eCAqyE",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 78,
+      "organizer": "University of Arizona",
+      "title": "COMMUNITY TOUR: GENETICS, GENOMICS & DRUG DISCOV.",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/1ald0cn1IFgB5RsdmuAq",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Education & Workforce",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 79,
+      "organizer": "University of Arizona",
+      "title": "COMMUNITY TOUR: DIGITAL HEALTH TECH & SENSORS",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/im5hy5ponbomf3XqKnzt",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Education & Workforce",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 80,
+      "organizer": "U of A",
+      "title": "U OF A GEM AND MINERAL MUSEUM TOURS #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/F3E8bl4GOHNu7xLVmsP3?",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 81,
+      "organizer": "Skysong Innovations",
+      "title": "ASU STARTUP AND TECHNOLOGY EXPO",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:30 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/N9GQJEMh4gq3kIdD3yU9?",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 82,
+      "organizer": "Don Fotsch",
+      "title": "INSIDE THE EVOLUTION OF MAYO CLINIC AZ #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/LRE3lDSOrMGN2tPholPb",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 83,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "AI STRATEGIES TO CREATE GROWTH, PROFIT & FREEDOM",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "10:30 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/qoVFDgmiL3GvtaiFy7CB",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 84,
+      "organizer": "University of Arizona",
+      "title": "COMM TOUR: MASS SPEC & MOLECULAR CLINICAL CORE",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/fJ49Vi8WD2JceHWUw14a",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 85,
+      "organizer": "University of Arizona",
+      "title": "COMMUNITY TOUR: STATE-OF-THE-ART BIOIMAGING",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/6V5GNvkUhJ2fkx2snPCn",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Education & Workforce",
+        "Tours & Demos",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 86,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/qcDOBKAVJLBrxH1Fepge",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 87,
+      "organizer": "Lucid Motors",
+      "title": "LUCID MOTORS - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/Ce3B8d3xf9pbrXiYnmxH",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 88,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/iSSeS2X5zWyVYwlk2zvB",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 89,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/CrjwJEwgAvbjozxSlvdz",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 90,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/PjIDoq1c75HQtxyGt39x",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 91,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/rdc77LsxsRUKg8OJUGAK",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 92,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "https://partiful.com/e/Ov7R5QJWAjiOAt72ziOQ",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 93,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/vhCXG1V9hm51f7OEN9CV",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 94,
+      "organizer": "Tesla",
+      "title": "FULL SELF-DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/SqTpMnLqoinm2j8caUUS",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 95,
+      "organizer": "Elevate Southwest",
+      "title": "FUEL & IGNITE! - STEM PITCH #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:30 am",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/OqIJt58qv1i5gpBjraZ4",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 96,
+      "organizer": "ASHRAE Central Arizona Chapter",
+      "title": "ASHRAE APRIL MEETING #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "11:30 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/tHLA0NndUQs9Om4s5GW4",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 97,
+      "organizer": "Jane Sorenson Herthel",
+      "title": "BEFORE YOU FIX SALES... #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/j3hMuFT65F6NLwmMAOvY",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 98,
+      "organizer": "WHO MENTORS YOU INC.",
+      "title": "FORM YOUR OWN H-1B CAP EXEMPT EMPLOYER #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/OCaEs4PXR7yYcItgvp4C",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 99,
+      "organizer": "U of A Responsible AI",
+      "title": "AI INSIGHTS: U OF A RESPONSIBLE AI #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "12:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/b8WQNN4gH1SFXkoLvSZP",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 100,
+      "organizer": "Design Convo",
+      "title": "LEADERSHIP AGILITY LAB- #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "12:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/UfrU7bt7a2EgreAz7TVz",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 101,
+      "organizer": "Arizona Digital Inclusion Network - ADIN",
+      "title": "DIGITAL ACCESS FOR HEALTHY COMMUNITIES",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "12:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/mZxQcjuze9iCiO2QLPZd",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 102,
+      "organizer": "BeOn Brand Media",
+      "title": "THE STARTUP BRAND SPRINT - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "1:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/58yeKQuoVXEYB80LN3Nu",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 103,
+      "organizer": "H.B. Compliance Solutions",
+      "title": "EMI/EMC TESTING:DEMO AND LAB TOUR #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "1:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/V60DlyL7x1ahpqW45yaa",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Legal & Policy",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 104,
+      "organizer": "VBB Media",
+      "title": "NO LEGAL PROTECTIONS FOR AI BIZ'S? HOLD MY BEER...",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "1:00 pm",
+      "city": "Phoenix area",
+      "link": "https://partiful.com/e/Ug6KfrrP9FAV1UNmwnc0",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Legal & Policy"
+      ]
+    },
+    {
+      "id": 105,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "PROMPT ENGINEERING FOR MARKETERS WITH META",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "1:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/UqHcxy3nnmAKCx77tBpY",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 106,
+      "organizer": "U of A Research and Partnerships",
+      "title": "RICHARD F. CARIS MIRROR LAB TOURS - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "1:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/wR8YbWekKS9txq1n18W1?",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 107,
+      "organizer": "The Tech4Equity Project",
+      "title": "HOW FINTECH EXPANDS FINANCIAL ACCESS - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "1:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/nV5R5SMZmAjHr2h38YRO",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Fintech"
+      ]
+    },
+    {
+      "id": 108,
+      "organizer": "Yo! Tech This Out",
+      "title": "UNDERSTANDING AI: AI PROMPTING: AI FUTURE BUSINESS",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "1:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/8Ik8FxqFn2u4bGiG8Hd3",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 109,
+      "organizer": "Moonshot",
+      "title": "MOONSHOT TECH INNOVATION SHOWCASE #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "2:00 pm",
+      "city": "Flagstaff",
+      "link": "https://partiful.com/e/E00DUfv2UQkl01x1KBKi",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 110,
+      "organizer": "UGenome",
+      "title": "ARE YOU GOING TO THE DIGITAL DNA EVENT?#AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/6KXrgAX8uc6j3JxxEMUr",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 111,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "YOU\u2019RE NOT TOO SMALL TO BE TARGETED: CYBERSECURITY",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "2:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/aWFaUF34HcaMjz2yS0cy",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": 112,
+      "organizer": "REVOBOTS INC",
+      "title": "REVOBOTS HUMANS+ROBOTS PRIVATE EVENT #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "3:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/7bHjhG2VDYX3WN8vmx8u",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": true,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 113,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "ESTABLISHING YOUR PRESENCE W/ META BUSINESS TOOLS",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "3:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/i4VIIO4YCLGmA7NHPa6p",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 114,
+      "organizer": "Pima Community College SATEC",
+      "title": "ARTS ENTREPRENEURIAL TALKS WITH JOSEPH O'CONNELL",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "3:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/jlGRGGFl9SUVR7kbiUnb",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 115,
+      "organizer": "Gravitrex",
+      "title": "ARIZONA AGETECH CONNECT MEETUP- #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "3:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/4rVejRaBplMo6mfyyAJx",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 116,
+      "organizer": "Raja Sekhar Malireddy",
+      "title": "FROM IDEA TO MVP WORKSHOP WITH AI : #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/IaZFDBL95NhLIXWN1k3E",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Startups & Entrepreneurship",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 117,
+      "organizer": "AspireByte",
+      "title": "YUMA HACKATHON - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:00 pm",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/XoqKZD6s7acZObQgIscF",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 118,
+      "organizer": "Necodex",
+      "title": "CROSS BORDER SCALE LAB - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/BLs0Uy5bzL1X2uAqiCKO",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 119,
+      "organizer": "CEO Intern",
+      "title": "CEO INTERN PUBLIC SERVICE FORGIVENESS #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/79xOdGCCyR7bymgcj4Wi",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 120,
+      "organizer": "FPT & Microsoft",
+      "title": "UNLEASH THE POWER OF ARTIFICIAL INTELLIGENCE",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/YlijoUNYRYfgrk6x6lwd",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 121,
+      "organizer": "Tech Launch Arizona",
+      "title": "WORLD IP DAY PATENT COIN CELEBRATION",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/Mhn0hH0KEHt0u4vFBkuE",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Legal & Policy"
+      ]
+    },
+    {
+      "id": 122,
+      "organizer": "City of Mesa Office of Economic Development",
+      "title": "CONTENT TO CUSTOMERS: BUILDING A PERSONAL BRAND",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:30 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/uJWCTMP4VkKK0X10d9PR",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 123,
+      "organizer": "Arizona State University",
+      "title": "POWERING ARIZONA\u2019S NEXT-GEN TALENT - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "4:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/SPK192dWuKuXJXNx9Mpz",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Afternoon",
+      "invite_only": true,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 124,
+      "organizer": "Golden Seeds",
+      "title": "SEEING THE INVISIBLE MARKET #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/dtXI4dLRPGOizRVrGXSa",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 125,
+      "organizer": "J. Orin Edson Entrepreneurship + Innovation Institute",
+      "title": "VENTURE START: SESSION ONE - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/LazniFxZ2idLgLgnkmQW",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 126,
+      "organizer": "Litix Legal",
+      "title": "A LAWYER AND AN ACCOUNTANT WALK INTO A BAR...",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/EFjw5Qz7otZP0R5snMPa",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Legal & Policy"
+      ]
+    },
+    {
+      "id": 127,
+      "organizer": "CTC Ops",
+      "title": "SRE + DEVOPS = AI HAPPY HOUR | #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/CTWXaEWFA6e0SuO7KhDc",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Networking & Social",
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 128,
+      "organizer": "Arizona Space Business Roundtable",
+      "title": "ARIZONA SPACE BUSINESS ROUNDTABLE - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/7sLaBIaINCuJQZfIFCbj",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 129,
+      "organizer": "Junko Nagao",
+      "title": "MATERIAL ADVANTAGE - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/QtLVZIYWQl4kyyM9ExVr",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 130,
+      "organizer": "Flagstaff Gravity Lab",
+      "title": "FLAGSTAFF GRAVITY LAB COLLIDER #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:30 pm",
+      "city": "Flagstaff",
+      "link": "https://partiful.com/e/HC9KMubWKPdHvJBrZHCf",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 131,
+      "organizer": "SVB",
+      "title": "SVB X PHX FWD STATE OF THE MARKETS",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/x9eEWKWp9YDhLXfHDze8",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 132,
+      "organizer": "Justin Williams",
+      "title": "BUILDERS, BACKERS & BIG IDEAS - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:30 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/jFJwEHStAOWe8BJANQZO",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 133,
+      "organizer": "PALIT Wallet",
+      "title": "CRYPTO NITE",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "5:30 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/l80pshYQBJDftv7J7lDp",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Blockchain & Crypto"
+      ]
+    },
+    {
+      "id": 134,
+      "organizer": "ACA Film and Digital Media",
+      "title": "ARIZONA FILM TECH",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "6:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/Wm3MWzr7RV2RF2dVZPrG",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 135,
+      "organizer": "Swift Coat, Inc.",
+      "title": "COATINGS, COCKTAILS & CARNE ASADA - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "7:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/mVuwtIfbiYKagw74YuI6",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 136,
+      "organizer": "Dapta AI",
+      "title": "\u26f3\ufe0f TOPGOLF KICKOFF NIGHT - #AZTECHWEEK",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "7:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/JccFF7KXj5GRFsvNkR2D",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 137,
+      "organizer": "WayLucid Inc.",
+      "title": "MAGAZINE STREET MYSTERY",
+      "day_of_week": "Tue",
+      "date": "4/7",
+      "time": "7:00 pm",
+      "city": "New Orleans",
+      "link": "https://partiful.com/e/ZekXiU69NIV9fKCNwbDZ",
+      "full_date": "Tuesday, April 7",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 138,
+      "organizer": "Snell & Wilmer",
+      "title": "HOW TO AVOID THE TOP 10 LEGAL MISTAKES #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "7:30 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/CA0oeFBAXyMZ2vUMqMjp",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Legal & Policy"
+      ]
+    },
+    {
+      "id": 139,
+      "organizer": "SMTA",
+      "title": "AI MEETS ELECTRONICS MANUFACTURING - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "8:00 am",
+      "city": "Avondale",
+      "link": "https://partiful.com/e/fWZGABmcTprs8ziANhKI",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 140,
+      "organizer": "AICT Co-hosted with Silicon Osais",
+      "title": "AI SAFETY\u2122 SUMMIT",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/TD24RDW8AhVl3zOLp8E2",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 141,
+      "organizer": "PLUG AND PLAY ACCELERATEAZ",
+      "title": "VC COFFEE HOURS",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/35orjAeWl5zcpvsxKB8e",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 142,
+      "organizer": "Phoenix Bioscience Core",
+      "title": "XLR8 INVESTOR CORNER @ 850 PBC - AZ TECH WEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/Z0M6xKu4IyCOXWCjuuCK",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC",
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 143,
+      "organizer": "Yavapai College",
+      "title": "MOONSHOT & REDC@ YAVAPAI COLLEGE - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "8:45 am",
+      "city": "Prescott",
+      "link": "https://partiful.com/e/nl8z1KibK4iXDzktgQjQ",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 144,
+      "organizer": "qBotica",
+      "title": "THE AGENTIC AI SHIFT IN ENTERPRISE OPERATIONS",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/stqpiQa5IKdBMDPD4VSl",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 145,
+      "organizer": "City of Show Low and North Pioneer College",
+      "title": "JET INTO INNOVATION AND ADVENTURE #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/AWSjbxywTnh4WppvCtDo",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 146,
+      "organizer": "Idealab Arizona",
+      "title": "IDEADAY FOR STARTUPS #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/cLM0WcEY4tQa1JjcjgC8",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 147,
+      "organizer": "Narrowgate Ventures",
+      "title": "CAPITAL RAISING ESSENTIALS - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/2qdVU8cD2QVo1a4ZgqG0",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 148,
+      "organizer": "REDC - Yavapai",
+      "title": "REDC + QUAD CITIES PITCH FINALS- #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Prescott",
+      "link": "https://partiful.com/e/BCtBGvB8S10d15eMsRNu",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 149,
+      "organizer": "Rocky Mountain VCA",
+      "title": "RMVCA'S VENTURE-CONNECT AZ #RMVCA",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/kfI0NshEf4MiXI1blBvi",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 150,
+      "organizer": "Oro Valley Arizona",
+      "title": "HONEYWELL ORO VALLEY TOUR AND PANEL DISCUSSION",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/n9YFD174L4hzCrwjM8cB",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 151,
+      "organizer": "ASU J. Orin Edson Entrepreneurship + Innovation Institute",
+      "title": "PITCH IN - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/jlg59FrAgC4Pliz262X6",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 152,
+      "organizer": "SCOP",
+      "title": "KITT PEAK OBSERVATORY TOUR - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:30 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/lQtWg4VRiOCS3eMAqLgr",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": true,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 153,
+      "organizer": "Arizona Commerce Authority",
+      "title": "WHAT'S NEXT FOR YOUR BUSINESS?",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/B7ljGB2AmfT5m42BtE09",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 154,
+      "organizer": "Cecelia Holland-Braithwaite",
+      "title": "PITCH YOUR PODCAST - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "9:30 am",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/pxo0Gl1ZEU0zGQNwL7Hd",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 155,
+      "organizer": "RoyerAI",
+      "title": "BUILD YOUR CUSTOMGPT FOR ENTREPRENEURS #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:00 am",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/l2paTEIkmEf40aiRwnOA",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 156,
+      "organizer": "Verde Valley Regional Economic Organization",
+      "title": "RED ROCKS ARCHAEOLOGY, AVIATION, WINE, #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:00 am",
+      "city": "Sedona",
+      "link": "https://partiful.com/e/94r4E8xSwz1ZfrIIC4sz",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 157,
+      "organizer": "Gina R. Smith Coaching & Advisory Services, LLC",
+      "title": "AMPLIFIED,NOT REPLACED.HUMANS & AI#AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/jzcaT5xFpHoQEipnHYU2",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 158,
+      "organizer": "BaseVector",
+      "title": "STOP 5% MRR LEAKAGE: LIVE SAAS REVENUE #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:00 am",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/EUPEEUrXp5NbQ6amJBx9",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 159,
+      "organizer": "Computer Information Systems Department at MCC",
+      "title": "DATA DRIVEN: AI, REAL ESTATE, & CYBER IN ACTION",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/qoVFDgmiL3GvtaiFy7CB",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Cybersecurity",
+        "Education & Workforce",
+        "Real Estate",
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": 160,
+      "organizer": "U of A",
+      "title": "U OF A GEM AND MINERAL MUSEUM TOURS #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/LRE3lDSOrMGN2tPholPb",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 161,
+      "organizer": "The Arizona Space Commission",
+      "title": "ARIZONA SPACE COMMISSION MEETING",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:00 am",
+      "city": "Payson",
+      "link": "https://partiful.com/e/fJ49Vi8WD2JceHWUw14a",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 162,
+      "organizer": "Emmeline Ventures",
+      "title": "FROM UNDERSERVED TO UNDENIABLE - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "10:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/6V5GNvkUhJ2fkx2snPCn",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 163,
+      "organizer": "GCU College of Engineering and Technology",
+      "title": "GCU ENGINEERING & TECH CAPSTONE SHOWCASE",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/qcDOBKAVJLBrxH1Fepge",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 164,
+      "organizer": "6|21 Private Wealth, LLC",
+      "title": "THE HIDDEN COST OF HIGH PERFORMANCE - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/Ce3B8d3xf9pbrXiYnmxH",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 165,
+      "organizer": "Fric",
+      "title": "AI FOUNDER / POLICYMAKER ROUNDTABLE",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "https://partiful.com/e/iSSeS2X5zWyVYwlk2zvB",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Startups & Entrepreneurship",
+        "Legal & Policy"
+      ]
+    },
+    {
+      "id": 166,
+      "organizer": "Lucid Motors",
+      "title": "LUCID MOTORS - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/CrjwJEwgAvbjozxSlvdz",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 167,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/PjIDoq1c75HQtxyGt39x",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 168,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/zjL9i8ofyURWzL3X9nx3",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 169,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/L9DQkwQh6h5RywERbaka",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 170,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/1bqLpSUb44BZIYxJYGFU",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 171,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/bAWyEB6XvKT0YEs5fsYi",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 172,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "https://partiful.com/e/1S0PUHFeLwOzofAsKGc9",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 173,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/5O7DrnHi0no9nZ1jnIRZ",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 174,
+      "organizer": "Tesla",
+      "title": "FULL SELF-DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/kCAZlpPgLtplynzWfrt3",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 175,
+      "organizer": "Lori Sussle Bonanni",
+      "title": "COCKROACH PRINCIPLES: BUILT TO ADAPT #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "11:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/HjKhWQ8FrPSGCz1vnOL8",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 176,
+      "organizer": "Fierce Foundry",
+      "title": "FEMHACK AZ #AZTECHWEEK STARTING WED 12PM",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/58yeKQuoVXEYB80LN3Nu",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 177,
+      "organizer": "EnKoat",
+      "title": "HOW ARIZONA DEPLOYS INNOVATION #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "12:00 pm",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/84xpDfWuRgErwgegxhze",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 178,
+      "organizer": "Flinn Foundation",
+      "title": "ARIZONA'S BIOSCIENCE ROADMAP PROGRESS REPORT",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/QmONGIomPWxoXsNgyufO",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 179,
+      "organizer": "Southern Arizona Technology & Entrepreneurship Center (SATEC)",
+      "title": "SATEC OPEN HOUSE #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "12:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/stp3CI9GvDW1FKXpvUYI",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 180,
+      "organizer": "AcceleratorCON",
+      "title": "BUILDING BREAKOUT CONSUMER BRANDS: FROM PRODUCT TO PLATFORM",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/Ho2Son52jLo06FwrU9fr",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 181,
+      "organizer": "Cesar",
+      "title": "THE FUSION OF MANUFACTURING - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "1:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/YtJ65p57H1gFWRnqJQLY",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 182,
+      "organizer": "Build Scale Prosper",
+      "title": "BUILT TO GROW. NOT TO SELL. #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "1:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/OsRSDtEZGk2qxeKI7HyU",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 183,
+      "organizer": "Yuma Center of Excellence for Desert Agriculture",
+      "title": "YUMA\u2019S AGTECH OPPORTUNITY ECOSYSTEM #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "1:00 pm",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/VksNEA7F7uIHUbg0Bc5o",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 184,
+      "organizer": "U of A Research and Partnerships",
+      "title": "RICHARD F. CARIS MIRROR LAB TOURS - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "1:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/tLN7MkiFQLyLBALR9Dda?c=z2IaMvkn",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 185,
+      "organizer": "Sanghi College of Engineering",
+      "title": "NAU ENGINEERING OPEN HOUSE - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "1:30 pm",
+      "city": "Flagstaff",
+      "link": "https://partiful.com/e/PaO3x2omYJS1rBp5Hol4",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 186,
+      "organizer": "University of Arizona",
+      "title": "ARIZONA'S FUTURE FUSION - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "1:30 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/DDjzV7hnTrX0IizYWSlt",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 187,
+      "organizer": "Morgan Stanley Inclusive & Sustainable Ventures",
+      "title": "INCLUSIVE & SUSTAINABLE VENTURES PITCH COMPETITION",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "1:45 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/87ypEGFrYAq4Hn7ghYJB",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Energy & Sustainability"
+      ]
+    },
+    {
+      "id": 188,
+      "organizer": "Prometheus Productions LLC, AI Film 3",
+      "title": "AI, CRYPTO, & BLOCKCHAIN DEVELOPING AZ #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/AuW3hsJk1zK8EFGjuz3u",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Blockchain & Crypto",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 189,
+      "organizer": "PLUG AND PLAY",
+      "title": "DRONE EXHIBITION",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "2:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/gEPpTGa3IYrQR4R8CM2O",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 190,
+      "organizer": "City of Peoria in Partnership with Caldwell County BBQ",
+      "title": "THE SCIENCE OF BBQ - #AZTW",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "2:00 pm",
+      "city": "Peoria",
+      "link": "https://partiful.com/e/JWjEel5BIJMVmRjQT9or",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 191,
+      "organizer": "Venture.Community",
+      "title": "THE BRITISH ARE COMING! UK TO SILICON DESERT",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/pPUfIEx6DSeKLyDe6YEn",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 192,
+      "organizer": "Huijia Health",
+      "title": "AI DIAGNOSTICS & HOSPITAL OPERATIONS",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/AdUgqztZM4gtWSEezejr",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 193,
+      "organizer": "WayLucid Inc.",
+      "title": "ZERO TO PAID: LIVE AI BUILD SESSION",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/AZ5idTwLyqD1wznApAaj",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 194,
+      "organizer": "Synexus.ai",
+      "title": "DATA CENTRIC APPROACH TO RADICAL INNOVATION",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "3:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/73N8GXI33qxiCepPVVmf",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": 195,
+      "organizer": "Tech Launch Arizona",
+      "title": "PARTNERING FOR IMPACT",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "3:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/oVefpaCsXtAVIMERDhWI",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 196,
+      "organizer": "Crow Industries Inc",
+      "title": "ROBOT RODEO - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "3:00 pm",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/cd5vQ763hV2TKAJvPMOV",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 197,
+      "organizer": "Chantel Newman Project",
+      "title": "HOW DOES GENAI IMPACT TEEN CURIOSITY?- #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "3:30 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/bbpz2EE7voOMlbg2baDx",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 198,
+      "organizer": "Startup Zones and Town of Oro Valley",
+      "title": "INNOVATORS UNLEASHED: OV PITCH COMPETITION- #AZTW",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "4:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/FQQTL7dTH3bYsVZyws3Y",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 199,
+      "organizer": "Elevare Operations",
+      "title": "WHY YOUR TEAM CAN'T SHIP WITHOUT YOU - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "4:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/BanZ34xDWoOZd0OepRSc",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 200,
+      "organizer": "Canyon Angels",
+      "title": "CANYON ANGELS PITCH EVENT",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "4:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/nFUmInAibvnRQIvA1WwD",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 201,
+      "organizer": "Phoenix Business Journal",
+      "title": "AZ INNO FIRE AWARDS - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "4:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/yd9v7UsvhLpbwtolgtPg",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 202,
+      "organizer": "Build Scale Prosper",
+      "title": "GREAT BUSINESS. NO EXIT. #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "4:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/VPy2EpNYQFppO6ZQA17n",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 203,
+      "organizer": "Institute for Digital Inclusion Acceleration",
+      "title": "FREE BASIC DIGITAL SKILLS WORKSHOP #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "4:30 pm",
+      "city": "Superior",
+      "link": "https://partiful.com/e/QnEVcOa5L3pQ6tXbtYMp",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 204,
+      "organizer": "Arizona State University",
+      "title": "POWERING ARIZONA\u2019S NEXT-GEN TALENT - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "4:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/D6GWKDi3GiK8BAoLvjQQ",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Afternoon",
+      "invite_only": true,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 205,
+      "organizer": "ASU InvestU",
+      "title": "ASU FOUNDERS + FUNDERS SOCIAL - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/ZfCSukxFqD2FCpQ8CY5R",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 206,
+      "organizer": "Bot Boundaries",
+      "title": "FOUNDERS GO\u2011TO\u2011MARKET PLAYBOOK #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/1Kdi9dOZSKzJLll18Nok",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 207,
+      "organizer": "J. Orin Edson Entrepreneurship + Innovation Institute",
+      "title": "CHANDLER ENDEAVOR MONTHLY FORUM - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:00 pm",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/UBL1ulI1Z08RsK6R71eM",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 208,
+      "organizer": "French American Chamber of Commerce",
+      "title": "FRENCH TECH CONNECT ARIZONA HAPPY HOUR.",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/4ZDvhG2diMEEfrUlTxJC",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 209,
+      "organizer": "Oracle",
+      "title": "ORACLE CLOUD AZ TECH WEEK HAPPY HOUR",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/JhfRalpPvhM1zsu6cYZi",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 210,
+      "organizer": "GESD",
+      "title": "STEM CAREER PATHWAYS FOR THE FUTURE",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:00 pm",
+      "city": "San Luis",
+      "link": "https://partiful.com/e/BiHd6evz6SnEihPB4Uta",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 211,
+      "organizer": "Kyle Chalmers | KC AI Labs",
+      "title": "THE PRACTICAL AI PLAYBOOK WORKSHOP #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:30 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/4xDkcCjxf1sbiKowz4HI",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 212,
+      "organizer": "Sparklaunch",
+      "title": "SPARKLAUNCH: BUILDING WITH CLARITY - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/N2t1IzPNKHsPje070oJX",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 213,
+      "organizer": "Terpedia",
+      "title": "TERPEDIA.COM - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:30 pm",
+      "city": "",
+      "link": "https://partiful.com/e/FzIVPWCZ1i0xL0f3g1O0",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 214,
+      "organizer": "Catalyst Coded",
+      "title": "STARTUPS: POWERED BY AI SHOWCASE AND FIRESIDE CHAT",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:30 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/TuIImrE2pXIUAMW9127L",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Startups & Entrepreneurship",
+        "Tours & Demos",
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 215,
+      "organizer": "Kevin Hickey",
+      "title": "AN EVENING WITH KEVIN HICKEY: BUILDERS\u2019 PLAYBOOK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "5:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/E6jG68gcGHnYGUG9GbhN",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 216,
+      "organizer": "Phoenix Rising Fintech",
+      "title": "[ FINTECH & FOUNDERS CONNECT] - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "6:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/Q7XvbAmavy4nSvZC8ldv",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Fintech"
+      ]
+    },
+    {
+      "id": 217,
+      "organizer": "WonderlandCurious",
+      "title": "PRESSCONF #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "6:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/JccFF7KXj5GRFsvNkR2D",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 218,
+      "organizer": "UX in AZ",
+      "title": "UX IN AZ SOCIAL NIGHT @ O.H.S.O.",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "6:00 pm",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/4QFNp7TFCsbK6a0x0ijP",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 219,
+      "organizer": "CosmicPM",
+      "title": "BEFORE AI, THERE WAS ANCIENT INTELLIGENCE: ASTROLOGY AS A BUSINESS STRATEGY TOOL",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "6:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/c3mOGrWaaIRodg2yH3Dt",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 220,
+      "organizer": "ASU Edson E+I Institute",
+      "title": "FOUNDER + COMMUNITY CONNECT - #AZTECHWEEK",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "6:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/4LEI1sGwpIiC4sMU0MNo",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 221,
+      "organizer": "TraCorp",
+      "title": "HIGH-PERFORMANCE TEAMS & RACING SIM EXPERIENCE \ud83c\udfc1",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "7:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/tOmTHAwJMwQ76JspP1vs",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 222,
+      "organizer": "PLUG AND PLAY",
+      "title": "TECH TRIVIA NIGHT",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "7:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/ZBGGrxydwuOUHsgG55mX",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 223,
+      "organizer": "Arizona Technology Council",
+      "title": "STARGAZING WITH STEWARD OBSERVATORY",
+      "day_of_week": "Wed",
+      "date": "4/8",
+      "time": "7:30 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/H6ByEFuBeYGI8FpnpkWq",
+      "full_date": "Wednesday, April 8",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 224,
+      "organizer": "SMTA",
+      "title": "ULTRA HIGH DENSITY INTERCONNECT SYMPOSIUM",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "8:00 am",
+      "city": "Avondale",
+      "link": "https://partiful.com/e/k2DI02b4lvwx6L5ZXCrJ",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 225,
+      "organizer": "PLUG AND PLAY ACCELERATEAZ",
+      "title": "VC COFFEE HOURS",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/2qdVU8cD2QVo1a4ZgqG0",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 226,
+      "organizer": "Phoenix Bioscience Core",
+      "title": "XLR8 INVESTOR CORNER @ 850 PBC - AZ TECH WEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/M0e80QkXFSOHKzIPm1Px",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC",
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 227,
+      "organizer": "Ideas Collide",
+      "title": "REWIRING THE REVENUE ENGINE:FUTURE OF AI, SEC + CX",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "8:30 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/1qQRkGPOEMfi7c4BgWnR",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 228,
+      "organizer": "The Catalyst Business Resource Center, in partnership with Gilbert Next Level",
+      "title": "ROOTS TO ROCKETS: GILBERT\u2019S TECH STORY #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:00 am",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/aIHWgmQ1vRFs7S2zrgAz",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 229,
+      "organizer": "Venture Madness",
+      "title": "VENTURE MADNESS",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/pe2GN3hrYqnWSpYdeOUz",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 230,
+      "organizer": "PLUG AND PLAY",
+      "title": "DATA CENTER INNOVATION FORUM",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:00 am",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/0lv21pgndixSXZv6Z8yc",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": 231,
+      "organizer": "Queen Creek Chamber of Commerce",
+      "title": "INSIDE ASU\u2019S INNOVATION HUB EXHIBITION #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/SALSIOXDPEfIeuOvotkq",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": true,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 232,
+      "organizer": "Idealab Arizona",
+      "title": "IDEADAY FOR SOCIAL ENTERPRISE #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/hSbhwtFCiHh7G33t0VCe",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 233,
+      "organizer": "6|21 Private Wealth, AZ Space Lab, BDO Capital Advisors",
+      "title": "LIQUIDITY, SUCCESSION, CULTURE: ESOPS AS AN EXIT",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/UXtcsvl2wGc3IqpufyDw",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC",
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 234,
+      "organizer": "Arizona Small Business Association",
+      "title": "STARTING A SMALL BUSINESS SESSIONS - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/B7ljGB2AmfT5m42BtE09",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 235,
+      "organizer": "Cecelia Holland-Braithwaite",
+      "title": "PITCH YOUR PODCAST - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "9:30 am",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/B7ljGB2AmfT5m42BtE09",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 236,
+      "organizer": "Honeywell Aerospace",
+      "title": "HON AERO - SITE TOUR (US ONLY) - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/qoVFDgmiL3GvtaiFy7CB",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 237,
+      "organizer": "Electrify Arizona",
+      "title": "MOBILITY & TECH EXPO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/LRE3lDSOrMGN2tPholPb",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Energy & Sustainability",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 238,
+      "organizer": "Women in tech",
+      "title": "WOMEN IN LEADERSHIP & TECH",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/fJ49Vi8WD2JceHWUw14a",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 239,
+      "organizer": "Yo! Tech This Out",
+      "title": "AI TEACHERS GUIDE + AI LEADERSHIP",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/qcDOBKAVJLBrxH1Fepge",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 240,
+      "organizer": "Dr. Elliot R Cherner",
+      "title": "TECH PLAYGROUND: CREATE, DEFEND, CONNECT",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/6V5GNvkUhJ2fkx2snPCn",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 241,
+      "organizer": "ENR2 and AIR",
+      "title": "ENR2 BUILDING TOUR- #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/Ce3B8d3xf9pbrXiYnmxH",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 242,
+      "organizer": "Strata Mind Tech",
+      "title": "AUTHENTIC INTROVERTED LEADERSHIP - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/iSSeS2X5zWyVYwlk2zvB",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 243,
+      "organizer": "Login Business",
+      "title": "THE CYBER FRONTIER: THE REAL WILD WEST-#AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/CrjwJEwgAvbjozxSlvdz",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": 244,
+      "organizer": "U of A",
+      "title": "SELF-GUIDED TOURS AT THE ALFIE NORVILLE GEM AND MINERAL MUSEUM",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/PjIDoq1c75HQtxyGt39x",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 245,
+      "organizer": "U of A",
+      "title": "U OF A GEM AND MINERAL MUSEUM TOURS #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/dwz6kwO6xyRKL6BQ2mkL",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 246,
+      "organizer": "Lucid Motors",
+      "title": "LUCID MOTORS - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/wXufISaH1Haa9bpQFyW8",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 247,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/k9Q3BEzqvrocQ9eHdfCP",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 248,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/jZasqNHInr6BwTsoVwH8",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 249,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/2wlFLrsxodU4vUWFfP81",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 250,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/ItkyxHkHpWfq5lB9XoUA",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 251,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/bMmDYwhMWhvVlL6rz1XI",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 252,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "https://partiful.com/e/9ihLRuoCLHR2PNn0P2cF",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 253,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/Dn6N7FA2lmAPs5pKGlgI",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 254,
+      "organizer": "Tesla",
+      "title": "FULL SELF-DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/cJSAD12L1wjBYZL7ySIa",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 255,
+      "organizer": "PLUG AND PLAY",
+      "title": "ENERGY INNOVATION FORUM",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:30 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/uaJ2ZNLntfw0JpSQI6dM",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Energy & Sustainability"
+      ]
+    },
+    {
+      "id": 256,
+      "organizer": "Interbiz Consulting",
+      "title": "AGENTIC VOICE AI FOR AUTONOMOUS ENTE - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "11:45 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/06veo7LKX0hEsLkv5U68",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 257,
+      "organizer": "Jet Set Productions",
+      "title": "LUNCH&LEARN: BUILDING A FOUNDER BRAND #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/06veo7LKX0hEsLkv5U68",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 258,
+      "organizer": "Pilot Institute",
+      "title": "THE FUTURE OF FLIGHT TRAINING: IMMERSIVE AVIATION",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "12:00 pm",
+      "city": "Prescott",
+      "link": "https://partiful.com/e/58yeKQuoVXEYB80LN3Nu",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 259,
+      "organizer": "PADT",
+      "title": "RETHINKING ENGINES - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "12:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/1itEp08zplutvFLrnZEU",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 260,
+      "organizer": "Design Convo",
+      "title": "LEADERSHIP STORY LAB -#AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "12:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/oFlnqWxrOtPsw52YmbYo",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 261,
+      "organizer": "6|21 Private Wealth",
+      "title": "CHEERS TO YOUR EXIT: A LIQUID LUNCH & LEARN EVENT",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/ZvP57qjO1TGvlbxqNbK0",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 262,
+      "organizer": "Center for Biomedical Informatics & Biostatistics",
+      "title": "EHR PHENOTYPING 101 WORKSHOP- #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "12:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/bTvqaydYD7bnTrnuoIXA",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 263,
+      "organizer": "S2RC",
+      "title": "HOW TO USE AI TO IMPROVE OCCUPATIONAL SAFETY",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/fveO6qCiXniIbGBeVG0U",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 264,
+      "organizer": "AZBio and The University of Arizona",
+      "title": "VOICE OF THE PATIENT - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "1:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/EyqLJ7x17BIYQcvldhyA",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 265,
+      "organizer": "Mindsigns Health\u2122",
+      "title": "INVISIBLE HITS: SIGNALS WE MISS #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "1:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/tTPD9ILY9zqw8aq67hNn",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 266,
+      "organizer": "BlaneBMedia",
+      "title": "PANEL: ART, CULTURE, VOICE - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "1:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/xImjbNoIDSQmNM7QOcdM",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 267,
+      "organizer": "BlaneBMedia",
+      "title": "PANEL: ART, CULTURE, VOICE - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "1:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/qteOxl1BUmqwqrmBR0SJ",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 268,
+      "organizer": "U of A Research and Partnerships",
+      "title": "RICHARD F. CARIS MIRROR LAB TOURS - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "1:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/lHjxCV7Ubk1g0XzlMDNk",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 269,
+      "organizer": "Konnectryx",
+      "title": "AUTOMATION & INTEGRATION FOR SCALEABLE GROWTH",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "1:30 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/6tiLZq0bEtIH2FOgPcfr",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 270,
+      "organizer": "Ultrastratech",
+      "title": "ADV TECH\u2022AI\u2022CYBERSEC IN MANUFACTURING #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "2:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/72OyksfcppS5yO7jbejg",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Cybersecurity",
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 271,
+      "organizer": "City of Prescott",
+      "title": "EMBRY-RIDDLE: INSIDE THE FUTURE OF AVIATION",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "2:00 pm",
+      "city": "Prescott",
+      "link": "https://partiful.com/e/HdFYVyGTNEB6tYtZiWFD",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 272,
+      "organizer": "U of A Responsible AI",
+      "title": "AI INFO SESSIONS U OF A RESPONSIBLE AI #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "2:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/gsruJUbBDSLD3IkIGjC8",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 273,
+      "organizer": "Scottsdale Community College",
+      "title": "WHERE THE CLOUD GETS REAL-SCOTTSDALE #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "2:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/cTASj7jxG6CHhU0lnRFJ",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 274,
+      "organizer": "Lori Richardson & Kristie Jones",
+      "title": "BUILD A CAREER IN TECH SALES - TUCSON #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "3:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/0TFyliXsX9piex4L3rwS",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 275,
+      "organizer": "CBM Marketing Solutions",
+      "title": "CULTIVATING THE FUTURE WITH AI",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "3:00 pm",
+      "city": "Cornville",
+      "link": "https://partiful.com/e/Z2JLDxhOOlNKfniE7vKJ",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 276,
+      "organizer": "Arizona Small Business Association",
+      "title": "SOCIAL MEDIA PANEL & HAPPY HOUR - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "3:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/nRGAqArSlfpTn5suinLk",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 277,
+      "organizer": "NewsGenie",
+      "title": "NEWSGENIE - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "3:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/937OF5lJf2MuT0mephrj",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 278,
+      "organizer": "Phoenix Developers - Salesforce Trailblazer Community",
+      "title": "MEETUP WITH SALESFORCE DEVELOPERS - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "3:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/A9TDLrjGhTUwj7unwkWy",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Sales & Marketing",
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 279,
+      "organizer": "Technology Education Collaborative (TEC)",
+      "title": "HANDS ON @ THE ADVANCED CYBER SYSTEMS LAB",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "3:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/JGjmNkDIMboMdDSd3edU",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Cybersecurity",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 280,
+      "organizer": "MJS Designs, Inc.",
+      "title": "SUCCESSFUL ELECTRONICS PRODUCT DEVELOPMENT",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "3:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/5Pb7Ikk6Gq3YeUW8DO2I",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 281,
+      "organizer": "Wells Fargo",
+      "title": "BYTES & BREWS: WELLS FARGO, DELOITTE, COPPER SKY",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:00 pm",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/y3AMZID125ZQbByr9PRd",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 282,
+      "organizer": "AZ Space Lab",
+      "title": "ARIZONA SPACE ECOSYSTEM MIXER #SPACERISING",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/Lk0BLch4BwXnZlTfRDRa",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace",
+        "Networking & Social",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 283,
+      "organizer": "Tempe Economic Development and Tempe Chamber",
+      "title": "TEMPE TALKS - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/9r7sayREMdCFjnr965kO",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 284,
+      "organizer": "Kamp",
+      "title": "FOUNDER MODE",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/4O2Uv8DS4UnQn6Oqjwsb",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 285,
+      "organizer": "Venture Cafe Phoenix",
+      "title": "VENTURE CAF\u00c9 PHOENIX - FEMHACK AZ #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/u1kivxwb9KZWNtGGYtfd",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 286,
+      "organizer": "Elevare Operations",
+      "title": "HOW AI IS CHANGING FOUNDER/CEO WORK - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/ToxwalBm7rhrKqZborSo",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": true,
+      "categories": [
+        "AI & Machine Learning",
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 287,
+      "organizer": "U of A, BIO5 Institute",
+      "title": "BEHIND BIO5: MEET THE SCIENTISTS",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:30 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/VZe3oyERDsrGrDrouI8l",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 288,
+      "organizer": "Global Chamber Phoenix",
+      "title": "GROW GLOBALLY FAIR PHX 26",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "4:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/2grUZb3Or0sYUU0OE6xD",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 289,
+      "organizer": "Honeywell",
+      "title": "HON AERO - ASU TEM LAB SHOWCASE - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:00 pm",
+      "city": "",
+      "link": "https://partiful.com/e/Ikt1Jsvw5rEWZEHMdyxc",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 290,
+      "organizer": "Ultrastratech",
+      "title": "\ud835\udd4c\u2115\u2102\ud835\udd46\u2115\ud835\udd3d\ud835\udd3c\u211d\ud835\udd3c\u2115\u2102\ud835\udd3c \ud835\udd44\ud835\udd40\ud835\udd4f\ud835\udd3c\u211d #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/0Ywcc1lFqqVKBe4MxTiE",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 291,
+      "organizer": "Venture Caf\u00e9 Phoenix",
+      "title": "INTERNATIONAL STARTUP MIXER - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/gFv4LGPSUenkgcoh3YdE",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 292,
+      "organizer": "Cognite",
+      "title": "AI FOR THE REAL WORLD: CAREERS FOR THE BOLD",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/Mj0i7b3wgH7uvxesljXD",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 293,
+      "organizer": "Crane Schools",
+      "title": "MS. COLTON DOD STEM AMBASSADOR LAPTOP GIVEAWAY!",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:00 pm",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/4ZDvhG2diMEEfrUlTxJC",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 294,
+      "organizer": "Networked Live",
+      "title": "INFOSEC HAPPY HOUR",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/evExivr43Uvp6t1E02OD",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Cybersecurity",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 295,
+      "organizer": "Dean Simms",
+      "title": "PHOENIX REAL ESTATE & TECH MIXER",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/HsiMM4DuVrR2a65rGAxe",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social",
+        "Real Estate"
+      ]
+    },
+    {
+      "id": 296,
+      "organizer": "Arizona Ascent & Silicon Valley University",
+      "title": "AI FAILS AND LESSONS YOU WON'T HEAR ELSEWHERE",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:30 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/htTr9A63GL7odlo718S7",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 297,
+      "organizer": "Belarus Tech",
+      "title": "BELARUS TECH: GLOBAL FOUNDERS GATHERING",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "5:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/SlWHoYzq29Q29BMcMUkV",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 298,
+      "organizer": "What The Frac?",
+      "title": "WTF? LIVE! W/ THE AI SURFER & AFTER PARTY",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/XfMsWgJ0KTVcQLY9CWCH",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 299,
+      "organizer": "Sonoran AI Consulting",
+      "title": "SAHUARITA AND GREEN VALLEY TECH NETWORKING EVENT",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Sahuarita",
+      "link": "https://partiful.com/e/trmLrsuHDWm4aKUK1WSK",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 300,
+      "organizer": "Prometheus Productions LLC - AI Film 3",
+      "title": "AI IN ENTERTAINMENT #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/71mT2HfHhgFTZR7d5R42",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 301,
+      "organizer": "Honeywell Aerospace",
+      "title": "ASU TEM LAB SHOWCASE - 2026 COHORT - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/2wipebY7Fgr8hjYFfmct",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": true,
+      "categories": [
+        "Space & Aerospace",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 302,
+      "organizer": "Classroom Bridge (Mindspring Intelligence)",
+      "title": "WATCH AI PERSONALIZE LEARNING\u2014LIVE #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/pAlsevbmNEtPmqLJ2lNg",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 303,
+      "organizer": "City of Prescott",
+      "title": "HOW TRAGEDY REVEALED THE SOUL OF A CITY",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Prescott",
+      "link": "https://partiful.com/e/0ylFWiDw2xdfYX8ZwZLE",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 304,
+      "organizer": "InventScope.AI",
+      "title": "MASTERS OF THE AI UNIVERSE! - #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/By4pOx5XaWnzPKnaQ6yl",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 305,
+      "organizer": "LetsScale",
+      "title": "THE AGE OF AI PRACTICAL IMPLEMENTATION FOR FOUNDER",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/B7ljGB2AmfT5m42BtE09",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 306,
+      "organizer": "WonderlandCurious",
+      "title": "PRESSCONF #AZTECHWEEK",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/wtDcizn50SOKsngwhWTw",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 307,
+      "organizer": "Evolution Ventures",
+      "title": "THE ART OF INVESTING",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "6:30 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/GVCowfwDHOakVnMPHROr",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": true,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 308,
+      "organizer": "Netherlands Business Support Office Arizona",
+      "title": "THE NETHERLANDS PRESENTS: TOGETHER WE CYCLE",
+      "day_of_week": "Thu",
+      "date": "4/9",
+      "time": "7:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/eu98i68oxUmoKs00r4g2",
+      "full_date": "Thursday, April 9",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 309,
+      "organizer": "PLUG AND PLAY ACCELERATEAZ",
+      "title": "VC COFFEE HOURS",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "8:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/cvQD5bvvEXmk6cD7qFH1",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Investing & VC",
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 310,
+      "organizer": "University of Arizona",
+      "title": "ARIZONA SPACE INSTITUTE SYMPOSIUM - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "8:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/qoVFDgmiL3GvtaiFy7CB",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 311,
+      "organizer": "City of Casa Grande",
+      "title": "LUXURY EVS AND RACETRACK EXPERIENCE",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "8:00 am",
+      "city": "Casa Grande",
+      "link": "https://partiful.com/e/LRE3lDSOrMGN2tPholPb",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": true,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 312,
+      "organizer": "Fric",
+      "title": "FOUNDER FLOW AT #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "8:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/fJ49Vi8WD2JceHWUw14a",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 313,
+      "organizer": "Jk Jensen",
+      "title": "AI AT THE EDGE - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "9:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/6V5GNvkUhJ2fkx2snPCn",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 314,
+      "organizer": "The Alliance for Longevity Initiatives",
+      "title": "A4LI H-SPAN ARIZONA #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "9:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/qcDOBKAVJLBrxH1Fepge",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 315,
+      "organizer": "Founder Freeway",
+      "title": "TECH TALENT SUMMIT + STARTUP PAVILION #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/Ce3B8d3xf9pbrXiYnmxH",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 316,
+      "organizer": "People People Party",
+      "title": "THE PEOPLE PEOPLE PARTY - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/iSSeS2X5zWyVYwlk2zvB",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 317,
+      "organizer": "Konnectryx",
+      "title": "GTM WITH AI AUTOMATION - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/CrjwJEwgAvbjozxSlvdz",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Manufacturing & Hardware",
+        "Sales & Marketing"
+      ]
+    },
+    {
+      "id": 318,
+      "organizer": "Techquity Advisors",
+      "title": "REDUCE TURNOVER WITHOUT RAISING PAY - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "10:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/PjIDoq1c75HQtxyGt39x",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 319,
+      "organizer": "The Funding Studio",
+      "title": "FUNDING THE FUTURE OF INNOVATION - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/1jFoNR5dEOwDs5GpZqY2",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 320,
+      "organizer": "U of A",
+      "title": "U OF A GEM AND MINERAL MUSEUM TOURS #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/PbUBs9Ne9TpY18XQQlYL",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 321,
+      "organizer": "Theama Technologies",
+      "title": "FROM THE PAST: WORLD-LARGEST CULTURAL AI DATABASE",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "10:30 am",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/qZhaTeR7KzYKLihHpCsI",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 322,
+      "organizer": "PHXMF Discovery",
+      "title": "PHXMF DISCOVERY - BRIDGING MUSIC, FILM, AND GAMING",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/qOS4Qq34TCNemLXYBS4X",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 323,
+      "organizer": "PLUG AND PLAY",
+      "title": "SUPPLY CHAIN INNOVATION LUNCHEON",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/4KxVBLWFpOMSLL5j8d4M",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 324,
+      "organizer": "Town of Prescott Valley",
+      "title": "HIDDEN IN PLAIN SIGHT: PRESCOTT VALLEY'S MANUFACTURING ADVANTAGE.",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Prescott Valley",
+      "link": "https://partiful.com/e/mQTHZxUVvbfRQcrIY46b",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Manufacturing & Hardware"
+      ]
+    },
+    {
+      "id": 325,
+      "organizer": "Lucid Motors",
+      "title": "LUCID MOTORS - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/fEINkmJIYqfWiYN4brZQ",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 326,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/SsjAw56Z3gz35QfCxjH2",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 327,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/0QfDBdhSq6UH361vqnFx",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 328,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/KNExeo32bPOXQel3fUH4",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 329,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/jLF2bCAipGeByaLXDBV2?c=6G8y7D8g",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 330,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/58yeKQuoVXEYB80LN3Nu",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 331,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "https://partiful.com/e/D8Sv6swVQDWZOk09rpff",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 332,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/yW3gprfi8ZOb9xDr7QBs",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 333,
+      "organizer": "Tesla",
+      "title": "FULL SELF-DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/zErMb0NqEx1zNdZGsmRI",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 334,
+      "organizer": "NRW.Global Business \u2013 Joerg Rose",
+      "title": "NEXT STOP EUROPE: INT. TECH LUNCHEON - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "11:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/eSZbXvzrG2lZEwsqDBrk",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 335,
+      "organizer": "PinDrop Travel Trailers",
+      "title": "PINDROP\u00ae TRAVEL TRAILERS OPEN HOUSE - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "12:00 pm",
+      "city": "Miami",
+      "link": "https://partiful.com/e/1PHdRaCqGcjB0lDtKLnv",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 336,
+      "organizer": "Arizona State University",
+      "title": "EPIC GAMES INDUSTRY DAY",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "12:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/C2ZURbY4cYlR4FmT0Efl",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 337,
+      "organizer": "Honeywell Aerospace",
+      "title": "HON AERO H360 EXPERIENCE (US ONLY) - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/GrhS8nt1gSd1PO9nDX6s",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Space & Aerospace"
+      ]
+    },
+    {
+      "id": 338,
+      "organizer": "6|21 Private Wealth, LLC",
+      "title": "SMART PERKS & STRONG STARTUPS: RECRUIT-RETAIN-GROW",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "12:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/ku5oABEs87fhODR3m3qt",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 339,
+      "organizer": "Devlabs",
+      "title": "ASU DEVSPACE DEMO DAY - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "12:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/GyfsBKqFhzWP20I0qPgo",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Space & Aerospace",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 340,
+      "organizer": "S2RC",
+      "title": "AI SAFETY AND SKILLPOINT DEMO",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "12:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/XbqGH4G4fi8cIBmZd327",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 341,
+      "organizer": "WayLucid Inc.",
+      "title": "THE LOST RECIPE",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "12:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/EtPtJVxvAAVjyqGGKAkP",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 342,
+      "organizer": "datajoi",
+      "title": "DATA DAY WITH DATAJOI #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "1:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/Im2kxsbqdTRdYbGWoXvo",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": 343,
+      "organizer": "Byteable Ai Tem",
+      "title": "AI ENGINEERING FAST-PASS: CLAUDE CODE SPRINT + BYTE QUALIFICATION",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "1:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/uy2uhgJnfQ8T3TB9KUs7",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": true,
+      "categories": [
+        "AI & Machine Learning",
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 344,
+      "organizer": "Byteable AI",
+      "title": "BUILD SOFTWARE WITH AI: 101 BOOTCAMP",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "1:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/4ZDvhG2diMEEfrUlTxJC",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Education & Workforce",
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 345,
+      "organizer": "Recalibrate AI",
+      "title": "RECALIBRATE AI LAUNCH",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "1:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/IsYgcHBj50mOEQvkKFeG",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 346,
+      "organizer": "U of A Research and Partnerships",
+      "title": "RICHARD F. CARIS MIRROR LAB TOURS - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "1:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/lHe1MFvZfC6M3MSaIE6I",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 347,
+      "organizer": "Blaze Tactical",
+      "title": "CANCELLED",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "2:00 pm",
+      "city": "",
+      "link": "https://partiful.com/e/j2VzXgjdKVa6w9dh7jI2",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 348,
+      "organizer": "Huijia Health",
+      "title": "DEEP MEDTECH & SURGICAL INNOVATION",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/vMiPKyrTML8yf8Gnf618",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 349,
+      "organizer": "TiEPhoenix.org",
+      "title": "TIE PHOENIX CELEBRATION OF STARTUPS - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "3:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/cjad0BZzFgOxy15x8nWI",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship"
+      ]
+    },
+    {
+      "id": 350,
+      "organizer": "6|21 Private Wealth, LLC",
+      "title": "HOW TO JOIN AZ'S TECH BOOM: A HAPPY HOUR DIALOGUE",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "3:00 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/W9ZjiXvHe3f6YgWcgrny",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 351,
+      "organizer": "Pinal County Economic Development",
+      "title": "PINAL COUNTY INNOVATION DRIVE EXPERIENCE",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "3:30 pm",
+      "city": "Florence",
+      "link": "https://partiful.com/e/JrPzlGSgjwWUucEmeJx9",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 352,
+      "organizer": "Yo! Tech This Out",
+      "title": "AI SIP & SOIREE- WARREN'S SUPPER CLUB IHEART RADIO",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "4:00 pm",
+      "city": "Chandler",
+      "link": "https://partiful.com/e/KyPoeRh5M1y6vwtxq3zc",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 353,
+      "organizer": "University of Arizona Center for Innovation",
+      "title": "PITCH, CONNECT, CELEBRATE: AZ TECH WEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "4:30 pm",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/B7ljGB2AmfT5m42BtE09",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 354,
+      "organizer": "Bouquets & Bubbles\u00ae",
+      "title": "FLOWER ARRANGING & SIP PARTY: PRIVATE HOME",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "5:00 pm",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/LJ0aGkzLMYKWwoFxrTi9",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 355,
+      "organizer": "Recruitment and Admissions-Thunderbird",
+      "title": "THUNDERBIRD HAPPY HOUR #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "5:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/iwRS3aIg1eiABbhJ9Ycr",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 356,
+      "organizer": "Media and Immersive Experience (MIX) Center",
+      "title": "LIVE BEYOND STEREO - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "5:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/qoVFDgmiL3GvtaiFy7CB",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 357,
+      "organizer": "Smart Surface Robotics LLC",
+      "title": "FUTURE SYSTEMS HAPPY HOUR #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "5:30 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/LRE3lDSOrMGN2tPholPb",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social",
+        "Manufacturing & Hardware",
+        "Education & Workforce",
+        "Arts & Entertainment"
+      ]
+    },
+    {
+      "id": 358,
+      "organizer": "yesPHX",
+      "title": "ARIZONA AMPLIFIED: GLOBAL CAPITAL SPOTLIGHT #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "6:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/fJ49Vi8WD2JceHWUw14a",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 359,
+      "organizer": "Jet Set Productions x Builders & Backers",
+      "title": "#AZTECHWEEK CLOSING PARTY!",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "6:00 pm",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/6V5GNvkUhJ2fkx2snPCn",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 360,
+      "organizer": "Honeywell",
+      "title": "HONEYWELL'S 2026 ASU HACKATHON - #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "6:00 pm",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/qcDOBKAVJLBrxH1Fepge",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": true,
+      "categories": [
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 361,
+      "organizer": "WonderlandCurious",
+      "title": "PRESSCONF #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "6:00 pm",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/Ce3B8d3xf9pbrXiYnmxH",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 362,
+      "organizer": "datajoi",
+      "title": "DATA AFTER DARK #AZTECHWEEK",
+      "day_of_week": "Fri",
+      "date": "4/10",
+      "time": "7:00 pm",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/iSSeS2X5zWyVYwlk2zvB",
+      "full_date": "Friday, April 10",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": 363,
+      "organizer": "Peter Nestler",
+      "title": "TUCSON TECH BIKE RIDE",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "7:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/CrjwJEwgAvbjozxSlvdz",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 364,
+      "organizer": "ProductPHX",
+      "title": "PRODUCTCAMPPHX",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "8:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/PjIDoq1c75HQtxyGt39x",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 365,
+      "organizer": "KC AI Labs",
+      "title": "SAT. MORNING HIKE, CONNECT, & COFFEE #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "8:30 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/kAvdg6cYhyaRF3XaHq8R",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": 366,
+      "organizer": "Arizona Technology Council",
+      "title": "AZ RESEARCH AND INNOVATION EXPO ( RIE)-2026",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "9:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/yXlwhYR3aasVuqHgCjpv",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 367,
+      "organizer": "Arizona Nerd Network & DevLabs",
+      "title": "HACKAZONA V1.0 .....(2 DAYS)-#AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "9:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/U6l0PWYSSGsT6zyjXraf",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": true,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 368,
+      "organizer": "Samuel Pena",
+      "title": "THE SCIENCE OF POLICE FITNESS AND PERFORMANCE",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "9:00 am",
+      "city": "Surprise",
+      "link": "https://partiful.com/e/57H12BVX0ObzwFN1T4qm",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 369,
+      "organizer": "Maricopa County Department of Transportation",
+      "title": "CONNECTED MOBILITY IN MOTION - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "10:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/LI4H14PBli3hJhuPmSVU",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Energy & Sustainability"
+      ]
+    },
+    {
+      "id": 370,
+      "organizer": "J. Orin Edson Entrepreneurship + Innovation Institute",
+      "title": "ASU VENTURE DEVILS DEMO DAY SPRING '26 #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "10:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/4ZDvhG2diMEEfrUlTxJC",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 371,
+      "organizer": "Valor Health Rehab",
+      "title": "VALD PERFORMANCE TESTING EXPERIENCE",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "10:00 am",
+      "city": "Yuma",
+      "link": "https://partiful.com/e/Qw5kPOQv6bWwKfFrxcVY",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": true,
+      "categories": [
+        "Health & Biotech"
+      ]
+    },
+    {
+      "id": 372,
+      "organizer": "U of A",
+      "title": "U OF A GEM AND MINERAL MUSEUM TOURS #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "10:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/qoVFDgmiL3GvtaiFy7CB",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 373,
+      "organizer": "Women of Web3",
+      "title": "WEB3 UNLOCKED BRUNCH TECH EXPERIENCE #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/LRE3lDSOrMGN2tPholPb",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social",
+        "Blockchain & Crypto"
+      ]
+    },
+    {
+      "id": 374,
+      "organizer": "Yo! Tech This Out",
+      "title": "SUGAR JAM BRUNCH VIBES \u2728",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/fJ49Vi8WD2JceHWUw14a",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Networking & Social"
+      ]
+    },
+    {
+      "id": 375,
+      "organizer": "Lucid Motors",
+      "title": "LUCID MOTORS - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/6V5GNvkUhJ2fkx2snPCn",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 376,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/qcDOBKAVJLBrxH1Fepge",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 377,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Mesa",
+      "link": "https://partiful.com/e/Ce3B8d3xf9pbrXiYnmxH",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 378,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "https://partiful.com/e/iSSeS2X5zWyVYwlk2zvB",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 379,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Gilbert",
+      "link": "https://partiful.com/e/CrjwJEwgAvbjozxSlvdz",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 380,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "https://partiful.com/e/PjIDoq1c75HQtxyGt39x",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 381,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "https://partiful.com/e/qm8Wv6NwVyJGtoRMFSp6",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 382,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "https://partiful.com/e/Kwhtky1vOMljtXjksP9J",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 383,
+      "organizer": "Tesla",
+      "title": "FULL SELF-DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "11:00 am",
+      "city": "Tempe",
+      "link": "https://partiful.com/e/pOX5qXgZWSD5lHGu9cu1",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 384,
+      "organizer": "We Produce Culture",
+      "title": "CULTURAL TRANSIT HACK + DEMO- #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "2:00 pm",
+      "city": "Phoenix",
+      "link": "",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 385,
+      "organizer": "Yo! Tech This Out",
+      "title": "JAZZ TALKING STICK RESORT#AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "3:00 pm",
+      "city": "Scottsdale",
+      "link": "",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 386,
+      "organizer": "PropNegotiate",
+      "title": "RAPID FIRE - VC SPEED DATING - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "4:00 pm",
+      "city": "Tempe",
+      "link": "",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Investing & VC"
+      ]
+    },
+    {
+      "id": 387,
+      "organizer": "Montel Hawkins",
+      "title": "MODERN FOUNDER NIGHT: BUILDERS, SYSTEMS & MODERN WEALTH",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "4:00 pm",
+      "city": "Chandler",
+      "link": "",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "Startups & Entrepreneurship",
+        "Education & Workforce"
+      ]
+    },
+    {
+      "id": 388,
+      "organizer": "Engineering Women",
+      "title": "ENGINEERING WOMEN AT THE FRONTIER #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "5:00 pm",
+      "city": "Mesa",
+      "link": "",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 389,
+      "organizer": "WonderlandCurious",
+      "title": "PRESSCONF #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "6:00 pm",
+      "city": "Tempe",
+      "link": "",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 390,
+      "organizer": "Honeywell",
+      "title": "HONEYWELL'S 2026 ASU HACKATHON - #AZTECHWEEK",
+      "day_of_week": "Sat",
+      "date": "4/11",
+      "time": "6:00 pm",
+      "city": "",
+      "link": "",
+      "full_date": "Saturday, April 11",
+      "time_of_day": "Evening",
+      "invite_only": true,
+      "categories": [
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 391,
+      "organizer": "TEDxASU",
+      "title": "TEDXASU - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "8:30 am",
+      "city": "Mesa",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 392,
+      "organizer": "Lucid Motors",
+      "title": "LUCID MOTORS - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 393,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 394,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Mesa",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 395,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Tucson",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 396,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Gilbert",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 397,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Scottsdale",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 398,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Glendale",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 399,
+      "organizer": "Tesla",
+      "title": "FULL SELF DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Phoenix",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 400,
+      "organizer": "Tesla",
+      "title": "FULL SELF-DRIVING (SUPERVISED) DEMO - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "11:00 am",
+      "city": "Tempe",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Morning",
+      "invite_only": false,
+      "categories": [
+        "Tours & Demos"
+      ]
+    },
+    {
+      "id": 401,
+      "organizer": "Dynamic Solutions for Life",
+      "title": "[THE EXECUTIVE MIND] - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "3pm",
+      "city": "",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Afternoon",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 402,
+      "organizer": "Whatnot",
+      "title": "FROM A PHOENIX GARAGE TO #1 SHOPPING PLATFORM: AN EVENING WITH WHATNOT",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "5:30 pm",
+      "city": "Tempe",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    },
+    {
+      "id": 403,
+      "organizer": "Honeywell",
+      "title": "HONEYWELL'S 2026 ASU HACKATHON - #AZTECHWEEK",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "6:00 pm",
+      "city": "",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Evening",
+      "invite_only": true,
+      "categories": [
+        "DevOps & Engineering"
+      ]
+    },
+    {
+      "id": 404,
+      "organizer": "PowerHER Tech",
+      "title": "TECH WEEK WIND DOWN",
+      "day_of_week": "Sun",
+      "date": "4/12",
+      "time": "6:00 pm",
+      "city": "Scottsdale",
+      "link": "",
+      "full_date": "Sunday, April 12",
+      "time_of_day": "Evening",
+      "invite_only": false,
+      "categories": [
+        "General Tech"
+      ]
+    }
+  ],
+  "cities": [
+    "Avondale",
+    "Buckeye",
+    "Casa Grande",
+    "Chandler",
+    "Cornville",
+    "El Mirage",
+    "Flagstaff",
+    "Florence",
+    "Gilbert",
+    "Glendale",
+    "Goodyear",
+    "Maricopa",
+    "Mesa",
+    "Miami",
+    "New Orleans",
+    "Payson",
+    "Peoria",
+    "Phoenix",
+    "Phoenix area",
+    "Prescott",
+    "Prescott Valley",
+    "Sahuarita",
+    "San Luis",
+    "Scottsdale",
+    "Sedona",
+    "Superior",
+    "Surprise",
+    "Tempe",
+    "Tucson",
+    "Virtual",
+    "Yuma"
+  ],
+  "categories": [
+    "AI & Machine Learning",
+    "Arts & Entertainment",
+    "Blockchain & Crypto",
+    "Cybersecurity",
+    "Data & Analytics",
+    "DevOps & Engineering",
+    "Education & Workforce",
+    "Energy & Sustainability",
+    "Fintech",
+    "General Tech",
+    "Health & Biotech",
+    "Investing & VC",
+    "Legal & Policy",
+    "Manufacturing & Hardware",
+    "Networking & Social",
+    "Real Estate",
+    "Sales & Marketing",
+    "Space & Aerospace",
+    "Startups & Entrepreneurship",
+    "Tours & Demos"
+  ],
+  "days": [
+    "Monday, April 6",
+    "Tuesday, April 7",
+    "Wednesday, April 8",
+    "Thursday, April 9",
+    "Friday, April 10",
+    "Saturday, April 11",
+    "Sunday, April 12"
+  ]
+}
