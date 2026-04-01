@@ -140,7 +140,8 @@ export function useEvents() {
           e.title.toLowerCase().includes(q) ||
           e.organizer.toLowerCase().includes(q) ||
           e.city.toLowerCase().includes(q) ||
-          e.categories.some((c) => c.toLowerCase().includes(q))
+          e.categories.some((c) => c.toLowerCase().includes(q)) ||
+          (e.description && e.description.toLowerCase().includes(q))
       );
     }
 

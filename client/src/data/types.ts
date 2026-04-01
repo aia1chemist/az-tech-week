@@ -18,6 +18,7 @@ export interface Event {
   spots_left: number; // -1 = unknown
   sold_out: boolean;
   space_limited: boolean;
+  description?: string;
 }
 
 export interface EventsData {

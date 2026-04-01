@@ -1,9 +1,10 @@
 /*
  * Design: Copper Circuit — Warm card with left category-colored accent
- * Now includes: attendee count, capacity bar, sold out / filling up badges
+ * Includes: attendee count, capacity bar, sold out / filling up badges, description
  */
-import { motion } from "framer-motion";
-import { Clock, MapPin, ExternalLink, Lock, Users, Flame, XCircle } from "lucide-react";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Clock, MapPin, ExternalLink, Lock, Users, Flame, XCircle, ChevronDown, ChevronUp } from "lucide-react";
 import type { Event } from "@/data/types";
 import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
 
@@ -58,11 +59,13 @@ function getCapacityInfo(event: Event) {
 }
 
 export default function EventCard({ event, index, compact }: EventCardProps) {
+  const [expanded, setExpanded] = useState(false);
   const primaryCategory = event.categories[0] || "General Tech";
   const accentColor = ACCENT_COLORS[primaryCategory] || "#b87333";
   const displayTitle = cleanTitle(event.title) || event.title;
   const cap = getCapacityInfo(event);
   const hasAttendeeData = event.going > 0 || event.interested > 0;
+  const hasDescription = event.description && event.description.length > 0;
 
   return (
     <motion.div
@@ -123,7 +126,7 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
           </div>
 
           {/* Title */}
-          <h3 className={`font-semibold text-card-foreground leading-snug mb-1 line-clamp-2 ${compact ? "text-sm" : "text-sm sm:text-[15px]"}`}>
+          <h3 className={`font-semibold text-card-foreground leading-snug mb-1 ${compact ? "text-sm line-clamp-2" : "text-sm sm:text-[15px]"}`}>
             {displayTitle}
           </h3>
 
@@ -131,6 +134,50 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
           <p className="text-xs text-muted-foreground mb-2 truncate">
             by {event.organizer}
           </p>
+
+          {/* Description (expandable) */}
+          {hasDescription && !compact && (
+            <div className="mb-2.5">
+              <AnimatePresence initial={false}>
+                {expanded ? (
+                  <motion.div
+                    key="full"
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="overflow-hidden"
+                  >
+                    <p className="text-xs text-muted-foreground leading-relaxed whitespace-pre-line">
+                      {event.description}
+                    </p>
+                  </motion.div>
+                ) : (
+                  <motion.p
+                    key="truncated"
+                    className="text-xs text-muted-foreground leading-relaxed line-clamp-2"
+                  >
+                    {event.description}
+                  </motion.p>
+                )}
+              </AnimatePresence>
+              {event.description!.length > 120 && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setExpanded(!expanded);
+                  }}
+                  className="flex items-center gap-0.5 text-[11px] text-primary font-medium mt-1 hover:underline"
+                >
+                  {expanded ? (
+                    <>Show less <ChevronUp className="w-3 h-3" /></>
+                  ) : (
+                    <>Read more <ChevronDown className="w-3 h-3" /></>
+                  )}
+                </button>
+              )}
+            </div>
+          )}
 
           {/* Attendee + Capacity Row */}
           {(hasAttendeeData || cap.hasCapacity) && (
