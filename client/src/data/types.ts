@@ -11,6 +11,13 @@ export interface Event {
   time_of_day: "Morning" | "Afternoon" | "Evening" | "TBD";
   invite_only: boolean;
   categories: string[];
+  going: number;
+  interested: number;
+  maybe: number;
+  capacity: number;
+  spots_left: number; // -1 = unknown
+  sold_out: boolean;
+  space_limited: boolean;
 }
 
 export interface EventsData {
@@ -82,3 +89,5 @@ export const TIME_OF_DAY_ICONS: Record<string, string> = {
   Evening: "🌙",
   TBD: "❓",
 };
+
+export type SortOption = "time" | "popular" | "filling" | "alpha";

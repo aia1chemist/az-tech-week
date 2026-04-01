@@ -14,7 +14,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 12,
+      "interested": 9,
+      "maybe": 4,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 2,
@@ -30,7 +37,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 9,
+      "sold_out": false,
+      "space_limited": true
     },
     {
       "id": 3,
@@ -48,7 +62,14 @@
         "Startups & Entrepreneurship",
         "Investing & VC",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 41,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 4,
@@ -65,7 +86,14 @@
       "categories": [
         "Health & Biotech",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 5,
@@ -81,7 +109,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 200,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 6,
@@ -98,7 +133,14 @@
       "categories": [
         "Investing & VC",
         "Health & Biotech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 7,
@@ -115,7 +157,14 @@
       "categories": [
         "AI & Machine Learning",
         "Networking & Social"
-      ]
+      ],
+      "going": 15,
+      "interested": 7,
+      "maybe": 3,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 8,
@@ -132,7 +181,14 @@
       "categories": [
         "Investing & VC",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 9,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 9,
@@ -148,7 +204,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 95,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 10,
@@ -164,7 +227,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 11,
@@ -180,7 +250,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 32,
+      "interested": 6,
+      "maybe": 0,
+      "capacity": 200,
+      "spots_left": 168,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 12,
@@ -197,7 +274,14 @@
       "categories": [
         "Space & Aerospace",
         "Tours & Demos"
-      ]
+      ],
+      "going": 30,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 30,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 13,
@@ -213,7 +297,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 22,
+      "interested": 6,
+      "maybe": 2,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 14,
@@ -229,7 +320,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 15,
@@ -245,7 +343,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 9,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 41,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 16,
@@ -261,7 +366,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 7,
+      "interested": 1,
+      "maybe": 1,
+      "capacity": 200,
+      "spots_left": 193,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 17,
@@ -277,7 +389,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 88,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 18,
@@ -293,7 +412,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 19,
@@ -309,7 +435,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 20,
@@ -325,7 +458,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 21,
@@ -341,7 +481,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 22,
@@ -357,7 +504,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 23,
@@ -373,7 +527,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 24,
@@ -389,7 +550,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 25,
@@ -405,7 +573,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 26,
@@ -421,7 +596,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 27,
@@ -437,7 +619,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 14,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 28,
@@ -453,7 +642,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 18,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 29,
@@ -469,7 +665,14 @@
       "invite_only": true,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": 30,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 30,
@@ -485,7 +688,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 75,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 31,
@@ -501,7 +711,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 22,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 200,
+      "spots_left": 178,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 32,
@@ -517,7 +734,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 33,
@@ -533,7 +757,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 16,
+      "spots_left": 8,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 34,
@@ -549,7 +780,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 70,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 35,
@@ -565,7 +803,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 60,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 36,
@@ -583,7 +828,14 @@
         "Startups & Entrepreneurship",
         "Education & Workforce",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 37,
@@ -600,7 +852,14 @@
       "categories": [
         "Networking & Social",
         "Legal & Policy"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 34,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 38,
@@ -617,7 +876,14 @@
       "categories": [
         "Sales & Marketing",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 39,
@@ -634,7 +900,14 @@
       "categories": [
         "Health & Biotech",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 21,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 200,
+      "spots_left": 179,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 40,
@@ -650,7 +923,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 30,
+      "spots_left": 15,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 41,
@@ -667,7 +947,14 @@
       "categories": [
         "Space & Aerospace",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 42,
@@ -683,7 +970,14 @@
       "invite_only": false,
       "categories": [
         "Energy & Sustainability"
-      ]
+      ],
+      "going": 14,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 200,
+      "spots_left": 186,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 43,
@@ -699,7 +993,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 50,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 44,
@@ -715,7 +1016,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 45,
@@ -731,7 +1039,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 25,
+      "interested": 3,
+      "maybe": 4,
+      "capacity": 200,
+      "spots_left": 175,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 46,
@@ -747,7 +1062,14 @@
       "invite_only": true,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 1,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 10,
+      "spots_left": 9,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 47,
@@ -763,7 +1085,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 3,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 48,
@@ -779,7 +1108,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 7,
+      "maybe": 0,
+      "capacity": 250,
+      "spots_left": 250,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 49,
@@ -795,7 +1131,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 50,
@@ -812,7 +1155,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Investing & VC"
-      ]
+      ],
+      "going": 20,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 51,
@@ -829,7 +1179,14 @@
       "categories": [
         "Investing & VC",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 52,
@@ -845,7 +1202,14 @@
       "invite_only": false,
       "categories": [
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 53,
@@ -861,7 +1225,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 9,
+      "maybe": 0,
+      "capacity": 75,
+      "spots_left": 32,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 54,
@@ -877,7 +1248,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 300,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 55,
@@ -893,7 +1271,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 30,
+      "interested": 0,
+      "maybe": 7,
+      "capacity": 30,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 56,
@@ -910,7 +1295,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 57,
@@ -926,7 +1318,14 @@
       "invite_only": true,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 58,
@@ -942,7 +1341,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 114,
+      "interested": 8,
+      "maybe": 2,
+      "capacity": 130,
+      "spots_left": 16,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 59,
@@ -960,7 +1366,14 @@
         "Startups & Entrepreneurship",
         "Investing & VC",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 7,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 60,
@@ -977,7 +1390,14 @@
       "categories": [
         "Investing & VC",
         "Health & Biotech"
-      ]
+      ],
+      "going": 10,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 80,
+      "spots_left": 70,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 61,
@@ -994,7 +1414,14 @@
       "categories": [
         "Health & Biotech",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 75,
+      "spots_left": 42,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 62,
@@ -1010,7 +1437,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 16,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 25,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 63,
@@ -1026,7 +1460,14 @@
       "invite_only": false,
       "categories": [
         "Energy & Sustainability"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 64,
@@ -1042,7 +1483,14 @@
       "invite_only": true,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": 14,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 65,
@@ -1058,7 +1506,14 @@
       "invite_only": false,
       "categories": [
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 80,
+      "spots_left": 72,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 66,
@@ -1074,7 +1529,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 1000,
+      "spots_left": 1000,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 67,
@@ -1090,7 +1552,14 @@
       "invite_only": false,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 26,
+      "interested": 1,
+      "maybe": 2,
+      "capacity": 150,
+      "spots_left": 124,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 68,
@@ -1106,7 +1575,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 12,
+      "interested": 2,
+      "maybe": 1,
+      "capacity": 80,
+      "spots_left": 68,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 69,
@@ -1123,7 +1599,14 @@
       "categories": [
         "Energy & Sustainability",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 70,
@@ -1139,7 +1622,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 20,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 71,
@@ -1155,7 +1645,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 72,
@@ -1171,7 +1668,14 @@
       "invite_only": false,
       "categories": [
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 73,
@@ -1187,7 +1691,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 74,
@@ -1204,7 +1715,14 @@
       "categories": [
         "Space & Aerospace",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 75,
@@ -1220,7 +1738,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 76,
@@ -1236,7 +1761,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 77,
@@ -1252,7 +1784,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 78,
@@ -1270,7 +1809,14 @@
         "Health & Biotech",
         "Education & Workforce",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 4,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 79,
@@ -1288,7 +1834,14 @@
         "Health & Biotech",
         "Education & Workforce",
         "Tours & Demos"
-      ]
+      ],
+      "going": 32,
+      "interested": 2,
+      "maybe": 1,
+      "capacity": 80,
+      "spots_left": 48,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 80,
@@ -1304,7 +1857,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 81,
@@ -1321,7 +1881,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 82,
@@ -1337,7 +1904,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 83,
@@ -1353,7 +1927,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 84,
@@ -1370,7 +1951,14 @@
       "categories": [
         "Education & Workforce",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 85,
@@ -1389,7 +1977,14 @@
         "Education & Workforce",
         "Tours & Demos",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 86,
@@ -1405,7 +2000,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 87,
@@ -1421,7 +2023,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 88,
@@ -1437,7 +2046,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 89,
@@ -1453,7 +2069,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 90,
@@ -1469,7 +2092,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 91,
@@ -1485,7 +2115,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 75,
+      "spots_left": 60,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 92,
@@ -1501,7 +2138,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 125,
+      "spots_left": 125,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 93,
@@ -1517,7 +2161,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 7,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 94,
@@ -1533,7 +2184,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 2,
+      "interested": 0,
+      "maybe": 1,
+      "capacity": 99,
+      "spots_left": 97,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 95,
@@ -1550,7 +2208,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 96,
@@ -1566,7 +2231,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 97,
@@ -1582,7 +2254,14 @@
       "invite_only": false,
       "categories": [
         "Sales & Marketing"
-      ]
+      ],
+      "going": 3,
+      "interested": 4,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": 22,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 98,
@@ -1598,7 +2277,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 45,
+      "spots_left": 16,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 99,
@@ -1614,7 +2300,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 15,
+      "spots_left": 13,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 100,
@@ -1630,7 +2323,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 101,
@@ -1646,7 +2346,14 @@
       "invite_only": false,
       "categories": [
         "Health & Biotech"
-      ]
+      ],
+      "going": 17,
+      "interested": 2,
+      "maybe": 1,
+      "capacity": 80,
+      "spots_left": 63,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 102,
@@ -1663,7 +2370,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 103,
@@ -1680,7 +2394,14 @@
       "categories": [
         "Legal & Policy",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 104,
@@ -1697,7 +2418,14 @@
       "categories": [
         "AI & Machine Learning",
         "Legal & Policy"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 105,
@@ -1713,7 +2441,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 9,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 106,
@@ -1729,7 +2464,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 107,
@@ -1745,7 +2487,14 @@
       "invite_only": false,
       "categories": [
         "Fintech"
-      ]
+      ],
+      "going": 5,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 80,
+      "spots_left": 75,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 108,
@@ -1761,7 +2510,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 5,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 80,
+      "spots_left": 75,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 109,
@@ -1777,7 +2533,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 110,
@@ -1793,7 +2556,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 111,
@@ -1809,7 +2579,14 @@
       "invite_only": false,
       "categories": [
         "Cybersecurity"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 112,
@@ -1825,7 +2602,14 @@
       "invite_only": true,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 113,
@@ -1841,7 +2625,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": 22,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 114,
@@ -1859,7 +2650,14 @@
         "Startups & Entrepreneurship",
         "Education & Workforce",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 55,
+      "spots_left": 55,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 115,
@@ -1875,7 +2673,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 116,
@@ -1893,7 +2698,14 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 100,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 117,
@@ -1909,7 +2721,14 @@
       "invite_only": false,
       "categories": [
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 10,
+      "interested": 2,
+      "maybe": 1,
+      "capacity": 80,
+      "spots_left": 70,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 118,
@@ -1925,7 +2744,14 @@
       "invite_only": false,
       "categories": [
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 119,
@@ -1941,7 +2767,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 120,
@@ -1957,7 +2790,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": 26,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 121,
@@ -1974,7 +2814,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Legal & Policy"
-      ]
+      ],
+      "going": 20,
+      "interested": 0,
+      "maybe": 2,
+      "capacity": 40,
+      "spots_left": 20,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 122,
@@ -1990,7 +2837,14 @@
       "invite_only": false,
       "categories": [
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 123,
@@ -2006,7 +2860,14 @@
       "invite_only": true,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 30,
+      "spots_left": 25,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 124,
@@ -2022,7 +2883,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 4,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 125,
@@ -2038,7 +2906,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 126,
@@ -2054,7 +2929,14 @@
       "invite_only": false,
       "categories": [
         "Legal & Policy"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 150,
+      "spots_left": 146,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 127,
@@ -2072,7 +2954,14 @@
         "AI & Machine Learning",
         "Networking & Social",
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 128,
@@ -2088,7 +2977,14 @@
       "invite_only": false,
       "categories": [
         "Space & Aerospace"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 101,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 129,
@@ -2104,7 +3000,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 130,
@@ -2120,7 +3023,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 25,
+      "maybe": 0,
+      "capacity": 71,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 131,
@@ -2136,7 +3046,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 132,
@@ -2152,7 +3069,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 133,
@@ -2168,7 +3092,14 @@
       "invite_only": false,
       "categories": [
         "Blockchain & Crypto"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 134,
@@ -2184,7 +3115,14 @@
       "invite_only": false,
       "categories": [
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 7,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 56,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 135,
@@ -2200,7 +3138,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 136,
@@ -2217,7 +3162,14 @@
       "categories": [
         "AI & Machine Learning",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 137,
@@ -2233,7 +3185,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 20,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 138,
@@ -2249,7 +3208,14 @@
       "invite_only": false,
       "categories": [
         "Legal & Policy"
-      ]
+      ],
+      "going": 73,
+      "interested": 14,
+      "maybe": 3,
+      "capacity": 100,
+      "spots_left": 27,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 139,
@@ -2266,7 +3232,14 @@
       "categories": [
         "AI & Machine Learning",
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 140,
@@ -2282,7 +3255,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 141,
@@ -2300,7 +3280,14 @@
         "Startups & Entrepreneurship",
         "Investing & VC",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 142,
@@ -2317,7 +3304,14 @@
       "categories": [
         "Investing & VC",
         "Health & Biotech"
-      ]
+      ],
+      "going": 4,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 143,
@@ -2334,7 +3328,14 @@
       "categories": [
         "AI & Machine Learning",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 144,
@@ -2350,7 +3351,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 145,
@@ -2367,7 +3375,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 146,
@@ -2383,7 +3398,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": 2,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 147,
@@ -2400,7 +3422,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 148,
@@ -2416,7 +3445,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 14,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 36,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 149,
@@ -2432,7 +3468,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 30,
+      "spots_left": 14,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 150,
@@ -2448,7 +3491,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 13,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 151,
@@ -2464,7 +3514,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 152,
@@ -2480,7 +3537,14 @@
       "invite_only": true,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 23,
+      "interested": 1,
+      "maybe": 4,
+      "capacity": 96,
+      "spots_left": 73,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 153,
@@ -2496,7 +3560,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 154,
@@ -2512,7 +3583,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 50,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 155,
@@ -2529,7 +3607,14 @@
       "categories": [
         "AI & Machine Learning",
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 156,
@@ -2545,7 +3630,14 @@
       "invite_only": false,
       "categories": [
         "Space & Aerospace"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 157,
@@ -2561,7 +3653,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 1000,
+      "spots_left": 997,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 158,
@@ -2577,7 +3676,14 @@
       "invite_only": false,
       "categories": [
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 159,
@@ -2597,7 +3703,14 @@
         "Education & Workforce",
         "Real Estate",
         "Data & Analytics"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 160,
@@ -2613,7 +3726,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 161,
@@ -2629,7 +3749,14 @@
       "invite_only": false,
       "categories": [
         "Space & Aerospace"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 162,
@@ -2645,7 +3772,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 163,
@@ -2662,7 +3796,14 @@
       "categories": [
         "Education & Workforce",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 164,
@@ -2678,7 +3819,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 165,
@@ -2696,7 +3844,14 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
         "Legal & Policy"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 166,
@@ -2712,7 +3867,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 167,
@@ -2728,7 +3890,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 168,
@@ -2744,7 +3913,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 55,
+      "spots_left": 41,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 169,
@@ -2760,7 +3936,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 9,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 170,
@@ -2776,7 +3959,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 20,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 171,
@@ -2792,7 +3982,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 5,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 95,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 172,
@@ -2808,7 +4005,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 173,
@@ -2824,7 +4028,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 4,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 30,
+      "spots_left": 26,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 174,
@@ -2840,7 +4051,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 175,
@@ -2856,7 +4074,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 4,
+      "interested": 2,
+      "maybe": 1,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 176,
@@ -2872,7 +4097,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 177,
@@ -2888,7 +4120,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 178,
@@ -2904,7 +4143,14 @@
       "invite_only": false,
       "categories": [
         "Health & Biotech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 200,
+      "spots_left": 200,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 179,
@@ -2921,7 +4167,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 180,
@@ -2938,7 +4191,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 181,
@@ -2954,7 +4214,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 182,
@@ -2970,7 +4237,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 183,
@@ -2986,7 +4260,14 @@
       "invite_only": false,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 184,
@@ -3002,7 +4283,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 185,
@@ -3019,7 +4307,14 @@
       "categories": [
         "Education & Workforce",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 75,
+      "spots_left": 71,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 186,
@@ -3035,7 +4330,14 @@
       "invite_only": false,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 187,
@@ -3052,7 +4354,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Energy & Sustainability"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 188,
@@ -3070,7 +4379,14 @@
         "AI & Machine Learning",
         "Blockchain & Crypto",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 250,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 189,
@@ -3087,7 +4403,14 @@
       "categories": [
         "Space & Aerospace",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 190,
@@ -3103,7 +4426,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 70,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 191,
@@ -3119,7 +4449,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 3,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 55,
+      "spots_left": 52,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 192,
@@ -3136,7 +4473,14 @@
       "categories": [
         "AI & Machine Learning",
         "Health & Biotech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 193,
@@ -3152,7 +4496,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 194,
@@ -3168,7 +4519,14 @@
       "invite_only": false,
       "categories": [
         "Data & Analytics"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 46,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 195,
@@ -3184,7 +4542,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 196,
@@ -3200,7 +4565,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 197,
@@ -3216,7 +4588,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 24,
+      "interested": 6,
+      "maybe": 3,
+      "capacity": 80,
+      "spots_left": 56,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 198,
@@ -3232,7 +4611,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 199,
@@ -3248,7 +4634,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 200,
@@ -3265,7 +4658,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 201,
@@ -3281,7 +4681,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 202,
@@ -3297,7 +4704,14 @@
       "invite_only": false,
       "categories": [
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 203,
@@ -3314,7 +4728,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 41,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 204,
@@ -3330,7 +4751,14 @@
       "invite_only": true,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 1,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 205,
@@ -3346,7 +4774,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": 20,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 206,
@@ -3362,7 +4797,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 207,
@@ -3378,7 +4820,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 208,
@@ -3394,7 +4843,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 209,
@@ -3410,7 +4866,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 210,
@@ -3426,7 +4889,14 @@
       "invite_only": false,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 50,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 211,
@@ -3443,7 +4913,14 @@
       "categories": [
         "AI & Machine Learning",
         "Education & Workforce"
-      ]
+      ],
+      "going": 26,
+      "interested": 0,
+      "maybe": 7,
+      "capacity": 80,
+      "spots_left": 54,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 212,
@@ -3459,7 +4936,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 41,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 213,
@@ -3475,7 +4959,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 214,
@@ -3494,7 +4985,14 @@
         "Startups & Entrepreneurship",
         "Tours & Demos",
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 215,
@@ -3510,7 +5008,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 216,
@@ -3527,7 +5032,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Fintech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 217,
@@ -3543,7 +5055,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 218,
@@ -3559,7 +5078,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 219,
@@ -3575,7 +5101,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 220,
@@ -3591,7 +5124,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 221,
@@ -3607,7 +5147,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 222,
@@ -3623,7 +5170,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 150,
+      "spots_left": 147,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 223,
@@ -3639,7 +5193,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 1000,
+      "spots_left": 1000,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 224,
@@ -3655,7 +5216,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 18,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 70,
+      "spots_left": 52,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 225,
@@ -3673,7 +5241,14 @@
         "Startups & Entrepreneurship",
         "Investing & VC",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 226,
@@ -3690,7 +5265,14 @@
       "categories": [
         "Investing & VC",
         "Health & Biotech"
-      ]
+      ],
+      "going": 30,
+      "interested": 0,
+      "maybe": 1,
+      "capacity": 30,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 227,
@@ -3707,7 +5289,14 @@
       "categories": [
         "AI & Machine Learning",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 228,
@@ -3723,7 +5312,14 @@
       "invite_only": false,
       "categories": [
         "Space & Aerospace"
-      ]
+      ],
+      "going": 0,
+      "interested": 18,
+      "maybe": 0,
+      "capacity": 76,
+      "spots_left": 0,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 229,
@@ -3739,7 +5335,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 230,
@@ -3755,7 +5358,14 @@
       "invite_only": false,
       "categories": [
         "Data & Analytics"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 231,
@@ -3771,7 +5381,14 @@
       "invite_only": true,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 232,
@@ -3787,7 +5404,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 3,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 233,
@@ -3804,7 +5428,14 @@
       "categories": [
         "Investing & VC",
         "Space & Aerospace"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 35,
+      "spots_left": 35,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 234,
@@ -3820,7 +5451,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 235,
@@ -3836,7 +5474,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 236,
@@ -3853,7 +5498,14 @@
       "categories": [
         "Space & Aerospace",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 237,
@@ -3870,7 +5522,14 @@
       "categories": [
         "Energy & Sustainability",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 238,
@@ -3886,7 +5545,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 239,
@@ -3902,7 +5568,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 240,
@@ -3918,7 +5591,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 241,
@@ -3935,7 +5615,14 @@
       "categories": [
         "AI & Machine Learning",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 242,
@@ -3951,7 +5638,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 243,
@@ -3967,7 +5661,14 @@
       "invite_only": false,
       "categories": [
         "Cybersecurity"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 244,
@@ -3983,7 +5684,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 245,
@@ -3999,7 +5707,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 75,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 246,
@@ -4015,7 +5730,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 15,
+      "spots_left": 13,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 247,
@@ -4031,7 +5753,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 30,
+      "interested": 0,
+      "maybe": 4,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 248,
@@ -4047,7 +5776,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": 25,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 249,
@@ -4063,7 +5799,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 250,
@@ -4079,7 +5822,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 251,
@@ -4095,7 +5845,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 1000,
+      "spots_left": 996,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 252,
@@ -4111,7 +5868,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 253,
@@ -4127,7 +5891,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 254,
@@ -4143,7 +5914,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 25,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 200,
+      "spots_left": 175,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 255,
@@ -4159,7 +5937,14 @@
       "invite_only": false,
       "categories": [
         "Energy & Sustainability"
-      ]
+      ],
+      "going": 8,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 42,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 256,
@@ -4175,7 +5960,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 257,
@@ -4192,7 +5984,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 258,
@@ -4208,7 +6007,14 @@
       "invite_only": false,
       "categories": [
         "Space & Aerospace"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 259,
@@ -4224,7 +6030,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 260,
@@ -4240,7 +6053,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 261,
@@ -4256,7 +6076,14 @@
       "invite_only": false,
       "categories": [
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 6,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 262,
@@ -4273,7 +6100,14 @@
       "categories": [
         "Health & Biotech",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 250,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 263,
@@ -4289,7 +6123,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 264,
@@ -4306,7 +6147,14 @@
       "categories": [
         "Health & Biotech",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 265,
@@ -4322,7 +6170,14 @@
       "invite_only": false,
       "categories": [
         "Health & Biotech"
-      ]
+      ],
+      "going": 0,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 69,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 266,
@@ -4338,7 +6193,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 50,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 267,
@@ -4354,7 +6216,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 268,
@@ -4370,7 +6239,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 269,
@@ -4386,7 +6262,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 270,
@@ -4403,7 +6286,14 @@
       "categories": [
         "Cybersecurity",
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 35,
+      "spots_left": 6,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 271,
@@ -4419,7 +6309,14 @@
       "invite_only": false,
       "categories": [
         "Space & Aerospace"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 272,
@@ -4435,7 +6332,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 4,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 273,
@@ -4451,7 +6355,14 @@
       "invite_only": false,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 274,
@@ -4468,7 +6379,14 @@
       "categories": [
         "Education & Workforce",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 275,
@@ -4485,7 +6403,14 @@
       "categories": [
         "AI & Machine Learning",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 276,
@@ -4501,7 +6426,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 3,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 325,
+      "spots_left": 322,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 277,
@@ -4517,7 +6449,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 23,
+      "interested": 0,
+      "maybe": 1,
+      "capacity": 50,
+      "spots_left": 27,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 278,
@@ -4534,7 +6473,14 @@
       "categories": [
         "Sales & Marketing",
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 279,
@@ -4551,7 +6497,14 @@
       "categories": [
         "Cybersecurity",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 280,
@@ -4567,7 +6520,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 18,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 82,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 281,
@@ -4583,7 +6543,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 282,
@@ -4601,7 +6568,14 @@
         "Space & Aerospace",
         "Networking & Social",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 283,
@@ -4617,7 +6591,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 284,
@@ -4633,7 +6614,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 285,
@@ -4649,7 +6637,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 286,
@@ -4666,7 +6661,14 @@
       "categories": [
         "AI & Machine Learning",
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 175,
+      "spots_left": 127,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 287,
@@ -4682,7 +6684,14 @@
       "invite_only": false,
       "categories": [
         "Health & Biotech"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 288,
@@ -4698,7 +6707,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 289,
@@ -4714,7 +6730,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 290,
@@ -4730,7 +6753,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 291,
@@ -4747,7 +6777,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": 29,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 292,
@@ -4764,7 +6801,14 @@
       "categories": [
         "AI & Machine Learning",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 80,
+      "spots_left": 72,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 293,
@@ -4780,7 +6824,14 @@
       "invite_only": false,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 294,
@@ -4797,7 +6848,14 @@
       "categories": [
         "Cybersecurity",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 50,
+      "spots_left": 32,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 295,
@@ -4814,7 +6872,14 @@
       "categories": [
         "Networking & Social",
         "Real Estate"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 296,
@@ -4831,7 +6896,14 @@
       "categories": [
         "AI & Machine Learning",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 297,
@@ -4847,7 +6919,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 9,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 298,
@@ -4864,7 +6943,14 @@
       "categories": [
         "AI & Machine Learning",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 299,
@@ -4881,7 +6967,14 @@
       "categories": [
         "AI & Machine Learning",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 75,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 300,
@@ -4898,7 +6991,14 @@
       "categories": [
         "AI & Machine Learning",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 11,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": true,
+      "space_limited": false
     },
     {
       "id": 301,
@@ -4915,7 +7015,14 @@
       "categories": [
         "Space & Aerospace",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 2,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 302,
@@ -4931,7 +7038,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 303,
@@ -4947,7 +7061,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 304,
@@ -4963,7 +7084,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 5,
+      "maybe": 0,
+      "capacity": 60,
+      "spots_left": 31,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 305,
@@ -4980,7 +7108,14 @@
       "categories": [
         "AI & Machine Learning",
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 306,
@@ -4996,7 +7131,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 2,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 15,
+      "spots_left": 13,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 307,
@@ -5013,7 +7155,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 7,
+      "interested": 4,
+      "maybe": 2,
+      "capacity": 100,
+      "spots_left": 93,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 308,
@@ -5029,7 +7178,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 309,
@@ -5047,7 +7203,14 @@
         "Startups & Entrepreneurship",
         "Investing & VC",
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 20,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 310,
@@ -5064,7 +7227,14 @@
       "categories": [
         "Space & Aerospace",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 311,
@@ -5080,7 +7250,14 @@
       "invite_only": true,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 312,
@@ -5096,7 +7273,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 313,
@@ -5112,7 +7296,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 314,
@@ -5128,7 +7319,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 315,
@@ -5145,7 +7343,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 316,
@@ -5161,7 +7366,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 317,
@@ -5179,7 +7391,14 @@
         "AI & Machine Learning",
         "Manufacturing & Hardware",
         "Sales & Marketing"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 318,
@@ -5195,7 +7414,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 319,
@@ -5211,7 +7437,14 @@
       "invite_only": false,
       "categories": [
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 320,
@@ -5227,7 +7460,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 321,
@@ -5243,7 +7483,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 152,
+      "interested": 5,
+      "maybe": 16,
+      "capacity": 200,
+      "spots_left": 48,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 322,
@@ -5259,7 +7506,14 @@
       "invite_only": false,
       "categories": [
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 5,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 15,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 323,
@@ -5275,7 +7529,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 1000,
+      "spots_left": 1000,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 324,
@@ -5291,7 +7552,14 @@
       "invite_only": false,
       "categories": [
         "Manufacturing & Hardware"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 325,
@@ -5307,7 +7575,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 326,
@@ -5323,7 +7598,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 327,
@@ -5339,7 +7621,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 60,
+      "spots_left": 48,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 328,
@@ -5355,7 +7644,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 11,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 329,
@@ -5371,7 +7667,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 150,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 330,
@@ -5387,7 +7690,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 331,
@@ -5403,7 +7713,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 332,
@@ -5419,7 +7736,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 333,
@@ -5435,7 +7759,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 7,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 38,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 334,
@@ -5451,7 +7782,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 1000,
+      "spots_left": 997,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 335,
@@ -5467,7 +7805,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 35,
+      "spots_left": 35,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 336,
@@ -5483,7 +7828,14 @@
       "invite_only": false,
       "categories": [
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 337,
@@ -5499,7 +7851,14 @@
       "invite_only": false,
       "categories": [
         "Space & Aerospace"
-      ]
+      ],
+      "going": 26,
+      "interested": 0,
+      "maybe": 3,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 338,
@@ -5516,7 +7875,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 339,
@@ -5534,7 +7900,14 @@
         "Startups & Entrepreneurship",
         "Space & Aerospace",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 340,
@@ -5551,7 +7924,14 @@
       "categories": [
         "AI & Machine Learning",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 6,
+      "maybe": 0,
+      "capacity": 120,
+      "spots_left": 120,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 341,
@@ -5567,7 +7947,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 10,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 342,
@@ -5583,7 +7970,14 @@
       "invite_only": false,
       "categories": [
         "Data & Analytics"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 343,
@@ -5600,7 +7994,14 @@
       "categories": [
         "AI & Machine Learning",
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 66,
+      "interested": 0,
+      "maybe": 7,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 344,
@@ -5618,7 +8019,14 @@
         "AI & Machine Learning",
         "Education & Workforce",
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 345,
@@ -5635,7 +8043,14 @@
       "categories": [
         "AI & Machine Learning",
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 40,
+      "spots_left": 11,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 346,
@@ -5651,7 +8066,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 30,
+      "spots_left": 30,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 347,
@@ -5667,7 +8089,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": 100,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 348,
@@ -5683,7 +8112,14 @@
       "invite_only": false,
       "categories": [
         "Health & Biotech"
-      ]
+      ],
+      "going": 0,
+      "interested": 4,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 349,
@@ -5699,7 +8135,14 @@
       "invite_only": false,
       "categories": [
         "Startups & Entrepreneurship"
-      ]
+      ],
+      "going": 18,
+      "interested": 0,
+      "maybe": 3,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 350,
@@ -5715,7 +8158,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 3,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 351,
@@ -5731,7 +8181,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 100,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 352,
@@ -5748,7 +8205,14 @@
       "categories": [
         "AI & Machine Learning",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 353,
@@ -5765,7 +8229,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 354,
@@ -5781,7 +8252,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 8,
+      "maybe": 0,
+      "capacity": 80,
+      "spots_left": 32,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 355,
@@ -5797,7 +8275,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 20,
+      "spots_left": 18,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 356,
@@ -5813,7 +8298,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 357,
@@ -5832,7 +8324,14 @@
         "Manufacturing & Hardware",
         "Education & Workforce",
         "Arts & Entertainment"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 358,
@@ -5848,7 +8347,14 @@
       "invite_only": false,
       "categories": [
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 359,
@@ -5864,7 +8370,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 360,
@@ -5880,7 +8393,14 @@
       "invite_only": true,
       "categories": [
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 361,
@@ -5896,7 +8416,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 362,
@@ -5912,7 +8439,14 @@
       "invite_only": false,
       "categories": [
         "Data & Analytics"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 363,
@@ -5928,7 +8462,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 364,
@@ -5944,7 +8485,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 365,
@@ -5960,7 +8508,14 @@
       "invite_only": false,
       "categories": [
         "AI & Machine Learning"
-      ]
+      ],
+      "going": 0,
+      "interested": 9,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 366,
@@ -5976,7 +8531,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 367,
@@ -5992,7 +8554,14 @@
       "invite_only": true,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 368,
@@ -6008,7 +8577,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 2,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 60,
+      "spots_left": 58,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 369,
@@ -6024,7 +8600,14 @@
       "invite_only": false,
       "categories": [
         "Energy & Sustainability"
-      ]
+      ],
+      "going": 29,
+      "interested": 10,
+      "maybe": 2,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 370,
@@ -6041,7 +8624,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 1,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 371,
@@ -6057,7 +8647,14 @@
       "invite_only": true,
       "categories": [
         "Health & Biotech"
-      ]
+      ],
+      "going": 0,
+      "interested": 10,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 372,
@@ -6073,7 +8670,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 373,
@@ -6090,7 +8694,14 @@
       "categories": [
         "Networking & Social",
         "Blockchain & Crypto"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 374,
@@ -6106,7 +8717,14 @@
       "invite_only": false,
       "categories": [
         "Networking & Social"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 375,
@@ -6122,7 +8740,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 376,
@@ -6138,7 +8763,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 377,
@@ -6154,7 +8786,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 378,
@@ -6170,7 +8809,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 379,
@@ -6186,7 +8832,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 380,
@@ -6202,7 +8855,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 25,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 381,
@@ -6218,7 +8878,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 382,
@@ -6234,7 +8901,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 1,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 383,
@@ -6250,7 +8924,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 384,
@@ -6266,7 +8947,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 385,
@@ -6282,7 +8970,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 386,
@@ -6298,7 +8993,14 @@
       "invite_only": false,
       "categories": [
         "Investing & VC"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 387,
@@ -6315,7 +9017,14 @@
       "categories": [
         "Startups & Entrepreneurship",
         "Education & Workforce"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 388,
@@ -6331,7 +9040,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 389,
@@ -6347,7 +9063,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 390,
@@ -6363,7 +9086,14 @@
       "invite_only": true,
       "categories": [
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 391,
@@ -6379,7 +9109,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 392,
@@ -6395,7 +9132,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 393,
@@ -6411,7 +9155,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 394,
@@ -6427,7 +9178,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 395,
@@ -6443,7 +9201,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 396,
@@ -6459,7 +9224,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 397,
@@ -6475,7 +9247,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 398,
@@ -6491,7 +9270,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 399,
@@ -6507,7 +9293,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 400,
@@ -6523,7 +9316,14 @@
       "invite_only": false,
       "categories": [
         "Tours & Demos"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 401,
@@ -6539,7 +9339,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 402,
@@ -6555,7 +9362,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 403,
@@ -6571,7 +9385,14 @@
       "invite_only": true,
       "categories": [
         "DevOps & Engineering"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     },
     {
       "id": 404,
@@ -6587,7 +9408,14 @@
       "invite_only": false,
       "categories": [
         "General Tech"
-      ]
+      ],
+      "going": 0,
+      "interested": 0,
+      "maybe": 0,
+      "capacity": 0,
+      "spots_left": -1,
+      "sold_out": false,
+      "space_limited": false
     }
   ],
   "cities": [

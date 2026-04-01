@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback } from "react";
 import eventsData from "@/data/events.json";
-import type { Event, EventsData } from "@/data/types";
+import type { Event, EventsData, SortOption } from "@/data/types";
 
 const data = eventsData as EventsData;
 
@@ -11,6 +11,7 @@ export interface Filters {
   timeOfDay: string;
   search: string;
   inviteOnly: "all" | "public" | "invite";
+  sort: SortOption;
 }
 
 const DEFAULT_FILTERS: Filters = {
@@ -20,7 +21,51 @@ const DEFAULT_FILTERS: Filters = {
   timeOfDay: "",
   search: "",
   inviteOnly: "all",
+  sort: "time",
 };
+
+function parseTime(time: string): number {
+  const match = time.match(/(\d+):(\d+)\s*(am|pm)/i);
+  if (!match) return 0;
+  let hours = parseInt(match[1]);
+  const minutes = parseInt(match[2]);
+  const ampm = match[3].toLowerCase();
+  if (ampm === "pm" && hours !== 12) hours += 12;
+  if (ampm === "am" && hours === 12) hours = 0;
+  return hours * 60 + minutes;
+}
+
+function sortEvents(events: Event[], sort: SortOption): Event[] {
+  const sorted = [...events];
+  switch (sort) {
+    case "time":
+      sorted.sort((a, b) => parseTime(a.time) - parseTime(b.time));
+      break;
+    case "popular":
+      sorted.sort((a, b) => {
+        const scoreA = a.going + a.interested * 0.5;
+        const scoreB = b.going + b.interested * 0.5;
+        return scoreB - scoreA;
+      });
+      break;
+    case "filling":
+      sorted.sort((a, b) => {
+        // Sold out first, then by fill percentage (highest first), then by spots left (lowest first)
+        if (a.sold_out && !b.sold_out) return -1;
+        if (!a.sold_out && b.sold_out) return 1;
+        if (a.spots_left === 0 && b.spots_left !== 0) return -1;
+        if (a.spots_left !== 0 && b.spots_left === 0) return 1;
+        const fillA = a.capacity > 0 && a.spots_left >= 0 ? (a.capacity - a.spots_left) / a.capacity : 0;
+        const fillB = b.capacity > 0 && b.spots_left >= 0 ? (b.capacity - b.spots_left) / b.capacity : 0;
+        return fillB - fillA;
+      });
+      break;
+    case "alpha":
+      sorted.sort((a, b) => a.title.localeCompare(b.title));
+      break;
+  }
+  return sorted;
+}
 
 export function useEvents() {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
@@ -40,6 +85,26 @@ export function useEvents() {
 
   const clearFilters = useCallback(() => {
     setFilters((prev) => ({ ...DEFAULT_FILTERS, day: prev.day }));
+  }, []);
+
+  const nextDay = useCallback(() => {
+    setFilters((prev) => {
+      const idx = data.days.indexOf(prev.day);
+      if (idx < data.days.length - 1) {
+        return { ...prev, day: data.days[idx + 1] };
+      }
+      return prev;
+    });
+  }, []);
+
+  const prevDay = useCallback(() => {
+    setFilters((prev) => {
+      const idx = data.days.indexOf(prev.day);
+      if (idx > 0) {
+        return { ...prev, day: data.days[idx - 1] };
+      }
+      return prev;
+    });
   }, []);
 
   const filteredEvents = useMemo(() => {
@@ -86,6 +151,9 @@ export function useEvents() {
       result = result.filter((e) => e.invite_only);
     }
 
+    // Sort
+    result = sortEvents(result, filters.sort);
+
     return result;
   }, [filters]);
 
@@ -106,6 +174,19 @@ export function useEvents() {
     return groups;
   }, [filteredEvents]);
 
+  // Trending events for current day (top by going + interested)
+  const trendingEvents = useMemo(() => {
+    const dayEvents = (data.events as Event[]).filter((e) => e.full_date === filters.day);
+    return dayEvents
+      .filter((e) => e.going > 0 || e.interested > 0 || (e.capacity > 0 && e.spots_left >= 0 && e.spots_left <= 10))
+      .sort((a, b) => {
+        const scoreA = a.going + a.interested * 0.5 + (a.spots_left === 0 ? 100 : 0);
+        const scoreB = b.going + b.interested * 0.5 + (b.spots_left === 0 ? 100 : 0);
+        return scoreB - scoreA;
+      })
+      .slice(0, 6);
+  }, [filters.day]);
+
   // Stats for current day
   const dayStats = useMemo(() => {
     const dayEvents = data.events.filter((e) => e.full_date === filters.day);
@@ -118,7 +199,7 @@ export function useEvents() {
     };
   }, [filters.day]);
 
-  // Active filter count (excluding day)
+  // Active filter count (excluding day and sort)
   const activeFilterCount = useMemo(() => {
     let count = 0;
     if (filters.categories.length > 0) count++;
@@ -132,10 +213,13 @@ export function useEvents() {
   return {
     events: filteredEvents,
     groupedEvents,
+    trendingEvents,
     filters,
     updateFilter,
     toggleCategory,
     clearFilters,
+    nextDay,
+    prevDay,
     allDays: data.days,
     allCities: data.cities,
     allCategories: data.categories,

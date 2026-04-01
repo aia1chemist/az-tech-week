@@ -1,23 +1,30 @@
 /*
  * Design: Copper Circuit — Warm, Scandinavian-meets-Southwest
  * Mobile-first event calendar with day tabs, filters, time-grouped cards
+ * Now with: trending section, sort bar, swipe to change day
  */
 import { useEvents } from "@/hooks/useEvents";
+import { useSwipe } from "@/hooks/useSwipe";
 import HeroSection from "@/components/HeroSection";
 import DaySelector from "@/components/DaySelector";
 import FilterBar from "@/components/FilterBar";
 import EventList from "@/components/EventList";
 import QuickStats from "@/components/QuickStats";
+import TrendingSection from "@/components/TrendingSection";
+import SortBar from "@/components/SortBar";
 import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   const {
     events,
     groupedEvents,
+    trendingEvents,
     filters,
     updateFilter,
     toggleCategory,
     clearFilters,
+    nextDay,
+    prevDay,
     allDays,
     allCities,
     allCategories,
@@ -26,8 +33,10 @@ export default function Home() {
     totalEvents,
   } = useEvents();
 
+  const swipeHandlers = useSwipe(nextDay, prevDay);
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background" {...swipeHandlers}>
       {/* Hero */}
       <HeroSection totalEvents={totalEvents} totalCities={allCities.length} />
 
@@ -40,6 +49,9 @@ export default function Home() {
       {/* Quick Stats */}
       <QuickStats selectedDay={filters.day} />
 
+      {/* Trending Section */}
+      <TrendingSection events={trendingEvents} />
+
       {/* Filters */}
       <FilterBar
         filters={filters}
@@ -51,6 +63,15 @@ export default function Home() {
         activeFilterCount={activeFilterCount}
         resultCount={events.length}
       />
+
+      {/* Sort Bar */}
+      <div className="max-w-6xl mx-auto">
+        <SortBar
+          sort={filters.sort}
+          onSortChange={(sort) => updateFilter("sort", sort)}
+          resultCount={events.length}
+        />
+      </div>
 
       {/* Event List */}
       <main className="max-w-6xl mx-auto">

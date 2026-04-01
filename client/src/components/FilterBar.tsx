@@ -1,10 +1,11 @@
 /*
  * Design: Copper Circuit — Filter chips, search bar, dropdowns
  * Horizontal scrollable category chips, collapsible on mobile
+ * Now includes: access type filter (public/invite only)
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, SlidersHorizontal, X, MapPin, Clock, ChevronDown } from "lucide-react";
+import { Search, SlidersHorizontal, X, MapPin, Clock, ChevronDown, Lock, Globe } from "lucide-react";
 import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
 import type { Filters } from "@/hooks/useEvents";
 
@@ -82,10 +83,10 @@ export default function FilterBar({
             className="overflow-hidden"
           >
             <div className="px-4 pb-3 space-y-3">
-              {/* City + Time of Day Row */}
-              <div className="flex gap-2">
+              {/* City + Time of Day + Access Row */}
+              <div className="flex gap-2 flex-wrap">
                 {/* City Dropdown */}
-                <div className="relative flex-1">
+                <div className="relative flex-1 min-w-[120px]">
                   <MapPin className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground pointer-events-none" />
                   <select
                     value={filters.city}
@@ -103,7 +104,7 @@ export default function FilterBar({
                 </div>
 
                 {/* Time of Day */}
-                <div className="relative flex-1">
+                <div className="relative flex-1 min-w-[120px]">
                   <Clock className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground pointer-events-none" />
                   <select
                     value={filters.timeOfDay}
@@ -116,6 +117,31 @@ export default function FilterBar({
                     <option value="Evening">Evening (after 5pm)</option>
                   </select>
                   <ChevronDown className="absolute right-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground pointer-events-none" />
+                </div>
+              </div>
+
+              {/* Access Type Toggle */}
+              <div>
+                <p className="text-xs font-medium text-muted-foreground mb-1.5">Access</p>
+                <div className="flex gap-1.5">
+                  {[
+                    { value: "all" as const, label: "All Events", icon: null },
+                    { value: "public" as const, label: "Public Only", icon: Globe },
+                    { value: "invite" as const, label: "Invite Only", icon: Lock },
+                  ].map(({ value, label, icon: Icon }) => (
+                    <button
+                      key={value}
+                      onClick={() => updateFilter("inviteOnly", value)}
+                      className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-medium border transition-all tap-target ${
+                        filters.inviteOnly === value
+                          ? "bg-primary/10 text-primary border-primary/30 ring-1 ring-primary/20"
+                          : "bg-secondary/40 text-muted-foreground border-border/40 hover:bg-secondary"
+                      }`}
+                    >
+                      {Icon && <Icon className="w-3 h-3" />}
+                      {label}
+                    </button>
+                  ))}
                 </div>
               </div>
 
@@ -136,7 +162,6 @@ export default function FilterBar({
                             ? `${colors.bg} ${colors.text} ${colors.border} ring-1 ring-offset-1`
                             : "bg-secondary/40 text-muted-foreground border-border/40 hover:bg-secondary"
                         }`}
-                        
                       >
                         <span className="text-xs">{icon}</span>
                         {cat}
