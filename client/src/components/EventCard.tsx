@@ -1,17 +1,20 @@
 /*
- * AZTW Light Theme — Event card with left accent stripe
- * h-full for equal height, white card bg, teal accents, clear borders
+ * AZTW EventCard — Full-featured card with bookmark, share, networking score
+ * Heart icon for My Schedule, share button, capacity bars, expand/collapse
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Clock, MapPin, ExternalLink, Lock, Users, Flame, Timer, ChevronDown, ChevronUp } from "lucide-react";
+import { Clock, MapPin, ExternalLink, Lock, Users, Flame, Timer, ChevronDown, ChevronUp, Heart, Share2, Zap } from "lucide-react";
+import { toast } from "sonner";
 import type { Event } from "@/data/types";
 import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
+import { useBookmarks } from "@/contexts/BookmarkContext";
 
 interface EventCardProps {
   event: Event;
   index: number;
   compact?: boolean;
+  isNow?: boolean;
 }
 
 const ACCENT_COLORS: Record<string, string> = {
@@ -57,8 +60,40 @@ function getCapacityInfo(event: Event) {
   return { isFull, hasCapacity, hasSpots, fillPct, isFillingUp, isAlmostFull };
 }
 
-export default function EventCard({ event, index, compact }: EventCardProps) {
+/* Networking score: 0-100 based on category mix, attendee count, capacity */
+function getNetworkingScore(event: Event): number {
+  let score = 0;
+  const networkCats = ["Networking & Social", "Startups & Entrepreneurship", "Investing & VC"];
+  if (event.categories.some((c) => networkCats.includes(c))) score += 35;
+  if (event.going >= 20) score += 25;
+  else if (event.going >= 10) score += 15;
+  else if (event.going > 0) score += 8;
+  if (event.capacity > 0 && event.capacity <= 50) score += 15;
+  else if (event.capacity > 50 && event.capacity <= 150) score += 10;
+  if (event.categories.length >= 2) score += 10;
+  if (event.time_of_day === "Evening") score += 5;
+  return Math.min(score, 100);
+}
+
+function handleShare(event: Event) {
+  const title = cleanTitle(event.title);
+  const text = `Check out "${title}" at AZ Tech Week!\n${event.start_time || event.time} · ${event.city}\n${event.link}`;
+
+  if (navigator.share) {
+    navigator.share({ title: `AZ Tech Week: ${title}`, text, url: event.link }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(text).then(() => {
+      toast.success("Event link copied to clipboard!");
+    }).catch(() => {
+      toast.error("Could not copy link");
+    });
+  }
+}
+
+export default function EventCard({ event, index, compact, isNow }: EventCardProps) {
   const [expanded, setExpanded] = useState(false);
+  const { toggle, isBookmarked } = useBookmarks();
+  const saved = isBookmarked(event.id);
   const primaryCategory = event.categories[0] || "General Tech";
   const accentColor = ACCENT_COLORS[primaryCategory] || "#14b8a6";
   const displayTitle = cleanTitle(event.title) || event.title;
@@ -67,6 +102,7 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
   const hasDescription = event.description && event.description.length > 0;
   const hasDuration = event.duration && event.duration.length > 0;
   const hasEndTime = event.end_time && event.end_time.length > 0;
+  const netScore = getNetworkingScore(event);
 
   return (
     <motion.div
@@ -75,17 +111,27 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
       transition={{ duration: 0.25, delay: Math.min(index * 0.02, 0.25) }}
       className="h-full"
     >
-      <div className={`relative h-full bg-white rounded-lg border border-gray-200 hover:border-teal-300 shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col ${cap.isFull ? "opacity-75" : ""}`}>
+      <div className={`relative h-full bg-white rounded-lg border shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col ${
+        isNow ? "border-green-400 ring-2 ring-green-200" : saved ? "border-pink-300 ring-1 ring-pink-100" : "border-gray-200 hover:border-teal-300"
+      } ${cap.isFull ? "opacity-75" : ""}`}>
         {/* Left accent stripe */}
         <div
           className="absolute left-0 top-0 bottom-0 w-1 rounded-l-lg"
           style={{ backgroundColor: accentColor }}
         />
 
+        {/* NOW indicator */}
+        {isNow && (
+          <div className="absolute top-2 right-2 flex items-center gap-1 px-2 py-0.5 rounded-full bg-green-100 border border-green-300 z-10">
+            <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse-dot" />
+            <span className="text-[9px] font-bold text-green-700 uppercase">Live Now</span>
+          </div>
+        )}
+
         <div className="pl-4 pr-3 py-3 sm:pl-5 sm:pr-4 sm:py-4 flex flex-col flex-1">
-          {/* Status badges */}
-          {(cap.isFull || cap.isFillingUp || cap.isAlmostFull) && (
-            <div className="flex gap-1.5 mb-2">
+          {/* Top row: badges + actions */}
+          <div className="flex items-start justify-between gap-2 mb-1.5">
+            <div className="flex gap-1.5 flex-wrap flex-1">
               {cap.isFull && (
                 <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-700 border border-amber-300">
                   WAITLIST
@@ -103,8 +149,44 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
                   FILLING UP
                 </span>
               )}
+              {netScore >= 60 && !compact && (
+                <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-violet-50 text-violet-600 border border-violet-200">
+                  <Zap className="w-2.5 h-2.5" />
+                  High Networking
+                </span>
+              )}
             </div>
-          )}
+
+            {/* Bookmark + Share buttons */}
+            {!isNow && (
+              <div className="flex items-center gap-0.5 flex-shrink-0">
+                <button
+                  onClick={(e) => { e.stopPropagation(); e.preventDefault(); handleShare(event); }}
+                  className="p-1.5 rounded-full hover:bg-gray-100 text-gray-400 hover:text-gray-600 transition-all"
+                  aria-label="Share event"
+                >
+                  <Share2 className="w-3.5 h-3.5" />
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    toggle(event.id);
+                    toast(saved ? "Removed from My Schedule" : "Added to My Schedule", {
+                      icon: saved ? "💔" : "❤️",
+                      duration: 1500,
+                    });
+                  }}
+                  className={`p-1.5 rounded-full transition-all ${
+                    saved ? "text-pink-500 hover:bg-pink-50" : "text-gray-300 hover:text-pink-400 hover:bg-pink-50"
+                  }`}
+                  aria-label={saved ? "Remove from schedule" : "Add to schedule"}
+                >
+                  <Heart className={`w-4 h-4 transition-all ${saved ? "fill-pink-500" : ""}`} />
+                </button>
+              </div>
+            )}
+          </div>
 
           {/* Metadata row */}
           <div className="flex items-center gap-2 text-xs text-gray-500 mb-1.5 flex-wrap">

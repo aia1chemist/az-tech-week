@@ -1,7 +1,9 @@
 /*
- * AZTW Light Theme — Clean, mobile-first event calendar
- * Features: bookmarks, cross-day search, trending, sort, filters
+ * AZTW Home — Full-featured event calendar with all 11 features
+ * Bookmarks, Live Now, Share, Conflicts, Venue Clusters, Organizer Profiles,
+ * Calendar Export, Smart Recommendations, Live Ticker, Event Comparison, Networking Score
  */
+import { useState, useCallback } from "react";
 import { useEvents } from "@/hooks/useEvents";
 import { useSwipe } from "@/hooks/useSwipe";
 import HeroSection from "@/components/HeroSection";
@@ -12,6 +14,12 @@ import QuickStats from "@/components/QuickStats";
 import TrendingSection from "@/components/TrendingSection";
 import SortBar from "@/components/SortBar";
 import ScrollToTop from "@/components/ScrollToTop";
+import LiveTicker from "@/components/LiveTicker";
+import BottomNav from "@/components/BottomNav";
+import MySchedule from "@/components/MySchedule";
+import HappeningNow from "@/components/HappeningNow";
+import VenueClusters from "@/components/VenueClusters";
+import OrganizerProfiles from "@/components/OrganizerProfiles";
 
 export default function Home() {
   const {
@@ -34,6 +42,23 @@ export default function Home() {
 
   const swipeHandlers = useSwipe(nextDay, prevDay);
 
+  // Drawer states
+  const [scheduleOpen, setScheduleOpen] = useState(false);
+  const [happeningNowOpen, setHappeningNowOpen] = useState(false);
+  const [venueClustersOpen, setVenueClustersOpen] = useState(false);
+  const [organizersOpen, setOrganizersOpen] = useState(false);
+
+  // Callbacks for venue clusters and organizer profiles
+  const handleFilterCity = useCallback((city: string) => {
+    updateFilter("city", city);
+    window.scrollTo({ top: 400, behavior: "smooth" });
+  }, [updateFilter]);
+
+  const handleSearchOrganizer = useCallback((name: string) => {
+    updateFilter("search", name);
+    window.scrollTo({ top: 400, behavior: "smooth" });
+  }, [updateFilter]);
+
   return (
     <div className="min-h-screen bg-gray-50" {...swipeHandlers}>
       {/* Hero */}
@@ -46,6 +71,9 @@ export default function Home() {
           onSelectDay={(day) => updateFilter("day", day)}
         />
       </div>
+
+      {/* Live Ticker — What's Hot today */}
+      {!isSearchActive && <LiveTicker selectedDay={filters.day} />}
 
       {/* Quick Stats — hide when searching */}
       {!isSearchActive && <QuickStats selectedDay={filters.day} />}
@@ -86,11 +114,34 @@ export default function Home() {
         />
       </main>
 
-      {/* Scroll to top */}
+      {/* Scroll to top — offset for bottom nav */}
       <ScrollToTop />
 
+      {/* Bottom Navigation Bar */}
+      <BottomNav
+        onOpenSchedule={() => setScheduleOpen(true)}
+        onOpenHappeningNow={() => setHappeningNowOpen(true)}
+        onOpenVenueClusters={() => setVenueClustersOpen(true)}
+        onOpenOrganizers={() => setOrganizersOpen(true)}
+      />
+
+      {/* Drawers */}
+      <MySchedule open={scheduleOpen} onClose={() => setScheduleOpen(false)} />
+      <HappeningNow open={happeningNowOpen} onClose={() => setHappeningNowOpen(false)} />
+      <VenueClusters
+        open={venueClustersOpen}
+        onClose={() => setVenueClustersOpen(false)}
+        onFilterCity={handleFilterCity}
+        selectedDay={filters.day}
+      />
+      <OrganizerProfiles
+        open={organizersOpen}
+        onClose={() => setOrganizersOpen(false)}
+        onSearchOrganizer={handleSearchOrganizer}
+      />
+
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white py-8 px-4">
+      <footer className="border-t border-gray-200 bg-white py-8 px-4 pb-24">
         <div className="max-w-lg mx-auto text-center space-y-3">
           {/* Credits */}
           <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
@@ -153,7 +204,7 @@ export default function Home() {
               . Not an official AZ Tech Week product.
             </p>
             <p className="text-[10px] text-gray-300 mt-1">
-              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v2.0
+              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v3.0
             </p>
           </div>
         </div>
