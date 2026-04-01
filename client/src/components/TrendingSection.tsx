@@ -89,8 +89,8 @@ export default function TrendingSection({ events }: TrendingSectionProps) {
                   {(isFull || isFillingUp) && (
                     <div className="mb-1.5">
                       {isFull ? (
-                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-red-100 text-red-700">
-                          SOLD OUT
+                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-amber-100 text-amber-800 border border-amber-300">
+                          WAITLIST
                         </span>
                       ) : (
                         <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-orange-100 text-orange-700 animate-pulse">

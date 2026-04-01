@@ -88,7 +88,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": true,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 2,
@@ -114,7 +118,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 3,
@@ -140,7 +148,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 4,
@@ -166,7 +178,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 5,
@@ -191,7 +207,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:15 am",
+      "end_time": ""
     },
     {
       "id": 6,
@@ -217,7 +237,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:30 am",
+      "end_time": ""
     },
     {
       "id": 7,
@@ -243,7 +267,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 8,
@@ -269,7 +297,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 9,
@@ -295,7 +327,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 10,
@@ -321,7 +357,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 11,
@@ -346,7 +386,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 12,
@@ -372,7 +416,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 13,
@@ -398,7 +446,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 14,
@@ -424,7 +476,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 15,
@@ -450,7 +506,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 16,
@@ -475,7 +535,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": true,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 17,
@@ -501,7 +565,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 18,
@@ -526,7 +594,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 19,
@@ -551,7 +623,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 20,
@@ -577,7 +653,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 21,
@@ -601,7 +681,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 22,
@@ -627,7 +711,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "3 hrs",
+      "duration_minutes": 180,
+      "start_time": "1:00pm",
+      "end_time": "4:00pm"
     },
     {
       "id": 23,
@@ -653,7 +741,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:30 pm",
+      "end_time": ""
     },
     {
       "id": 24,
@@ -679,7 +771,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 25,
@@ -705,7 +801,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 26,
@@ -731,7 +831,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 27,
@@ -757,7 +861,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 28,
@@ -783,7 +891,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:30 pm",
+      "end_time": ""
     },
     {
       "id": 29,
@@ -809,7 +921,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:30 pm",
+      "end_time": ""
     },
     {
       "id": 30,
@@ -835,7 +951,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:30 pm",
+      "end_time": ""
     },
     {
       "id": 31,
@@ -861,7 +981,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:45 pm",
+      "end_time": ""
     },
     {
       "id": 32,
@@ -886,7 +1010,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 33,
@@ -912,7 +1040,11 @@
       "date": "April 6",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:30 pm",
+      "end_time": ""
     },
     {
       "id": 34,
@@ -936,7 +1068,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 35,
@@ -962,7 +1098,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 36,
@@ -987,7 +1127,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 37,
@@ -1013,7 +1157,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "5:30pm",
+      "end_time": "7:30pm"
     },
     {
       "id": 38,
@@ -1039,7 +1187,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 39,
@@ -1064,7 +1216,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": true,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 40,
@@ -1090,7 +1246,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 41,
@@ -1116,7 +1276,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 am",
+      "end_time": ""
     },
     {
       "id": 42,
@@ -1142,7 +1306,11 @@
       "date": "April 6",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 43,
@@ -1168,7 +1336,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:30 am",
+      "end_time": ""
     },
     {
       "id": 44,
@@ -1194,7 +1366,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 45,
@@ -1220,7 +1396,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 46,
@@ -1246,7 +1426,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 47,
@@ -1272,7 +1456,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 48,
@@ -1298,7 +1486,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 49,
@@ -1324,7 +1516,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "4 hrs",
+      "duration_minutes": 240,
+      "start_time": "8:00am",
+      "end_time": "12:00pm"
     },
     {
       "id": 50,
@@ -1350,7 +1546,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:30 am",
+      "end_time": ""
     },
     {
       "id": 51,
@@ -1374,7 +1574,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 52,
@@ -1399,7 +1603,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 53,
@@ -1425,7 +1633,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:30 am",
+      "end_time": ""
     },
     {
       "id": 54,
@@ -1450,7 +1662,11 @@
       "date": "April 6",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:30 am",
+      "end_time": ""
     },
     {
       "id": 55,
@@ -1476,7 +1692,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": true,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 56,
@@ -1501,7 +1721,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 57,
@@ -1526,7 +1750,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 58,
@@ -1552,7 +1780,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 59,
@@ -1578,7 +1810,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 60,
@@ -1604,7 +1840,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 61,
@@ -1629,7 +1869,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 62,
@@ -1655,7 +1899,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:30 am",
+      "end_time": ""
     },
     {
       "id": 63,
@@ -1680,7 +1928,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:30 am",
+      "end_time": ""
     },
     {
       "id": 64,
@@ -1705,7 +1957,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:30 am",
+      "end_time": ""
     },
     {
       "id": 65,
@@ -1731,7 +1987,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 66,
@@ -1757,7 +2017,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 67,
@@ -1783,7 +2047,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 68,
@@ -1809,7 +2077,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 69,
@@ -1835,7 +2107,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 70,
@@ -1861,7 +2137,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 71,
@@ -1887,7 +2167,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 72,
@@ -1913,7 +2197,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 73,
@@ -1939,7 +2227,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 74,
@@ -1965,7 +2257,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 75,
@@ -1991,7 +2287,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 76,
@@ -2017,7 +2317,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 77,
@@ -2043,7 +2347,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:30 am",
+      "end_time": ""
     },
     {
       "id": 78,
@@ -2068,7 +2376,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 79,
@@ -2093,7 +2405,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 80,
@@ -2119,7 +2435,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 81,
@@ -2144,7 +2464,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 82,
@@ -2170,7 +2494,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 83,
@@ -2196,7 +2524,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 84,
@@ -2222,7 +2554,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 85,
@@ -2248,7 +2584,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 86,
@@ -2274,7 +2614,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 87,
@@ -2300,7 +2644,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 88,
@@ -2326,7 +2674,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:30 pm",
+      "end_time": ""
     },
     {
       "id": 89,
@@ -2352,7 +2704,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:30 pm",
+      "end_time": ""
     },
     {
       "id": 90,
@@ -2378,7 +2734,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 91,
@@ -2404,7 +2764,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 92,
@@ -2428,7 +2792,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "2:00pm",
+      "end_time": "3:00pm"
     },
     {
       "id": 93,
@@ -2452,7 +2820,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 94,
@@ -2478,7 +2850,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "3:00pm",
+      "end_time": "5:00pm"
     },
     {
       "id": 95,
@@ -2504,7 +2880,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:30 pm",
+      "end_time": ""
     },
     {
       "id": 96,
@@ -2530,7 +2910,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 97,
@@ -2556,7 +2940,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 98,
@@ -2581,7 +2969,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 99,
@@ -2605,7 +2997,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 100,
@@ -2631,7 +3027,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 101,
@@ -2655,7 +3055,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2.5 hrs",
+      "duration_minutes": 150,
+      "start_time": "4:00pm",
+      "end_time": "6:30pm"
     },
     {
       "id": 102,
@@ -2681,7 +3085,11 @@
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:30 pm",
+      "end_time": ""
     },
     {
       "id": 103,
@@ -2707,7 +3115,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 104,
@@ -2733,7 +3145,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 105,
@@ -2759,7 +3175,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 106,
@@ -2785,7 +3205,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 107,
@@ -2810,7 +3234,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 108,
@@ -2836,7 +3264,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "5:00pm",
+      "end_time": "7:00pm"
     },
     {
       "id": 109,
@@ -2861,7 +3293,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 110,
@@ -2887,7 +3323,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 111,
@@ -2913,7 +3353,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 112,
@@ -2939,7 +3383,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 113,
@@ -2964,7 +3412,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 114,
@@ -2990,7 +3442,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 115,
@@ -3016,7 +3472,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": true,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 116,
@@ -3042,7 +3502,11 @@
       "date": "April 7",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 117,
@@ -3067,7 +3531,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:30 am",
+      "end_time": ""
     },
     {
       "id": 118,
@@ -3092,7 +3560,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": true,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 119,
@@ -3118,7 +3590,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 120,
@@ -3144,7 +3620,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 121,
@@ -3170,7 +3650,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 122,
@@ -3196,7 +3680,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "8:00am",
+      "end_time": "10:00am"
     },
     {
       "id": 123,
@@ -3222,7 +3710,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "9.5 hrs",
+      "duration_minutes": 570,
+      "start_time": "8:00am",
+      "end_time": "5:30pm"
     },
     {
       "id": 124,
@@ -3248,7 +3740,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "9.5 hrs",
+      "duration_minutes": 570,
+      "start_time": "8:00am",
+      "end_time": "5:30pm"
     },
     {
       "id": 125,
@@ -3274,7 +3770,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:30 am",
+      "end_time": ""
     },
     {
       "id": 126,
@@ -3300,7 +3800,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:30 am",
+      "end_time": ""
     },
     {
       "id": 127,
@@ -3326,7 +3830,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "8:30am",
+      "end_time": "9:30am"
     },
     {
       "id": 128,
@@ -3352,7 +3860,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:45 am",
+      "end_time": ""
     },
     {
       "id": 129,
@@ -3376,7 +3888,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 130,
@@ -3402,7 +3918,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 131,
@@ -3428,7 +3948,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 132,
@@ -3453,7 +3977,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 133,
@@ -3479,7 +4007,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 134,
@@ -3505,7 +4037,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 135,
@@ -3531,7 +4067,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "9:00am",
+      "end_time": "11:00am"
     },
     {
       "id": 136,
@@ -3556,7 +4096,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:30 am",
+      "end_time": ""
     },
     {
       "id": 137,
@@ -3581,7 +4125,11 @@
       "date": "April 7",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:30 am",
+      "end_time": ""
     },
     {
       "id": 138,
@@ -3607,7 +4155,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 139,
@@ -3632,7 +4184,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 140,
@@ -3658,7 +4214,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 141,
@@ -3684,7 +4244,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 142,
@@ -3709,7 +4273,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 143,
@@ -3735,7 +4303,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "10:00am",
+      "end_time": "12:00pm"
     },
     {
       "id": 144,
@@ -3761,7 +4333,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2.2 hrs",
+      "duration_minutes": 135,
+      "start_time": "10:00am",
+      "end_time": "12:15pm"
     },
     {
       "id": 145,
@@ -3785,7 +4361,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2.5 hrs",
+      "duration_minutes": 150,
+      "start_time": "10:30am",
+      "end_time": "1:00pm"
     },
     {
       "id": 146,
@@ -3811,7 +4391,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 147,
@@ -3837,7 +4421,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 148,
@@ -3863,7 +4451,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 149,
@@ -3889,7 +4481,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 150,
@@ -3915,7 +4511,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 151,
@@ -3940,7 +4540,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 152,
@@ -3966,7 +4570,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 153,
@@ -3992,7 +4600,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 154,
@@ -4018,7 +4630,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 155,
@@ -4044,7 +4660,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 156,
@@ -4070,7 +4690,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 157,
@@ -4096,7 +4720,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 158,
@@ -4120,7 +4748,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:30 am",
+      "end_time": ""
     },
     {
       "id": 159,
@@ -4146,7 +4778,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 160,
@@ -4171,7 +4807,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 161,
@@ -4197,7 +4837,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 162,
@@ -4223,7 +4867,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 163,
@@ -4249,7 +4897,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 164,
@@ -4275,7 +4927,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 165,
@@ -4301,7 +4957,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 166,
@@ -4327,7 +4987,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 167,
@@ -4352,7 +5016,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:30 pm",
+      "end_time": ""
     },
     {
       "id": 168,
@@ -4378,7 +5046,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "5 hrs",
+      "duration_minutes": 300,
+      "start_time": "1:30pm",
+      "end_time": "6:30pm"
     },
     {
       "id": 169,
@@ -4404,7 +5076,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:45 pm",
+      "end_time": ""
     },
     {
       "id": 170,
@@ -4430,7 +5106,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 171,
@@ -4456,7 +5136,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 172,
@@ -4481,7 +5165,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1.2 hrs",
+      "duration_minutes": 75,
+      "start_time": "2:00pm",
+      "end_time": "3:15pm"
     },
     {
       "id": 173,
@@ -4507,7 +5195,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "2:00pm",
+      "end_time": "4:00pm"
     },
     {
       "id": 174,
@@ -4533,7 +5225,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 175,
@@ -4559,7 +5255,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 176,
@@ -4584,7 +5284,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 177,
@@ -4610,7 +5314,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:30 pm",
+      "end_time": ""
     },
     {
       "id": 178,
@@ -4636,7 +5344,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 179,
@@ -4660,7 +5372,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 180,
@@ -4685,7 +5401,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 181,
@@ -4711,7 +5431,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "4:00pm",
+      "end_time": "5:00pm"
     },
     {
       "id": 182,
@@ -4737,7 +5461,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "3.5 hrs",
+      "duration_minutes": 210,
+      "start_time": "4:00pm",
+      "end_time": "7:30pm"
     },
     {
       "id": 183,
@@ -4763,7 +5491,11 @@
       "date": "April 8",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:30 pm",
+      "end_time": ""
     },
     {
       "id": 184,
@@ -4789,7 +5521,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 185,
@@ -4815,7 +5551,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 186,
@@ -4840,7 +5580,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 187,
@@ -4866,7 +5610,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 188,
@@ -4890,7 +5638,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 189,
@@ -4916,7 +5668,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "5:00pm",
+      "end_time": "7:00pm"
     },
     {
       "id": 190,
@@ -4941,7 +5697,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1.5 hrs",
+      "duration_minutes": 90,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 191,
@@ -4967,7 +5727,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 192,
@@ -4993,7 +5757,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 193,
@@ -5019,7 +5787,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 194,
@@ -5044,7 +5816,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 195,
@@ -5070,7 +5846,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 196,
@@ -5095,7 +5875,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 197,
@@ -5121,7 +5905,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 198,
@@ -5147,7 +5935,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 199,
@@ -5173,7 +5965,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:30 pm",
+      "end_time": ""
     },
     {
       "id": 200,
@@ -5198,7 +5994,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 201,
@@ -5223,7 +6023,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 202,
@@ -5249,7 +6053,11 @@
       "date": "April 8",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:30 pm",
+      "end_time": ""
     },
     {
       "id": 203,
@@ -5275,7 +6083,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 204,
@@ -5301,7 +6113,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "8:00am",
+      "end_time": "10:00am"
     },
     {
       "id": 205,
@@ -5326,7 +6142,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "9 hrs",
+      "duration_minutes": 540,
+      "start_time": "8:00am",
+      "end_time": "5:00pm"
     },
     {
       "id": 206,
@@ -5352,7 +6172,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:30 am",
+      "end_time": ""
     },
     {
       "id": 207,
@@ -5377,7 +6201,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 208,
@@ -5402,7 +6230,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 209,
@@ -5427,7 +6259,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 210,
@@ -5451,7 +6287,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 211,
@@ -5477,7 +6317,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 212,
@@ -5503,7 +6347,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 213,
@@ -5529,7 +6377,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 214,
@@ -5554,7 +6406,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 215,
@@ -5580,7 +6436,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 216,
@@ -5606,7 +6466,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00am \\u2013 7:00pm",
+      "end_time": ""
     },
     {
       "id": 217,
@@ -5630,7 +6494,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "9:00am",
+      "end_time": "11:00am"
     },
     {
       "id": 218,
@@ -5656,7 +6524,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "8 hrs",
+      "duration_minutes": 480,
+      "start_time": "9:00am",
+      "end_time": "5:00pm"
     },
     {
       "id": 219,
@@ -5682,7 +6554,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "12 hrs",
+      "duration_minutes": 720,
+      "start_time": "9:00am",
+      "end_time": "9:00pm"
     },
     {
       "id": 220,
@@ -5707,7 +6583,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:30 am",
+      "end_time": ""
     },
     {
       "id": 221,
@@ -5733,7 +6613,11 @@
       "date": "April 8",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "3.5 hrs",
+      "duration_minutes": 210,
+      "start_time": "9:30am",
+      "end_time": "1:00pm"
     },
     {
       "id": 222,
@@ -5759,7 +6643,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": true,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 223,
@@ -5783,7 +6671,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 224,
@@ -5809,7 +6701,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": true,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 225,
@@ -5835,7 +6731,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 226,
@@ -5861,7 +6761,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 227,
@@ -5887,7 +6791,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 228,
@@ -5912,7 +6820,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 229,
@@ -5938,7 +6850,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 230,
@@ -5963,7 +6879,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 231,
@@ -5988,7 +6908,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 232,
@@ -6014,7 +6938,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 233,
@@ -6040,7 +6968,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 234,
@@ -6065,7 +6997,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 235,
@@ -6091,7 +7027,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:30 am",
+      "end_time": ""
     },
     {
       "id": 236,
@@ -6117,7 +7057,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 237,
@@ -6143,7 +7087,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 238,
@@ -6168,7 +7116,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 239,
@@ -6194,7 +7146,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 240,
@@ -6220,7 +7176,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 241,
@@ -6246,7 +7206,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 242,
@@ -6272,7 +7236,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 243,
@@ -6298,7 +7266,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 244,
@@ -6324,7 +7296,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 245,
@@ -6350,7 +7326,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "5 hrs",
+      "duration_minutes": 300,
+      "start_time": "11:00am",
+      "end_time": "4:00pm"
     },
     {
       "id": 246,
@@ -6376,7 +7356,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:30 am",
+      "end_time": ""
     },
     {
       "id": 247,
@@ -6400,7 +7384,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1.2 hrs",
+      "duration_minutes": 75,
+      "start_time": "11:45am",
+      "end_time": "1:00pm"
     },
     {
       "id": 248,
@@ -6426,7 +7414,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 249,
@@ -6451,7 +7443,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 250,
@@ -6477,7 +7473,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 251,
@@ -6503,7 +7503,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 252,
@@ -6529,7 +7533,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "12:00pm",
+      "end_time": "1:00pm"
     },
     {
       "id": 253,
@@ -6555,7 +7563,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1.5 hrs",
+      "duration_minutes": 90,
+      "start_time": "12:00pm",
+      "end_time": "1:30pm"
     },
     {
       "id": 254,
@@ -6581,7 +7593,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 255,
@@ -6606,7 +7622,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 256,
@@ -6631,7 +7651,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 257,
@@ -6656,7 +7680,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 258,
@@ -6682,7 +7710,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 259,
@@ -6708,7 +7740,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:30 pm",
+      "end_time": ""
     },
     {
       "id": 260,
@@ -6734,7 +7770,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 261,
@@ -6760,7 +7800,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 262,
@@ -6785,7 +7829,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 263,
@@ -6811,7 +7859,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 264,
@@ -6837,7 +7889,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 265,
@@ -6863,7 +7919,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 266,
@@ -6889,7 +7949,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 267,
@@ -6915,7 +7979,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "3:00pm",
+      "end_time": "5:00pm"
     },
     {
       "id": 268,
@@ -6941,7 +8009,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "3:00pm",
+      "end_time": "5:00pm"
     },
     {
       "id": 269,
@@ -6966,7 +8038,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "3:30pm",
+      "end_time": "4:30pm"
     },
     {
       "id": 270,
@@ -6992,7 +8068,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 271,
@@ -7017,7 +8097,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 272,
@@ -7043,7 +8127,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 273,
@@ -7069,7 +8157,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "3 hrs",
+      "duration_minutes": 180,
+      "start_time": "4:00pm",
+      "end_time": "7:00pm"
     },
     {
       "id": 274,
@@ -7095,7 +8187,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:30 pm",
+      "end_time": ""
     },
     {
       "id": 275,
@@ -7120,7 +8216,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:30 pm",
+      "end_time": ""
     },
     {
       "id": 276,
@@ -7144,7 +8244,11 @@
       "date": "April 9",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:30 pm",
+      "end_time": ""
     },
     {
       "id": 277,
@@ -7170,7 +8274,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 278,
@@ -7195,7 +8303,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 279,
@@ -7221,7 +8333,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 280,
@@ -7247,7 +8363,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 281,
@@ -7272,7 +8392,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 282,
@@ -7298,7 +8422,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 283,
@@ -7324,7 +8452,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 284,
@@ -7350,7 +8482,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 285,
@@ -7376,7 +8512,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "3 hrs",
+      "duration_minutes": 180,
+      "start_time": "5:30pm",
+      "end_time": "8:30pm"
     },
     {
       "id": 286,
@@ -7402,7 +8542,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 287,
@@ -7428,7 +8572,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 288,
@@ -7454,7 +8602,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 289,
@@ -7479,7 +8631,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 290,
@@ -7503,7 +8659,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 291,
@@ -7529,7 +8689,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 292,
@@ -7554,7 +8718,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 293,
@@ -7579,7 +8747,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 294,
@@ -7605,7 +8777,11 @@
       "date": "April 9",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 295,
@@ -7631,7 +8807,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "8:00am",
+      "end_time": "10:00am"
     },
     {
       "id": 296,
@@ -7657,7 +8837,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "9 hrs",
+      "duration_minutes": 540,
+      "start_time": "8:00am",
+      "end_time": "5:00pm"
     },
     {
       "id": 297,
@@ -7683,7 +8867,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "8:30am",
+      "end_time": "9:30am"
     },
     {
       "id": 298,
@@ -7708,7 +8896,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 299,
@@ -7734,7 +8926,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:00 am",
+      "end_time": ""
     },
     {
       "id": 300,
@@ -7759,7 +8955,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "3 hrs",
+      "duration_minutes": 180,
+      "start_time": "9:00am",
+      "end_time": "12:00pm"
     },
     {
       "id": 301,
@@ -7785,7 +8985,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "7 hrs",
+      "duration_minutes": 420,
+      "start_time": "9:00am",
+      "end_time": "4:00pm"
     },
     {
       "id": 302,
@@ -7811,7 +9015,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "8 hrs",
+      "duration_minutes": 480,
+      "start_time": "9:00am",
+      "end_time": "5:00pm"
     },
     {
       "id": 303,
@@ -7835,7 +9043,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:30 am",
+      "end_time": ""
     },
     {
       "id": 304,
@@ -7860,7 +9072,11 @@
       "date": "April 9",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "9:30 am",
+      "end_time": ""
     },
     {
       "id": 305,
@@ -7886,7 +9102,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00 am",
+      "end_time": ""
     },
     {
       "id": 306,
@@ -7912,7 +9132,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "7.5 hrs",
+      "duration_minutes": 450,
+      "start_time": "10:00am",
+      "end_time": "5:30pm"
     },
     {
       "id": 307,
@@ -7937,7 +9161,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "10:00am \u2014 3:00pm",
+      "end_time": ""
     },
     {
       "id": 308,
@@ -7961,7 +9189,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 309,
@@ -7987,7 +9219,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 310,
@@ -8013,7 +9249,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 311,
@@ -8038,7 +9278,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 312,
@@ -8064,7 +9308,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 313,
@@ -8090,7 +9338,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 314,
@@ -8116,7 +9368,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 315,
@@ -8142,7 +9398,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 316,
@@ -8168,7 +9428,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 317,
@@ -8194,7 +9458,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 318,
@@ -8220,7 +9488,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 319,
@@ -8246,7 +9518,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 320,
@@ -8272,7 +9548,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 321,
@@ -8298,7 +9578,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 322,
@@ -8324,7 +9608,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 323,
@@ -8349,7 +9637,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 324,
@@ -8375,7 +9667,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 325,
@@ -8401,7 +9697,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 326,
@@ -8427,7 +9727,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 327,
@@ -8453,7 +9757,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 328,
@@ -8479,7 +9787,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:30 am",
+      "end_time": ""
     },
     {
       "id": 329,
@@ -8504,7 +9816,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 330,
@@ -8530,7 +9846,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 331,
@@ -8556,7 +9876,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 332,
@@ -8582,7 +9906,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 333,
@@ -8606,7 +9934,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "12:00 pm",
+      "end_time": ""
     },
     {
       "id": 334,
@@ -8632,7 +9964,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "12:00pm",
+      "end_time": "2:00pm"
     },
     {
       "id": 335,
@@ -8658,7 +9994,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 336,
@@ -8684,7 +10024,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 337,
@@ -8709,7 +10053,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 338,
@@ -8735,7 +10083,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "1:00 pm",
+      "end_time": ""
     },
     {
       "id": 339,
@@ -8760,7 +10112,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "3 hrs",
+      "duration_minutes": 180,
+      "start_time": "2:00pm",
+      "end_time": "5:00pm"
     },
     {
       "id": 340,
@@ -8785,7 +10141,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 341,
@@ -8811,7 +10171,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 342,
@@ -8837,7 +10201,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "8 hrs",
+      "duration_minutes": 480,
+      "start_time": "3:30pm",
+      "end_time": "11:30pm"
     },
     {
       "id": 343,
@@ -8863,7 +10231,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 344,
@@ -8889,7 +10261,11 @@
       "date": "April 10",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:30 pm",
+      "end_time": ""
     },
     {
       "id": 345,
@@ -8915,7 +10291,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 346,
@@ -8940,7 +10320,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 347,
@@ -8964,7 +10348,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 348,
@@ -8990,7 +10378,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 349,
@@ -9016,7 +10408,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 350,
@@ -9041,7 +10437,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 351,
@@ -9067,7 +10467,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "4 hrs",
+      "duration_minutes": 240,
+      "start_time": "6:00pm",
+      "end_time": "10:00pm"
     },
     {
       "id": 352,
@@ -9092,7 +10496,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 am",
+      "end_time": ""
     },
     {
       "id": 353,
@@ -9118,7 +10526,11 @@
       "date": "April 10",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "7:00 pm",
+      "end_time": ""
     },
     {
       "id": 354,
@@ -9143,7 +10555,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:00 am",
+      "end_time": ""
     },
     {
       "id": 355,
@@ -9169,7 +10585,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "8:30 am",
+      "end_time": ""
     },
     {
       "id": 356,
@@ -9193,7 +10613,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "9:00am",
+      "end_time": "10:00am"
     },
     {
       "id": 357,
@@ -9219,7 +10643,11 @@
       "date": "April 10",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "5.5 hrs",
+      "duration_minutes": 330,
+      "start_time": "9:00am",
+      "end_time": "2:30pm"
     },
     {
       "id": 358,
@@ -9245,7 +10673,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 359,
@@ -9271,7 +10703,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 360,
@@ -9297,7 +10733,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 361,
@@ -9323,7 +10763,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 362,
@@ -9348,7 +10792,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 363,
@@ -9374,7 +10822,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 364,
@@ -9400,7 +10852,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 365,
@@ -9426,7 +10882,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 366,
@@ -9451,7 +10911,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 367,
@@ -9477,7 +10941,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 368,
@@ -9503,7 +10971,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": true
+      "space_limited": true,
+      "duration": "1 hr",
+      "duration_minutes": 60,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 369,
@@ -9529,7 +11001,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 370,
@@ -9555,7 +11031,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "2:00 pm",
+      "end_time": ""
     },
     {
       "id": 371,
@@ -9581,7 +11061,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 372,
@@ -9607,7 +11091,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 373,
@@ -9632,7 +11120,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 374,
@@ -9658,7 +11150,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 375,
@@ -9683,7 +11179,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 376,
@@ -9707,7 +11207,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 377,
@@ -9731,7 +11235,11 @@
       "date": "April 11",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "4:00 pm",
+      "end_time": ""
     },
     {
       "id": 378,
@@ -9755,7 +11263,11 @@
       "date": "April 11",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:00 pm",
+      "end_time": ""
     },
     {
       "id": 379,
@@ -9781,7 +11293,11 @@
       "date": "April 11",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "2 hrs",
+      "duration_minutes": 120,
+      "start_time": "5:00pm",
+      "end_time": "7:00pm"
     },
     {
       "id": 380,
@@ -9807,7 +11323,11 @@
       "date": "April 11",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 381,
@@ -9832,7 +11352,11 @@
       "date": "April 11",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 382,
@@ -9857,7 +11381,11 @@
       "date": "April 11",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 383,
@@ -9881,7 +11409,11 @@
       "date": "April 11",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 384,
@@ -9907,7 +11439,11 @@
       "date": "April 11",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 385,
@@ -9932,7 +11468,11 @@
       "date": "April 11",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:30am",
+      "end_time": "10:30pm"
     },
     {
       "id": 386,
@@ -9956,7 +11496,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 387,
@@ -9980,7 +11524,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 388,
@@ -10004,7 +11552,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 389,
@@ -10028,7 +11580,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 390,
@@ -10052,7 +11608,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 391,
@@ -10076,7 +11636,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 392,
@@ -10100,7 +11664,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 393,
@@ -10124,7 +11692,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 394,
@@ -10148,7 +11720,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "11:00 am",
+      "end_time": ""
     },
     {
       "id": 395,
@@ -10172,7 +11748,11 @@
       "date": "April 12",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "3:00 pm",
+      "end_time": ""
     },
     {
       "id": 396,
@@ -10196,7 +11776,11 @@
       "date": "April 12",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "5:30 pm",
+      "end_time": ""
     },
     {
       "id": 397,
@@ -10222,7 +11806,11 @@
       "date": "April 12",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 398,
@@ -10247,7 +11835,11 @@
       "date": "April 12",
       "time_of_day": "Evening",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "6:00 pm",
+      "end_time": ""
     },
     {
       "id": 399,
@@ -10271,7 +11863,11 @@
       "date": "April 12",
       "time_of_day": "Morning",
       "sold_out": false,
-      "space_limited": false
+      "space_limited": false,
+      "duration": "",
+      "duration_minutes": 0,
+      "start_time": "8:30 am",
+      "end_time": ""
     }
   ]
 }

@@ -1,10 +1,10 @@
 /*
  * Design: Copper Circuit — Warm card with left category-colored accent
- * Includes: attendee count, capacity bar, sold out / filling up badges, description
+ * Includes: duration, attendee count, capacity bar, waitlist / filling up badges, description
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Clock, MapPin, ExternalLink, Lock, Users, Flame, XCircle, ChevronDown, ChevronUp } from "lucide-react";
+import { Clock, MapPin, ExternalLink, Lock, Users, Flame, Timer, ChevronDown, ChevronUp } from "lucide-react";
 import type { Event } from "@/data/types";
 import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
 
@@ -66,6 +66,7 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
   const cap = getCapacityInfo(event);
   const hasAttendeeData = event.going > 0 || event.interested > 0;
   const hasDescription = event.description && event.description.length > 0;
+  const hasDuration = event.duration && event.duration.length > 0;
 
   return (
     <motion.div
@@ -85,9 +86,8 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
           {(cap.isFull || cap.isFillingUp || cap.isAlmostFull) && (
             <div className="flex gap-1.5 mb-2">
               {cap.isFull && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-red-100 text-red-700 border border-red-200">
-                  <XCircle className="w-2.5 h-2.5" />
-                  SOLD OUT
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-300">
+                  WAITLIST
                 </span>
               )}
               {cap.isFillingUp && !cap.isFull && (
@@ -105,12 +105,21 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
             </div>
           )}
 
-          {/* Top row: time + city + invite badge */}
+          {/* Top row: time + duration + city + invite badge */}
           <div className="flex items-center gap-2 text-xs text-muted-foreground mb-1.5 flex-wrap">
             <span className="flex items-center gap-1 flex-shrink-0">
               <Clock className="w-3 h-3" />
-              {event.time}
+              {event.start_time || event.time}
+              {event.end_time && (
+                <span className="text-muted-foreground/60"> – {event.end_time}</span>
+              )}
             </span>
+            {hasDuration && (
+              <span className="flex items-center gap-0.5 text-primary/80 bg-primary/5 px-1.5 py-0.5 rounded-md text-[10px] font-medium flex-shrink-0">
+                <Timer className="w-2.5 h-2.5" />
+                {event.duration}
+              </span>
+            )}
             {event.city && (
               <span className="flex items-center gap-1 flex-shrink-0">
                 <MapPin className="w-3 h-3" />
@@ -236,7 +245,7 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
             <div className="flex flex-wrap gap-1 flex-1 min-w-0">
               {event.categories.slice(0, compact ? 1 : 2).map((cat) => {
                 const catColors = CATEGORY_COLORS[cat] || CATEGORY_COLORS["General Tech"];
-                const icon = CATEGORY_ICONS[cat] || "💡";
+                const icon = CATEGORY_ICONS[cat] || "\u{1F4A1}";
                 return (
                   <span
                     key={cat}

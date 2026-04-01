@@ -19,6 +19,10 @@ export interface Event {
   sold_out: boolean;
   space_limited: boolean;
   description?: string;
+  duration: string;
+  duration_minutes: number;
+  start_time: string;
+  end_time: string;
 }
 
 export interface EventsData {
