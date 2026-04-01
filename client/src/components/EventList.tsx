@@ -1,7 +1,7 @@
 /*
  * Design: Copper Circuit — Events grouped by Morning/Afternoon/Evening (normal)
  * or grouped by Day (when searching across all days)
- * Collapsible sections with thin timeline markers
+ * Color-coded section bars: amber=Morning, orange=Afternoon, indigo=Evening
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -18,9 +18,36 @@ interface EventListProps {
 }
 
 const TIME_SECTIONS = [
-  { key: "Morning", label: "Morning", sub: "Before 12 PM", Icon: Sun, color: "text-amber-500" },
-  { key: "Afternoon", label: "Afternoon", sub: "12 PM \u2013 5 PM", Icon: Cloud, color: "text-orange-500" },
-  { key: "Evening", label: "Evening", sub: "After 5 PM", Icon: Moon, color: "text-indigo-400" },
+  {
+    key: "Morning",
+    label: "Morning",
+    sub: "Before 12 PM",
+    Icon: Sun,
+    iconColor: "text-amber-600",
+    barBg: "bg-gradient-to-r from-amber-400 to-amber-300",
+    headerBg: "bg-amber-50/80",
+    badgeBg: "bg-amber-100 text-amber-700",
+  },
+  {
+    key: "Afternoon",
+    label: "Afternoon",
+    sub: "12 PM – 5 PM",
+    Icon: Cloud,
+    iconColor: "text-orange-600",
+    barBg: "bg-gradient-to-r from-orange-400 to-orange-300",
+    headerBg: "bg-orange-50/80",
+    badgeBg: "bg-orange-100 text-orange-700",
+  },
+  {
+    key: "Evening",
+    label: "Evening",
+    sub: "After 5 PM",
+    Icon: Moon,
+    iconColor: "text-indigo-600",
+    barBg: "bg-gradient-to-r from-indigo-400 to-indigo-300",
+    headerBg: "bg-indigo-50/80",
+    badgeBg: "bg-indigo-100 text-indigo-700",
+  },
 ];
 
 const DAY_SHORT: Record<string, string> = {
@@ -135,7 +162,7 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
                     transition={{ duration: 0.2 }}
                     className="overflow-hidden"
                   >
-                    <div className="px-4 py-2 space-y-2 sm:grid sm:grid-cols-2 sm:gap-3 sm:space-y-0 lg:grid-cols-3">
+                    <div className="px-4 py-2 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
                       {events.map((event, i) => (
                         <EventCard key={event.id} event={event} index={i} />
                       ))}
@@ -150,28 +177,32 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
     );
   }
 
-  // Normal mode: group by time of day
+  // Normal mode: group by time of day with colored section bars
   return (
     <div className="pb-24">
-      {TIME_SECTIONS.map(({ key, label, sub, Icon, color }) => {
+      {TIME_SECTIONS.map(({ key, label, sub, Icon, iconColor, barBg, headerBg, badgeBg }) => {
         const events = groupedEvents[key] || [];
         if (events.length === 0) return null;
         const isCollapsed = collapsed[key];
 
         return (
-          <div key={key} className="mb-2">
+          <div key={key} className="mb-3">
+            {/* Colored section header */}
             <button
               onClick={() => toggleSection(key)}
-              className="w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-2.5 bg-background/95 backdrop-blur-sm border-b border-border/30 tap-target"
+              className={`w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-3 ${headerBg} backdrop-blur-sm border-b border-border/30 tap-target relative overflow-hidden`}
             >
-              <div className={`flex items-center justify-center w-8 h-8 rounded-lg bg-secondary ${color}`}>
-                <Icon className="w-4 h-4" />
+              {/* Color bar on the left edge */}
+              <div className={`absolute left-0 top-0 bottom-0 w-1.5 ${barBg}`} />
+
+              <div className={`flex items-center justify-center w-9 h-9 rounded-xl bg-white/80 shadow-sm ${iconColor}`}>
+                <Icon className="w-5 h-5" />
               </div>
-              <div className="flex-1 text-left">
-                <span className="text-sm font-semibold text-foreground">{label}</span>
+              <div className="flex-1 text-left pl-1">
+                <span className="text-sm font-bold text-foreground">{label}</span>
                 <span className="text-xs text-muted-foreground ml-2">{sub}</span>
               </div>
-              <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full">
+              <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${badgeBg}`}>
                 {events.length}
               </span>
               <ChevronDown
@@ -190,7 +221,7 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
                   transition={{ duration: 0.2 }}
                   className="overflow-hidden"
                 >
-                  <div className="px-4 py-2 space-y-2 sm:grid sm:grid-cols-2 sm:gap-3 sm:space-y-0 lg:grid-cols-3">
+                  <div className="px-4 py-2 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
                     {events.map((event, i) => (
                       <EventCard key={event.id} event={event} index={i} />
                     ))}
