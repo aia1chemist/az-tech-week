@@ -1,5 +1,5 @@
 /*
- * Design: Copper Circuit — Compact sort bar with pill-style toggle options
+ * AZTW Light Theme — Sort bar with pill-style toggle options
  */
 import { Clock, TrendingUp, Flame, ArrowDownAZ } from "lucide-react";
 import type { SortOption } from "@/data/types";
@@ -19,19 +19,19 @@ const SORT_OPTIONS: { value: SortOption; label: string; shortLabel: string; Icon
 
 export default function SortBar({ sort, onSortChange, resultCount }: SortBarProps) {
   return (
-    <div className="flex items-center justify-between px-4 py-2 bg-background border-b border-border/30">
-      <p className="text-xs text-muted-foreground">
-        <span className="font-semibold text-foreground">{resultCount}</span> events
+    <div className="flex items-center justify-between px-4 py-2 border-b border-gray-200">
+      <p className="text-xs text-gray-500">
+        <span className="font-semibold text-gray-900">{resultCount}</span> events
       </p>
-      <div className="flex items-center gap-1 bg-secondary/50 rounded-lg p-0.5">
+      <div className="flex items-center gap-1 bg-gray-100 rounded-lg p-0.5 border border-gray-200">
         {SORT_OPTIONS.map(({ value, shortLabel, Icon }) => (
           <button
             key={value}
             onClick={() => onSortChange(value)}
             className={`flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-medium transition-all ${
               sort === value
-                ? "bg-card text-foreground shadow-sm"
-                : "text-muted-foreground hover:text-foreground"
+                ? "bg-white text-teal-700 shadow-sm border border-teal-300"
+                : "text-gray-500 hover:text-gray-700 border border-transparent"
             }`}
           >
             <Icon className="w-3 h-3" />

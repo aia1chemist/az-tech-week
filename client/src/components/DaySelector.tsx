@@ -1,6 +1,6 @@
 /*
- * Design: Copper Circuit — Horizontal scrollable day tabs with copper accent
- * Sticky on scroll, swipeable on mobile, shows event count per day
+ * AZTW Light Theme — Day selector tabs with teal active state
+ * Sticky, horizontally scrollable, shows event count per day
  */
 import { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
@@ -18,7 +18,6 @@ interface DaySelectorProps {
 export default function DaySelector({ selectedDay, onSelectDay }: DaySelectorProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  // Auto-scroll to selected day
   useEffect(() => {
     if (scrollRef.current) {
       const activeBtn = scrollRef.current.querySelector("[data-active='true']");
@@ -34,10 +33,10 @@ export default function DaySelector({ selectedDay, onSelectDay }: DaySelectorPro
   }, {});
 
   return (
-    <div className="sticky top-0 z-30 bg-background/95 backdrop-blur-md border-b border-border/50">
+    <div className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
       <div
         ref={scrollRef}
-        className="flex gap-1 px-4 py-2.5 overflow-x-auto scrollbar-hide sm:justify-center"
+        className="flex gap-1.5 px-4 py-3 overflow-x-auto scrollbar-hide sm:justify-center"
       >
         {data.days.map((day) => {
           const isActive = selectedDay === day;
@@ -51,27 +50,25 @@ export default function DaySelector({ selectedDay, onSelectDay }: DaySelectorPro
               key={day}
               data-active={isActive}
               onClick={() => onSelectDay(day)}
-              className={`relative flex flex-col items-center px-3.5 py-2 rounded-xl text-center transition-all duration-200 flex-shrink-0 tap-target ${
+              className={`relative flex flex-col items-center px-3.5 py-2 rounded-lg text-center transition-all duration-200 flex-shrink-0 tap-target ${
                 isActive
-                  ? "bg-primary text-primary-foreground shadow-md"
-                  : "bg-secondary/50 text-muted-foreground hover:bg-secondary"
+                  ? "bg-teal-50 text-teal-700 border border-teal-300 shadow-md shadow-teal-100"
+                  : "bg-gray-50 text-gray-500 hover:bg-gray-100 border border-transparent hover:border-gray-200"
               }`}
             >
-              <span className="text-[10px] font-medium uppercase tracking-wider">
+              <span className={`text-[10px] font-semibold uppercase tracking-wider ${isActive ? "text-teal-600" : ""}`}>
                 {dayName}
               </span>
-              <span className="text-sm font-bold leading-tight">{dateNum}</span>
-              <span
-                className={`text-[9px] mt-0.5 ${
-                  isActive ? "text-primary-foreground/80" : "text-muted-foreground/60"
-                }`}
-              >
+              <span className={`text-sm font-bold leading-tight ${isActive ? "text-teal-700" : "text-gray-800"}`}>
+                {dateNum}
+              </span>
+              <span className={`text-[9px] mt-0.5 ${isActive ? "text-teal-500" : "text-gray-400"}`}>
                 {dayCounts[day]} events
               </span>
               {isActive && (
                 <motion.div
                   layoutId="dayIndicator"
-                  className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full bg-primary"
+                  className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full bg-teal-500"
                   transition={{ type: "spring", stiffness: 400, damping: 30 }}
                 />
               )}

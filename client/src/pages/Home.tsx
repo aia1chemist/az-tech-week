@@ -1,7 +1,6 @@
 /*
- * Design: Copper Circuit — Warm, Scandinavian-meets-Southwest
- * Mobile-first event calendar with day tabs, filters, time-grouped cards
- * Search mode: searches across ALL days and groups results by day
+ * AZTW Light Theme — Clean, mobile-first event calendar
+ * Features: bookmarks, cross-day search, trending, sort, filters
  */
 import { useEvents } from "@/hooks/useEvents";
 import { useSwipe } from "@/hooks/useSwipe";
@@ -25,10 +24,8 @@ export default function Home() {
     clearFilters,
     nextDay,
     prevDay,
-    allDays,
     allCities,
     allCategories,
-    dayStats,
     activeFilterCount,
     totalEvents,
     isSearchActive,
@@ -38,9 +35,9 @@ export default function Home() {
   const swipeHandlers = useSwipe(nextDay, prevDay);
 
   return (
-    <div className="min-h-screen bg-background" {...swipeHandlers}>
+    <div className="min-h-screen bg-gray-50" {...swipeHandlers}>
       {/* Hero */}
-      <HeroSection totalEvents={totalEvents} totalCities={allCities.length} />
+      <HeroSection />
 
       {/* Day Selector — sticky (dimmed when searching across all days) */}
       <div className={isSearchActive ? "opacity-40 pointer-events-none" : ""}>
@@ -68,7 +65,7 @@ export default function Home() {
         resultCount={events.length}
       />
 
-      {/* Sort Bar — hide when searching (search has its own sort) */}
+      {/* Sort Bar — hide when searching */}
       {!isSearchActive && (
         <div className="max-w-6xl mx-auto">
           <SortBar
@@ -93,31 +90,73 @@ export default function Home() {
       <ScrollToTop />
 
       {/* Footer */}
-      <footer className="border-t border-border/40 bg-secondary/30 py-6 px-4 text-center">
-        <p className="text-xs text-muted-foreground">
-          Data sourced from{" "}
-          <a
-            href="https://www.azcommerce.com/az-tech-week/aztw-calendar/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
-            AZ Commerce
-          </a>{" "}
-          &amp;{" "}
-          <a
-            href="https://partiful.com/u/VY4cqhQoiBhJ9W9fLIqC"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
-            Partiful
-          </a>
-          . Not an official AZ Tech Week product.
-        </p>
-        <p className="text-[10px] text-muted-foreground/60 mt-1">
-          {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona
-        </p>
+      <footer className="border-t border-gray-200 bg-white py-8 px-4">
+        <div className="max-w-lg mx-auto text-center space-y-3">
+          {/* Credits */}
+          <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
+            <span>Made by</span>
+            <a
+              href="https://www.linkedin.com/in/tlegwinski/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-600 hover:text-teal-700 font-semibold transition-colors"
+            >
+              Trevor Legwinski
+            </a>
+          </div>
+
+          <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
+            <span>Powered by</span>
+            <a
+              href="https://manus.im"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-600 hover:text-teal-700 font-semibold transition-colors"
+            >
+              Manus AI
+            </a>
+          </div>
+
+          {/* Last Updated & Version */}
+          <div className="pt-2 border-t border-gray-100">
+            <div className="flex items-center justify-center gap-1.5 text-[11px] text-gray-500">
+              <svg className="w-3.5 h-3.5 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span>Last updated: April 1, 2026</span>
+              <span className="text-gray-300">|</span>
+              <span className="text-gray-400">Updated every 12 hours</span>
+            </div>
+          </div>
+
+          {/* Data sources */}
+          <div className="pt-2 border-t border-gray-100">
+            <p className="text-[10px] text-gray-400">
+              Data sourced from{" "}
+              <a
+                href="https://www.azcommerce.com/az-tech-week/aztw-calendar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-600 transition-colors"
+              >
+                AZ Commerce
+              </a>{" "}
+              &amp;{" "}
+              <a
+                href="https://partiful.com/u/VY4cqhQoiBhJ9W9fLIqC"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-600 transition-colors"
+              >
+                Partiful
+              </a>
+              . Not an official AZ Tech Week product.
+            </p>
+            <p className="text-[10px] text-gray-300 mt-1">
+              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v2.0
+            </p>
+          </div>
+        </div>
       </footer>
     </div>
   );

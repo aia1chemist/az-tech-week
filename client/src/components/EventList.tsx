@@ -1,13 +1,11 @@
 /*
- * Design: Copper Circuit — Events grouped by Morning/Afternoon/Evening (normal)
- * or grouped by Day (when searching across all days)
- * Color-coded section bars: amber=Morning, orange=Afternoon, indigo=Evening
+ * AZTW Light Theme — Events grouped by Morning/Afternoon/Evening
+ * or by Day (search mode). Clean white bg with colored section accents.
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Cloud, Moon, ChevronDown, Calendar, Search } from "lucide-react";
 import type { Event } from "@/data/types";
-
 import EventCard from "./EventCard";
 
 interface EventListProps {
@@ -23,30 +21,33 @@ const TIME_SECTIONS = [
     label: "Morning",
     sub: "Before 12 PM",
     Icon: Sun,
+    iconBg: "bg-amber-100",
     iconColor: "text-amber-600",
-    barBg: "bg-gradient-to-r from-amber-400 to-amber-300",
-    headerBg: "bg-amber-50/80",
-    badgeBg: "bg-amber-100 text-amber-700",
+    barColor: "bg-gradient-to-r from-amber-400 to-amber-300",
+    badgeBg: "bg-amber-100 text-amber-700 border border-amber-200",
+    sectionBg: "bg-amber-50/50",
   },
   {
     key: "Afternoon",
     label: "Afternoon",
     sub: "12 PM – 5 PM",
     Icon: Cloud,
+    iconBg: "bg-orange-100",
     iconColor: "text-orange-600",
-    barBg: "bg-gradient-to-r from-orange-400 to-orange-300",
-    headerBg: "bg-orange-50/80",
-    badgeBg: "bg-orange-100 text-orange-700",
+    barColor: "bg-gradient-to-r from-orange-400 to-orange-300",
+    badgeBg: "bg-orange-100 text-orange-700 border border-orange-200",
+    sectionBg: "bg-orange-50/50",
   },
   {
     key: "Evening",
     label: "Evening",
     sub: "After 5 PM",
     Icon: Moon,
+    iconBg: "bg-indigo-100",
     iconColor: "text-indigo-600",
-    barBg: "bg-gradient-to-r from-indigo-400 to-indigo-300",
-    headerBg: "bg-indigo-50/80",
-    badgeBg: "bg-indigo-100 text-indigo-700",
+    barColor: "bg-gradient-to-r from-indigo-400 to-indigo-300",
+    badgeBg: "bg-indigo-100 text-indigo-700 border border-indigo-200",
+    sectionBg: "bg-indigo-50/50",
   },
 ];
 
@@ -80,15 +81,11 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
   if (totalFiltered === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-16 px-4 text-center">
-        <div className="w-16 h-16 rounded-full bg-secondary flex items-center justify-center mb-4">
-          {isSearchMode ? (
-            <Search className="w-7 h-7 text-muted-foreground" />
-          ) : (
-            <Calendar className="w-7 h-7 text-muted-foreground" />
-          )}
+        <div className="w-16 h-16 rounded-full bg-gray-100 border border-gray-200 flex items-center justify-center mb-4">
+          {isSearchMode ? <Search className="w-7 h-7 text-gray-400" /> : <Calendar className="w-7 h-7 text-gray-400" />}
         </div>
-        <h3 className="text-lg font-semibold text-foreground mb-1">No events found</h3>
-        <p className="text-sm text-muted-foreground max-w-xs">
+        <h3 className="text-lg font-semibold text-gray-900 mb-1">No events found</h3>
+        <p className="text-sm text-gray-500 max-w-xs">
           {isSearchMode
             ? "No events match your search across any day. Try different keywords."
             : "Try adjusting your filters or searching for something different."}
@@ -103,21 +100,17 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
 
     return (
       <div className="pb-24">
-        {/* Search results banner */}
-        <div className="mx-4 mb-3 px-4 py-3 bg-primary/5 border border-primary/15 rounded-xl">
+        <div className="mx-4 mb-3 px-4 py-3 bg-teal-50 border border-teal-200 rounded-lg">
           <div className="flex items-center gap-2 mb-1">
-            <Search className="w-4 h-4 text-primary" />
-            <span className="text-sm font-semibold text-foreground">
+            <Search className="w-4 h-4 text-teal-600" />
+            <span className="text-sm font-semibold text-gray-900">
               {totalFiltered} result{totalFiltered !== 1 ? "s" : ""} across all days
             </span>
           </div>
           {searchDayBreakdown && (
             <div className="flex flex-wrap gap-1.5 mt-1.5">
               {DAY_ORDER.filter((d) => searchDayBreakdown[d]).map((d) => (
-                <span
-                  key={d}
-                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-primary/10 text-primary"
-                >
+                <span key={d} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-teal-100 text-teal-700 border border-teal-200">
                   {DAY_SHORT[d] || d}: {searchDayBreakdown[d]}
                 </span>
               ))}
@@ -134,25 +127,20 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
             <div key={day} className="mb-2">
               <button
                 onClick={() => toggleSection(day)}
-                className="w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-2.5 bg-background/95 backdrop-blur-sm border-b border-border/30 tap-target"
+                className="w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-2.5 bg-white/95 backdrop-blur-sm border-b border-gray-200 tap-target"
               >
-                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary/10 text-primary">
+                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-teal-100 text-teal-600">
                   <Calendar className="w-4 h-4" />
                 </div>
                 <div className="flex-1 text-left">
-                  <span className="text-sm font-semibold text-foreground">{shortDay}</span>
-                  <span className="text-xs text-muted-foreground ml-2">{day.split(",")[0]}</span>
+                  <span className="text-sm font-semibold text-gray-900">{shortDay}</span>
+                  <span className="text-xs text-gray-500 ml-2">{day.split(",")[0]}</span>
                 </div>
-                <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full">
+                <span className="text-xs font-medium text-gray-600 bg-gray-100 px-2 py-0.5 rounded-full border border-gray-200">
                   {events.length}
                 </span>
-                <ChevronDown
-                  className={`w-4 h-4 text-muted-foreground transition-transform duration-200 ${
-                    isCollapsed ? "-rotate-90" : ""
-                  }`}
-                />
+                <ChevronDown className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${isCollapsed ? "-rotate-90" : ""}`} />
               </button>
-
               <AnimatePresence initial={false}>
                 {!isCollapsed && (
                   <motion.div
@@ -177,41 +165,35 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
     );
   }
 
-  // Normal mode: group by time of day with colored section bars
+  // Normal mode: group by time of day
   return (
     <div className="pb-24">
-      {TIME_SECTIONS.map(({ key, label, sub, Icon, iconColor, barBg, headerBg, badgeBg }) => {
+      {TIME_SECTIONS.map(({ key, label, sub, Icon, iconBg, iconColor, barColor, badgeBg, sectionBg }) => {
         const events = groupedEvents[key] || [];
         if (events.length === 0) return null;
         const isCollapsed = collapsed[key];
 
         return (
           <div key={key} className="mb-3">
-            {/* Colored section header */}
             <button
               onClick={() => toggleSection(key)}
-              className={`w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-3 ${headerBg} backdrop-blur-sm border-b border-border/30 tap-target relative overflow-hidden`}
+              className={`w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-3 ${sectionBg} backdrop-blur-sm border-y border-gray-200 tap-target relative overflow-hidden`}
             >
-              {/* Color bar on the left edge */}
-              <div className={`absolute left-0 top-0 bottom-0 w-1.5 ${barBg}`} />
+              {/* Color bar on left edge */}
+              <div className={`absolute left-0 top-0 bottom-0 w-1.5 ${barColor}`} />
 
-              <div className={`flex items-center justify-center w-9 h-9 rounded-xl bg-white/80 shadow-sm ${iconColor}`}>
+              <div className={`flex items-center justify-center w-9 h-9 rounded-lg ${iconBg} ${iconColor}`}>
                 <Icon className="w-5 h-5" />
               </div>
               <div className="flex-1 text-left pl-1">
-                <span className="text-sm font-bold text-foreground">{label}</span>
-                <span className="text-xs text-muted-foreground ml-2">{sub}</span>
+                <span className="text-sm font-bold text-gray-900">{label}</span>
+                <span className="text-xs text-gray-500 ml-2">{sub}</span>
               </div>
               <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${badgeBg}`}>
                 {events.length}
               </span>
-              <ChevronDown
-                className={`w-4 h-4 text-muted-foreground transition-transform duration-200 ${
-                  isCollapsed ? "-rotate-90" : ""
-                }`}
-              />
+              <ChevronDown className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${isCollapsed ? "-rotate-90" : ""}`} />
             </button>
-
             <AnimatePresence initial={false}>
               {!isCollapsed && (
                 <motion.div

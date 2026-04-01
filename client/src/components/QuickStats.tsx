@@ -1,6 +1,5 @@
 /*
- * Design: Copper Circuit — Quick stats bar showing day summary
- * Compact horizontal row with key metrics for selected day
+ * AZTW Light Theme — Quick stats bar for selected day
  */
 import { useMemo } from "react";
 import { Sparkles, MapPin, Tag, Users, Flame } from "lucide-react";
@@ -33,31 +32,31 @@ export default function QuickStats({ selectedDay }: QuickStatsProps) {
   }, [selectedDay]);
 
   return (
-    <div className="px-4 py-2.5 bg-secondary/30 border-b border-border/30">
-      <div className="flex items-center justify-center gap-3 sm:gap-6 text-xs text-muted-foreground flex-wrap">
+    <div className="px-4 py-2.5 border-b border-gray-200">
+      <div className="flex items-center justify-center gap-3 sm:gap-6 text-xs text-gray-500 flex-wrap">
         <span className="flex items-center gap-1">
-          <Sparkles className="w-3 h-3 text-primary" />
-          <span className="font-semibold text-foreground">{stats.total}</span> events
+          <Sparkles className="w-3 h-3 text-teal-500" />
+          <span className="font-semibold text-gray-900">{stats.total}</span> events
         </span>
-        <span className="w-px h-3 bg-border" />
+        <span className="w-px h-3 bg-gray-300" />
         <span className="flex items-center gap-1">
-          <MapPin className="w-3 h-3 text-primary" />
-          <span className="font-semibold text-foreground">{stats.cities}</span> cities
+          <MapPin className="w-3 h-3 text-teal-500" />
+          <span className="font-semibold text-gray-900">{stats.cities}</span> cities
         </span>
-        <span className="w-px h-3 bg-border" />
+        <span className="w-px h-3 bg-gray-300" />
         <span className="flex items-center gap-1">
-          <Tag className="w-3 h-3 text-primary" />
-          <span className="font-semibold text-foreground">{stats.categories}</span> topics
+          <Tag className="w-3 h-3 text-teal-500" />
+          <span className="font-semibold text-gray-900">{stats.categories}</span> topics
         </span>
-        <span className="w-px h-3 bg-border" />
+        <span className="w-px h-3 bg-gray-300" />
         <span className="flex items-center gap-1">
-          <Users className="w-3 h-3 text-primary" />
-          <span className="font-semibold text-foreground">{stats.publicEvents}</span> open
+          <Users className="w-3 h-3 text-teal-500" />
+          <span className="font-semibold text-gray-900">{stats.publicEvents}</span> open
         </span>
         {stats.fillingUp > 0 && (
           <>
-            <span className="w-px h-3 bg-border" />
-            <span className="flex items-center gap-1 text-orange-600">
+            <span className="w-px h-3 bg-gray-300" />
+            <span className="flex items-center gap-1 text-orange-500">
               <Flame className="w-3 h-3" />
               <span className="font-semibold">{stats.fillingUp}</span> filling up
             </span>

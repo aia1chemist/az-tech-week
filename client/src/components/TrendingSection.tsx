@@ -1,10 +1,9 @@
 /*
- * Design: Copper Circuit — Horizontal scrollable trending events
- * Shows the hottest events for the selected day with fire/trending indicators
+ * AZTW Light Theme — Trending events horizontal carousel
+ * Shows hottest events with compact cards, teal accents
  */
 import { useRef } from "react";
-import { motion } from "framer-motion";
-import { TrendingUp, Users, Flame, ChevronLeft, ChevronRight } from "lucide-react";
+import { Flame, Clock, MapPin, ExternalLink, ChevronLeft, ChevronRight, Users } from "lucide-react";
 import type { Event } from "@/data/types";
 import { CATEGORY_ICONS } from "@/data/types";
 
@@ -25,117 +24,101 @@ export default function TrendingSection({ events }: TrendingSectionProps) {
 
   if (events.length === 0) return null;
 
-  const scroll = (direction: "left" | "right") => {
+  const scroll = (dir: "left" | "right") => {
     if (scrollRef.current) {
-      const amount = direction === "left" ? -260 : 260;
-      scrollRef.current.scrollBy({ left: amount, behavior: "smooth" });
+      const amount = scrollRef.current.clientWidth * 0.7;
+      scrollRef.current.scrollBy({ left: dir === "left" ? -amount : amount, behavior: "smooth" });
     }
   };
 
   return (
-    <div className="bg-gradient-to-r from-amber-50/80 via-orange-50/50 to-amber-50/80 border-b border-amber-200/40">
+    <div className="py-4 px-4">
       <div className="max-w-6xl mx-auto">
-        {/* Section header */}
-        <div className="flex items-center justify-between px-4 pt-3 pb-1">
+        {/* Header */}
+        <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
-            <div className="flex items-center justify-center w-6 h-6 rounded-md bg-orange-100">
-              <TrendingUp className="w-3.5 h-3.5 text-orange-600" />
+            <div className="flex items-center justify-center w-7 h-7 rounded-lg bg-orange-100">
+              <Flame className="w-4 h-4 text-orange-500" />
             </div>
-            <h2 className="text-sm font-bold text-foreground">Trending Today</h2>
-            <span className="text-[10px] text-muted-foreground bg-secondary/80 px-1.5 py-0.5 rounded-full">
-              {events.length}
-            </span>
+            <h2 className="text-sm font-bold text-gray-900 uppercase tracking-wide">Trending Today</h2>
           </div>
           <div className="hidden sm:flex gap-1">
-            <button
-              onClick={() => scroll("left")}
-              className="p-1 rounded-md hover:bg-secondary transition-colors"
-            >
-              <ChevronLeft className="w-4 h-4 text-muted-foreground" />
+            <button onClick={() => scroll("left")} className="p-1.5 rounded-lg bg-white border border-gray-200 hover:border-gray-300 text-gray-400 hover:text-gray-600 transition-all">
+              <ChevronLeft className="w-4 h-4" />
             </button>
-            <button
-              onClick={() => scroll("right")}
-              className="p-1 rounded-md hover:bg-secondary transition-colors"
-            >
-              <ChevronRight className="w-4 h-4 text-muted-foreground" />
+            <button onClick={() => scroll("right")} className="p-1.5 rounded-lg bg-white border border-gray-200 hover:border-gray-300 text-gray-400 hover:text-gray-600 transition-all">
+              <ChevronRight className="w-4 h-4" />
             </button>
           </div>
         </div>
 
         {/* Scrollable cards */}
-        <div
-          ref={scrollRef}
-          className="flex gap-3 px-4 pb-3 overflow-x-auto scrollbar-hide snap-x snap-mandatory"
-        >
-          {events.map((event, i) => {
+        <div ref={scrollRef} className="flex gap-3 overflow-x-auto scrollbar-hide pb-1 -mx-1 px-1">
+          {events.map((event) => {
             const isFull = event.spots_left === 0 || event.sold_out;
-            const isFillingUp = event.spots_left > 0 && event.spots_left <= 10;
-            const icon = CATEGORY_ICONS[event.categories[0]] || "💡";
-            const title = cleanTitle(event.title) || event.title;
+            const icon = CATEGORY_ICONS[event.categories[0]] || "\u{1F4A1}";
+            const title = cleanTitle(event.title);
 
             return (
-              <motion.a
+              <a
                 key={event.id}
                 href={event.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 0.05, duration: 0.2 }}
-                className="flex-shrink-0 w-[220px] sm:w-[240px] snap-start bg-card rounded-xl border border-border/60 shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden group"
+                className="flex-shrink-0 w-56 sm:w-64 bg-white border border-gray-200 hover:border-teal-300 rounded-lg p-3 transition-all hover:shadow-lg hover:shadow-teal-50 group"
               >
-                <div className="p-3">
-                  {/* Status badge */}
-                  {(isFull || isFillingUp) && (
-                    <div className="mb-1.5">
-                      {isFull ? (
-                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-amber-100 text-amber-800 border border-amber-300">
-                          WAITLIST
-                        </span>
-                      ) : (
-                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-orange-100 text-orange-700 animate-pulse">
-                          <Flame className="w-2 h-2" />
-                          {event.spots_left} LEFT
-                        </span>
-                      )}
-                    </div>
-                  )}
+                {/* Status */}
+                {isFull && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-700 border border-amber-300 mb-2">
+                    WAITLIST
+                  </span>
+                )}
+                {!isFull && event.spots_left > 0 && event.spots_left <= 10 && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-orange-100 text-orange-700 border border-orange-300 mb-2">
+                    <Flame className="w-2.5 h-2.5" /> {event.spots_left} spots left
+                  </span>
+                )}
 
-                  {/* Icon + Title */}
-                  <div className="flex items-start gap-2 mb-1.5">
-                    <span className="text-base flex-shrink-0 mt-0.5">{icon}</span>
-                    <h3 className="text-xs font-semibold text-card-foreground leading-snug line-clamp-2 group-hover:text-primary transition-colors">
-                      {title}
-                    </h3>
-                  </div>
-
-                  {/* Time + City */}
-                  <p className="text-[10px] text-muted-foreground mb-1.5 truncate">
-                    {event.time} · {event.city}
-                  </p>
-
-                  {/* Organizer */}
-                  <p className="text-[10px] text-muted-foreground/70 mb-2 truncate">
-                    by {event.organizer}
-                  </p>
-
-                  {/* Stats row */}
-                  <div className="flex items-center gap-2 text-[10px] text-muted-foreground">
-                    {event.going > 0 && (
-                      <span className="flex items-center gap-0.5">
-                        <Users className="w-2.5 h-2.5 text-primary" />
-                        <span className="font-semibold text-foreground">{event.going}</span> going
-                      </span>
-                    )}
-                    {event.interested > 0 && (
-                      <span>{event.interested} interested</span>
-                    )}
-                    {event.capacity > 0 && !event.going && !event.interested && (
-                      <span>{event.capacity} spots</span>
-                    )}
-                  </div>
+                {/* Category icon + title */}
+                <div className="flex items-start gap-2 mb-2">
+                  <span className="text-base flex-shrink-0 mt-0.5">{icon}</span>
+                  <h3 className="text-sm font-semibold text-gray-900 leading-snug line-clamp-2 group-hover:text-teal-600 transition-colors">
+                    {title}
+                  </h3>
                 </div>
-              </motion.a>
+
+                {/* Time + City */}
+                <div className="flex items-center gap-3 text-[11px] text-gray-500 mb-1.5">
+                  <span className="flex items-center gap-1">
+                    <Clock className="w-3 h-3 text-teal-500" />
+                    {event.start_time || event.time}
+                  </span>
+                  {event.city && (
+                    <span className="flex items-center gap-1">
+                      <MapPin className="w-3 h-3 text-teal-500" />
+                      {event.city}
+                    </span>
+                  )}
+                </div>
+
+                {/* Organizer */}
+                <p className="text-[10px] text-gray-400 truncate mb-2">
+                  by {event.organizer}
+                </p>
+
+                {/* Attendee count + RSVP */}
+                <div className="flex items-center justify-between">
+                  {event.going > 0 && (
+                    <span className="flex items-center gap-1 text-[11px] text-gray-500">
+                      <Users className="w-3 h-3 text-teal-500" />
+                      <span className="font-semibold text-gray-800">{event.going}</span> going
+                    </span>
+                  )}
+                  <span className={`ml-auto inline-flex items-center gap-1 text-[11px] font-semibold ${isFull ? "text-amber-600" : "text-teal-600"}`}>
+                    {isFull ? "Waitlist" : "RSVP"} <ExternalLink className="w-3 h-3" />
+                  </span>
+                </div>
+              </a>
             );
           })}
         </div>

@@ -1,80 +1,236 @@
 /*
- * Design: Copper Circuit — Warm hero with desert tech imagery
- * Compact on mobile, shows key stats, scrolls to content
+ * AZTW Light Theme Hero — Bold uppercase, teal accents, animated counters
+ * Shows: total events, attendees, open slots, global capacity bar, day density
  */
+import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { CalendarDays, MapPin, Sparkles, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
+import eventsData from "@/data/events.json";
+import type { EventsData } from "@/data/types";
 
-const HERO_DESKTOP = "https://d2xsxph8kpxj0f.cloudfront.net/310519663332946355/akrRM8ZRc9zFgPZYYwkCrW/hero-banner-26FVEgmdJnLhmYKAfMrXei.webp";
-const HERO_MOBILE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663332946355/akrRM8ZRc9zFgPZYYwkCrW/hero-mobile-msd3rB4tkT2GVC2AYiM7fu.webp";
+const data = eventsData as EventsData;
 
-interface HeroSectionProps {
-  totalEvents: number;
-  totalCities: number;
+const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663332946355/akrRM8ZRc9zFgPZYYwkCrW/hero-banner-26FVEgmdJnLhmYKAfMrXei.webp";
+
+/* Animated counter hook */
+function useAnimatedCounter(target: number, duration = 1500) {
+  const [count, setCount] = useState(0);
+  const started = useRef(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (started.current) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !started.current) {
+          started.current = true;
+          const start = performance.now();
+          const animate = (now: number) => {
+            const elapsed = now - start;
+            const progress = Math.min(elapsed / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            setCount(Math.floor(eased * target));
+            if (progress < 1) requestAnimationFrame(animate);
+          };
+          requestAnimationFrame(animate);
+        }
+      },
+      { threshold: 0.3 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [target, duration]);
+
+  return { count, ref };
 }
 
-export default function HeroSection({ totalEvents, totalCities }: HeroSectionProps) {
+/* Compute global stats */
+function computeStats() {
+  let totalGoing = 0;
+  let totalCapacity = 0;
+  let totalFilled = 0;
+  const dayStats: Record<string, { events: number; going: number; capacity: number; filled: number }> = {};
+
+  for (const day of data.days) {
+    dayStats[day] = { events: 0, going: 0, capacity: 0, filled: 0 };
+  }
+
+  for (const e of data.events) {
+    totalGoing += e.going || 0;
+    if (e.capacity > 0) {
+      totalCapacity += e.capacity;
+      const filled = e.spots_left >= 0 ? e.capacity - e.spots_left : 0;
+      totalFilled += filled;
+    }
+    if (dayStats[e.full_date]) {
+      dayStats[e.full_date].events += 1;
+      dayStats[e.full_date].going += e.going || 0;
+      if (e.capacity > 0) {
+        dayStats[e.full_date].capacity += e.capacity;
+        dayStats[e.full_date].filled += e.spots_left >= 0 ? e.capacity - e.spots_left : 0;
+      }
+    }
+  }
+
+  const totalOpenSlots = totalCapacity - totalFilled;
+  const fillPct = totalCapacity > 0 ? Math.round((totalFilled / totalCapacity) * 100) : 0;
+
+  return { totalGoing, totalCapacity, totalFilled, totalOpenSlots, fillPct, dayStats };
+}
+
+const stats = computeStats();
+
+const DAY_LABELS: Record<string, { short: string }> = {
+  "Monday, April 6": { short: "Mon" },
+  "Tuesday, April 7": { short: "Tue" },
+  "Wednesday, April 8": { short: "Wed" },
+  "Thursday, April 9": { short: "Thu" },
+  "Friday, April 10": { short: "Fri" },
+  "Saturday, April 11": { short: "Sat" },
+  "Sunday, April 12": { short: "Sun" },
+};
+
+export default function HeroSection() {
+  const eventsCounter = useAnimatedCounter(data.events.length);
+  const goingCounter = useAnimatedCounter(stats.totalGoing);
+  const slotsCounter = useAnimatedCounter(stats.totalOpenSlots);
+
+  const maxEvents = Math.max(...Object.values(stats.dayStats).map((d) => d.events));
+
   return (
     <div className="relative overflow-hidden">
-      {/* Background Image */}
+      {/* Background */}
       <div className="absolute inset-0">
-        <picture>
-          <source media="(max-width: 640px)" srcSet={HERO_MOBILE} />
-          <img
-            src={HERO_DESKTOP}
-            alt="Arizona desert skyline at sunset"
-            className="w-full h-full object-cover"
-          />
-        </picture>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
+        <img src={HERO_IMG} alt="" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-white" />
       </div>
 
       {/* Content */}
-      <div className="relative px-4 pt-10 pb-8 sm:pt-16 sm:pb-12 text-center">
+      <div className="relative px-4 pt-12 pb-8 sm:pt-20 sm:pb-12">
+        {/* Date badge */}
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4 }}
+          className="flex justify-center mb-4"
+        >
+          <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white text-xs font-semibold tracking-widest uppercase">
+            April 6 – 12, 2026
+          </span>
+        </motion.div>
+
+        {/* Title */}
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="text-center font-display text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tight text-white leading-none mb-2"
+          style={{ textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}
+        >
+          AZ Tech Week
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="text-center text-sm sm:text-base text-white/80 max-w-md mx-auto mb-8"
+          style={{ textShadow: "0 1px 4px rgba(0,0,0,0.3)" }}
+        >
+          Arizona's inaugural tech week. Every event. One calendar.
+        </motion.p>
+
+        {/* Animated stat counters — glass card */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="max-w-lg mx-auto mb-6 bg-white/90 backdrop-blur-md rounded-xl border border-gray-200 shadow-lg"
         >
-          <p className="text-xs sm:text-sm font-medium tracking-widest uppercase text-amber-300 mb-2">
-            April 6 – 12, 2026 &middot; Arizona
-          </p>
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-3">
-            AZ Tech Week
-          </h1>
-          <p className="text-sm sm:text-base text-white/80 max-w-lg mx-auto mb-6">
-            Arizona's inaugural tech week. Browse every event, filter by what matters to you, and RSVP in one tap.
-          </p>
+          <div className="flex items-stretch justify-center divide-x divide-gray-200">
+            <div ref={eventsCounter.ref} className="flex-1 text-center px-3 py-4">
+              <div className="text-2xl sm:text-3xl font-black text-teal-600 font-display">{eventsCounter.count}+</div>
+              <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider font-medium">Events</div>
+            </div>
+            <div ref={goingCounter.ref} className="flex-1 text-center px-3 py-4">
+              <div className="text-2xl sm:text-3xl font-black text-emerald-600 font-display">{goingCounter.count.toLocaleString()}+</div>
+              <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider font-medium">Going</div>
+            </div>
+            <div ref={slotsCounter.ref} className="flex-1 text-center px-3 py-4">
+              <div className="text-2xl sm:text-3xl font-black text-orange-600 font-display">{slotsCounter.count.toLocaleString()}+</div>
+              <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider font-medium">Open Spots</div>
+            </div>
+          </div>
 
-          {/* Stats Row */}
-          <div className="flex items-center justify-center gap-4 sm:gap-8">
-            <div className="flex items-center gap-1.5 text-white/90">
-              <Sparkles className="w-4 h-4 text-amber-300" />
-              <span className="text-sm font-semibold">{totalEvents}+</span>
-              <span className="text-xs text-white/70">Events</span>
+          {/* Global capacity bar */}
+          <div className="px-4 pb-4">
+            <div className="flex items-center justify-between text-[10px] text-gray-500 uppercase tracking-wider mb-1.5">
+              <span>Overall Capacity</span>
+              <span className="text-teal-600 font-bold">{stats.fillPct}% Full</span>
             </div>
-            <div className="w-px h-4 bg-white/30" />
-            <div className="flex items-center gap-1.5 text-white/90">
-              <CalendarDays className="w-4 h-4 text-amber-300" />
-              <span className="text-sm font-semibold">7</span>
-              <span className="text-xs text-white/70">Days</span>
+            <div className="h-2.5 rounded-full bg-gray-100 overflow-hidden border border-gray-200">
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: `${stats.fillPct}%` }}
+                transition={{ duration: 1.2, delay: 0.5, ease: "easeOut" }}
+                className={`h-full rounded-full ${
+                  stats.fillPct >= 80 ? "bg-gradient-to-r from-red-400 to-red-500" :
+                  stats.fillPct >= 50 ? "bg-gradient-to-r from-amber-400 to-orange-500" :
+                  "bg-gradient-to-r from-teal-400 to-teal-500"
+                }`}
+              />
             </div>
-            <div className="w-px h-4 bg-white/30" />
-            <div className="flex items-center gap-1.5 text-white/90">
-              <MapPin className="w-4 h-4 text-amber-300" />
-              <span className="text-sm font-semibold">{totalCities}</span>
-              <span className="text-xs text-white/70">Cities</span>
-            </div>
+          </div>
+        </motion.div>
+
+        {/* Day density heatmap — glass card */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          className="max-w-sm mx-auto bg-white/90 backdrop-blur-md rounded-xl border border-gray-200 shadow-lg p-4"
+        >
+          <div className="text-[10px] text-gray-500 uppercase tracking-wider mb-3 text-center font-semibold">Event Density by Day</div>
+          <div className="flex gap-1.5 justify-center">
+            {data.days.map((day) => {
+              const ds = stats.dayStats[day];
+              const intensity = ds.events / maxEvents;
+              const fillPct = ds.capacity > 0 ? Math.round((ds.filled / ds.capacity) * 100) : 0;
+              const label = DAY_LABELS[day] || { short: day };
+
+              return (
+                <div key={day} className="flex flex-col items-center gap-1">
+                  <div
+                    className="w-9 h-9 sm:w-11 sm:h-11 rounded-lg flex items-center justify-center text-[10px] sm:text-xs font-bold border transition-all"
+                    style={{
+                      backgroundColor: intensity > 0.7 ? "#0d9488" : intensity > 0.4 ? "#5eead4" : "#ccfbf1",
+                      borderColor: intensity > 0.7 ? "#0f766e" : intensity > 0.4 ? "#14b8a6" : "#99f6e4",
+                      color: intensity > 0.5 ? "white" : "#0f766e",
+                    }}
+                  >
+                    {ds.events}
+                  </div>
+                  <span className="text-[9px] text-gray-500 font-medium">{label.short}</span>
+                  {fillPct > 0 && (
+                    <span className={`text-[8px] font-bold ${
+                      fillPct >= 70 ? "text-red-500" : fillPct >= 40 ? "text-amber-500" : "text-teal-500"
+                    }`}>
+                      {fillPct}%
+                    </span>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </motion.div>
 
         {/* Scroll indicator */}
         <motion.div
-          className="mt-6"
+          className="mt-6 flex justify-center"
           animate={{ y: [0, 6, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
         >
-          <ChevronDown className="w-5 h-5 text-white/50 mx-auto" />
+          <ChevronDown className="w-5 h-5 text-gray-400" />
         </motion.div>
       </div>
     </div>

@@ -1,7 +1,6 @@
 /*
- * Design: Copper Circuit — Warm card with left category-colored accent
- * h-full for equal height in grid rows
- * Consistent metadata: time range, duration, city, invite-only badge
+ * AZTW Light Theme — Event card with left accent stripe
+ * h-full for equal height, white card bg, teal accents, clear borders
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -16,26 +15,26 @@ interface EventCardProps {
 }
 
 const ACCENT_COLORS: Record<string, string> = {
-  "AI & Machine Learning": "#b87333",
-  "Arts & Entertainment": "#d4688e",
-  "Blockchain & Crypto": "#7c3aed",
-  "Cybersecurity": "#dc2626",
-  "Data & Analytics": "#0891b2",
+  "AI & Machine Learning": "#f59e0b",
+  "Arts & Entertainment": "#ec4899",
+  "Blockchain & Crypto": "#8b5cf6",
+  "Cybersecurity": "#ef4444",
+  "Data & Analytics": "#06b6d4",
   "DevOps & Engineering": "#64748b",
   "Education & Workforce": "#3b82f6",
-  "Energy & Sustainability": "#059669",
-  "Fintech": "#16a34a",
-  "General Tech": "#a8a29e",
-  "Health & Biotech": "#0d9488",
-  "Investing & VC": "#ca8a04",
+  "Energy & Sustainability": "#10b981",
+  "Fintech": "#22c55e",
+  "General Tech": "#78716c",
+  "Health & Biotech": "#14b8a6",
+  "Investing & VC": "#eab308",
   "Legal & Policy": "#6b7280",
-  "Manufacturing & Hardware": "#ea580c",
-  "Networking & Social": "#e11d48",
-  "Real Estate": "#65a30d",
-  "Sales & Marketing": "#c026d3",
-  "Space & Aerospace": "#4f46e5",
-  "Startups & Entrepreneurship": "#0284c7",
-  "Tours & Demos": "#7c3aed",
+  "Manufacturing & Hardware": "#f97316",
+  "Networking & Social": "#f43f5e",
+  "Real Estate": "#84cc16",
+  "Sales & Marketing": "#d946ef",
+  "Space & Aerospace": "#6366f1",
+  "Startups & Entrepreneurship": "#0ea5e9",
+  "Tours & Demos": "#a855f7",
 };
 
 function cleanTitle(title: string): string {
@@ -55,14 +54,13 @@ function getCapacityInfo(event: Event) {
     : 0;
   const isFillingUp = hasSpots && event.spots_left > 0 && event.spots_left <= 10;
   const isAlmostFull = fillPct >= 80 && !isFull;
-
   return { isFull, hasCapacity, hasSpots, fillPct, isFillingUp, isAlmostFull };
 }
 
 export default function EventCard({ event, index, compact }: EventCardProps) {
   const [expanded, setExpanded] = useState(false);
   const primaryCategory = event.categories[0] || "General Tech";
-  const accentColor = ACCENT_COLORS[primaryCategory] || "#b87333";
+  const accentColor = ACCENT_COLORS[primaryCategory] || "#14b8a6";
   const displayTitle = cleanTitle(event.title) || event.title;
   const cap = getCapacityInfo(event);
   const hasAttendeeData = event.going > 0 || event.interested > 0;
@@ -77,30 +75,30 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
       transition={{ duration: 0.25, delay: Math.min(index * 0.02, 0.25) }}
       className="h-full"
     >
-      <div className={`relative h-full bg-card rounded-xl border border-border/60 shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col ${cap.isFull ? "opacity-75" : ""}`}>
+      <div className={`relative h-full bg-white rounded-lg border border-gray-200 hover:border-teal-300 shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col ${cap.isFull ? "opacity-75" : ""}`}>
         {/* Left accent stripe */}
         <div
-          className="absolute left-0 top-0 bottom-0 w-1 rounded-l-xl"
+          className="absolute left-0 top-0 bottom-0 w-1 rounded-l-lg"
           style={{ backgroundColor: accentColor }}
         />
 
         <div className="pl-4 pr-3 py-3 sm:pl-5 sm:pr-4 sm:py-4 flex flex-col flex-1">
-          {/* Status badges row */}
+          {/* Status badges */}
           {(cap.isFull || cap.isFillingUp || cap.isAlmostFull) && (
             <div className="flex gap-1.5 mb-2">
               {cap.isFull && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-300">
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-700 border border-amber-300">
                   WAITLIST
                 </span>
               )}
               {cap.isFillingUp && !cap.isFull && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-orange-100 text-orange-700 border border-orange-200 animate-pulse">
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-orange-100 text-orange-700 border border-orange-300 animate-pulse">
                   <Flame className="w-2.5 h-2.5" />
                   {event.spots_left} SPOTS LEFT
                 </span>
               )}
               {cap.isAlmostFull && !cap.isFillingUp && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-50 text-amber-700 border border-amber-200">
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-50 text-amber-600 border border-amber-200">
                   <Flame className="w-2.5 h-2.5" />
                   FILLING UP
                 </span>
@@ -108,36 +106,27 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
             </div>
           )}
 
-          {/* Metadata row: time + duration + city + invite badge — always present */}
-          <div className="flex items-center gap-2 text-xs text-muted-foreground mb-1.5 flex-wrap">
-            {/* Time (always shown) */}
+          {/* Metadata row */}
+          <div className="flex items-center gap-2 text-xs text-gray-500 mb-1.5 flex-wrap">
             <span className="flex items-center gap-1 flex-shrink-0">
-              <Clock className="w-3 h-3" />
+              <Clock className="w-3 h-3 text-teal-500" />
               {event.start_time || event.time}
-              {hasEndTime && (
-                <span className="text-muted-foreground/70"> – {event.end_time}</span>
-              )}
+              {hasEndTime && <span className="text-gray-400"> – {event.end_time}</span>}
             </span>
-
-            {/* Duration badge (when available) */}
             {hasDuration && (
-              <span className="flex items-center gap-0.5 text-primary/80 bg-primary/5 px-1.5 py-0.5 rounded-md text-[10px] font-medium flex-shrink-0">
+              <span className="flex items-center gap-0.5 text-teal-700 bg-teal-50 px-1.5 py-0.5 rounded-md text-[10px] font-medium flex-shrink-0 border border-teal-200">
                 <Timer className="w-2.5 h-2.5" />
                 {event.duration}
               </span>
             )}
-
-            {/* City (always shown) */}
             {event.city && (
               <span className="flex items-center gap-1 flex-shrink-0">
-                <MapPin className="w-3 h-3" />
+                <MapPin className="w-3 h-3 text-teal-500" />
                 {event.city}
               </span>
             )}
-
-            {/* Invite Only badge */}
             {event.invite_only && (
-              <span className="flex items-center gap-0.5 text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded-full text-[10px] font-medium flex-shrink-0">
+              <span className="flex items-center gap-0.5 text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded-full text-[10px] font-medium flex-shrink-0 border border-amber-200">
                 <Lock className="w-2.5 h-2.5" />
                 Invite Only
               </span>
@@ -145,16 +134,16 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
           </div>
 
           {/* Title */}
-          <h3 className={`font-semibold text-card-foreground leading-snug mb-1 ${compact ? "text-sm line-clamp-2" : "text-sm sm:text-[15px]"}`}>
+          <h3 className={`font-semibold text-gray-900 leading-snug mb-1 ${compact ? "text-sm line-clamp-2" : "text-sm sm:text-[15px]"}`}>
             {displayTitle}
           </h3>
 
           {/* Organizer */}
-          <p className="text-xs text-muted-foreground mb-2 truncate">
+          <p className="text-xs text-gray-400 mb-2 truncate">
             by {event.organizer}
           </p>
 
-          {/* Description (expandable) */}
+          {/* Description */}
           {hasDescription && !compact && (
             <div className="mb-2.5">
               <AnimatePresence initial={false}>
@@ -167,78 +156,58 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
                     transition={{ duration: 0.2 }}
                     className="overflow-hidden"
                   >
-                    <p className="text-xs text-muted-foreground leading-relaxed whitespace-pre-line">
+                    <p className="text-xs text-gray-500 leading-relaxed whitespace-pre-line">
                       {event.description}
                     </p>
                   </motion.div>
                 ) : (
-                  <motion.p
-                    key="truncated"
-                    className="text-xs text-muted-foreground leading-relaxed line-clamp-2"
-                  >
+                  <motion.p key="truncated" className="text-xs text-gray-500 leading-relaxed line-clamp-2">
                     {event.description}
                   </motion.p>
                 )}
               </AnimatePresence>
               {event.description!.length > 120 && (
                 <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setExpanded(!expanded);
-                  }}
-                  className="flex items-center gap-0.5 text-[11px] text-primary font-medium mt-1 hover:underline"
+                  onClick={(e) => { e.stopPropagation(); setExpanded(!expanded); }}
+                  className="flex items-center gap-0.5 text-[11px] text-teal-600 font-medium mt-1 hover:text-teal-700"
                 >
-                  {expanded ? (
-                    <>Show less <ChevronUp className="w-3 h-3" /></>
-                  ) : (
-                    <>Read more <ChevronDown className="w-3 h-3" /></>
-                  )}
+                  {expanded ? <>Show less <ChevronUp className="w-3 h-3" /></> : <>Read more <ChevronDown className="w-3 h-3" /></>}
                 </button>
               )}
             </div>
           )}
 
-          {/* Attendee + Capacity Row */}
+          {/* Attendee + Capacity */}
           {(hasAttendeeData || cap.hasCapacity) && (
             <div className="mb-2.5 space-y-1.5">
-              {/* Attendee counts */}
-              <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
+              <div className="flex items-center gap-3 text-[11px] text-gray-500">
                 {event.going > 0 && (
                   <span className="flex items-center gap-1">
-                    <Users className="w-3 h-3 text-primary" />
-                    <span className="font-semibold text-foreground">{event.going}</span> going
+                    <Users className="w-3 h-3 text-teal-500" />
+                    <span className="font-semibold text-gray-800">{event.going}</span> going
                   </span>
                 )}
                 {event.interested > 0 && (
-                  <span className="flex items-center gap-1">
-                    <span className="font-medium">{event.interested}</span> interested
-                  </span>
+                  <span><span className="font-medium text-gray-700">{event.interested}</span> interested</span>
                 )}
                 {event.maybe > 0 && (
-                  <span className="flex items-center gap-1">
-                    <span className="font-medium">{event.maybe}</span> maybe
-                  </span>
+                  <span><span className="font-medium text-gray-700">{event.maybe}</span> maybe</span>
                 )}
               </div>
-
-              {/* Capacity bar */}
               {cap.hasCapacity && (
                 <div className="flex items-center gap-2">
-                  <div className="flex-1 h-1.5 rounded-full bg-secondary overflow-hidden">
+                  <div className="flex-1 h-1.5 rounded-full bg-gray-100 overflow-hidden border border-gray-200">
                     <div
                       className={`h-full rounded-full transition-all duration-500 ${
-                        cap.isFull
-                          ? "bg-red-400"
-                          : cap.fillPct >= 80
-                          ? "bg-orange-400"
-                          : cap.fillPct >= 50
-                          ? "bg-amber-400"
-                          : "bg-primary/60"
+                        cap.isFull ? "bg-red-400" :
+                        cap.fillPct >= 80 ? "bg-orange-400" :
+                        cap.fillPct >= 50 ? "bg-amber-400" :
+                        "bg-teal-400"
                       }`}
                       style={{ width: `${cap.fillPct}%` }}
                     />
                   </div>
-                  <span className="text-[10px] text-muted-foreground whitespace-nowrap">
+                  <span className="text-[10px] text-gray-400 whitespace-nowrap">
                     {cap.hasSpots
                       ? cap.isFull
                         ? `${event.capacity}/${event.capacity}`
@@ -250,10 +219,10 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
             </div>
           )}
 
-          {/* Spacer to push bottom row down */}
+          {/* Spacer */}
           <div className="flex-1" />
 
-          {/* Bottom row: categories + RSVP link */}
+          {/* Bottom: categories + RSVP */}
           <div className="flex items-end justify-between gap-2 mt-auto pt-1">
             <div className="flex flex-wrap gap-1 flex-1 min-w-0">
               {event.categories.slice(0, compact ? 1 : 2).map((cat) => {
@@ -262,7 +231,7 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
                 return (
                   <span
                     key={cat}
-                    className={`inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full text-[10px] sm:text-[11px] font-medium ${catColors.bg} ${catColors.text}`}
+                    className={`inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full text-[10px] sm:text-[11px] font-medium border ${catColors.bg} ${catColors.text} ${catColors.border}`}
                   >
                     <span className="text-[10px]">{icon}</span>
                     <span className="truncate max-w-[90px] sm:max-w-[130px]">{cat}</span>
@@ -270,21 +239,20 @@ export default function EventCard({ event, index, compact }: EventCardProps) {
                 );
               })}
               {event.categories.length > (compact ? 1 : 2) && (
-                <span className="text-[10px] text-muted-foreground self-center">
+                <span className="text-[10px] text-gray-400 self-center">
                   +{event.categories.length - (compact ? 1 : 2)}
                 </span>
               )}
             </div>
-
             {event.link && (
               <a
                 href={event.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`flex-shrink-0 inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 ${
+                className={`flex-shrink-0 inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all active:scale-95 ${
                   cap.isFull
-                    ? "bg-amber-100 text-amber-800 border border-amber-300 hover:bg-amber-200"
-                    : "bg-primary text-primary-foreground hover:opacity-90"
+                    ? "bg-amber-100 text-amber-700 border border-amber-300 hover:bg-amber-200"
+                    : "bg-teal-600 text-white hover:bg-teal-700 shadow-sm"
                 }`}
               >
                 {cap.isFull ? "Waitlist" : "RSVP"}
