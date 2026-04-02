@@ -24,21 +24,21 @@ export const appRouter = router({
     }),
 
     add: protectedProcedure
-      .input(z.object({ eventId: z.number() }))
+      .input(z.object({ eventId: z.coerce.number() }))
       .mutation(async ({ ctx, input }) => {
         await addBookmark(ctx.user.id, input.eventId);
         return { success: true };
       }),
 
     remove: protectedProcedure
-      .input(z.object({ eventId: z.number() }))
+      .input(z.object({ eventId: z.coerce.number() }))
       .mutation(async ({ ctx, input }) => {
         await removeBookmark(ctx.user.id, input.eventId);
         return { success: true };
       }),
 
     sync: protectedProcedure
-      .input(z.object({ eventIds: z.array(z.number()) }))
+      .input(z.object({ eventIds: z.array(z.coerce.number()) }))
       .mutation(async ({ ctx, input }) => {
         await setBookmarks(ctx.user.id, input.eventIds);
         return { success: true };
@@ -52,14 +52,14 @@ export const appRouter = router({
     }),
 
     history: publicProcedure
-      .input(z.object({ eventId: z.number() }))
+      .input(z.object({ eventId: z.coerce.number() }))
       .query(async ({ input }) => {
         return getRsvpHistory(input.eventId);
       }),
 
     // Manual scrape trigger (admin only or rate-limited)
     scrape: protectedProcedure
-      .input(z.object({ eventId: z.number(), url: z.string().url() }))
+      .input(z.object({ eventId: z.coerce.number(), url: z.string().url() }))
       .mutation(async ({ input }) => {
         const data = await scrapePartifulEvent(input.url);
         if (data) {

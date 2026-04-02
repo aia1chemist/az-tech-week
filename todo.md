@@ -61,3 +61,4 @@
 - [x] Vitest tests for bookmark and RSVP routers
 - [x] Remove LivePulse trending bar (user request)
 - [x] Visually connect day selector to weather/stats content below (user request)
+- [x] Fix eventId sent as string instead of number in bookmark mutations (bug)

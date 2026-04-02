@@ -22,7 +22,7 @@ const STORAGE_KEY = "aztw-bookmarks";
 function loadBookmarks(): Set<number> {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return new Set(JSON.parse(raw) as number[]);
+    if (raw) return new Set((JSON.parse(raw) as (number | string)[]).map(Number));
   } catch {}
   return new Set();
 }
@@ -79,15 +79,16 @@ export function BookmarkProvider({ children }: { children: ReactNode }) {
   }, [bookmarkedIds]);
 
   const toggle = useCallback((id: number) => {
+    const numId = Number(id);
     setBookmarkedIds((prev) => {
       const next = new Set(prev);
-      const removing = next.has(id);
+      const removing = next.has(numId);
       if (removing) {
-        next.delete(id);
-        if (isLoggedIn) removeMutation.mutate({ eventId: id });
+        next.delete(numId);
+        if (isLoggedIn) removeMutation.mutate({ eventId: numId });
       } else {
-        next.add(id);
-        if (isLoggedIn) addMutation.mutate({ eventId: id });
+        next.add(numId);
+        if (isLoggedIn) addMutation.mutate({ eventId: numId });
       }
       return next;
     });
