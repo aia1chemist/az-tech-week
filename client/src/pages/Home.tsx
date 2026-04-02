@@ -1,6 +1,6 @@
 /*
  * AZTW Home — Clean, easy-to-navigate event calendar
- * v5.4: Fresh data scrape + all features wired — removed floating counters, weather row, emoji reactions from cards
+ * v6.0: Fresh data scrape + all features wired — removed floating counters, weather row, emoji reactions from cards
  * All advanced features accessible via bottom nav drawers
  */
 import { useState, useCallback, useEffect } from "react";
@@ -23,6 +23,9 @@ import QRCodeModal from "@/components/QRCodeModal";
 import MapView from "@/components/MapView";
 import { useSharedScheduleLoader } from "@/components/ShareableSchedule";
 import type { Event } from "@/data/types";
+import CuratedTracks from "@/components/CuratedTracks";
+import HiddenGems from "@/components/HiddenGems";
+import FirstTimerGuide from "@/components/FirstTimerGuide";
 
 export default function Home() {
   const {
@@ -98,6 +101,15 @@ export default function Home() {
 
       {/* Trending Section */}
       {!isSearchActive && <TrendingSection events={trendingEvents} />}
+
+      {/* First-timer guide — collapsible */}
+      {!isSearchActive && <FirstTimerGuide />}
+
+      {/* Curated Tracks — pre-built event bundles */}
+      {!isSearchActive && <CuratedTracks />}
+
+      {/* Hidden Gems — small unique events */}
+      {!isSearchActive && <HiddenGems selectedDay={filters.day} />}
 
       {/* Filters */}
       <FilterBar
@@ -222,7 +234,7 @@ export default function Home() {
               . Not an official AZ Tech Week product.
             </p>
             <p className="text-[10px] text-gray-300 dark:text-gray-600 mt-1">
-              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v5.4
+              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v6.0
             </p>
           </div>
         </div>

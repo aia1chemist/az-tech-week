@@ -61,7 +61,8 @@ function getCapacityInfo(event: Event) {
     : 0;
   const isFillingUp = hasSpots && event.spots_left > 0 && event.spots_left <= 10;
   const isAlmostFull = fillPct >= 80 && !isFull;
-  return { isFull, hasCapacity, hasSpots, fillPct, isFillingUp, isAlmostFull };
+  const isDontMiss = !isFull && hasCapacity && hasSpots && fillPct >= 70 && event.spots_left > 0;
+  return { isFull, hasCapacity, hasSpots, fillPct, isFillingUp, isAlmostFull, isDontMiss };
 }
 
 function getNetworkingScore(event: Event): number {
@@ -147,13 +148,32 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
           </div>
         )}
 
-        <div className="pl-4 pr-3 py-3 sm:pl-5 sm:pr-4 sm:py-4 flex flex-col flex-1">
+        {/* Event cover image */}
+        {event.image_url && !compact && (
+          <div className="h-28 sm:h-32 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
+            <img
+              src={event.image_url}
+              alt=""
+              className="w-full h-full object-cover"
+              loading="lazy"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+            />
+          </div>
+        )}
+
+        <div className={`pl-4 pr-3 py-3 sm:pl-5 sm:pr-4 sm:py-4 flex flex-col flex-1 ${event.image_url && !compact ? 'pt-2 sm:pt-3' : ''}`}>
           {/* Top row: status badges + 2 action buttons (share + heart) */}
           <div className="flex items-start justify-between gap-2 mb-1.5">
             <div className="flex gap-1.5 flex-wrap flex-1">
               {cap.isFull && (
                 <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-700 border border-amber-300">
                   WAITLIST
+                </span>
+              )}
+              {cap.isDontMiss && !cap.isFillingUp && (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-red-50 text-red-600 border border-red-200">
+                  <Flame className="w-2.5 h-2.5" />
+                  Only {event.spots_left} spots left!
                 </span>
               )}
               {cap.isFillingUp && !cap.isFull && (

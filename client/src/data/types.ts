@@ -23,6 +23,7 @@ export interface Event {
   duration_minutes: number;
   start_time: string;
   end_time: string;
+  image_url?: string;
 }
 
 export interface EventsData {
