@@ -72,3 +72,8 @@
 - [x] Implement digest send workflow (admin trigger to send to all subscribers)
 - [x] Add vitest tests for digest router procedures
 - [x] Center the day context info bar (user request)
+- [x] Build standalone Partiful scraper script for GitHub Actions
+- [x] Create GitHub Actions workflow with hourly cron schedule
+- [x] Test scraper locally to verify it works
+- [x] Push workflow to GitHub and enable Actions (user added via GitHub UI)
+- [x] Fetch events.json from GitHub raw URL at runtime with bundled fallback

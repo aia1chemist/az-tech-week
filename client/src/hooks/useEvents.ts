@@ -1,8 +1,17 @@
-import { useState, useMemo, useCallback } from "react";
-import eventsData from "@/data/events.json";
+import { useState, useMemo, useCallback, useEffect } from "react";
+import bundledEventsData from "@/data/events.json";
 import type { Event, EventsData, SortOption } from "@/data/types";
 
-const data = eventsData as EventsData;
+const GITHUB_RAW_URL =
+  "https://raw.githubusercontent.com/aia1chemist/az-tech-week/main/client/src/data/events.json";
+
+// Cache duration: 5 minutes (in ms)
+const CACHE_TTL = 5 * 60 * 1000;
+
+let cachedData: EventsData | null = null;
+let cacheTimestamp = 0;
+
+const bundled = bundledEventsData as EventsData;
 
 export interface Filters {
   day: string;
@@ -79,30 +88,25 @@ function matchesSearch(e: Event, q: string): boolean {
 function applyNonDayFilters(events: Event[], filters: Filters): Event[] {
   let result = events;
 
-  // Category filter
   if (filters.categories.length > 0) {
     result = result.filter((e) =>
       filters.categories.some((cat) => e.categories.includes(cat))
     );
   }
 
-  // City filter
   if (filters.city) {
     result = result.filter((e) => e.city === filters.city);
   }
 
-  // Time of day filter
   if (filters.timeOfDay) {
     result = result.filter((e) => e.time_of_day === filters.timeOfDay);
   }
 
-  // Search filter
   if (filters.search) {
     const q = filters.search.toLowerCase();
     result = result.filter((e) => matchesSearch(e, q));
   }
 
-  // Invite only filter
   if (filters.inviteOnly === "public") {
     result = result.filter((e) => !e.invite_only);
   } else if (filters.inviteOnly === "invite") {
@@ -114,6 +118,47 @@ function applyNonDayFilters(events: Event[], filters: Filters): Event[] {
 
 export function useEvents() {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
+  const [liveData, setLiveData] = useState<EventsData>(bundled);
+  const [dataSource, setDataSource] = useState<"bundled" | "live">("bundled");
+
+  // Fetch live data from GitHub on mount, with 5-min cache
+  useEffect(() => {
+    const now = Date.now();
+    if (cachedData && now - cacheTimestamp < CACHE_TTL) {
+      setLiveData(cachedData);
+      setDataSource("live");
+      return;
+    }
+
+    let cancelled = false;
+    fetch(GITHUB_RAW_URL, { cache: "no-store" })
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((json: EventsData) => {
+        if (cancelled) return;
+        // Validate the data has events
+        if (json && json.events && json.events.length > 0) {
+          cachedData = json;
+          cacheTimestamp = Date.now();
+          setLiveData(json);
+          setDataSource("live");
+        }
+      })
+      .catch(() => {
+        // Silently fall back to bundled data
+        if (!cancelled) {
+          setDataSource("bundled");
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const data = liveData;
 
   const updateFilter = useCallback(<K extends keyof Filters>(key: K, value: Filters[K]) => {
     setFilters((prev) => ({ ...prev, [key]: value }));
@@ -140,7 +185,7 @@ export function useEvents() {
       }
       return prev;
     });
-  }, []);
+  }, [data.days]);
 
   const prevDay = useCallback(() => {
     setFilters((prev) => {
@@ -150,28 +195,23 @@ export function useEvents() {
       }
       return prev;
     });
-  }, []);
+  }, [data.days]);
 
-  // When search is active, search across ALL days; otherwise filter to selected day
   const isSearchActive = filters.search.length > 0;
 
   const filteredEvents = useMemo(() => {
     let result = data.events as Event[];
 
     if (isSearchActive) {
-      // Search across ALL days — don't restrict to current day
       result = applyNonDayFilters(result, filters);
     } else {
-      // Normal mode: filter by day first, then apply other filters
       if (filters.day) {
         result = result.filter((e) => e.full_date === filters.day);
       }
       result = applyNonDayFilters(result, filters);
     }
 
-    // Sort
     if (isSearchActive) {
-      // When searching, group by day then sort within each day
       const dayOrder = data.days;
       result = [...result].sort((a, b) => {
         const dayDiff = dayOrder.indexOf(a.full_date) - dayOrder.indexOf(b.full_date);
@@ -183,9 +223,8 @@ export function useEvents() {
     }
 
     return result;
-  }, [filters, isSearchActive]);
+  }, [filters, isSearchActive, data]);
 
-  // Cross-day search results breakdown (when searching)
   const searchDayBreakdown = useMemo(() => {
     if (!isSearchActive) return null;
     const breakdown: Record<string, number> = {};
@@ -195,10 +234,8 @@ export function useEvents() {
     return breakdown;
   }, [filteredEvents, isSearchActive]);
 
-  // Group events by time of day (or by day when searching)
   const groupedEvents = useMemo(() => {
     if (isSearchActive) {
-      // Group by day when searching across all days
       const groups: Record<string, Event[]> = {};
       filteredEvents.forEach((e) => {
         const day = e.full_date;
@@ -207,7 +244,6 @@ export function useEvents() {
       });
       return groups;
     }
-    // Normal: group by time of day
     const groups: Record<string, Event[]> = {
       Morning: [],
       Afternoon: [],
@@ -223,7 +259,6 @@ export function useEvents() {
     return groups;
   }, [filteredEvents, isSearchActive]);
 
-  // Trending events for current day
   const trendingEvents = useMemo(() => {
     const dayEvents = (data.events as Event[]).filter((e) => e.full_date === filters.day);
     return dayEvents
@@ -234,9 +269,8 @@ export function useEvents() {
         return scoreB - scoreA;
       })
       .slice(0, 6);
-  }, [filters.day]);
+  }, [filters.day, data]);
 
-  // Stats for current day
   const dayStats = useMemo(() => {
     const dayEvents = data.events.filter((e) => e.full_date === filters.day);
     const cityCount = new Set(dayEvents.map((e) => e.city).filter(Boolean)).size;
@@ -246,9 +280,8 @@ export function useEvents() {
       cities: cityCount,
       categories: catCount,
     };
-  }, [filters.day]);
+  }, [filters.day, data]);
 
-  // Active filter count (excluding day and sort)
   const activeFilterCount = useMemo(() => {
     let count = 0;
     if (filters.categories.length > 0) count++;
@@ -277,5 +310,6 @@ export function useEvents() {
     totalEvents: data.events.length,
     isSearchActive,
     searchDayBreakdown,
+    dataSource,
   };
 }
