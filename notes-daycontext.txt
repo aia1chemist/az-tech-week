@@ -1,0 +1,8 @@
+Day Context Bar Visual Check:
+- The day selector tabs (Mon 4/6 through Sun 4/12) are now in a unified sticky bar
+- Below the tabs there's a thin divider line, then a single row showing:
+  "MONDAY, APRIL 6 | ☀️ 89°/64° Sunny UV 9 | 54 events | 13 cities | 52 open | 9 filling"
+- This looks great - all day-contextual info is now in one cohesive block
+- The sticky bar stays at top when scrolling
+- Below it, the Schedule Roast and other sections flow naturally
+- The visual connection between day selector and its content is now clear

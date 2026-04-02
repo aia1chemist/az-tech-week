@@ -103,19 +103,28 @@ export default function Home() {
       {/* Hero — countdown, stats, dark mode toggle */}
       <HeroSection />
 
-      {/* Day Selector — sticky (dimmed when searching across all days) */}
-      <div className={isSearchActive ? "opacity-40 pointer-events-none" : ""}>
+      {/* Day Context — unified section connecting day selector to its content */}
+      <div className={`sticky top-0 z-30 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm ${isSearchActive ? "opacity-40 pointer-events-none" : ""}`}>
         <DaySelector
           selectedDay={filters.day}
           onSelectDay={(day) => updateFilter("day", day)}
         />
+        {!isSearchActive && (
+          <div className="border-t border-gray-100 dark:border-gray-800">
+            <div className="max-w-6xl mx-auto px-4 py-2 flex flex-col sm:flex-row sm:items-center gap-2">
+              {/* Selected day label */}
+              <div className="flex items-center gap-2 flex-shrink-0">
+                <span className="text-xs font-bold text-teal-600 dark:text-teal-400 uppercase tracking-wider">{filters.day}</span>
+                <span className="w-px h-3 bg-gray-300 dark:bg-gray-600 hidden sm:block" />
+              </div>
+              {/* Inline weather + stats */}
+              <WeatherSuggestions selectedDay={filters.day} inline />
+              <span className="w-px h-3 bg-gray-300 dark:bg-gray-600 hidden sm:block" />
+              <QuickStats selectedDay={filters.day} inline />
+            </div>
+          </div>
+        )}
       </div>
-
-      {/* Weather for the selected day */}
-      {!isSearchActive && <WeatherSuggestions selectedDay={filters.day} />}
-
-      {/* Quick Stats — single-line summary */}
-      {!isSearchActive && <QuickStats selectedDay={filters.day} />}
 
       {/* Schedule Roast — tongue-in-cheek analysis (only shows if bookmarks exist) */}
       {!isSearchActive && <ScheduleRoast />}

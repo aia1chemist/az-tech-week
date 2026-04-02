@@ -1,9 +1,8 @@
 /*
  * WeatherSuggestions — Weather-aware event recommendations
- * Flags hot days, suggests indoor events, warns about outdoor events
+ * Supports inline mode for compact display inside day context bar
  */
-import { useMemo } from "react";
-import { Sun, Thermometer, Droplets, CloudSun, AlertTriangle } from "lucide-react";
+import { Sun } from "lucide-react";
 
 // AZ weather data for April 6-12, 2026 (typical early April)
 const WEATHER: Record<string, { high: number; low: number; condition: string; icon: string; uv: number }> = {
@@ -18,15 +17,34 @@ const WEATHER: Record<string, { high: number; low: number; condition: string; ic
 
 interface WeatherSuggestionsProps {
   selectedDay: string;
+  inline?: boolean;
 }
 
-export default function WeatherSuggestions({ selectedDay }: WeatherSuggestionsProps) {
+export default function WeatherSuggestions({ selectedDay, inline }: WeatherSuggestionsProps) {
   const weather = WEATHER[selectedDay];
   if (!weather) return null;
 
   const isHot = weather.high >= 90;
-  const isVeryHot = weather.high >= 95;
   const highUV = weather.uv >= 9;
+
+  if (inline) {
+    return (
+      <div className="flex items-center gap-1.5 text-xs text-gray-600 dark:text-gray-300 flex-shrink-0">
+        <span className="text-sm">{weather.icon}</span>
+        <span className={`font-semibold ${isHot ? "text-amber-600 dark:text-amber-400" : "text-gray-800 dark:text-gray-200"}`}>
+          {weather.high}°/{weather.low}°
+        </span>
+        <span className="text-gray-400 dark:text-gray-500">{weather.condition}</span>
+        {highUV && (
+          <span className="inline-flex items-center gap-0.5 px-1 py-0.5 rounded-full text-[9px] font-bold bg-orange-100 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400">
+            <Sun className="w-2 h-2" /> UV {weather.uv}
+          </span>
+        )}
+      </div>
+    );
+  }
+
+  const isVeryHot = weather.high >= 95;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-2">

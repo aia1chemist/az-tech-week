@@ -60,3 +60,4 @@
 - [x] Database schema: bookmarks + rsvp_snapshots tables
 - [x] Vitest tests for bookmark and RSVP routers
 - [x] Remove LivePulse trending bar (user request)
+- [x] Visually connect day selector to weather/stats content below (user request)

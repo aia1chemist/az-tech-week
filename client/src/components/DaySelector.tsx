@@ -37,7 +37,7 @@ export default function DaySelector({ selectedDay, onSelectDay }: DaySelectorPro
   }, {});
 
   return (
-    <div className="sticky top-0 z-30 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm">
+    <div>
       <div
         ref={scrollRef}
         className="flex gap-1.5 px-4 py-3 overflow-x-auto scrollbar-hide sm:justify-center"
