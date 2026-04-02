@@ -21,9 +21,12 @@ export default function DaySelector({ selectedDay, onSelectDay }: DaySelectorPro
 
   useEffect(() => {
     if (scrollRef.current) {
-      const activeBtn = scrollRef.current.querySelector("[data-active='true']");
+      const activeBtn = scrollRef.current.querySelector("[data-active='true']") as HTMLElement | null;
       if (activeBtn) {
-        activeBtn.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+        // Use scrollLeft on the container instead of scrollIntoView to avoid vertical page scroll
+        const container = scrollRef.current;
+        const scrollLeft = activeBtn.offsetLeft - container.offsetWidth / 2 + activeBtn.offsetWidth / 2;
+        container.scrollTo({ left: scrollLeft, behavior: "smooth" });
       }
     }
   }, [selectedDay]);

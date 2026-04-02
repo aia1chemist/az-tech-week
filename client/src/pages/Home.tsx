@@ -3,7 +3,7 @@
  * v4.1: Decluttered — removed floating counters, weather row, emoji reactions from cards
  * All advanced features accessible via bottom nav drawers
  */
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useEvents } from "@/hooks/useEvents";
 import { useSwipe } from "@/hooks/useSwipe";
 import HeroSection from "@/components/HeroSection";
@@ -45,6 +45,11 @@ export default function Home() {
   } = useEvents();
 
   const swipeHandlers = useSwipe(nextDay, prevDay);
+
+  // Scroll to top on mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Load shared schedule from URL params
   useSharedScheduleLoader();

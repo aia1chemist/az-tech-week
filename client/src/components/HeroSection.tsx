@@ -8,7 +8,6 @@ import { ChevronDown } from "lucide-react";
 import eventsData from "@/data/events.json";
 import type { EventsData } from "@/data/types";
 import Countdown from "./Countdown";
-import CategoryInsights from "./CategoryInsights";
 import DarkModeToggle from "./DarkModeToggle";
 
 const data = eventsData as EventsData;
@@ -241,9 +240,6 @@ export default function HeroSection() {
             })}
           </div>
         </motion.div>
-
-        {/* Category Insights */}
-        <CategoryInsights />
 
         {/* Scroll indicator */}
         <motion.div
