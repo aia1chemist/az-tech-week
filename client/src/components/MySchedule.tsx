@@ -13,6 +13,8 @@ import eventsData from "@/data/events.json";
 import type { Event, EventsData } from "@/data/types";
 import { DAY_SHORT, CATEGORY_ICONS } from "@/data/types";
 import { useBookmarks } from "@/contexts/BookmarkContext";
+import PersonalStats from "./PersonalStats";
+import { ShareScheduleButton } from "./ShareableSchedule";
 
 const data = eventsData as EventsData;
 
@@ -197,30 +199,31 @@ export default function MySchedule({ open, onClose }: MyScheduleProps) {
             animate={{ y: 0 }}
             exit={{ y: "100%" }}
             transition={{ type: "spring", damping: 30, stiffness: 300 }}
-            className="fixed inset-x-0 bottom-0 z-50 max-h-[85vh] bg-white rounded-t-2xl shadow-2xl flex flex-col"
+            className="fixed inset-x-0 bottom-0 z-50 max-h-[85vh] bg-white dark:bg-gray-900 rounded-t-2xl shadow-2xl flex flex-col"
           >
             {/* Handle */}
             <div className="flex justify-center pt-3 pb-1">
-              <div className="w-10 h-1 rounded-full bg-gray-300" />
+              <div className="w-10 h-1 rounded-full bg-gray-300 dark:bg-gray-600" />
             </div>
 
             {/* Header */}
-            <div className="flex items-center justify-between px-4 pb-3 border-b border-gray-200">
+            <div className="flex items-center justify-between px-4 pb-3 border-b border-gray-200 dark:border-gray-700">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-lg bg-pink-100 flex items-center justify-center">
                   <Heart className="w-4 h-4 text-pink-500 fill-pink-500" />
                 </div>
                 <div>
-                  <h2 className="text-sm font-bold text-gray-900">My Schedule</h2>
+                  <h2 className="text-sm font-bold text-gray-900 dark:text-white">My Schedule</h2>
                   <p className="text-[10px] text-gray-500">{count} event{count !== 1 ? "s" : ""} saved</p>
                 </div>
               </div>
               <div className="flex items-center gap-1.5">
                 {count > 0 && (
                   <>
+                    <ShareScheduleButton />
                     <button
                       onClick={() => downloadICS(bookmarkedEvents)}
-                      className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-teal-50 text-teal-700 border border-teal-200 text-[11px] font-medium hover:bg-teal-100 transition-all"
+                      className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 border border-teal-200 dark:border-teal-700 text-[11px] font-medium hover:bg-teal-100 transition-all"
                     >
                       <Download className="w-3 h-3" />
                       Export .ics
@@ -264,9 +267,11 @@ export default function MySchedule({ open, onClose }: MyScheduleProps) {
                 For You ({recommendations.length})
               </button>
             </div>
-
             {/* Content */}
             <div className="flex-1 overflow-y-auto px-4 py-3">
+              {/* Personal Stats */}
+              {count > 0 && activeTab === "schedule" && <PersonalStats />}
+
               {activeTab === "schedule" ? (
                 count === 0 ? (
                   <div className="flex flex-col items-center justify-center py-12 text-center">

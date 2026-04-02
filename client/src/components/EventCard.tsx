@@ -1,20 +1,23 @@
 /*
- * AZTW EventCard — Full-featured card with bookmark, share, networking score
- * Heart icon for My Schedule, share button, capacity bars, expand/collapse
+ * AZTW EventCard — Full-featured card with bookmark, share, networking score,
+ * Google Calendar, emoji reactions, QR code, ride buttons
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Clock, MapPin, ExternalLink, Lock, Users, Flame, Timer, ChevronDown, ChevronUp, Heart, Share2, Zap } from "lucide-react";
+import { Clock, MapPin, ExternalLink, Lock, Users, Flame, Timer, ChevronDown, ChevronUp, Heart, Share2, Zap, QrCode, Car } from "lucide-react";
 import { toast } from "sonner";
 import type { Event } from "@/data/types";
 import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
 import { useBookmarks } from "@/contexts/BookmarkContext";
+import GoogleCalButton from "./GoogleCalButton";
+import EventReactions from "./EventReactions";
 
 interface EventCardProps {
   event: Event;
   index: number;
   compact?: boolean;
   isNow?: boolean;
+  onShowQR?: (event: Event) => void;
 }
 
 const ACCENT_COLORS: Record<string, string> = {
@@ -60,7 +63,7 @@ function getCapacityInfo(event: Event) {
   return { isFull, hasCapacity, hasSpots, fillPct, isFillingUp, isAlmostFull };
 }
 
-/* Networking score: 0-100 based on category mix, attendee count, capacity */
+/* Networking score: 0-100 */
 function getNetworkingScore(event: Event): number {
   let score = 0;
   const networkCats = ["Networking & Social", "Startups & Entrepreneurship", "Investing & VC"];
@@ -90,7 +93,7 @@ function handleShare(event: Event) {
   }
 }
 
-export default function EventCard({ event, index, compact, isNow }: EventCardProps) {
+export default function EventCard({ event, index, compact, isNow, onShowQR }: EventCardProps) {
   const [expanded, setExpanded] = useState(false);
   const { toggle, isBookmarked } = useBookmarks();
   const saved = isBookmarked(event.id);
@@ -111,8 +114,8 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
       transition={{ duration: 0.25, delay: Math.min(index * 0.02, 0.25) }}
       className="h-full"
     >
-      <div className={`relative h-full bg-white rounded-lg border shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col ${
-        isNow ? "border-green-400 ring-2 ring-green-200" : saved ? "border-pink-300 ring-1 ring-pink-100" : "border-gray-200 hover:border-teal-300"
+      <div className={`relative h-full bg-white dark:bg-gray-800 rounded-lg border shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col ${
+        isNow ? "border-green-400 ring-2 ring-green-200" : saved ? "border-pink-300 ring-1 ring-pink-100" : "border-gray-200 dark:border-gray-700 hover:border-teal-300"
       } ${cap.isFull ? "opacity-75" : ""}`}>
         {/* Left accent stripe */}
         <div
@@ -157,12 +160,22 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
               )}
             </div>
 
-            {/* Bookmark + Share buttons */}
+            {/* Action buttons */}
             {!isNow && (
-              <div className="flex items-center gap-0.5 flex-shrink-0">
+              <div className="flex items-center gap-0 flex-shrink-0">
+                <GoogleCalButton event={event} compact />
+                {onShowQR && (
+                  <button
+                    onClick={(e) => { e.stopPropagation(); e.preventDefault(); onShowQR(event); }}
+                    className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-400 hover:text-gray-600 transition-all"
+                    aria-label="Show QR code"
+                  >
+                    <QrCode className="w-3.5 h-3.5" />
+                  </button>
+                )}
                 <button
                   onClick={(e) => { e.stopPropagation(); e.preventDefault(); handleShare(event); }}
-                  className="p-1.5 rounded-full hover:bg-gray-100 text-gray-400 hover:text-gray-600 transition-all"
+                  className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-400 hover:text-gray-600 transition-all"
                   aria-label="Share event"
                 >
                   <Share2 className="w-3.5 h-3.5" />
@@ -177,7 +190,7 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
                       duration: 1500,
                     });
                   }}
-                  className={`p-1.5 rounded-full transition-all ${
+                  className={`p-1 rounded-full transition-all ${
                     saved ? "text-pink-500 hover:bg-pink-50" : "text-gray-300 hover:text-pink-400 hover:bg-pink-50"
                   }`}
                   aria-label={saved ? "Remove from schedule" : "Add to schedule"}
@@ -189,14 +202,14 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
           </div>
 
           {/* Metadata row */}
-          <div className="flex items-center gap-2 text-xs text-gray-500 mb-1.5 flex-wrap">
+          <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 mb-1.5 flex-wrap">
             <span className="flex items-center gap-1 flex-shrink-0">
               <Clock className="w-3 h-3 text-teal-500" />
               {event.start_time || event.time}
               {hasEndTime && <span className="text-gray-400"> – {event.end_time}</span>}
             </span>
             {hasDuration && (
-              <span className="flex items-center gap-0.5 text-teal-700 bg-teal-50 px-1.5 py-0.5 rounded-md text-[10px] font-medium flex-shrink-0 border border-teal-200">
+              <span className="flex items-center gap-0.5 text-teal-700 dark:text-teal-300 bg-teal-50 dark:bg-teal-900/30 px-1.5 py-0.5 rounded-md text-[10px] font-medium flex-shrink-0 border border-teal-200 dark:border-teal-700">
                 <Timer className="w-2.5 h-2.5" />
                 {event.duration}
               </span>
@@ -216,12 +229,12 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
           </div>
 
           {/* Title */}
-          <h3 className={`font-semibold text-gray-900 leading-snug mb-1 ${compact ? "text-sm line-clamp-2" : "text-sm sm:text-[15px]"}`}>
+          <h3 className={`font-semibold text-gray-900 dark:text-white leading-snug mb-1 ${compact ? "text-sm line-clamp-2" : "text-sm sm:text-[15px]"}`}>
             {displayTitle}
           </h3>
 
           {/* Organizer */}
-          <p className="text-xs text-gray-400 mb-2 truncate">
+          <p className="text-xs text-gray-400 dark:text-gray-500 mb-2 truncate">
             by {event.organizer}
           </p>
 
@@ -238,12 +251,12 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
                     transition={{ duration: 0.2 }}
                     className="overflow-hidden"
                   >
-                    <p className="text-xs text-gray-500 leading-relaxed whitespace-pre-line">
+                    <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed whitespace-pre-line">
                       {event.description}
                     </p>
                   </motion.div>
                 ) : (
-                  <motion.p key="truncated" className="text-xs text-gray-500 leading-relaxed line-clamp-2">
+                  <motion.p key="truncated" className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-2">
                     {event.description}
                   </motion.p>
                 )}
@@ -251,7 +264,7 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
               {event.description!.length > 120 && (
                 <button
                   onClick={(e) => { e.stopPropagation(); setExpanded(!expanded); }}
-                  className="flex items-center gap-0.5 text-[11px] text-teal-600 font-medium mt-1 hover:text-teal-700"
+                  className="flex items-center gap-0.5 text-[11px] text-teal-600 dark:text-teal-400 font-medium mt-1 hover:text-teal-700"
                 >
                   {expanded ? <>Show less <ChevronUp className="w-3 h-3" /></> : <>Read more <ChevronDown className="w-3 h-3" /></>}
                 </button>
@@ -262,23 +275,23 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
           {/* Attendee + Capacity */}
           {(hasAttendeeData || cap.hasCapacity) && (
             <div className="mb-2.5 space-y-1.5">
-              <div className="flex items-center gap-3 text-[11px] text-gray-500">
+              <div className="flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400">
                 {event.going > 0 && (
                   <span className="flex items-center gap-1">
                     <Users className="w-3 h-3 text-teal-500" />
-                    <span className="font-semibold text-gray-800">{event.going}</span> going
+                    <span className="font-semibold text-gray-800 dark:text-gray-200">{event.going}</span> going
                   </span>
                 )}
                 {event.interested > 0 && (
-                  <span><span className="font-medium text-gray-700">{event.interested}</span> interested</span>
+                  <span><span className="font-medium text-gray-700 dark:text-gray-300">{event.interested}</span> interested</span>
                 )}
                 {event.maybe > 0 && (
-                  <span><span className="font-medium text-gray-700">{event.maybe}</span> maybe</span>
+                  <span><span className="font-medium text-gray-700 dark:text-gray-300">{event.maybe}</span> maybe</span>
                 )}
               </div>
               {cap.hasCapacity && (
                 <div className="flex items-center gap-2">
-                  <div className="flex-1 h-1.5 rounded-full bg-gray-100 overflow-hidden border border-gray-200">
+                  <div className="flex-1 h-1.5 rounded-full bg-gray-100 dark:bg-gray-700 overflow-hidden border border-gray-200 dark:border-gray-600">
                     <div
                       className={`h-full rounded-full transition-all duration-500 ${
                         cap.isFull ? "bg-red-400" :
@@ -301,10 +314,17 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
             </div>
           )}
 
+          {/* Emoji Reactions */}
+          {!compact && (
+            <div className="mb-2">
+              <EventReactions eventId={event.id} />
+            </div>
+          )}
+
           {/* Spacer */}
           <div className="flex-1" />
 
-          {/* Bottom: categories + RSVP */}
+          {/* Bottom: categories + RSVP + ride */}
           <div className="flex items-end justify-between gap-2 mt-auto pt-1">
             <div className="flex flex-wrap gap-1 flex-1 min-w-0">
               {event.categories.slice(0, compact ? 1 : 2).map((cat) => {
@@ -326,21 +346,23 @@ export default function EventCard({ event, index, compact, isNow }: EventCardPro
                 </span>
               )}
             </div>
-            {event.link && (
-              <a
-                href={event.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`flex-shrink-0 inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all active:scale-95 ${
-                  cap.isFull
-                    ? "bg-amber-100 text-amber-700 border border-amber-300 hover:bg-amber-200"
-                    : "bg-teal-600 text-white hover:bg-teal-700 shadow-sm"
-                }`}
-              >
-                {cap.isFull ? "Waitlist" : "RSVP"}
-                <ExternalLink className="w-3 h-3" />
-              </a>
-            )}
+            <div className="flex items-center gap-1 flex-shrink-0">
+              {event.link && (
+                <a
+                  href={event.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all active:scale-95 ${
+                    cap.isFull
+                      ? "bg-amber-100 text-amber-700 border border-amber-300 hover:bg-amber-200"
+                      : "bg-teal-600 text-white hover:bg-teal-700 shadow-sm"
+                  }`}
+                >
+                  {cap.isFull ? "Waitlist" : "RSVP"}
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </div>

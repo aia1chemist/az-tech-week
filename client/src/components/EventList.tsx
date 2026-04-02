@@ -13,6 +13,7 @@ interface EventListProps {
   totalFiltered: number;
   isSearchMode?: boolean;
   searchDayBreakdown?: Record<string, number> | null;
+  onShowQR?: (event: Event) => void;
 }
 
 const TIME_SECTIONS = [
@@ -21,33 +22,33 @@ const TIME_SECTIONS = [
     label: "Morning",
     sub: "Before 12 PM",
     Icon: Sun,
-    iconBg: "bg-amber-100",
-    iconColor: "text-amber-600",
+    iconBg: "bg-amber-100 dark:bg-amber-900/30",
+    iconColor: "text-amber-600 dark:text-amber-400",
     barColor: "bg-gradient-to-r from-amber-400 to-amber-300",
-    badgeBg: "bg-amber-100 text-amber-700 border border-amber-200",
-    sectionBg: "bg-amber-50/50",
+    badgeBg: "bg-amber-100 text-amber-700 border border-amber-200 dark:bg-amber-900/30 dark:text-amber-300 dark:border-amber-700",
+    sectionBg: "bg-amber-50/50 dark:bg-amber-900/10",
   },
   {
     key: "Afternoon",
     label: "Afternoon",
     sub: "12 PM – 5 PM",
     Icon: Cloud,
-    iconBg: "bg-orange-100",
-    iconColor: "text-orange-600",
+    iconBg: "bg-orange-100 dark:bg-orange-900/30",
+    iconColor: "text-orange-600 dark:text-orange-400",
     barColor: "bg-gradient-to-r from-orange-400 to-orange-300",
-    badgeBg: "bg-orange-100 text-orange-700 border border-orange-200",
-    sectionBg: "bg-orange-50/50",
+    badgeBg: "bg-orange-100 text-orange-700 border border-orange-200 dark:bg-orange-900/30 dark:text-orange-300 dark:border-orange-700",
+    sectionBg: "bg-orange-50/50 dark:bg-orange-900/10",
   },
   {
     key: "Evening",
     label: "Evening",
     sub: "After 5 PM",
     Icon: Moon,
-    iconBg: "bg-indigo-100",
-    iconColor: "text-indigo-600",
+    iconBg: "bg-indigo-100 dark:bg-indigo-900/30",
+    iconColor: "text-indigo-600 dark:text-indigo-400",
     barColor: "bg-gradient-to-r from-indigo-400 to-indigo-300",
-    badgeBg: "bg-indigo-100 text-indigo-700 border border-indigo-200",
-    sectionBg: "bg-indigo-50/50",
+    badgeBg: "bg-indigo-100 text-indigo-700 border border-indigo-200 dark:bg-indigo-900/30 dark:text-indigo-300 dark:border-indigo-700",
+    sectionBg: "bg-indigo-50/50 dark:bg-indigo-900/10",
   },
 ];
 
@@ -71,7 +72,7 @@ const DAY_ORDER = [
   "Sunday, April 12",
 ];
 
-export default function EventList({ groupedEvents, totalFiltered, isSearchMode, searchDayBreakdown }: EventListProps) {
+export default function EventList({ groupedEvents, totalFiltered, isSearchMode, searchDayBreakdown, onShowQR }: EventListProps) {
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
 
   const toggleSection = (key: string) => {
@@ -81,11 +82,11 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
   if (totalFiltered === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-16 px-4 text-center">
-        <div className="w-16 h-16 rounded-full bg-gray-100 border border-gray-200 flex items-center justify-center mb-4">
+        <div className="w-16 h-16 rounded-full bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center mb-4">
           {isSearchMode ? <Search className="w-7 h-7 text-gray-400" /> : <Calendar className="w-7 h-7 text-gray-400" />}
         </div>
-        <h3 className="text-lg font-semibold text-gray-900 mb-1">No events found</h3>
-        <p className="text-sm text-gray-500 max-w-xs">
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">No events found</h3>
+        <p className="text-sm text-gray-500 dark:text-gray-400 max-w-xs">
           {isSearchMode
             ? "No events match your search across any day. Try different keywords."
             : "Try adjusting your filters or searching for something different."}
@@ -100,17 +101,17 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
 
     return (
       <div className="pb-24">
-        <div className="mx-4 mb-3 px-4 py-3 bg-teal-50 border border-teal-200 rounded-lg">
+        <div className="mx-4 mb-3 px-4 py-3 bg-teal-50 dark:bg-teal-900/20 border border-teal-200 dark:border-teal-700 rounded-lg">
           <div className="flex items-center gap-2 mb-1">
-            <Search className="w-4 h-4 text-teal-600" />
-            <span className="text-sm font-semibold text-gray-900">
+            <Search className="w-4 h-4 text-teal-600 dark:text-teal-400" />
+            <span className="text-sm font-semibold text-gray-900 dark:text-white">
               {totalFiltered} result{totalFiltered !== 1 ? "s" : ""} across all days
             </span>
           </div>
           {searchDayBreakdown && (
             <div className="flex flex-wrap gap-1.5 mt-1.5">
               {DAY_ORDER.filter((d) => searchDayBreakdown[d]).map((d) => (
-                <span key={d} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-teal-100 text-teal-700 border border-teal-200">
+                <span key={d} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-teal-100 dark:bg-teal-800/50 text-teal-700 dark:text-teal-300 border border-teal-200 dark:border-teal-600">
                   {DAY_SHORT[d] || d}: {searchDayBreakdown[d]}
                 </span>
               ))}
@@ -127,16 +128,16 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
             <div key={day} className="mb-2">
               <button
                 onClick={() => toggleSection(day)}
-                className="w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-2.5 bg-white/95 backdrop-blur-sm border-b border-gray-200 tap-target"
+                className="w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-2.5 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 tap-target"
               >
-                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-teal-100 text-teal-600">
+                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-teal-100 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400">
                   <Calendar className="w-4 h-4" />
                 </div>
                 <div className="flex-1 text-left">
-                  <span className="text-sm font-semibold text-gray-900">{shortDay}</span>
-                  <span className="text-xs text-gray-500 ml-2">{day.split(",")[0]}</span>
+                  <span className="text-sm font-semibold text-gray-900 dark:text-white">{shortDay}</span>
+                  <span className="text-xs text-gray-500 dark:text-gray-400 ml-2">{day.split(",")[0]}</span>
                 </div>
-                <span className="text-xs font-medium text-gray-600 bg-gray-100 px-2 py-0.5 rounded-full border border-gray-200">
+                <span className="text-xs font-medium text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded-full border border-gray-200 dark:border-gray-600">
                   {events.length}
                 </span>
                 <ChevronDown className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${isCollapsed ? "-rotate-90" : ""}`} />
@@ -152,7 +153,7 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
                   >
                     <div className="px-4 py-2 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
                       {events.map((event, i) => (
-                        <EventCard key={event.id} event={event} index={i} />
+                        <EventCard key={event.id} event={event} index={i} onShowQR={onShowQR} />
                       ))}
                     </div>
                   </motion.div>
@@ -177,7 +178,7 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
           <div key={key} className="mb-3">
             <button
               onClick={() => toggleSection(key)}
-              className={`w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-3 ${sectionBg} backdrop-blur-sm border-y border-gray-200 tap-target relative overflow-hidden`}
+              className={`w-full sticky top-[72px] z-20 flex items-center gap-3 px-4 py-3 ${sectionBg} backdrop-blur-sm border-y border-gray-200 dark:border-gray-700 tap-target relative overflow-hidden`}
             >
               {/* Color bar on left edge */}
               <div className={`absolute left-0 top-0 bottom-0 w-1.5 ${barColor}`} />
@@ -186,8 +187,8 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
                 <Icon className="w-5 h-5" />
               </div>
               <div className="flex-1 text-left pl-1">
-                <span className="text-sm font-bold text-gray-900">{label}</span>
-                <span className="text-xs text-gray-500 ml-2">{sub}</span>
+                <span className="text-sm font-bold text-gray-900 dark:text-white">{label}</span>
+                <span className="text-xs text-gray-500 dark:text-gray-400 ml-2">{sub}</span>
               </div>
               <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${badgeBg}`}>
                 {events.length}
@@ -205,7 +206,7 @@ export default function EventList({ groupedEvents, totalFiltered, isSearchMode, 
                 >
                   <div className="px-4 py-2 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
                     {events.map((event, i) => (
-                      <EventCard key={event.id} event={event} index={i} />
+                      <EventCard key={event.id} event={event} index={i} onShowQR={onShowQR} />
                     ))}
                   </div>
                 </motion.div>

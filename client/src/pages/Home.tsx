@@ -1,7 +1,9 @@
 /*
- * AZTW Home — Full-featured event calendar with all 11 features
- * Bookmarks, Live Now, Share, Conflicts, Venue Clusters, Organizer Profiles,
- * Calendar Export, Smart Recommendations, Live Ticker, Event Comparison, Networking Score
+ * AZTW Home — Full-featured event calendar with ALL features
+ * v4.0: Bookmarks, Live Now, Share, Conflicts, Venue Clusters, Organizer Profiles,
+ * Calendar Export, Smart Recommendations, Live Ticker, Event Comparison, Networking Score,
+ * Countdown, Dark Mode, Personal Stats, Google Cal, Shareable Schedule, Map View,
+ * QR Codes, Reactions, Category Insights, Weather, Uber/Lyft, Smart Scroll Counter, PWA
  */
 import { useState, useCallback } from "react";
 import { useEvents } from "@/hooks/useEvents";
@@ -20,6 +22,12 @@ import MySchedule from "@/components/MySchedule";
 import HappeningNow from "@/components/HappeningNow";
 import VenueClusters from "@/components/VenueClusters";
 import OrganizerProfiles from "@/components/OrganizerProfiles";
+import QRCodeModal from "@/components/QRCodeModal";
+import MapView from "@/components/MapView";
+import WeatherOverlay from "@/components/WeatherOverlay";
+import SmartScrollCounter from "@/components/SmartScrollCounter";
+import { useSharedScheduleLoader } from "@/components/ShareableSchedule";
+import type { Event } from "@/data/types";
 
 export default function Home() {
   const {
@@ -42,26 +50,42 @@ export default function Home() {
 
   const swipeHandlers = useSwipe(nextDay, prevDay);
 
+  // Load shared schedule from URL params
+  useSharedScheduleLoader();
+
   // Drawer states
   const [scheduleOpen, setScheduleOpen] = useState(false);
   const [happeningNowOpen, setHappeningNowOpen] = useState(false);
   const [venueClustersOpen, setVenueClustersOpen] = useState(false);
   const [organizersOpen, setOrganizersOpen] = useState(false);
+  const [mapOpen, setMapOpen] = useState(false);
+
+  // QR Code modal state
+  const [qrEvent, setQrEvent] = useState<Event | null>(null);
 
   // Callbacks for venue clusters and organizer profiles
   const handleFilterCity = useCallback((city: string) => {
     updateFilter("city", city);
+    setVenueClustersOpen(false);
     window.scrollTo({ top: 400, behavior: "smooth" });
   }, [updateFilter]);
 
   const handleSearchOrganizer = useCallback((name: string) => {
     updateFilter("search", name);
+    setOrganizersOpen(false);
     window.scrollTo({ top: 400, behavior: "smooth" });
   }, [updateFilter]);
 
+  const handleShowQR = useCallback((event: Event) => {
+    setQrEvent(event);
+  }, []);
+
   return (
-    <div className="min-h-screen bg-gray-50" {...swipeHandlers}>
-      {/* Hero */}
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors" {...swipeHandlers}>
+      {/* Smart Scroll Counter — floating at top */}
+      <SmartScrollCounter count={events.length} isSearchActive={isSearchActive} />
+
+      {/* Hero — includes countdown, category insights, dark mode toggle */}
       <HeroSection />
 
       {/* Day Selector — sticky (dimmed when searching across all days) */}
@@ -71,6 +95,13 @@ export default function Home() {
           onSelectDay={(day) => updateFilter("day", day)}
         />
       </div>
+
+      {/* Weather Overlay — show for selected day */}
+      {!isSearchActive && (
+        <div className="max-w-6xl mx-auto px-4 mt-2">
+          <WeatherOverlay selectedDay={filters.day} />
+        </div>
+      )}
 
       {/* Live Ticker — What's Hot today */}
       {!isSearchActive && <LiveTicker selectedDay={filters.day} />}
@@ -104,25 +135,27 @@ export default function Home() {
         </div>
       )}
 
-      {/* Event List */}
-      <main className="max-w-6xl mx-auto">
+      {/* Event List — with QR code callback */}
+      <main className="max-w-6xl mx-auto pb-16">
         <EventList
           groupedEvents={groupedEvents}
           totalFiltered={events.length}
           isSearchMode={isSearchActive}
           searchDayBreakdown={searchDayBreakdown}
+          onShowQR={handleShowQR}
         />
       </main>
 
       {/* Scroll to top — offset for bottom nav */}
       <ScrollToTop />
 
-      {/* Bottom Navigation Bar */}
+      {/* Bottom Navigation Bar — with map button */}
       <BottomNav
         onOpenSchedule={() => setScheduleOpen(true)}
         onOpenHappeningNow={() => setHappeningNowOpen(true)}
         onOpenVenueClusters={() => setVenueClustersOpen(true)}
         onOpenOrganizers={() => setOrganizersOpen(true)}
+        onOpenMap={() => setMapOpen(true)}
       />
 
       {/* Drawers */}
@@ -139,56 +172,64 @@ export default function Home() {
         onClose={() => setOrganizersOpen(false)}
         onSearchOrganizer={handleSearchOrganizer}
       />
+      <MapView
+        open={mapOpen}
+        onClose={() => setMapOpen(false)}
+        selectedDay={filters.day}
+      />
+
+      {/* QR Code Modal */}
+      <QRCodeModal event={qrEvent} onClose={() => setQrEvent(null)} />
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white py-8 px-4 pb-24">
+      <footer className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 py-8 px-4 pb-20">
         <div className="max-w-lg mx-auto text-center space-y-3">
           {/* Credits */}
-          <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
+          <div className="flex items-center justify-center gap-2 text-xs text-gray-500 dark:text-gray-400">
             <span>Made by</span>
             <a
               href="https://www.linkedin.com/in/tlegwinski/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-teal-600 hover:text-teal-700 font-semibold transition-colors"
+              className="text-teal-600 dark:text-teal-400 hover:text-teal-700 font-semibold transition-colors"
             >
               Trevor Legwinski
             </a>
           </div>
 
-          <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
+          <div className="flex items-center justify-center gap-2 text-xs text-gray-500 dark:text-gray-400">
             <span>Powered by</span>
             <a
               href="https://manus.im"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-teal-600 hover:text-teal-700 font-semibold transition-colors"
+              className="text-teal-600 dark:text-teal-400 hover:text-teal-700 font-semibold transition-colors"
             >
               Manus AI
             </a>
           </div>
 
           {/* Last Updated & Version */}
-          <div className="pt-2 border-t border-gray-100">
-            <div className="flex items-center justify-center gap-1.5 text-[11px] text-gray-500">
+          <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
+            <div className="flex items-center justify-center gap-1.5 text-[11px] text-gray-500 dark:text-gray-400">
               <svg className="w-3.5 h-3.5 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>Last updated: April 1, 2026</span>
-              <span className="text-gray-300">|</span>
-              <span className="text-gray-400">Updated every 12 hours</span>
+              <span className="text-gray-300 dark:text-gray-600">|</span>
+              <span className="text-gray-400 dark:text-gray-500">Updated every 12 hours</span>
             </div>
           </div>
 
           {/* Data sources */}
-          <div className="pt-2 border-t border-gray-100">
-            <p className="text-[10px] text-gray-400">
+          <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
+            <p className="text-[10px] text-gray-400 dark:text-gray-500">
               Data sourced from{" "}
               <a
                 href="https://www.azcommerce.com/az-tech-week/aztw-calendar/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-gray-600 transition-colors"
+                className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
               >
                 AZ Commerce
               </a>{" "}
@@ -197,14 +238,14 @@ export default function Home() {
                 href="https://partiful.com/u/VY4cqhQoiBhJ9W9fLIqC"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-gray-600 transition-colors"
+                className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
               >
                 Partiful
               </a>
               . Not an official AZ Tech Week product.
             </p>
-            <p className="text-[10px] text-gray-300 mt-1">
-              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v3.0
+            <p className="text-[10px] text-gray-300 dark:text-gray-600 mt-1">
+              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v4.0
             </p>
           </div>
         </div>

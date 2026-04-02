@@ -1,12 +1,15 @@
 /*
- * AZTW Light Theme Hero — Bold uppercase, teal accents, animated counters
- * Shows: total events, attendees, open slots, global capacity bar, day density
+ * AZTW Hero — Bold uppercase, teal accents, animated counters
+ * Now includes: Countdown timer, Category insights, Dark mode toggle
  */
 import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import eventsData from "@/data/events.json";
 import type { EventsData } from "@/data/types";
+import Countdown from "./Countdown";
+import CategoryInsights from "./CategoryInsights";
+import DarkModeToggle from "./DarkModeToggle";
 
 const data = eventsData as EventsData;
 
@@ -102,7 +105,12 @@ export default function HeroSection() {
       {/* Background */}
       <div className="absolute inset-0">
         <img src={HERO_IMG} alt="" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-white" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-white dark:to-gray-900" />
+      </div>
+
+      {/* Dark mode toggle — top right */}
+      <div className="absolute top-4 right-4 z-10">
+        <DarkModeToggle />
       </div>
 
       {/* Content */}
@@ -134,41 +142,51 @@ export default function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-center text-sm sm:text-base text-white/80 max-w-md mx-auto mb-8"
+          className="text-center text-sm sm:text-base text-white/80 max-w-md mx-auto mb-5"
           style={{ textShadow: "0 1px 4px rgba(0,0,0,0.3)" }}
         >
           Arizona's inaugural tech week. Every event. One calendar.
         </motion.p>
+
+        {/* Countdown Timer */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.25 }}
+          className="flex justify-center mb-6"
+        >
+          <Countdown />
+        </motion.div>
 
         {/* Animated stat counters — glass card */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="max-w-lg mx-auto mb-6 bg-white/90 backdrop-blur-md rounded-xl border border-gray-200 shadow-lg"
+          className="max-w-lg mx-auto mb-6 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md rounded-xl border border-gray-200 dark:border-gray-700 shadow-lg"
         >
-          <div className="flex items-stretch justify-center divide-x divide-gray-200">
+          <div className="flex items-stretch justify-center divide-x divide-gray-200 dark:divide-gray-700">
             <div ref={eventsCounter.ref} className="flex-1 text-center px-3 py-4">
-              <div className="text-2xl sm:text-3xl font-black text-teal-600 font-display">{eventsCounter.count}+</div>
-              <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider font-medium">Events</div>
+              <div className="text-2xl sm:text-3xl font-black text-teal-600 dark:text-teal-400 font-display">{eventsCounter.count}+</div>
+              <div className="text-[10px] sm:text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider font-medium">Events</div>
             </div>
             <div ref={goingCounter.ref} className="flex-1 text-center px-3 py-4">
-              <div className="text-2xl sm:text-3xl font-black text-emerald-600 font-display">{goingCounter.count.toLocaleString()}+</div>
-              <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider font-medium">Going</div>
+              <div className="text-2xl sm:text-3xl font-black text-emerald-600 dark:text-emerald-400 font-display">{goingCounter.count.toLocaleString()}+</div>
+              <div className="text-[10px] sm:text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider font-medium">Going</div>
             </div>
             <div ref={slotsCounter.ref} className="flex-1 text-center px-3 py-4">
-              <div className="text-2xl sm:text-3xl font-black text-orange-600 font-display">{slotsCounter.count.toLocaleString()}+</div>
-              <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider font-medium">Open Spots</div>
+              <div className="text-2xl sm:text-3xl font-black text-orange-600 dark:text-orange-400 font-display">{slotsCounter.count.toLocaleString()}+</div>
+              <div className="text-[10px] sm:text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider font-medium">Open Spots</div>
             </div>
           </div>
 
           {/* Global capacity bar */}
           <div className="px-4 pb-4">
-            <div className="flex items-center justify-between text-[10px] text-gray-500 uppercase tracking-wider mb-1.5">
+            <div className="flex items-center justify-between text-[10px] text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-1.5">
               <span>Overall Capacity</span>
-              <span className="text-teal-600 font-bold">{stats.fillPct}% Full</span>
+              <span className="text-teal-600 dark:text-teal-400 font-bold">{stats.fillPct}% Full</span>
             </div>
-            <div className="h-2.5 rounded-full bg-gray-100 overflow-hidden border border-gray-200">
+            <div className="h-2.5 rounded-full bg-gray-100 dark:bg-gray-700 overflow-hidden border border-gray-200 dark:border-gray-600">
               <motion.div
                 initial={{ width: 0 }}
                 animate={{ width: `${stats.fillPct}%` }}
@@ -188,9 +206,9 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className="max-w-sm mx-auto bg-white/90 backdrop-blur-md rounded-xl border border-gray-200 shadow-lg p-4"
+          className="max-w-sm mx-auto bg-white/90 dark:bg-gray-800/90 backdrop-blur-md rounded-xl border border-gray-200 dark:border-gray-700 shadow-lg p-4"
         >
-          <div className="text-[10px] text-gray-500 uppercase tracking-wider mb-3 text-center font-semibold">Event Density by Day</div>
+          <div className="text-[10px] text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3 text-center font-semibold">Event Density by Day</div>
           <div className="flex gap-1.5 justify-center">
             {data.days.map((day) => {
               const ds = stats.dayStats[day];
@@ -210,7 +228,7 @@ export default function HeroSection() {
                   >
                     {ds.events}
                   </div>
-                  <span className="text-[9px] text-gray-500 font-medium">{label.short}</span>
+                  <span className="text-[9px] text-gray-500 dark:text-gray-400 font-medium">{label.short}</span>
                   {fillPct > 0 && (
                     <span className={`text-[8px] font-bold ${
                       fillPct >= 70 ? "text-red-500" : fillPct >= 40 ? "text-amber-500" : "text-teal-500"
@@ -223,6 +241,9 @@ export default function HeroSection() {
             })}
           </div>
         </motion.div>
+
+        {/* Category Insights */}
+        <CategoryInsights />
 
         {/* Scroll indicator */}
         <motion.div
