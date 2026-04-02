@@ -59,3 +59,4 @@
 - [x] Sign in / Account button in hero section
 - [x] Database schema: bookmarks + rsvp_snapshots tables
 - [x] Vitest tests for bookmark and RSVP routers
+- [x] Remove LivePulse trending bar (user request)

@@ -27,7 +27,6 @@ import FirstTimerGuide from "@/components/FirstTimerGuide";
 import PlanMyDay from "@/components/PlanMyDay";
 
 // v7.0 features
-import LivePulse from "@/components/LivePulse";
 import EventMatchmaker from "@/components/EventMatchmaker";
 import ScheduleRoast from "@/components/ScheduleRoast";
 import CityHopperBadge from "@/components/CityHopperBadge";
@@ -114,9 +113,6 @@ export default function Home() {
 
       {/* Weather for the selected day */}
       {!isSearchActive && <WeatherSuggestions selectedDay={filters.day} />}
-
-      {/* Live Pulse — trending RSVP momentum */}
-      {!isSearchActive && <LivePulse selectedDay={filters.day} />}
 
       {/* Quick Stats — single-line summary */}
       {!isSearchActive && <QuickStats selectedDay={filters.day} />}
