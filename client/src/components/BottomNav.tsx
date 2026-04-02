@@ -4,7 +4,7 @@
  */
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Radio, User, Map } from "lucide-react";
+import { Heart, Radio, User, Map, Sparkles, Dices } from "lucide-react";
 import { useBookmarks } from "@/contexts/BookmarkContext";
 
 interface BottomNavProps {
@@ -12,6 +12,8 @@ interface BottomNavProps {
   onOpenHappeningNow: () => void;
   onOpenOrganizers: () => void;
   onOpenMap?: () => void;
+  onOpenMatchmaker?: () => void;
+  onOpenBingo?: () => void;
 }
 
 export default function BottomNav({
@@ -19,6 +21,8 @@ export default function BottomNav({
   onOpenHappeningNow,
   onOpenOrganizers,
   onOpenMap,
+  onOpenMatchmaker,
+  onOpenBingo,
 }: BottomNavProps) {
   const { count } = useBookmarks();
   const [visible, setVisible] = useState(true);
@@ -79,6 +83,22 @@ export default function BottomNav({
       badge: null,
       pulse: false,
     },
+    ...(onOpenMatchmaker ? [{
+      label: "Match",
+      Icon: Sparkles,
+      onClick: onOpenMatchmaker,
+      color: "text-violet-600 dark:text-violet-400",
+      badge: null,
+      pulse: false,
+    }] : []),
+    ...(onOpenBingo ? [{
+      label: "Bingo",
+      Icon: Dices,
+      onClick: onOpenBingo,
+      color: "text-amber-600 dark:text-amber-400",
+      badge: null,
+      pulse: false,
+    }] : []),
   ];
 
   return (

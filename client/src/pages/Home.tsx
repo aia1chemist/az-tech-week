@@ -1,7 +1,8 @@
 /*
  * AZTW Home — Clean, easy-to-navigate event calendar
- * v6.0: Fresh data scrape + all features wired — removed floating counters, weather row, emoji reactions from cards
- * All advanced features accessible via bottom nav drawers
+ * v7.0: 10 new features — WhosGoing, LivePulse, EventMatchmaker, ScheduleRoast,
+ *       CityHopperBadge, BingoCard, AfterPartyFinder, WeatherSuggestions,
+ *       DailyDigest, ParkingNotes
  */
 import { useState, useCallback, useEffect } from "react";
 import { useEvents } from "@/hooks/useEvents";
@@ -26,6 +27,17 @@ import type { Event } from "@/data/types";
 import CuratedTracks from "@/components/CuratedTracks";
 import FirstTimerGuide from "@/components/FirstTimerGuide";
 import PlanMyDay from "@/components/PlanMyDay";
+
+// v7.0 features
+import LivePulse from "@/components/LivePulse";
+import EventMatchmaker from "@/components/EventMatchmaker";
+import ScheduleRoast from "@/components/ScheduleRoast";
+import CityHopperBadge from "@/components/CityHopperBadge";
+import BingoCard from "@/components/BingoCard";
+import AfterPartyFinder from "@/components/AfterPartyFinder";
+import WeatherSuggestions from "@/components/WeatherSuggestions";
+import DailyDigest from "@/components/DailyDigest";
+import ParkingNotes from "@/components/ParkingNotes";
 
 export default function Home() {
   const {
@@ -68,6 +80,10 @@ export default function Home() {
   // Plan My Day wizard
   const [planMyDayOpen, setPlanMyDayOpen] = useState(false);
 
+  // v7.0 modals
+  const [matchmakerOpen, setMatchmakerOpen] = useState(false);
+  const [bingoOpen, setBingoOpen] = useState(false);
+
   const handleFilterCity = useCallback((city: string) => {
     updateFilter("city", city);
     window.scrollTo({ top: 400, behavior: "smooth" });
@@ -96,6 +112,12 @@ export default function Home() {
         />
       </div>
 
+      {/* Weather for the selected day */}
+      {!isSearchActive && <WeatherSuggestions selectedDay={filters.day} />}
+
+      {/* Live Pulse — trending RSVP momentum */}
+      {!isSearchActive && <LivePulse selectedDay={filters.day} />}
+
       {/* Live Ticker — compact "What's Hot" strip */}
       {!isSearchActive && <LiveTicker selectedDay={filters.day} />}
 
@@ -104,6 +126,22 @@ export default function Home() {
 
       {/* Trending Section */}
       {!isSearchActive && <TrendingSection events={trendingEvents} />}
+
+      {/* Schedule Roast — tongue-in-cheek analysis (only shows if bookmarks exist) */}
+      {!isSearchActive && <ScheduleRoast />}
+
+      {/* After-Party Finder — evening events near bookmarked daytime events */}
+      {!isSearchActive && <AfterPartyFinder selectedDay={filters.day} />}
+
+      {/* City Hopper Badge — shows earned badge based on bookmark diversity */}
+      {!isSearchActive && (
+        <div className="max-w-6xl mx-auto px-4 py-1">
+          <CityHopperBadge />
+        </div>
+      )}
+
+      {/* Daily Digest email signup */}
+      {!isSearchActive && <DailyDigest />}
 
       {/* First-timer guide — collapsible */}
       {!isSearchActive && <FirstTimerGuide />}
@@ -158,6 +196,9 @@ export default function Home() {
         />
       </main>
 
+      {/* Parking & Venue Notes — after the event list */}
+      <ParkingNotes />
+
       {/* Scroll to top */}
       <ScrollToTop />
 
@@ -167,6 +208,8 @@ export default function Home() {
         onOpenHappeningNow={() => setHappeningNowOpen(true)}
         onOpenOrganizers={() => setOrganizersOpen(true)}
         onOpenMap={() => setMapOpen(true)}
+        onOpenMatchmaker={() => setMatchmakerOpen(true)}
+        onOpenBingo={() => setBingoOpen(true)}
       />
 
       {/* Drawers — all features accessible but tucked away */}
@@ -188,6 +231,10 @@ export default function Home() {
 
       {/* Plan My Day Wizard */}
       <PlanMyDay open={planMyDayOpen} onClose={() => setPlanMyDayOpen(false)} />
+
+      {/* v7.0 Modals */}
+      <EventMatchmaker open={matchmakerOpen} onClose={() => setMatchmakerOpen(false)} />
+      <BingoCard open={bingoOpen} onClose={() => setBingoOpen(false)} />
 
       {/* Footer */}
       <footer className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 py-8 px-4 pb-20">
@@ -250,7 +297,7 @@ export default function Home() {
               . Not an official AZ Tech Week product.
             </p>
             <p className="text-[10px] text-gray-300 dark:text-gray-600 mt-1">
-              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v6.1
+              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v7.0
             </p>
           </div>
         </div>

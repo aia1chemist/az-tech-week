@@ -13,6 +13,7 @@ import { useBookmarks } from "@/contexts/BookmarkContext";
 import RideButton from "./RideButton";
 import EventReactions from "./EventReactions";
 import Sparkline from "./Sparkline";
+import WhosGoing from "./WhosGoing";
 
 interface EventCardProps {
   event: Event;
@@ -314,6 +315,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
                     <Sparkline going={event.going} capacity={event.capacity} spotsLeft={event.spots_left} className="ml-0.5" />
                   </span>
                 )}
+                {event.going >= 3 && <WhosGoing eventId={event.id} going={event.going} />}
                 {event.interested > 0 && (
                   <span><span className="font-medium text-gray-700 dark:text-gray-300">{event.interested}</span> interested</span>
                 )}
