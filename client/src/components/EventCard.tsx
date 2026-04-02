@@ -149,20 +149,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
           </div>
         )}
 
-        {/* Event cover image */}
-        {event.image_url && !compact && (
-          <div className="h-28 sm:h-32 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
-            <img
-              src={event.image_url}
-              alt=""
-              className="w-full h-full object-cover"
-              loading="lazy"
-              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-            />
-          </div>
-        )}
-
-        <div className={`pl-4 pr-3 py-3 sm:pl-5 sm:pr-4 sm:py-4 flex flex-col flex-1 ${event.image_url && !compact ? 'pt-2 sm:pt-3' : ''}`}>
+        <div className="pl-4 pr-3 py-3 sm:pl-5 sm:pr-4 sm:py-4 flex flex-col flex-1">
           {/* Top row: status badges + 2 action buttons (share + heart) */}
           <div className="flex items-start justify-between gap-2 mb-1.5">
             <div className="flex gap-1.5 flex-wrap flex-1">
