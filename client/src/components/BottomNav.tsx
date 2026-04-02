@@ -4,13 +4,12 @@
  */
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Radio, MapPin, User, Map } from "lucide-react";
+import { Heart, Radio, User, Map } from "lucide-react";
 import { useBookmarks } from "@/contexts/BookmarkContext";
 
 interface BottomNavProps {
   onOpenSchedule: () => void;
   onOpenHappeningNow: () => void;
-  onOpenVenueClusters: () => void;
   onOpenOrganizers: () => void;
   onOpenMap?: () => void;
 }
@@ -18,7 +17,6 @@ interface BottomNavProps {
 export default function BottomNav({
   onOpenSchedule,
   onOpenHappeningNow,
-  onOpenVenueClusters,
   onOpenOrganizers,
   onOpenMap,
 }: BottomNavProps) {
@@ -73,14 +71,6 @@ export default function BottomNav({
       badge: null,
       pulse: false,
     }] : []),
-    {
-      label: "Venues",
-      Icon: MapPin,
-      onClick: onOpenVenueClusters,
-      color: "text-blue-600 dark:text-blue-400",
-      badge: null,
-      pulse: false,
-    },
     {
       label: "Hosts",
       Icon: User,

@@ -18,7 +18,6 @@ import LiveTicker from "@/components/LiveTicker";
 import BottomNav from "@/components/BottomNav";
 import MySchedule from "@/components/MySchedule";
 import HappeningNow from "@/components/HappeningNow";
-import VenueClusters from "@/components/VenueClusters";
 import OrganizerProfiles from "@/components/OrganizerProfiles";
 import QRCodeModal from "@/components/QRCodeModal";
 import MapView from "@/components/MapView";
@@ -57,7 +56,6 @@ export default function Home() {
   // Drawer states
   const [scheduleOpen, setScheduleOpen] = useState(false);
   const [happeningNowOpen, setHappeningNowOpen] = useState(false);
-  const [venueClustersOpen, setVenueClustersOpen] = useState(false);
   const [organizersOpen, setOrganizersOpen] = useState(false);
   const [mapOpen, setMapOpen] = useState(false);
 
@@ -66,7 +64,6 @@ export default function Home() {
 
   const handleFilterCity = useCallback((city: string) => {
     updateFilter("city", city);
-    setVenueClustersOpen(false);
     window.scrollTo({ top: 400, behavior: "smooth" });
   }, [updateFilter]);
 
@@ -143,7 +140,6 @@ export default function Home() {
       <BottomNav
         onOpenSchedule={() => setScheduleOpen(true)}
         onOpenHappeningNow={() => setHappeningNowOpen(true)}
-        onOpenVenueClusters={() => setVenueClustersOpen(true)}
         onOpenOrganizers={() => setOrganizersOpen(true)}
         onOpenMap={() => setMapOpen(true)}
       />
@@ -151,12 +147,6 @@ export default function Home() {
       {/* Drawers — all features accessible but tucked away */}
       <MySchedule open={scheduleOpen} onClose={() => setScheduleOpen(false)} />
       <HappeningNow open={happeningNowOpen} onClose={() => setHappeningNowOpen(false)} />
-      <VenueClusters
-        open={venueClustersOpen}
-        onClose={() => setVenueClustersOpen(false)}
-        onFilterCity={handleFilterCity}
-        selectedDay={filters.day}
-      />
       <OrganizerProfiles
         open={organizersOpen}
         onClose={() => setOrganizersOpen(false)}

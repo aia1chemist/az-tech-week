@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const TARGET = new Date("2026-04-06T07:00:00-07:00").getTime(); // MST
+const END_DATE = new Date("2026-04-13T00:00:00-07:00").getTime(); // End of Tech Week
 
 interface TimeLeft {
   days: number;
@@ -55,7 +56,10 @@ export default function Countdown() {
     return () => clearInterval(interval);
   }, []);
 
-  // If event has started, show "Happening Now!"
+  // After Tech Week ends, hide completely
+  if (Date.now() >= END_DATE) return null;
+
+  // During Tech Week (April 6-12), show "Happening Now!"
   if (time.total <= 0) {
     return (
       <motion.div
