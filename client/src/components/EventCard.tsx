@@ -1,16 +1,15 @@
 /*
- * AZTW EventCard — Full-featured card with bookmark, share, networking score,
- * Google Calendar, emoji reactions, QR code, ride buttons
+ * AZTW EventCard — Clean, scannable card
+ * Primary actions visible: Heart (bookmark) + Share
+ * Secondary actions (Google Cal, QR, Reactions, Ride) appear only when expanded
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Clock, MapPin, ExternalLink, Lock, Users, Flame, Timer, ChevronDown, ChevronUp, Heart, Share2, Zap, QrCode, Car } from "lucide-react";
+import { Clock, MapPin, ExternalLink, Lock, Users, Flame, Timer, ChevronDown, ChevronUp, Heart, Share2, Zap } from "lucide-react";
 import { toast } from "sonner";
 import type { Event } from "@/data/types";
 import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
 import { useBookmarks } from "@/contexts/BookmarkContext";
-import GoogleCalButton from "./GoogleCalButton";
-import EventReactions from "./EventReactions";
 
 interface EventCardProps {
   event: Event;
@@ -63,7 +62,6 @@ function getCapacityInfo(event: Event) {
   return { isFull, hasCapacity, hasSpots, fillPct, isFillingUp, isAlmostFull };
 }
 
-/* Networking score: 0-100 */
 function getNetworkingScore(event: Event): number {
   let score = 0;
   const networkCats = ["Networking & Social", "Startups & Entrepreneurship", "Investing & VC"];
@@ -81,16 +79,32 @@ function getNetworkingScore(event: Event): number {
 function handleShare(event: Event) {
   const title = cleanTitle(event.title);
   const text = `Check out "${title}" at AZ Tech Week!\n${event.start_time || event.time} · ${event.city}\n${event.link}`;
-
   if (navigator.share) {
     navigator.share({ title: `AZ Tech Week: ${title}`, text, url: event.link }).catch(() => {});
   } else {
     navigator.clipboard.writeText(text).then(() => {
-      toast.success("Event link copied to clipboard!");
+      toast.success("Event link copied!");
     }).catch(() => {
       toast.error("Could not copy link");
     });
   }
+}
+
+function addToGoogleCal(event: Event) {
+  const title = encodeURIComponent(cleanTitle(event.title));
+  const details = encodeURIComponent(`${event.organizer ? "Hosted by " + event.organizer + "\n" : ""}${event.link || ""}`);
+  const location = encodeURIComponent(event.city || "Phoenix, AZ");
+  const dateStr = event.date.replace(/-/g, "");
+  const timeStr = (event.start_time || "09:00 am").replace(/[^0-9apm:]/gi, "");
+  let [hm, ampm] = timeStr.split(/(am|pm)/i);
+  let [h, m] = (hm || "9:00").split(":").map(Number);
+  if (ampm?.toLowerCase() === "pm" && h < 12) h += 12;
+  if (ampm?.toLowerCase() === "am" && h === 12) h = 0;
+  const startDT = `${dateStr}T${String(h).padStart(2, "0")}${String(m || 0).padStart(2, "0")}00`;
+  const endH = h + 2;
+  const endDT = `${dateStr}T${String(endH).padStart(2, "0")}${String(m || 0).padStart(2, "0")}00`;
+  const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startDT}/${endDT}&details=${details}&location=${location}`;
+  window.open(url, "_blank");
 }
 
 export default function EventCard({ event, index, compact, isNow, onShowQR }: EventCardProps) {
@@ -132,7 +146,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
         )}
 
         <div className="pl-4 pr-3 py-3 sm:pl-5 sm:pr-4 sm:py-4 flex flex-col flex-1">
-          {/* Top row: badges + actions */}
+          {/* Top row: status badges + 2 action buttons (share + heart) */}
           <div className="flex items-start justify-between gap-2 mb-1.5">
             <div className="flex gap-1.5 flex-wrap flex-1">
               {cap.isFull && (
@@ -146,13 +160,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
                   {event.spots_left} SPOTS LEFT
                 </span>
               )}
-              {cap.isAlmostFull && !cap.isFillingUp && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-50 text-amber-600 border border-amber-200">
-                  <Flame className="w-2.5 h-2.5" />
-                  FILLING UP
-                </span>
-              )}
-              {netScore >= 60 && !compact && (
+              {netScore >= 70 && !compact && (
                 <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-violet-50 text-violet-600 border border-violet-200">
                   <Zap className="w-2.5 h-2.5" />
                   High Networking
@@ -160,19 +168,9 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
               )}
             </div>
 
-            {/* Action buttons */}
+            {/* Only 2 action buttons: Share + Heart */}
             {!isNow && (
               <div className="flex items-center gap-0 flex-shrink-0">
-                <GoogleCalButton event={event} compact />
-                {onShowQR && (
-                  <button
-                    onClick={(e) => { e.stopPropagation(); e.preventDefault(); onShowQR(event); }}
-                    className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-400 hover:text-gray-600 transition-all"
-                    aria-label="Show QR code"
-                  >
-                    <QrCode className="w-3.5 h-3.5" />
-                  </button>
-                )}
                 <button
                   onClick={(e) => { e.stopPropagation(); e.preventDefault(); handleShare(event); }}
                   className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-400 hover:text-gray-600 transition-all"
@@ -185,7 +183,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
                     e.stopPropagation();
                     e.preventDefault();
                     toggle(event.id);
-                    toast(saved ? "Removed from My Schedule" : "Added to My Schedule", {
+                    toast(saved ? "Removed from schedule" : "Added to schedule", {
                       icon: saved ? "💔" : "❤️",
                       duration: 1500,
                     });
@@ -238,7 +236,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
             by {event.organizer}
           </p>
 
-          {/* Description */}
+          {/* Description — expandable, secondary actions appear when expanded */}
           {hasDescription && !compact && (
             <div className="mb-2.5">
               <AnimatePresence initial={false}>
@@ -254,6 +252,24 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
                     <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed whitespace-pre-line">
                       {event.description}
                     </p>
+                    {/* Secondary actions — only visible when expanded */}
+                    <div className="flex items-center gap-2 mt-2 pt-2 border-t border-gray-100 dark:border-gray-700">
+                      <button
+                        onClick={(e) => { e.stopPropagation(); e.preventDefault(); addToGoogleCal(event); }}
+                        className="flex items-center gap-1 px-2 py-1 rounded-md text-[10px] font-medium text-gray-500 hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-all border border-gray-200 dark:border-gray-600"
+                      >
+                        <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}><rect x="3" y="4" width="18" height="18" rx="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
+                        Add to Calendar
+                      </button>
+                      {onShowQR && (
+                        <button
+                          onClick={(e) => { e.stopPropagation(); e.preventDefault(); onShowQR(event); }}
+                          className="flex items-center gap-1 px-2 py-1 rounded-md text-[10px] font-medium text-gray-500 hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-900/30 transition-all border border-gray-200 dark:border-gray-600"
+                        >
+                          QR Code
+                        </button>
+                      )}
+                    </div>
                   </motion.div>
                 ) : (
                   <motion.p key="truncated" className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-2">
@@ -274,7 +290,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
 
           {/* Attendee + Capacity */}
           {(hasAttendeeData || cap.hasCapacity) && (
-            <div className="mb-2.5 space-y-1.5">
+            <div className="mb-2 space-y-1.5">
               <div className="flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400">
                 {event.going > 0 && (
                   <span className="flex items-center gap-1">
@@ -314,17 +330,10 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
             </div>
           )}
 
-          {/* Emoji Reactions */}
-          {!compact && (
-            <div className="mb-2">
-              <EventReactions eventId={event.id} />
-            </div>
-          )}
-
           {/* Spacer */}
           <div className="flex-1" />
 
-          {/* Bottom: categories + RSVP + ride */}
+          {/* Bottom: categories + RSVP */}
           <div className="flex items-end justify-between gap-2 mt-auto pt-1">
             <div className="flex flex-wrap gap-1 flex-1 min-w-0">
               {event.categories.slice(0, compact ? 1 : 2).map((cat) => {

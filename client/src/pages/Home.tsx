@@ -1,9 +1,7 @@
 /*
- * AZTW Home — Full-featured event calendar with ALL features
- * v4.0: Bookmarks, Live Now, Share, Conflicts, Venue Clusters, Organizer Profiles,
- * Calendar Export, Smart Recommendations, Live Ticker, Event Comparison, Networking Score,
- * Countdown, Dark Mode, Personal Stats, Google Cal, Shareable Schedule, Map View,
- * QR Codes, Reactions, Category Insights, Weather, Uber/Lyft, Smart Scroll Counter, PWA
+ * AZTW Home — Clean, easy-to-navigate event calendar
+ * v4.1: Decluttered — removed floating counters, weather row, emoji reactions from cards
+ * All advanced features accessible via bottom nav drawers
  */
 import { useState, useCallback } from "react";
 import { useEvents } from "@/hooks/useEvents";
@@ -24,8 +22,6 @@ import VenueClusters from "@/components/VenueClusters";
 import OrganizerProfiles from "@/components/OrganizerProfiles";
 import QRCodeModal from "@/components/QRCodeModal";
 import MapView from "@/components/MapView";
-import WeatherOverlay from "@/components/WeatherOverlay";
-import SmartScrollCounter from "@/components/SmartScrollCounter";
 import { useSharedScheduleLoader } from "@/components/ShareableSchedule";
 import type { Event } from "@/data/types";
 
@@ -63,7 +59,6 @@ export default function Home() {
   // QR Code modal state
   const [qrEvent, setQrEvent] = useState<Event | null>(null);
 
-  // Callbacks for venue clusters and organizer profiles
   const handleFilterCity = useCallback((city: string) => {
     updateFilter("city", city);
     setVenueClustersOpen(false);
@@ -82,10 +77,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors" {...swipeHandlers}>
-      {/* Smart Scroll Counter — floating at top */}
-      <SmartScrollCounter count={events.length} isSearchActive={isSearchActive} />
-
-      {/* Hero — includes countdown, category insights, dark mode toggle */}
+      {/* Hero — countdown, stats, dark mode toggle */}
       <HeroSection />
 
       {/* Day Selector — sticky (dimmed when searching across all days) */}
@@ -96,20 +88,13 @@ export default function Home() {
         />
       </div>
 
-      {/* Weather Overlay — show for selected day */}
-      {!isSearchActive && (
-        <div className="max-w-6xl mx-auto px-4 mt-2">
-          <WeatherOverlay selectedDay={filters.day} />
-        </div>
-      )}
-
-      {/* Live Ticker — What's Hot today */}
+      {/* Live Ticker — compact "What's Hot" strip */}
       {!isSearchActive && <LiveTicker selectedDay={filters.day} />}
 
-      {/* Quick Stats — hide when searching */}
+      {/* Quick Stats — single-line summary */}
       {!isSearchActive && <QuickStats selectedDay={filters.day} />}
 
-      {/* Trending Section — hide when searching */}
+      {/* Trending Section */}
       {!isSearchActive && <TrendingSection events={trendingEvents} />}
 
       {/* Filters */}
@@ -124,7 +109,7 @@ export default function Home() {
         resultCount={events.length}
       />
 
-      {/* Sort Bar — hide when searching */}
+      {/* Sort Bar */}
       {!isSearchActive && (
         <div className="max-w-6xl mx-auto">
           <SortBar
@@ -135,7 +120,7 @@ export default function Home() {
         </div>
       )}
 
-      {/* Event List — with QR code callback */}
+      {/* Event List */}
       <main className="max-w-6xl mx-auto pb-16">
         <EventList
           groupedEvents={groupedEvents}
@@ -146,10 +131,10 @@ export default function Home() {
         />
       </main>
 
-      {/* Scroll to top — offset for bottom nav */}
+      {/* Scroll to top */}
       <ScrollToTop />
 
-      {/* Bottom Navigation Bar — with map button */}
+      {/* Bottom Navigation Bar */}
       <BottomNav
         onOpenSchedule={() => setScheduleOpen(true)}
         onOpenHappeningNow={() => setHappeningNowOpen(true)}
@@ -158,7 +143,7 @@ export default function Home() {
         onOpenMap={() => setMapOpen(true)}
       />
 
-      {/* Drawers */}
+      {/* Drawers — all features accessible but tucked away */}
       <MySchedule open={scheduleOpen} onClose={() => setScheduleOpen(false)} />
       <HappeningNow open={happeningNowOpen} onClose={() => setHappeningNowOpen(false)} />
       <VenueClusters
@@ -184,7 +169,6 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 py-8 px-4 pb-20">
         <div className="max-w-lg mx-auto text-center space-y-3">
-          {/* Credits */}
           <div className="flex items-center justify-center gap-2 text-xs text-gray-500 dark:text-gray-400">
             <span>Made by</span>
             <a
@@ -209,7 +193,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Last Updated & Version */}
           <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
             <div className="flex items-center justify-center gap-1.5 text-[11px] text-gray-500 dark:text-gray-400">
               <svg className="w-3.5 h-3.5 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -221,7 +204,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Data sources */}
           <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
             <p className="text-[10px] text-gray-400 dark:text-gray-500">
               Data sourced from{" "}
@@ -245,7 +227,7 @@ export default function Home() {
               . Not an official AZ Tech Week product.
             </p>
             <p className="text-[10px] text-gray-300 dark:text-gray-600 mt-1">
-              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v4.0
+              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v4.1
             </p>
           </div>
         </div>
