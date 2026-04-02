@@ -31,6 +31,24 @@ export const bookmarks = mysqlTable("bookmarks", {
 /**
  * RSVP snapshots — periodic scrapes of Partiful event attendance
  */
+/**
+ * Daily digest email subscribers
+ */
+export const digestSubscribers = mysqlTable("digest_subscribers", {
+  id: int("id").autoincrement().primaryKey(),
+  email: varchar("email", { length: 320 }).notNull().unique(),
+  userId: int("userId"),  // nullable — can subscribe without login
+  active: int("active").default(1).notNull(),  // 1=active, 0=unsubscribed
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type DigestSubscriber = typeof digestSubscribers.$inferSelect;
+export type InsertDigestSubscriber = typeof digestSubscribers.$inferInsert;
+
+/**
+ * RSVP snapshots — periodic scrapes of Partiful event attendance
+ */
 export const rsvpSnapshots = mysqlTable("rsvp_snapshots", {
   id: int("id").autoincrement().primaryKey(),
   eventId: int("eventId").notNull(),

@@ -1,6 +1,6 @@
 import { eq, and, desc } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users, bookmarks, rsvpSnapshots } from "../drizzle/schema";
+import { InsertUser, users, bookmarks, rsvpSnapshots, digestSubscribers } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -126,4 +126,48 @@ export async function setBookmarks(userId: number, eventIds: number[]): Promise<
   if (eventIds.length > 0) {
     await db.insert(bookmarks).values(eventIds.map(eventId => ({ userId, eventId })));
   }
+}
+
+// ─── Digest subscriber helpers ───
+
+export async function subscribeDigest(email: string, userId?: number): Promise<{ success: boolean; alreadySubscribed: boolean }> {
+  const db = await getDb();
+  if (!db) return { success: false, alreadySubscribed: false };
+  try {
+    await db.insert(digestSubscribers).values({ email, userId: userId ?? null, active: 1 });
+    return { success: true, alreadySubscribed: false };
+  } catch (err: any) {
+    if (err?.message?.includes("Duplicate")) {
+      // Reactivate if previously unsubscribed
+      await db.update(digestSubscribers)
+        .set({ active: 1, userId: userId ?? undefined })
+        .where(eq(digestSubscribers.email, email));
+      return { success: true, alreadySubscribed: true };
+    }
+    throw err;
+  }
+}
+
+export async function unsubscribeDigest(email: string): Promise<void> {
+  const db = await getDb();
+  if (!db) return;
+  await db.update(digestSubscribers)
+    .set({ active: 0 })
+    .where(eq(digestSubscribers.email, email));
+}
+
+export async function getActiveSubscribers(): Promise<{ id: number; email: string; userId: number | null }[]> {
+  const db = await getDb();
+  if (!db) return [];
+  const rows = await db.select().from(digestSubscribers).where(eq(digestSubscribers.active, 1));
+  return rows.map(r => ({ id: r.id, email: r.email, userId: r.userId }));
+}
+
+export async function isSubscribed(email: string): Promise<boolean> {
+  const db = await getDb();
+  if (!db) return false;
+  const rows = await db.select().from(digestSubscribers)
+    .where(and(eq(digestSubscribers.email, email), eq(digestSubscribers.active, 1)))
+    .limit(1);
+  return rows.length > 0;
 }

@@ -115,7 +115,7 @@ export default function Home() {
         />
         {!isSearchActive && (
           <div className="border-t border-gray-100 dark:border-gray-800">
-            <div className="max-w-6xl mx-auto px-4 py-2 flex flex-col sm:flex-row sm:items-center gap-2">
+            <div className="max-w-6xl mx-auto px-4 py-2 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-2">
               {/* Selected day label */}
               <div className="flex items-center gap-2 flex-shrink-0">
                 <span className="text-xs font-bold text-teal-600 dark:text-teal-400 uppercase tracking-wider">{filters.day}</span>
