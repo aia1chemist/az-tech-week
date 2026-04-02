@@ -99,7 +99,12 @@ function getTrackStats(events: Event[]) {
   const cities = new Set(events.map(e => e.city).filter(Boolean)).size;
   const totalGoing = events.reduce((sum, e) => sum + (e.going || 0), 0);
   const waitlisted = events.filter(e => e.sold_out || e.spots_left === 0).length;
-  return { days, cities, totalGoing, waitlisted };
+  const available = events.length - waitlisted;
+  const healthPct = events.length > 0 ? Math.round((available / events.length) * 100) : 0;
+  const healthColor = healthPct >= 80 ? "text-emerald-600" : healthPct >= 50 ? "text-amber-600" : "text-red-600";
+  const healthBg = healthPct >= 80 ? "bg-emerald-500" : healthPct >= 50 ? "bg-amber-500" : "bg-red-500";
+  const healthLabel = healthPct >= 80 ? "Mostly open" : healthPct >= 50 ? "Filling up" : "Limited spots";
+  return { days, cities, totalGoing, waitlisted, available, healthPct, healthColor, healthBg, healthLabel };
 }
 
 export default function CuratedTracks() {
@@ -139,7 +144,7 @@ export default function CuratedTracks() {
                 </div>
 
                 {/* Stats row */}
-                <div className="flex items-center gap-3 text-[11px] text-gray-500 dark:text-gray-400 mb-3">
+                <div className="flex items-center gap-3 text-[11px] text-gray-500 dark:text-gray-400 mb-2">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3 h-3" />
                     {events.length} events
@@ -154,6 +159,20 @@ export default function CuratedTracks() {
                   </span>
                 </div>
 
+                {/* Availability health bar */}
+                <div className="mb-3">
+                  <div className="flex items-center justify-between text-[10px] mb-1">
+                    <span className={`font-semibold ${stats.healthColor} dark:opacity-80`}>{stats.healthLabel}</span>
+                    <span className="text-gray-400 dark:text-gray-500">{stats.available}/{events.length} open</span>
+                  </div>
+                  <div className="w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                    <div
+                      className={`h-full ${stats.healthBg} rounded-full transition-all`}
+                      style={{ width: `${stats.healthPct}%` }}
+                    />
+                  </div>
+                </div>
+
                 {/* Action buttons */}
                 <div className="flex items-center gap-2">
                   <button
@@ -162,8 +181,14 @@ export default function CuratedTracks() {
                         events.forEach(e => { if (isBookmarked(e.id)) toggle(e.id); });
                         toast(`Removed ${events.length} events from schedule`, { icon: "💔", duration: 2000 });
                       } else {
-                        events.forEach(e => { if (!isBookmarked(e.id)) toggle(e.id); });
-                        toast(`Added ${events.length} events to schedule!`, { icon: "❤️", duration: 2000 });
+                        // Only save available events (not waitlisted/sold out)
+                        const availableEvents = events.filter(e => !e.sold_out && e.spots_left !== 0);
+                        availableEvents.forEach(e => { if (!isBookmarked(e.id)) toggle(e.id); });
+                        const skipped = events.length - availableEvents.length;
+                        const msg = skipped > 0
+                          ? `Added ${availableEvents.length} open events (skipped ${skipped} full)`
+                          : `Added ${availableEvents.length} events to schedule!`;
+                        toast(msg, { icon: "❤️", duration: 2500 });
                       }
                     }}
                     className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all active:scale-95 ${
@@ -173,7 +198,7 @@ export default function CuratedTracks() {
                     }`}
                   >
                     {allBookmarked ? <Check className="w-3.5 h-3.5" /> : <Heart className="w-3.5 h-3.5" />}
-                    {allBookmarked ? "Saved" : bookmarkedCount > 0 ? `${bookmarkedCount}/${events.length} saved` : "Save all"}
+                    {allBookmarked ? "Saved" : bookmarkedCount > 0 ? `${bookmarkedCount}/${events.length} saved` : "Save available"}  
                   </button>
 
                   <button

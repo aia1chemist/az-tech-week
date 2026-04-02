@@ -25,6 +25,7 @@ import type { Event } from "@/data/types";
 import CuratedTracks from "@/components/CuratedTracks";
 import FirstTimerGuide from "@/components/FirstTimerGuide";
 import PlanMyDay from "@/components/PlanMyDay";
+import ChooseYourPath from "@/components/ChooseYourPath";
 
 // v7.0 features
 import EventMatchmaker from "@/components/EventMatchmaker";
@@ -82,6 +83,9 @@ export default function Home() {
   // v7.0 modals
   const [matchmakerOpen, setMatchmakerOpen] = useState(false);
   const [bingoOpen, setBingoOpen] = useState(false);
+
+  // Choose Your Path — tracks visibility
+  const [showTracks, setShowTracks] = useState(false);
 
   const handleFilterCity = useCallback((city: string) => {
     updateFilter("city", city);
@@ -145,21 +149,32 @@ export default function Home() {
       {/* First-timer guide — collapsible */}
       {!isSearchActive && <FirstTimerGuide />}
 
-      {/* Plan My Day CTA */}
+      {/* Choose Your Path — 3 discovery modes */}
       {!isSearchActive && (
-        <div className="max-w-6xl mx-auto px-4 mt-4">
-          <button
-            onClick={() => setPlanMyDayOpen(true)}
-            className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-bold text-sm flex items-center justify-center gap-2 hover:from-teal-600 hover:to-emerald-600 transition-all shadow-lg shadow-teal-200/50 dark:shadow-teal-900/30 active:scale-[0.98]"
-          >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" /></svg>
-            Plan My Day
-          </button>
+        <ChooseYourPath
+          onOpenPlanMyDay={() => setPlanMyDayOpen(true)}
+          onShowTracks={() => {
+            setShowTracks(prev => !prev);
+            // Scroll to tracks section
+            setTimeout(() => {
+              document.getElementById('curated-tracks-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+          }}
+          onScrollToEvents={() => {
+            document.getElementById('events-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }}
+        />
+      )}
+
+      {/* Curated Tracks — shown when user picks that path */}
+      {!isSearchActive && showTracks && (
+        <div id="curated-tracks-section">
+          <CuratedTracks />
         </div>
       )}
 
-      {/* Curated Tracks — pre-built event bundles */}
-      {!isSearchActive && <CuratedTracks />}
+      {/* Events Section */}
+      <div id="events-section" />
 
       {/* Filters */}
       <FilterBar

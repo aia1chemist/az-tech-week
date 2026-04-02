@@ -62,3 +62,9 @@
 - [x] Remove LivePulse trending bar (user request)
 - [x] Visually connect day selector to weather/stats content below (user request)
 - [x] Fix eventId sent as string instead of number in bookmark mutations (bug)
+- [ ] Design Daily Digest email template (visual HTML preview)
+- [ ] Add subscriber table to DB and wire DailyDigest signup to tRPC
+- [ ] Build server-side email generation and notification endpoint
+- [x] Build ChooseYourPath visual section with 3 discovery mode cards
+- [x] Update CuratedTracks with availability health and "Save Available" logic
+- [x] Wire ChooseYourPath into Home.tsx replacing inline Plan My Day + Tracks
