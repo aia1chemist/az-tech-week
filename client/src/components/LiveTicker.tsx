@@ -32,7 +32,7 @@ function getHotEvents(day: string): Array<{ event: Event; reason: string; score:
       else if (e.going >= 10) { score += 15; reason = `${e.going} going`; }
 
       // Almost full / sold out
-      if (e.sold_out) { score += 25; reason = "Sold out!"; }
+      if (e.sold_out) { score += 25; reason = "Waitlist"; }
       else if (e.spots_left >= 0 && e.spots_left <= 5) { score += 20; reason = `Only ${e.spots_left} spots!`; }
       else if (e.spots_left >= 0 && e.spots_left <= 10) { score += 10; reason = `${e.spots_left} spots left`; }
 
@@ -148,7 +148,7 @@ export default function LiveTicker({ selectedDay }: LiveTickerProps) {
                   <div className="flex items-center gap-1.5 mt-0.5">
                     {isFull ? (
                       <span className="text-[9px] font-bold text-red-600 flex items-center gap-0.5">
-                        <Flame className="w-2.5 h-2.5" /> SOLD OUT
+                        <Flame className="w-2.5 h-2.5" /> WAITLIST
                       </span>
                     ) : (
                       <span className="text-[9px] text-amber-600 font-medium flex items-center gap-0.5">

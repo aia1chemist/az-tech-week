@@ -10,6 +10,8 @@ import { toast } from "sonner";
 import type { Event } from "@/data/types";
 import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
 import { useBookmarks } from "@/contexts/BookmarkContext";
+import RideButton from "./RideButton";
+import EventReactions from "./EventReactions";
 
 interface EventCardProps {
   event: Event;
@@ -269,6 +271,11 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
                           QR Code
                         </button>
                       )}
+                      {event.city && <RideButton city={event.city} compact />}
+                    </div>
+                    {/* Reactions */}
+                    <div className="mt-2 pt-1.5 border-t border-gray-100 dark:border-gray-700">
+                      <EventReactions eventId={event.id} />
                     </div>
                   </motion.div>
                 ) : (

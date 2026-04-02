@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import eventsData from "@/data/events.json";
 import type { EventsData } from "@/data/types";
 import { DAY_SHORT } from "@/data/types";
+import { WeatherBadge } from "./WeatherOverlay";
 
 const data = eventsData as EventsData;
 
@@ -65,6 +66,7 @@ export default function DaySelector({ selectedDay, onSelectDay }: DaySelectorPro
               <span className={`text-[9px] mt-0.5 ${isActive ? "text-teal-500" : "text-gray-400"}`}>
                 {dayCounts[day]} events
               </span>
+              <WeatherBadge day={day} />
               {isActive && (
                 <motion.div
                   layoutId="dayIndicator"

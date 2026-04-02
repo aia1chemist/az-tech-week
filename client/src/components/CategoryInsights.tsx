@@ -57,7 +57,7 @@ function computeInsights(): Insight[] {
     const [cat, d] = soldOutCats[0];
     insights.push({
       icon: CATEGORY_ICONS[cat] || "🔥",
-      text: `${d.soldOut} ${cat} event${d.soldOut !== 1 ? "s" : ""} already sold out`,
+      text: `${d.soldOut} ${cat} event${d.soldOut !== 1 ? "s" : ""} already on waitlist`,
       lucideIcon: Flame,
       color: "text-red-600",
     });

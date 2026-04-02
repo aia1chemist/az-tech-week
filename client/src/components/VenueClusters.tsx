@@ -4,9 +4,10 @@
  */
 import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, X, ChevronRight, Users, Flame } from "lucide-react";
+import { MapPin, X, ChevronRight, Users, Flame, ChevronDown, ChevronUp, Info } from "lucide-react";
 import eventsData from "@/data/events.json";
 import type { Event, EventsData } from "@/data/types";
+import VenueInfoPanel from "./VenueInfo";
 
 const data = eventsData as EventsData;
 
@@ -27,6 +28,7 @@ interface VenueClustersProps {
 }
 
 export default function VenueClusters({ open, onClose, onFilterCity, selectedDay }: VenueClustersProps) {
+  const [expandedCity, setExpandedCity] = useState<string | null>(null);
   const clusters = useMemo(() => {
     const dayEvents = (data.events as Event[]).filter((e) => e.full_date === selectedDay);
     const cityMap: Record<string, { events: Event[] }> = {};
@@ -91,8 +93,8 @@ export default function VenueClusters({ open, onClose, onFilterCity, selectedDay
               {clusters.map((cluster, i) => {
                 const intensity = cluster.events / maxEvents;
                 return (
+                  <div key={cluster.city}>
                   <motion.button
-                    key={cluster.city}
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: i * 0.03 }}
@@ -130,8 +132,34 @@ export default function VenueClusters({ open, onClose, onFilterCity, selectedDay
                       </div>
                     </div>
 
-                    <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-teal-500 transition-colors flex-shrink-0" />
+                    <div className="flex items-center gap-1 flex-shrink-0">
+                      <button
+                        onClick={(e) => { e.stopPropagation(); setExpandedCity(expandedCity === cluster.city ? null : cluster.city); }}
+                        className="p-1 rounded hover:bg-gray-100 text-gray-300 hover:text-teal-500 transition-all"
+                        title="City info"
+                      >
+                        <Info className="w-3.5 h-3.5" />
+                      </button>
+                      <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-teal-500 transition-colors" />
+                    </div>
                   </motion.button>
+                  {/* Expandable venue info */}
+                  <AnimatePresence>
+                    {expandedCity === cluster.city && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden -mt-1 mb-1 ml-2 mr-2"
+                      >
+                        <div className="p-2 rounded-b-lg border border-t-0 border-gray-200 bg-gray-50">
+                          <VenueInfoPanel city={cluster.city} />
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                  </div>
                 );
               })}
             </div>
