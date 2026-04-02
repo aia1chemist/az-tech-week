@@ -1,0 +1,40 @@
+name: Scrape Partiful Events
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run Partiful scraper
+        run: node scripts/scrape-partiful.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet client/src/data/events.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updates
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add client/src/data/events.json
+          git commit -m "chore: auto-update event data from Partiful [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+          git push
