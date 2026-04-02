@@ -59,7 +59,7 @@ const TIPS = [
   {
     icon: Lightbulb,
     title: "Hidden Gems",
-    text: "Don't just follow the crowd. Smaller events (under 30 people) often have the best conversations and connections. Check the Hidden Gems section below.",
+    text: "Don't just follow the crowd. Smaller events (under 30 people) often have the best conversations and connections. Sort by 'A-Z' and scroll past the big names to find niche gems.",
     color: "text-emerald-600",
     bg: "bg-emerald-50",
   },

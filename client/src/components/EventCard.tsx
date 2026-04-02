@@ -12,6 +12,7 @@ import { CATEGORY_COLORS, CATEGORY_ICONS } from "@/data/types";
 import { useBookmarks } from "@/contexts/BookmarkContext";
 import RideButton from "./RideButton";
 import EventReactions from "./EventReactions";
+import Sparkline from "./Sparkline";
 
 interface EventCardProps {
   event: Event;
@@ -323,6 +324,7 @@ export default function EventCard({ event, index, compact, isNow, onShowQR }: Ev
                   <span className="flex items-center gap-1">
                     <Users className="w-3 h-3 text-teal-500" />
                     <span className="font-semibold text-gray-800 dark:text-gray-200">{event.going}</span> going
+                    <Sparkline going={event.going} capacity={event.capacity} spotsLeft={event.spots_left} className="ml-0.5" />
                   </span>
                 )}
                 {event.interested > 0 && (

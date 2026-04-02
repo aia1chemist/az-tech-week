@@ -1,8 +1,8 @@
 /*
  * AZTW Hero — Bold uppercase, teal accents, animated counters
- * Now includes: Countdown timer, Category insights, Dark mode toggle
+ * Parallax hero background, Countdown timer, Dark mode toggle
  */
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import eventsData from "@/data/events.json";
@@ -44,6 +44,29 @@ function useAnimatedCounter(target: number, duration = 1500) {
   }, [target, duration]);
 
   return { count, ref };
+}
+
+/* Parallax scroll hook */
+function useParallax() {
+  const [offset, setOffset] = useState(0);
+  const ticking = useRef(false);
+
+  const handleScroll = useCallback(() => {
+    if (!ticking.current) {
+      requestAnimationFrame(() => {
+        setOffset(window.scrollY);
+        ticking.current = false;
+      });
+      ticking.current = true;
+    }
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [handleScroll]);
+
+  return offset;
 }
 
 /* Compute global stats */
@@ -96,14 +119,20 @@ export default function HeroSection() {
   const eventsCounter = useAnimatedCounter(data.events.length);
   const goingCounter = useAnimatedCounter(stats.totalGoing);
   const slotsCounter = useAnimatedCounter(stats.totalOpenSlots);
+  const scrollY = useParallax();
 
   const maxEvents = Math.max(...Object.values(stats.dayStats).map((d) => d.events));
 
   return (
     <div className="relative overflow-hidden">
-      {/* Background */}
+      {/* Parallax Background */}
       <div className="absolute inset-0">
-        <img src={HERO_IMG} alt="" className="w-full h-full object-cover" />
+        <img
+          src={HERO_IMG}
+          alt=""
+          className="w-full h-[120%] object-cover will-change-transform"
+          style={{ transform: `translateY(${scrollY * 0.35}px)` }}
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-white dark:to-gray-900" />
       </div>
 
