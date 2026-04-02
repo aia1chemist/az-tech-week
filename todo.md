@@ -1,32 +1,61 @@
-# AZ Tech Week v4.0 — 21 New Features
+# AZ Tech Week — Feature Tracker
 
-## Batch 1: Core UX
-- [ ] 1. Countdown timer in hero section
-- [ ] 2. Dark mode toggle
-- [ ] 3. Personal stats in My Schedule
-- [ ] 4. Google Calendar one-click buttons on event cards
-- [ ] 5. Shareable schedule link (encode bookmarks in URL)
+## v4.0 Core Features
+- [x] Countdown timer in hero section
+- [x] Dark mode toggle
+- [x] Personal stats in My Schedule
+- [x] Google Calendar one-click buttons on event cards
+- [x] Shareable schedule link (encode bookmarks in URL)
+- [x] Map view toggle
+- [x] QR code generator for event Partiful links
+- [x] Event reactions (emoji)
+- [x] Crossover analysis
+- [x] Category insights in hero section
+- [x] Weather overlay per day
+- [x] Uber/Lyft deep links
+- [x] Popularity sparklines (RSVP momentum)
+- [x] Smart scroll counter
+- [x] Swipe gestures on mobile
+- [ ] PWA / Add to Home Screen
+- [ ] Accessibility audit (ARIA, keyboard nav)
+- [ ] Multi-language (Spanish)
+- [ ] Food & drink nearby
+- [ ] Speaker/panelist info
 
-## Batch 2: Discovery
-- [ ] 6. Map view toggle (card view vs map pins)
-- [ ] 7. QR code generator for event Partiful links
-- [ ] 8. Event reactions (emoji: fire, clap, mind-blown)
-- [ ] 9. Crossover analysis ("Who else is going?")
-- [ ] 10. Category insights in hero section
+## v5.0 Features
+- [x] Curated Tracks (pre-built event bundles)
+- [x] Organizer Profiles
+- [x] Happening Now live indicator
+- [x] First-Timer Guide
+- [x] Live Ticker
 
-## Batch 3: Smart Features
-- [ ] 11. Weather overlay per day
-- [ ] 12. Uber/Lyft deep links
-- [ ] 13. Popularity sparklines (RSVP momentum)
-- [ ] 14. Smart scroll counter ("X events match")
+## v6.0 Features
+- [x] Animated page transitions (Framer Motion)
+- [x] Skeleton loading shimmer
+- [x] Parallax hero effect
+- [x] Plan My Day wizard
+- [x] Event popularity sparklines
 
-## Batch 4: Platform
-- [ ] 15. PWA / Add to Home Screen
-- [ ] 16. Accessibility audit (ARIA, keyboard nav)
-- [ ] 17. Swipe gestures on mobile
-- [ ] 18. Multi-language (Spanish)
+## v7.0 Features (10 new)
+- [x] Who's Going avatars on event cards
+- [x] Live Attendee Pulse (trending RSVP ticker)
+- [x] Event Matchmaker quiz (5 questions -> top 10)
+- [x] Schedule Roast (tongue-in-cheek analysis)
+- [x] City Hopper Badges
+- [x] Bingo Card Generator
+- [x] After-Party Finder
+- [x] Weather-Aware Suggestions
+- [x] Daily Digest email signup
+- [x] Parking & Venue Notes
 
-## Batch 5: Content
-- [ ] 19. Parking & transit info
-- [ ] 20. Food & drink nearby
-- [ ] 21. Speaker/panelist info
+## v8.0 Features
+- [x] Bingo card image export (html2canvas)
+- [x] Remove cover images from event cards
+- [x] Remove LiveTicker and TrendingSection (user request)
+- [x] Full-stack upgrade (tRPC + database + auth)
+- [x] Partiful scraper API endpoint for live RSVP data
+- [x] Social login (Manus OAuth) with persistent bookmarks
+- [x] Bookmark sync (localStorage + server DB merge on login)
+- [x] Sign in / Account button in hero section
+- [x] Database schema: bookmarks + rsvp_snapshots tables
+- [x] Vitest tests for bookmark and RSVP routers

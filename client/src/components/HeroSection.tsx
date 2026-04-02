@@ -4,11 +4,13 @@
  */
 import { useEffect, useState, useRef, useCallback } from "react";
 import { motion } from "framer-motion";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, LogIn, User } from "lucide-react";
 import eventsData from "@/data/events.json";
 import type { EventsData } from "@/data/types";
 import Countdown from "./Countdown";
 import DarkModeToggle from "./DarkModeToggle";
+import { useAuth } from "@/_core/hooks/useAuth";
+import { getLoginUrl } from "@/const";
 
 const data = eventsData as EventsData;
 
@@ -116,6 +118,7 @@ const DAY_LABELS: Record<string, { short: string }> = {
 };
 
 export default function HeroSection() {
+  const { user, isAuthenticated, logout } = useAuth();
   const eventsCounter = useAnimatedCounter(data.events.length);
   const goingCounter = useAnimatedCounter(stats.totalGoing);
   const slotsCounter = useAnimatedCounter(stats.totalOpenSlots);
@@ -136,8 +139,25 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-white dark:to-gray-900" />
       </div>
 
-      {/* Dark mode toggle — top right */}
-      <div className="absolute top-4 right-4 z-10">
+      {/* Top right controls — login + dark mode */}
+      <div className="absolute top-4 right-4 z-10 flex items-center gap-2">
+        {isAuthenticated ? (
+          <button
+            onClick={() => logout()}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white text-xs font-medium hover:bg-white/30 transition-all"
+          >
+            <User className="w-3.5 h-3.5" />
+            <span className="max-w-[80px] truncate">{user?.name || 'Account'}</span>
+          </button>
+        ) : (
+          <a
+            href={getLoginUrl()}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-teal-500/80 backdrop-blur-sm border border-teal-400/50 text-white text-xs font-medium hover:bg-teal-500 transition-all"
+          >
+            <LogIn className="w-3.5 h-3.5" />
+            Sign in
+          </a>
+        )}
         <DarkModeToggle />
       </div>
 

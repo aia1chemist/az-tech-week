@@ -12,10 +12,8 @@ import DaySelector from "@/components/DaySelector";
 import FilterBar from "@/components/FilterBar";
 import EventList from "@/components/EventList";
 import QuickStats from "@/components/QuickStats";
-import TrendingSection from "@/components/TrendingSection";
 import SortBar from "@/components/SortBar";
 import ScrollToTop from "@/components/ScrollToTop";
-import LiveTicker from "@/components/LiveTicker";
 import BottomNav from "@/components/BottomNav";
 import MySchedule from "@/components/MySchedule";
 import HappeningNow from "@/components/HappeningNow";
@@ -38,12 +36,14 @@ import AfterPartyFinder from "@/components/AfterPartyFinder";
 import WeatherSuggestions from "@/components/WeatherSuggestions";
 import DailyDigest from "@/components/DailyDigest";
 import ParkingNotes from "@/components/ParkingNotes";
+import { useAuth } from "@/_core/hooks/useAuth";
 
 export default function Home() {
+  const { user, isAuthenticated } = useAuth();
+
   const {
     events,
     groupedEvents,
-    trendingEvents,
     filters,
     updateFilter,
     toggleCategory,
@@ -118,14 +118,8 @@ export default function Home() {
       {/* Live Pulse — trending RSVP momentum */}
       {!isSearchActive && <LivePulse selectedDay={filters.day} />}
 
-      {/* Live Ticker — compact "What's Hot" strip */}
-      {!isSearchActive && <LiveTicker selectedDay={filters.day} />}
-
       {/* Quick Stats — single-line summary */}
       {!isSearchActive && <QuickStats selectedDay={filters.day} />}
-
-      {/* Trending Section */}
-      {!isSearchActive && <TrendingSection events={trendingEvents} />}
 
       {/* Schedule Roast — tongue-in-cheek analysis (only shows if bookmarks exist) */}
       {!isSearchActive && <ScheduleRoast />}
