@@ -1,6 +1,6 @@
 /*
  * AZTW Home — Clean, easy-to-navigate event calendar
- * v4.1: Decluttered — removed floating counters, weather row, emoji reactions from cards
+ * v5.3: Fresh data scrape + all features wired — removed floating counters, weather row, emoji reactions from cards
  * All advanced features accessible via bottom nav drawers
  */
 import { useState, useCallback, useEffect } from "react";
@@ -193,7 +193,7 @@ export default function Home() {
               <svg className="w-3.5 h-3.5 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>Last updated: April 1, 2026</span>
+              <span>Last updated: April 2, 2026</span>
               <span className="text-gray-300 dark:text-gray-600">|</span>
               <span className="text-gray-400 dark:text-gray-500">Updated every 12 hours</span>
             </div>
@@ -222,7 +222,7 @@ export default function Home() {
               . Not an official AZ Tech Week product.
             </p>
             <p className="text-[10px] text-gray-300 dark:text-gray-600 mt-1">
-              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v4.1
+              {totalEvents} events &middot; April 6–12, 2026 &middot; Arizona &middot; v5.3
             </p>
           </div>
         </div>
