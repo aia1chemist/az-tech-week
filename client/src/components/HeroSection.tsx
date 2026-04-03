@@ -100,7 +100,11 @@ function computeStats() {
   }
 
   const totalOpenSlots = totalCapacity - totalFilled;
-  const fillPct = totalCapacity > 0 ? Math.round((totalFilled / totalCapacity) * 100) : 0;
+  // Use going / (going + openSlots) so the fill % is consistent with the
+  // GOING and OPEN SPOTS numbers displayed in the hero section.
+  const fillPct = (totalGoing + totalOpenSlots) > 0
+    ? Math.round((totalGoing / (totalGoing + totalOpenSlots)) * 100)
+    : 0;
 
   return { totalGoing, totalCapacity, totalFilled, totalOpenSlots, fillPct, dayStats };
 }
@@ -261,7 +265,8 @@ export default function HeroSection() {
             {data.days.map((day) => {
               const ds = stats.dayStats[day];
               const intensity = ds.events / maxEvents;
-              const fillPct = ds.capacity > 0 ? Math.round((ds.filled / ds.capacity) * 100) : 0;
+              const dayOpen = ds.capacity > 0 ? ds.capacity - ds.filled : 0;
+              const fillPct = (ds.going + dayOpen) > 0 ? Math.round((ds.going / (ds.going + dayOpen)) * 100) : 0;
               const label = DAY_LABELS[day] || { short: day };
 
               return (
