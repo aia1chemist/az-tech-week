@@ -106,7 +106,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/186MiaV6LghPfKBKEbwfdOpyJzR2/NMRyIz6g0ZOycD3C2mQxY?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-03T16:38:04.256Z"
+      "last_updated": "2026-04-03T17:32:32.329Z"
     },
     {
       "id": 2,
@@ -122,7 +122,7 @@
         "Energy & Sustainability",
         "DevOps & Engineering"
       ],
-      "going": 26,
+      "going": 29,
       "interested": 11,
       "maybe": 2,
       "capacity": null,
@@ -138,7 +138,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/kJAGMV6WG2WCeahadSNDvidHlOA2/SHh-OWWJdGIVUp8uK39fh?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:38:05.235Z"
+      "last_updated": "2026-04-03T17:32:33.408Z"
     },
     {
       "id": 3,
@@ -155,7 +155,7 @@
         "General Tech"
       ],
       "going": 0,
-      "interested": 8,
+      "interested": 9,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -170,7 +170,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:38:06.216Z"
+      "last_updated": "2026-04-03T17:32:34.417Z"
     },
     {
       "id": 4,
@@ -202,7 +202,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/olLoRen3WqbmfxfM3tjdQVzoAGN2/nBZdQCgjWEam21HnYEFfq?w=960&h=960&fit=clip",
-      "last_updated": "2026-04-03T16:38:07.154Z"
+      "last_updated": "2026-04-03T17:32:35.505Z"
     },
     {
       "id": 5,
@@ -217,11 +217,11 @@
         "Startups & Entrepreneurship",
         "General Tech"
       ],
-      "going": 17,
+      "going": 18,
       "interested": 3,
       "maybe": 1,
       "capacity": 200,
-      "spots_left": 183,
+      "spots_left": 182,
       "invite_only": false,
       "day_of_week": "Monday",
       "date": "April 6",
@@ -233,7 +233,7 @@
       "start_time": "10:15 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/ZqDYnTs9PlrJJyv2ynMCY?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:08.114Z"
+      "last_updated": "2026-04-03T17:32:36.558Z"
     },
     {
       "id": 6,
@@ -253,7 +253,7 @@
       "interested": 3,
       "maybe": 0,
       "capacity": 100,
-      "spots_left": 87,
+      "spots_left": 85,
       "invite_only": false,
       "day_of_week": "Monday",
       "date": "April 6",
@@ -265,7 +265,7 @@
       "start_time": "10:30 am",
       "end_time": "",
       "image_url": "https://images.unsplash.com/photo-1624952911535-cfe35fbb4d8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxOTg2Nzh8MHwxfHNlYXJjaHw1fHxMaWdodGVuaW5nfGVufDB8Mnx8fDE3NzMyNjYzMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "last_updated": "2026-04-03T16:38:09.064Z"
+      "last_updated": "2026-04-03T17:32:37.610Z"
     },
     {
       "id": 7,
@@ -297,7 +297,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/tvh601MsHxcwNS01YzfO6?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:38:09.980Z"
+      "last_updated": "2026-04-03T17:32:38.577Z"
     },
     {
       "id": 8,
@@ -329,7 +329,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6pkUaCJvsGtSjN1_r2RYt?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:38:10.918Z"
+      "last_updated": "2026-04-03T17:32:39.514Z"
     },
     {
       "id": 9,
@@ -361,7 +361,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/Hw9MeqlPgFoVs9DrlVte0?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:38:11.844Z"
+      "last_updated": "2026-04-03T17:32:40.477Z"
     },
     {
       "id": 10,
@@ -393,7 +393,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yIzWayg369ZRcVrD_v3c1?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:38:12.773Z"
+      "last_updated": "2026-04-03T17:32:41.429Z"
     },
     {
       "id": 11,
@@ -424,7 +424,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6n_Xlm1pRGss9WoNMXNAO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:38:13.693Z"
+      "last_updated": "2026-04-03T17:32:42.361Z"
     },
     {
       "id": 12,
@@ -456,7 +456,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/c6ofpowOTxq4KEGSdRc6_?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:38:14.615Z"
+      "last_updated": "2026-04-03T17:32:43.326Z"
     },
     {
       "id": 13,
@@ -487,7 +487,7 @@
       "duration_minutes": 60,
       "start_time": "11:00 am",
       "end_time": "",
-      "last_updated": "2026-04-03T16:38:15.536Z"
+      "last_updated": "2026-04-03T17:32:44.270Z"
     },
     {
       "id": 14,
@@ -519,7 +519,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/x9v__bg_1AwrioOeTyUQO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:38:16.459Z"
+      "last_updated": "2026-04-03T17:32:45.211Z"
     },
     {
       "id": 15,
@@ -551,7 +551,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-03T16:38:17.397Z"
+      "last_updated": "2026-04-03T17:32:46.172Z"
     },
     {
       "id": 16,
@@ -582,7 +582,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/X3dA8pcOVwWlcK5WD7GnQwqYBvH2/-Psp0lLSAVzEsB6R2tKhh?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:18.388Z"
+      "last_updated": "2026-04-03T17:32:47.167Z"
     },
     {
       "id": 17,
@@ -614,7 +614,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://media3.giphy.com/media/hVP3ippY6MdtJ2Yd3X/giphy.gif?cid=c00e53c6550bypauyxpkgogljx91ktz0eezpdywpizx4qwgn&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-      "last_updated": "2026-04-03T16:38:19.304Z"
+      "last_updated": "2026-04-03T17:32:48.163Z"
     },
     {
       "id": 18,
@@ -629,11 +629,11 @@
         "Education & Workforce",
         "General Tech"
       ],
-      "going": 48,
-      "interested": 6,
+      "going": 50,
+      "interested": 7,
       "maybe": 4,
       "capacity": 75,
-      "spots_left": 27,
+      "spots_left": 25,
       "invite_only": false,
       "day_of_week": "Monday",
       "date": "April 6",
@@ -645,7 +645,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/Crek9EL9IDxXd7B-RbxbJ?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:20.301Z"
+      "last_updated": "2026-04-03T17:32:49.139Z"
     },
     {
       "id": 19,
@@ -676,7 +676,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/ihg8m7nCa9uTldPvwCKgb?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:21.243Z"
+      "last_updated": "2026-04-03T17:32:50.222Z"
     },
     {
       "id": 20,
@@ -708,7 +708,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:38:22.180Z"
+      "last_updated": "2026-04-03T17:32:51.139Z"
     },
     {
       "id": 21,
@@ -738,7 +738,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:38:23.175Z"
+      "last_updated": "2026-04-03T17:32:52.100Z"
     },
     {
       "id": 22,
@@ -770,7 +770,7 @@
       "start_time": "1:00pm",
       "end_time": "4:00pm",
       "image_url": "https://partiful.imgix.net/external/user/Mz0MkTv31mfmWi0HYlKRnMw69f33/h9C5ssS-1PobBkzz0O_PL?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:24.093Z"
+      "last_updated": "2026-04-03T17:32:53.079Z"
     },
     {
       "id": 23,
@@ -802,7 +802,7 @@
       "start_time": "1:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/9aPtxfCV2btFoJmTUc3sb?w=896&h=1200&fit=clip",
-      "last_updated": "2026-04-03T16:38:25.069Z"
+      "last_updated": "2026-04-03T17:32:54.096Z"
     },
     {
       "id": 24,
@@ -834,7 +834,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/oPlTipFyG2fUShQCjqoMHkhqiED2/7N9Kc-TmG6E0SlF-gnhbt?w=629&h=653&fit=clip",
-      "last_updated": "2026-04-03T16:38:26.009Z"
+      "last_updated": "2026-04-03T17:32:55.017Z"
     },
     {
       "id": 25,
@@ -866,7 +866,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/X4UEZ3jfTZRg8PKPCXYhHzZynwI3/t2s1599_ZS9pJUxt6FF7r?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:26.940Z"
+      "last_updated": "2026-04-03T17:32:55.981Z"
     },
     {
       "id": 26,
@@ -898,7 +898,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:38:27.901Z"
+      "last_updated": "2026-04-03T17:32:56.967Z"
     },
     {
       "id": 27,
@@ -930,7 +930,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:38:28.836Z"
+      "last_updated": "2026-04-03T17:32:57.950Z"
     },
     {
       "id": 28,
@@ -962,7 +962,7 @@
       "start_time": "2:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/Em0WuCr7lr2xDG239T8yI?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:29.791Z"
+      "last_updated": "2026-04-03T17:32:58.925Z"
     },
     {
       "id": 29,
@@ -994,7 +994,7 @@
       "start_time": "3:30 pm",
       "end_time": "4:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/Jk8cYx31AhTLlNOfiuZ167wvBJO2/84Pm-odV8P5kMcaaIMfxq?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:30.744Z"
+      "last_updated": "2026-04-03T17:32:59.957Z"
     },
     {
       "id": 30,
@@ -1010,11 +1010,11 @@
         "Energy & Sustainability",
         "Sales & Marketing"
       ],
-      "going": 43,
+      "going": 44,
       "interested": 4,
       "maybe": 1,
       "capacity": 100,
-      "spots_left": 57,
+      "spots_left": 56,
       "invite_only": false,
       "day_of_week": "Monday",
       "date": "April 6",
@@ -1026,7 +1026,7 @@
       "start_time": "3:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/OcqG7RSF7xNbgtJGrTf6D?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:31.735Z"
+      "last_updated": "2026-04-03T17:33:00.944Z"
     },
     {
       "id": 31,
@@ -1058,7 +1058,7 @@
       "start_time": "3:45 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/AtE0TO-RCLiLlSjf6-K6F?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:32.716Z"
+      "last_updated": "2026-04-03T17:33:01.972Z"
     },
     {
       "id": 32,
@@ -1089,7 +1089,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/28LbcHGsqxNtFNLO2yWYGYIVPXf1/C3318THlbXO9QqrupBoDO?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:33.629Z"
+      "last_updated": "2026-04-03T17:33:02.962Z"
     },
     {
       "id": 33,
@@ -1106,7 +1106,7 @@
         "Sales & Marketing"
       ],
       "going": 0,
-      "interested": 5,
+      "interested": 6,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -1121,7 +1121,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:38:34.577Z"
+      "last_updated": "2026-04-03T17:33:03.970Z"
     },
     {
       "id": 34,
@@ -1135,11 +1135,11 @@
       "categories": [
         "Networking & Social"
       ],
-      "going": 37,
+      "going": 38,
       "interested": 5,
       "maybe": 4,
       "capacity": 200,
-      "spots_left": 163,
+      "spots_left": 162,
       "invite_only": false,
       "day_of_week": "Monday",
       "date": "April 6",
@@ -1151,7 +1151,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/QL0O_ndiDnc1VFzUSnUTw?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:35.533Z"
+      "last_updated": "2026-04-03T17:33:04.956Z"
     },
     {
       "id": 35,
@@ -1183,7 +1183,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/kEZRvTBjajR1fwBKxVO2tFXqBlZ2/sFMPptQINkJlk2TGWQPFm?w=401&h=108&fit=clip",
-      "last_updated": "2026-04-03T16:38:36.485Z"
+      "last_updated": "2026-04-03T17:33:05.905Z"
     },
     {
       "id": 36,
@@ -1214,7 +1214,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/pYf0KO8ZoSeiiZpRHv4YkpVKIHl2/HRMXq_xTIV1CTl2HN-1HW?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:38:37.971Z"
+      "last_updated": "2026-04-03T17:33:06.884Z"
     },
     {
       "id": 37,
@@ -1231,7 +1231,7 @@
         "Networking & Social"
       ],
       "going": 0,
-      "interested": 9,
+      "interested": 10,
       "maybe": 0,
       "capacity": 250,
       "spots_left": 237,
@@ -1246,7 +1246,7 @@
       "start_time": "5:30pm",
       "end_time": "7:30pm",
       "image_url": "https://partiful.imgix.net/external/user/4Dy0T5ZQcvY2Kos7MwqpNTGJIEW2/yfCCzFvhR-67pdxze7Tcn?w=654&h=644&fit=clip",
-      "last_updated": "2026-04-03T16:38:38.933Z"
+      "last_updated": "2026-04-03T17:33:07.915Z"
     },
     {
       "id": 38,
@@ -1278,7 +1278,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/oSt21QGVpQeY1GpGbOxvKJSC5ri2/aur81QPh7ZB1zh50IitK0?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:39.894Z"
+      "last_updated": "2026-04-03T17:33:08.867Z"
     },
     {
       "id": 39,
@@ -1309,7 +1309,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/X74BcpykLNdn5TNOh2BAdKgXFcl2/5xh6bWOZ2qxMLaoAnmMwK?w=460&h=460&fit=clip",
-      "last_updated": "2026-04-03T16:38:40.874Z"
+      "last_updated": "2026-04-03T17:33:09.842Z"
     },
     {
       "id": 40,
@@ -1341,7 +1341,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/x6V42EDbkzSAcUMSpdLhVnd7UrC2/sEj6rhXrSL4rZafeCkEqz?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-03T16:38:41.855Z"
+      "last_updated": "2026-04-03T17:33:10.843Z"
     },
     {
       "id": 41,
@@ -1373,7 +1373,7 @@
       "start_time": "7:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/FO4bx16wMVVOV6590VAHNPfxOgS2/0rhouyNlQlKbMaObvq6ge?w=1000&h=1294&fit=clip",
-      "last_updated": "2026-04-03T16:38:42.840Z"
+      "last_updated": "2026-04-03T17:33:11.820Z"
     },
     {
       "id": 42,
@@ -1405,7 +1405,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/vhzlGZO0FTMDMUh5Aaj4RnVht7n2/L8vu0DGQ8LS3yFiUwAzHL?w=848&h=1264&fit=clip",
-      "last_updated": "2026-04-03T16:38:43.779Z"
+      "last_updated": "2026-04-03T17:33:12.784Z"
     },
     {
       "id": 43,
@@ -1437,7 +1437,7 @@
       "start_time": "7:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/a2M0fe6TzFhbJ2thegFJ0nHD4jf1/kfTFrVv1k6WrTHeCMLYOU?w=800&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:44.732Z"
+      "last_updated": "2026-04-03T17:33:13.729Z"
     },
     {
       "id": 44,
@@ -1469,7 +1469,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/zd7C9NZS6k8b67LH15gzh?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:45.679Z"
+      "last_updated": "2026-04-03T17:33:14.743Z"
     },
     {
       "id": 45,
@@ -1501,7 +1501,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/IVjtbYMOmFW2MbLvK8ZNp3QqMF92/AmdUtDlKR-A_UTD9OnZZo?w=1000&h=1166&fit=clip",
-      "last_updated": "2026-04-03T16:38:46.589Z"
+      "last_updated": "2026-04-03T17:33:15.716Z"
     },
     {
       "id": 46,
@@ -1533,7 +1533,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/A4ILiDzJU9Qls494iz2y1TSgk9k1/EZSiVngOn20816IOiY1Kn?w=1000&h=555&fit=clip",
-      "last_updated": "2026-04-03T16:38:47.554Z"
+      "last_updated": "2026-04-03T17:33:16.691Z"
     },
     {
       "id": 47,
@@ -1565,7 +1565,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:38:48.471Z"
+      "last_updated": "2026-04-03T17:33:17.679Z"
     },
     {
       "id": 48,
@@ -1582,7 +1582,7 @@
         "General Tech"
       ],
       "going": 0,
-      "interested": 20,
+      "interested": 19,
       "maybe": 0,
       "capacity": 300,
       "spots_left": 10,
@@ -1597,7 +1597,7 @@
       "start_time": "8:00 am",
       "end_time": "7:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/Ww3eodd8amvo1nmnH_2s8?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:49.433Z"
+      "last_updated": "2026-04-03T17:33:18.647Z"
     },
     {
       "id": 49,
@@ -1617,7 +1617,7 @@
       "interested": 11,
       "maybe": 0,
       "capacity": 75,
-      "spots_left": 28,
+      "spots_left": 27,
       "invite_only": false,
       "day_of_week": "Monday",
       "date": "April 6",
@@ -1629,7 +1629,7 @@
       "start_time": "8:00am",
       "end_time": "12:00pm",
       "image_url": "https://partiful.imgix.net/external/user/a2M0fe6TzFhbJ2thegFJ0nHD4jf1/pd1eysi3Qys64gDuT1BNz?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:38:50.436Z"
+      "last_updated": "2026-04-03T17:33:19.657Z"
     },
     {
       "id": 50,
@@ -1661,7 +1661,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/TvVn6V-VfNKomn7GZcOLk?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:51.381Z"
+      "last_updated": "2026-04-03T17:33:20.658Z"
     },
     {
       "id": 51,
@@ -1679,7 +1679,7 @@
       "interested": 3,
       "maybe": 0,
       "capacity": 100,
-      "spots_left": 94,
+      "spots_left": 92,
       "invite_only": false,
       "day_of_week": "Monday",
       "date": "April 6",
@@ -1691,7 +1691,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://media3.giphy.com/media/8F3bK4aq1tCo0TLkf7/giphy.gif?cid=c00e53c6hb6rxgsa95q7ws838zs6hzdw5o3dq2j8hrjbtzsu&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-      "last_updated": "2026-04-03T16:38:52.385Z"
+      "last_updated": "2026-04-03T17:33:21.654Z"
     },
     {
       "id": 52,
@@ -1722,7 +1722,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/vhzlGZO0FTMDMUh5Aaj4RnVht7n2/gQB58WiSEIs9xD2x3DZX_?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:53.322Z"
+      "last_updated": "2026-04-03T17:33:22.575Z"
     },
     {
       "id": 53,
@@ -1754,7 +1754,7 @@
       "start_time": "9:30 am",
       "end_time": "12:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:38:54.303Z"
+      "last_updated": "2026-04-03T17:33:23.538Z"
     },
     {
       "id": 54,
@@ -1785,7 +1785,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/U2jy7okVv6nbAFZClNyj7?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:55.285Z"
+      "last_updated": "2026-04-03T17:33:25.059Z"
     },
     {
       "id": 55,
@@ -1817,7 +1817,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/186MiaV6LghPfKBKEbwfdOpyJzR2/kthEc2_24H-IdYFAMGwoW?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-03T16:38:56.245Z"
+      "last_updated": "2026-04-03T17:33:25.999Z"
     },
     {
       "id": 56,
@@ -1832,7 +1832,7 @@
         "AI & Machine Learning",
         "General Tech"
       ],
-      "going": 11,
+      "going": 12,
       "interested": 6,
       "maybe": 0,
       "capacity": null,
@@ -1848,7 +1848,7 @@
       "start_time": "10:00 am",
       "end_time": "10:00 am",
       "image_url": "https://partiful.imgix.net/external/user/BImCSiaKMMMcJOo6dZvyq9yIVi43/5vyOc_HzQYF-qPzuZproW?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:38:57.198Z"
+      "last_updated": "2026-04-03T17:33:27.007Z"
     },
     {
       "id": 57,
@@ -1879,7 +1879,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ttC5GsloTAZSu14cxhE0TlcemM02/jREohUvcIfu7sezKn5iDT?w=920&h=920&fit=clip",
-      "last_updated": "2026-04-03T16:38:58.171Z"
+      "last_updated": "2026-04-03T17:33:28.032Z"
     },
     {
       "id": 58,
@@ -1943,7 +1943,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/qYZRF_Qw_xz24oTSs5lis?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:39:16.373Z"
+      "last_updated": "2026-04-03T17:33:36.130Z"
     },
     {
       "id": 60,
@@ -1975,7 +1975,7 @@
       "start_time": "10:00 am",
       "end_time": "9:30 am",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/WyngGoIrnEXYrNjBeOyQY?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:39:29.433Z"
+      "last_updated": "2026-04-03T17:33:37.080Z"
     },
     {
       "id": 61,
@@ -2006,7 +2006,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:39:30.423Z"
+      "last_updated": "2026-04-03T17:33:38.012Z"
     },
     {
       "id": 62,
@@ -2038,7 +2038,7 @@
       "start_time": "10:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/nArkrPACAgNtVwSFL5f8mo5eD2h1/heSM3jwmgYFAote-fSmuQ?w=1000&h=212&fit=clip",
-      "last_updated": "2026-04-03T16:39:31.396Z"
+      "last_updated": "2026-04-03T17:33:38.959Z"
     },
     {
       "id": 63,
@@ -2054,7 +2054,7 @@
         "General Tech"
       ],
       "going": 0,
-      "interested": 5,
+      "interested": 6,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -2069,7 +2069,7 @@
       "start_time": "10:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:39:32.442Z"
+      "last_updated": "2026-04-03T17:33:39.932Z"
     },
     {
       "id": 64,
@@ -2100,7 +2100,7 @@
       "start_time": "10:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/IK3h5lEbuvkMqZElO3YNP?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:39:33.501Z"
+      "last_updated": "2026-04-03T17:33:40.907Z"
     },
     {
       "id": 65,
@@ -2132,7 +2132,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/vrd0ZY-0tABZbqSq52mmZ?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:39:34.516Z"
+      "last_updated": "2026-04-03T17:33:41.926Z"
     },
     {
       "id": 66,
@@ -2164,7 +2164,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/EP-uhlSfaMCKempIkD-Oy?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:39:35.574Z"
+      "last_updated": "2026-04-03T17:33:42.948Z"
     },
     {
       "id": 67,
@@ -2196,7 +2196,7 @@
       "start_time": "11:00 am",
       "end_time": "11:00 am",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/c6ofpowOTxq4KEGSdRc6_?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:36.525Z"
+      "last_updated": "2026-04-03T17:33:44.161Z"
     },
     {
       "id": 68,
@@ -2228,7 +2228,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-03T16:39:37.469Z"
+      "last_updated": "2026-04-03T17:33:45.078Z"
     },
     {
       "id": 69,
@@ -2260,7 +2260,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6n_Xlm1pRGss9WoNMXNAO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:38.403Z"
+      "last_updated": "2026-04-03T17:33:46.030Z"
     },
     {
       "id": 70,
@@ -2292,7 +2292,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/x9v__bg_1AwrioOeTyUQO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:39.332Z"
+      "last_updated": "2026-04-03T17:33:46.970Z"
     },
     {
       "id": 71,
@@ -2324,7 +2324,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6pkUaCJvsGtSjN1_r2RYt?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:40.335Z"
+      "last_updated": "2026-04-03T17:33:48.078Z"
     },
     {
       "id": 72,
@@ -2356,7 +2356,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/VIgVks3vp1W3bMdn8sJ1o?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:41.271Z"
+      "last_updated": "2026-04-03T17:33:48.993Z"
     },
     {
       "id": 73,
@@ -2388,7 +2388,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/Hw9MeqlPgFoVs9DrlVte0?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:42.304Z"
+      "last_updated": "2026-04-03T17:33:49.919Z"
     },
     {
       "id": 74,
@@ -2420,7 +2420,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yIzWayg369ZRcVrD_v3c1?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:43.234Z"
+      "last_updated": "2026-04-03T17:33:50.875Z"
     },
     {
       "id": 75,
@@ -2452,7 +2452,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/tvh601MsHxcwNS01YzfO6?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:39:44.178Z"
+      "last_updated": "2026-04-03T17:33:51.813Z"
     },
     {
       "id": 76,
@@ -2484,7 +2484,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/G3tzZSHH0Raig3QqEzfOduX9c3I2/ZZg79M7pip8VBYJOYd_aj?w=1000&h=857&fit=clip",
-      "last_updated": "2026-04-03T16:39:45.212Z"
+      "last_updated": "2026-04-03T17:33:52.789Z"
     },
     {
       "id": 77,
@@ -2516,7 +2516,7 @@
       "start_time": "11:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/knwt5hGjajZksWD7UUk3qX83snc2/jqKD-iWS47JDhZNnmDxfO?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:39:46.207Z"
+      "last_updated": "2026-04-03T17:33:53.777Z"
     },
     {
       "id": 78,
@@ -2547,7 +2547,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/O9OywFyhPLTVM58JBJTQaMwGJNP2/arzKo5oWFYx_-8R4I_tWl?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:39:59.251Z"
+      "last_updated": "2026-04-03T17:33:54.758Z"
     },
     {
       "id": 79,
@@ -2578,7 +2578,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/3b1iXUNUOvZM6AyBuenuwSzEDxh1/lpgn1RFSBExE8RxE5BhUT?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:00.335Z"
+      "last_updated": "2026-04-03T17:33:55.725Z"
     },
     {
       "id": 80,
@@ -2594,11 +2594,11 @@
         "Education & Workforce",
         "Sales & Marketing"
       ],
-      "going": 10,
+      "going": 11,
       "interested": 3,
       "maybe": 0,
       "capacity": 100,
-      "spots_left": 90,
+      "spots_left": 89,
       "invite_only": false,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -2610,7 +2610,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/k6q46SiO2UZLzVEl5zox1UYWB4h1/3QygriBJPeVm67yYYAsOu?w=1000&h=791&fit=clip",
-      "last_updated": "2026-04-03T16:40:01.537Z"
+      "last_updated": "2026-04-03T17:33:56.680Z"
     },
     {
       "id": 81,
@@ -2641,7 +2641,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/bPRZ3WRrkJQiE2Sqnt6T6gWPgeo2/oSss0ewwwRyefxEMksAR2?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:02.580Z"
+      "last_updated": "2026-04-03T17:33:57.603Z"
     },
     {
       "id": 82,
@@ -2673,7 +2673,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:03.643Z"
+      "last_updated": "2026-04-03T17:33:58.561Z"
     },
     {
       "id": 83,
@@ -2705,7 +2705,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/oSt21QGVpQeY1GpGbOxvKJSC5ri2/D6o57T59Mtm_lTqJAQbUe?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-03T16:40:04.815Z"
+      "last_updated": "2026-04-03T17:33:59.487Z"
     },
     {
       "id": 84,
@@ -2725,7 +2725,7 @@
       "interested": 0,
       "maybe": 0,
       "capacity": 15,
-      "spots_left": 13,
+      "spots_left": 12,
       "invite_only": false,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -2737,7 +2737,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/5GAJ0PEZMhMxSjlxsU03REBLZJD3/M7j24bqdLUnoAkoP2sRRD?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:05.811Z"
+      "last_updated": "2026-04-03T17:34:00.414Z"
     },
     {
       "id": 85,
@@ -2769,7 +2769,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:06.853Z"
+      "last_updated": "2026-04-03T17:34:01.385Z"
     },
     {
       "id": 86,
@@ -2801,7 +2801,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/YmLlRahtVF21beM72Qysq?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:08.013Z"
+      "last_updated": "2026-04-03T17:34:02.352Z"
     },
     {
       "id": 87,
@@ -2833,7 +2833,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:40:09.138Z"
+      "last_updated": "2026-04-03T17:34:03.298Z"
     },
     {
       "id": 88,
@@ -2850,7 +2850,7 @@
         "General Tech"
       ],
       "going": 8,
-      "interested": 3,
+      "interested": 4,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -2865,7 +2865,7 @@
       "start_time": "1:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j3RFjAJ71jQsYSI0W2W4/qw1QaG3_7-unmOZXEgloB?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:10.208Z"
+      "last_updated": "2026-04-03T17:34:04.264Z"
     },
     {
       "id": 89,
@@ -2897,7 +2897,7 @@
       "start_time": "1:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/zY7H6ToaKst8Oxd7rSX2u?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:11.417Z"
+      "last_updated": "2026-04-03T17:34:05.217Z"
     },
     {
       "id": 90,
@@ -2929,7 +2929,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/3jQxCuTyL5coz4yoQMpEHbZLKQJ2/s0LvC_rSlNeNAN1tM_LiX?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:40:12.547Z"
+      "last_updated": "2026-04-03T17:34:06.162Z"
     },
     {
       "id": 91,
@@ -2961,7 +2961,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:13.639Z"
+      "last_updated": "2026-04-03T17:34:07.172Z"
     },
     {
       "id": 92,
@@ -2991,7 +2991,7 @@
       "start_time": "2:00pm",
       "end_time": "3:00pm",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/5ltRV1n-RTS4M3bLYFTCb?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:14.701Z"
+      "last_updated": "2026-04-03T17:34:08.160Z"
     },
     {
       "id": 93,
@@ -3021,7 +3021,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/arQACkPMGZ8Oe4jOZ9NTT?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:15.801Z"
+      "last_updated": "2026-04-03T17:34:09.221Z"
     },
     {
       "id": 94,
@@ -3053,7 +3053,7 @@
       "start_time": "3:00pm",
       "end_time": "5:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:16.889Z"
+      "last_updated": "2026-04-03T17:34:10.188Z"
     },
     {
       "id": 95,
@@ -3070,7 +3070,7 @@
         "Investing & VC"
       ],
       "going": 0,
-      "interested": 8,
+      "interested": 9,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -3085,7 +3085,7 @@
       "start_time": "3:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/SYRHRN7prONrIyCDgh6GuK96l1l1/4FN8J6Fit3hk3A3HNctX8?w=1000&h=667&fit=clip",
-      "last_updated": "2026-04-03T16:40:17.870Z"
+      "last_updated": "2026-04-03T17:34:11.160Z"
     },
     {
       "id": 96,
@@ -3117,7 +3117,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/vQ5cga40tkauTXyXhTpLYJ28KL02/MgIuq1xUchxvxiCW3x0dL?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:18.816Z"
+      "last_updated": "2026-04-03T17:34:12.144Z"
     },
     {
       "id": 97,
@@ -3149,7 +3149,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/CinMzxOgcaQXKKauh8RVcJCR55V2/82n3Lc-p2fmq3IMOod-Uk?w=1000&h=1500&fit=clip",
-      "last_updated": "2026-04-03T16:40:19.837Z"
+      "last_updated": "2026-04-03T17:34:13.128Z"
     },
     {
       "id": 98,
@@ -3180,7 +3180,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Wpvl8YMO8YN1svQFB7kR0GmomDe2/RMLWEBFQOcyfAQZwjwhWf?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:20.792Z"
+      "last_updated": "2026-04-03T17:34:14.049Z"
     },
     {
       "id": 99,
@@ -3210,7 +3210,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/MywbddbwhfmxufVTHlYr/ko-eOEDuwhxCqXH21jrmZ?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:21.765Z"
+      "last_updated": "2026-04-03T17:34:15.060Z"
     },
     {
       "id": 100,
@@ -3242,7 +3242,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/FLyIvQPdPfUvbtMnfSD3x9dTob23/qM6KBNB3u9XoivVjeYHVN?w=820&h=410&fit=clip",
-      "last_updated": "2026-04-03T16:40:22.690Z"
+      "last_updated": "2026-04-03T17:34:16.093Z"
     },
     {
       "id": 101,
@@ -3256,8 +3256,8 @@
       "categories": [
         "AI & Machine Learning"
       ],
-      "going": 44,
-      "interested": 8,
+      "going": 45,
+      "interested": 9,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -3272,7 +3272,7 @@
       "start_time": "4:00pm",
       "end_time": "6:30pm",
       "image_url": "https://partiful.imgix.net/external/user/bTCzKKo8MgZwF88nmrwhVhzBVql1/8EJlLS6OB4uGSbmx0RzCz?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:23.751Z"
+      "last_updated": "2026-04-03T17:34:17.068Z"
     },
     {
       "id": 102,
@@ -3304,7 +3304,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/P_CEVa1YaZyoa03jlmfKw?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:24.712Z"
+      "last_updated": "2026-04-03T17:34:18.041Z"
     },
     {
       "id": 103,
@@ -3336,7 +3336,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/NVKr9DQg19eXeeVrUdvq0?w=480&h=600&fit=clip",
-      "last_updated": "2026-04-03T16:40:25.643Z"
+      "last_updated": "2026-04-03T17:34:19.005Z"
     },
     {
       "id": 104,
@@ -3368,7 +3368,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:26.588Z"
+      "last_updated": "2026-04-03T17:34:19.967Z"
     },
     {
       "id": 105,
@@ -3384,11 +3384,11 @@
         "DevOps & Engineering",
         "Investing & VC"
       ],
-      "going": 22,
+      "going": 23,
       "interested": 0,
       "maybe": 4,
       "capacity": 40,
-      "spots_left": 18,
+      "spots_left": 17,
       "invite_only": false,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -3400,7 +3400,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VSz8NLIHd2TABOuFM78FNJoWwbg2/DYP22uPAa4m3FGp0eabIX?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:27.542Z"
+      "last_updated": "2026-04-03T17:34:20.959Z"
     },
     {
       "id": 106,
@@ -3432,7 +3432,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Y5JpWsmDv8RkA1PTNistcKxmrSz1/fucpEwXvvChxnPa4BA7xm?w=512&h=512&fit=clip",
-      "last_updated": "2026-04-03T16:40:28.539Z"
+      "last_updated": "2026-04-03T17:34:21.940Z"
     },
     {
       "id": 107,
@@ -3463,7 +3463,7 @@
       "start_time": "5:00 pm",
       "end_time": "3:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:29.496Z"
+      "last_updated": "2026-04-03T17:34:22.914Z"
     },
     {
       "id": 108,
@@ -3495,7 +3495,7 @@
       "start_time": "5:00pm",
       "end_time": "7:00pm",
       "image_url": "https://partiful.imgix.net/external/user/tNarEUahagZ87qous5A53nvrF2l1/3xtDPw0WOyI3qtKg6-nZs?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:30.459Z"
+      "last_updated": "2026-04-03T17:34:23.928Z"
     },
     {
       "id": 109,
@@ -3526,7 +3526,7 @@
       "start_time": "5:30 pm",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/1NtQj3q29IUBiyrwT5UO1BuPl4y1/m98idNhxHSF5m5kO7c_fR?w=512&h=208&fit=clip",
-      "last_updated": "2026-04-03T16:40:31.417Z"
+      "last_updated": "2026-04-03T17:34:24.914Z"
     },
     {
       "id": 110,
@@ -3558,7 +3558,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:32.359Z"
+      "last_updated": "2026-04-03T17:34:25.872Z"
     },
     {
       "id": 111,
@@ -3590,7 +3590,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:33.308Z"
+      "last_updated": "2026-04-03T17:34:26.857Z"
     },
     {
       "id": 112,
@@ -3622,7 +3622,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:34.497Z"
+      "last_updated": "2026-04-03T17:34:27.826Z"
     },
     {
       "id": 113,
@@ -3653,7 +3653,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/wP0ZHLabolPJMsQEgbwG5Q0mW3n2/f51gwHQgmu_KmIlGSQszg?w=1000&h=1211&fit=clip",
-      "last_updated": "2026-04-03T16:40:35.478Z"
+      "last_updated": "2026-04-03T17:34:28.777Z"
     },
     {
       "id": 114,
@@ -3685,7 +3685,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/L375SDBDVvZRAp416j5hyRs18Bn1/JPKKmGjb1vLv_gzyXF-pc?w=1000&h=1499&fit=clip",
-      "last_updated": "2026-04-03T16:40:36.609Z"
+      "last_updated": "2026-04-03T17:34:29.701Z"
     },
     {
       "id": 115,
@@ -3705,7 +3705,7 @@
       "interested": 25,
       "maybe": 0,
       "capacity": 70,
-      "spots_left": -10,
+      "spots_left": -42,
       "invite_only": false,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -3717,7 +3717,7 @@
       "start_time": "7:00 pm",
       "end_time": "6:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/exHurTZSTsYKXPTXtlBsXiXUXd83/Fhmkpqn3o4jUjLt9OE0ac?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:37.616Z"
+      "last_updated": "2026-04-03T17:34:30.675Z"
     },
     {
       "id": 116,
@@ -3749,7 +3749,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/vhzlGZO0FTMDMUh5Aaj4RnVht7n2/L8vu0DGQ8LS3yFiUwAzHL?w=848&h=1264&fit=clip",
-      "last_updated": "2026-04-03T16:40:38.565Z"
+      "last_updated": "2026-04-03T17:34:31.616Z"
     },
     {
       "id": 117,
@@ -3780,7 +3780,7 @@
       "start_time": "7:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:39.550Z"
+      "last_updated": "2026-04-03T17:34:32.598Z"
     },
     {
       "id": 118,
@@ -3811,7 +3811,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://images.unsplash.com/photo-1587080413959-06b859fb107d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxOTg2Nzh8MHwxfHNlYXJjaHwyfHxjb2ZmZWV8ZW58MHwyfHx8MTc3MDkxMDc3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "last_updated": "2026-04-03T16:40:40.469Z"
+      "last_updated": "2026-04-03T17:34:33.530Z"
     },
     {
       "id": 119,
@@ -3843,7 +3843,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:41.417Z"
+      "last_updated": "2026-04-03T17:34:34.461Z"
     },
     {
       "id": 120,
@@ -3875,7 +3875,7 @@
       "start_time": "8:00 am",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/1WZSQESBzL2eeMMxQSDJx?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:42.412Z"
+      "last_updated": "2026-04-03T17:34:35.436Z"
     },
     {
       "id": 121,
@@ -3907,7 +3907,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:43.333Z"
+      "last_updated": "2026-04-03T17:34:36.403Z"
     },
     {
       "id": 122,
@@ -3939,7 +3939,7 @@
       "start_time": "8:00am",
       "end_time": "10:00am",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/2xO4cqSeZwHGAoIo9P1TH?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:44.270Z"
+      "last_updated": "2026-04-03T17:34:37.368Z"
     },
     {
       "id": 123,
@@ -3971,7 +3971,7 @@
       "start_time": "8:00am",
       "end_time": "5:30pm",
       "image_url": "https://partiful.imgix.net/external/user/jkPaAy3Zzhc7JzW24zXCNIq5g5x2/Kmtr8NyEZWJv2pa5YZ4fe?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:45.165Z"
+      "last_updated": "2026-04-03T17:34:38.284Z"
     },
     {
       "id": 124,
@@ -4003,7 +4003,7 @@
       "start_time": "8:00am",
       "end_time": "5:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:46.165Z"
+      "last_updated": "2026-04-03T17:34:39.324Z"
     },
     {
       "id": 125,
@@ -4019,11 +4019,11 @@
         "Tours & Demos",
         "General Tech"
       ],
-      "going": 118,
+      "going": 119,
       "interested": 7,
       "maybe": 2,
       "capacity": 130,
-      "spots_left": 12,
+      "spots_left": 11,
       "invite_only": false,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -4035,7 +4035,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/BtNXGM6YjcZYTgm4zG9I7ym9td83/uje0MpZCZ8zk-eexD1sUL?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:47.131Z"
+      "last_updated": "2026-04-03T17:34:40.325Z"
     },
     {
       "id": 126,
@@ -4067,7 +4067,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/O9OywFyhPLTVM58JBJTQaMwGJNP2/nFD4EvVGklCjHmWX90gSl?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:48.092Z"
+      "last_updated": "2026-04-03T17:34:41.317Z"
     },
     {
       "id": 127,
@@ -4083,11 +4083,11 @@
         "Sales & Marketing",
         "Energy & Sustainability"
       ],
-      "going": 13,
+      "going": 14,
       "interested": 1,
       "maybe": 0,
       "capacity": 80,
-      "spots_left": 67,
+      "spots_left": 66,
       "invite_only": false,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -4099,7 +4099,7 @@
       "start_time": "8:30am",
       "end_time": "9:30am",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/eBhDq-jKZKVqgBrBMOygo?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:49.064Z"
+      "last_updated": "2026-04-03T17:34:42.290Z"
     },
     {
       "id": 128,
@@ -4131,7 +4131,7 @@
       "start_time": "8:45 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/HA3GZpAJribaXdMyVua8yGQcgMU2/MiC35OfHVOQL--753-CRH?w=1000&h=672&fit=clip",
-      "last_updated": "2026-04-03T16:40:50.127Z"
+      "last_updated": "2026-04-03T17:34:43.281Z"
     },
     {
       "id": 129,
@@ -4161,7 +4161,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:51.123Z"
+      "last_updated": "2026-04-03T17:34:44.192Z"
     },
     {
       "id": 130,
@@ -4193,7 +4193,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/dDcIXqy0hkVFRfn3VV6GZ7lb0OC2/ZMfcpBzBFHvwWXTx7JmlN?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:52.120Z"
+      "last_updated": "2026-04-03T17:34:45.237Z"
     },
     {
       "id": 131,
@@ -4225,7 +4225,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:40:53.088Z"
+      "last_updated": "2026-04-03T17:34:46.188Z"
     },
     {
       "id": 132,
@@ -4256,7 +4256,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/G3tzZSHH0Raig3QqEzfOduX9c3I2/sTNbZLj49dOT7-6G2bmxg?w=1000&h=739&fit=clip",
-      "last_updated": "2026-04-03T16:40:54.156Z"
+      "last_updated": "2026-04-03T17:34:47.158Z"
     },
     {
       "id": 133,
@@ -4276,7 +4276,7 @@
       "interested": 2,
       "maybe": 0,
       "capacity": 80,
-      "spots_left": 72,
+      "spots_left": 71,
       "invite_only": false,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -4288,7 +4288,7 @@
       "start_time": "9:00 am",
       "end_time": "5:30 pm",
       "image_url": "https://media1.giphy.com/media/4uKGppPmeVBCzwfnMK/giphy.gif?cid=c00e53c6cevamzfzwygrujk7brro73v4mjg40h1xipul9qvo&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-      "last_updated": "2026-04-03T16:40:55.191Z"
+      "last_updated": "2026-04-03T17:34:48.191Z"
     },
     {
       "id": 134,
@@ -4320,7 +4320,7 @@
       "start_time": "9:00 am",
       "end_time": "5:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/c_JHVsN3aGtd95Bk83ZOB?w=672&h=396&fit=clip",
-      "last_updated": "2026-04-03T16:40:56.155Z"
+      "last_updated": "2026-04-03T17:34:49.184Z"
     },
     {
       "id": 135,
@@ -4352,7 +4352,7 @@
       "start_time": "9:00am",
       "end_time": "11:00am",
       "image_url": "https://partiful.imgix.net/external/user/BTisiBLg3ydmyTe1JhpD/NGXuGu-aPKG9KUnAqRWSu?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:40:57.201Z"
+      "last_updated": "2026-04-03T17:34:50.175Z"
     },
     {
       "id": 136,
@@ -4383,7 +4383,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/48NYrIoPD4QM5ba1hDRq1qJGrmA3/MVqtNT4udNU8YLXJzlVVj?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:40:58.167Z"
+      "last_updated": "2026-04-03T17:34:51.147Z"
     },
     {
       "id": 137,
@@ -4414,7 +4414,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=920&h=920",
-      "last_updated": "2026-04-03T16:40:59.129Z"
+      "last_updated": "2026-04-03T17:34:52.103Z"
     },
     {
       "id": 138,
@@ -4430,11 +4430,11 @@
         "Startups & Entrepreneurship",
         "Legal & Policy"
       ],
-      "going": 14,
+      "going": 16,
       "interested": 5,
       "maybe": 1,
       "capacity": 50,
-      "spots_left": 36,
+      "spots_left": 34,
       "invite_only": false,
       "day_of_week": "Wednesday",
       "date": "April 8",
@@ -4446,7 +4446,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Ee5kpbplpGSNqhWvqTvOi7irpwt2/eg9sAFfbyQK4cUcUDlhBW?w=676&h=369&fit=clip",
-      "last_updated": "2026-04-03T16:41:00.156Z"
+      "last_updated": "2026-04-03T17:34:53.074Z"
     },
     {
       "id": 139,
@@ -4477,7 +4477,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/iM3W1k1LSbXWnKywYNpCFaOHI5F2/mJRkBzK4dIap21ZCq4EOP?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:01.129Z"
+      "last_updated": "2026-04-03T17:34:54.029Z"
     },
     {
       "id": 140,
@@ -4509,7 +4509,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/3CHIapCi3BWGizDjHpXEPDrYSb73/PKXNOsgq2b_Hag_mk3ZDO?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:41:02.150Z"
+      "last_updated": "2026-04-03T17:34:55.005Z"
     },
     {
       "id": 141,
@@ -4541,7 +4541,7 @@
       "start_time": "10:00 am",
       "end_time": "11:00 am",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:03.066Z"
+      "last_updated": "2026-04-03T17:34:55.928Z"
     },
     {
       "id": 142,
@@ -4572,7 +4572,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:41:03.988Z"
+      "last_updated": "2026-04-03T17:34:56.844Z"
     },
     {
       "id": 143,
@@ -4604,7 +4604,7 @@
       "start_time": "10:00am",
       "end_time": "12:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:04.996Z"
+      "last_updated": "2026-04-03T17:34:57.825Z"
     },
     {
       "id": 144,
@@ -4620,11 +4620,11 @@
         "Cybersecurity",
         "Real Estate"
       ],
-      "going": 43,
+      "going": 44,
       "interested": 2,
       "maybe": 7,
       "capacity": 96,
-      "spots_left": 53,
+      "spots_left": 52,
       "invite_only": true,
       "day_of_week": "Wednesday",
       "date": "April 8",
@@ -4636,7 +4636,7 @@
       "start_time": "10:00am",
       "end_time": "12:15pm",
       "image_url": "https://partiful.imgix.net/external/user/qOXcD2ZZH7fR0WgXqoG8GuLWraX2/RrPgqNQYZhEJFfbKglm44?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:05.994Z"
+      "last_updated": "2026-04-03T17:34:58.828Z"
     },
     {
       "id": 145,
@@ -4666,7 +4666,7 @@
       "start_time": "10:30am",
       "end_time": "1:00pm",
       "image_url": "https://partiful.imgix.net/external/user/8Z2xRnFlAL7CiXVPy2gY/kYfLYxRMEaaFH9jz5IBp3?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:06.911Z"
+      "last_updated": "2026-04-03T17:34:59.748Z"
     },
     {
       "id": 146,
@@ -4698,7 +4698,7 @@
       "start_time": "11:00 am",
       "end_time": "1:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:07.877Z"
+      "last_updated": "2026-04-03T17:35:00.691Z"
     },
     {
       "id": 147,
@@ -4730,7 +4730,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/NVpxjwW4hTFlINcvF5201?w=1000&h=667&fit=clip",
-      "last_updated": "2026-04-03T16:41:08.793Z"
+      "last_updated": "2026-04-03T17:35:01.632Z"
     },
     {
       "id": 148,
@@ -4762,7 +4762,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:09.701Z"
+      "last_updated": "2026-04-03T17:35:02.545Z"
     },
     {
       "id": 149,
@@ -4794,7 +4794,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-03T16:41:10.618Z"
+      "last_updated": "2026-04-03T17:35:03.460Z"
     },
     {
       "id": 150,
@@ -4826,7 +4826,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/c6ofpowOTxq4KEGSdRc6_?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:11.545Z"
+      "last_updated": "2026-04-03T17:35:04.383Z"
     },
     {
       "id": 151,
@@ -4857,7 +4857,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6n_Xlm1pRGss9WoNMXNAO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:12.452Z"
+      "last_updated": "2026-04-03T17:35:05.363Z"
     },
     {
       "id": 152,
@@ -4889,7 +4889,7 @@
       "start_time": "11:00 am",
       "end_time": "12:15 pm",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/x9v__bg_1AwrioOeTyUQO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:13.362Z"
+      "last_updated": "2026-04-03T17:35:06.290Z"
     },
     {
       "id": 153,
@@ -4921,7 +4921,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6pkUaCJvsGtSjN1_r2RYt?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:14.349Z"
+      "last_updated": "2026-04-03T17:35:07.264Z"
     },
     {
       "id": 154,
@@ -4953,7 +4953,7 @@
       "start_time": "11:00 am",
       "end_time": "12:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/VIgVks3vp1W3bMdn8sJ1o?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:15.293Z"
+      "last_updated": "2026-04-03T17:35:08.192Z"
     },
     {
       "id": 155,
@@ -4985,7 +4985,7 @@
       "start_time": "11:00 am",
       "end_time": "1:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/Hw9MeqlPgFoVs9DrlVte0?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:16.226Z"
+      "last_updated": "2026-04-03T17:35:09.160Z"
     },
     {
       "id": 156,
@@ -5017,7 +5017,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yIzWayg369ZRcVrD_v3c1?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:17.183Z"
+      "last_updated": "2026-04-03T17:35:10.144Z"
     },
     {
       "id": 157,
@@ -5049,7 +5049,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/tvh601MsHxcwNS01YzfO6?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:41:18.110Z"
+      "last_updated": "2026-04-03T17:35:11.064Z"
     },
     {
       "id": 158,
@@ -5079,7 +5079,7 @@
       "start_time": "11:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/8qLhbo4vufNc6DfNpAY8utRWFLZ2/Hq1Yt0PWUvt6hdns_0lEF?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:19.099Z"
+      "last_updated": "2026-04-03T17:35:12.043Z"
     },
     {
       "id": 159,
@@ -5111,7 +5111,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:20.092Z"
+      "last_updated": "2026-04-03T17:35:13.017Z"
     },
     {
       "id": 160,
@@ -5142,7 +5142,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/HoWhFuASAZYmKb9J2zSjjsGjk2m2/ixwCz6M9c3rnoncUaZM-a?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:21.080Z"
+      "last_updated": "2026-04-03T17:35:13.989Z"
     },
     {
       "id": 161,
@@ -5158,11 +5158,11 @@
         "Education & Workforce",
         "Tours & Demos"
       ],
-      "going": 5,
+      "going": 6,
       "interested": 3,
       "maybe": 0,
       "capacity": 100,
-      "spots_left": 95,
+      "spots_left": 94,
       "invite_only": false,
       "day_of_week": "Wednesday",
       "date": "April 8",
@@ -5174,7 +5174,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:22.068Z"
+      "last_updated": "2026-04-03T17:35:14.963Z"
     },
     {
       "id": 162,
@@ -5206,7 +5206,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/g9WSVDEoL7sXE3iuPf86/crsVjkN0JYiowt_7Me-8A?w=1000&h=1015&fit=clip",
-      "last_updated": "2026-04-03T16:41:23.032Z"
+      "last_updated": "2026-04-03T17:35:15.927Z"
     },
     {
       "id": 163,
@@ -5238,7 +5238,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/YSnyrzhaUDVDOuxyz79gSFxH8Mi2/CsVAkKs1xTH-wQitCQXS5?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:24.040Z"
+      "last_updated": "2026-04-03T17:35:16.917Z"
     },
     {
       "id": 164,
@@ -5270,7 +5270,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/4Q4TP6dTAIXF1iQv7X2O/4dr5pzxtVRyKCB6E249p0?w=500&h=500&fit=clip",
-      "last_updated": "2026-04-03T16:41:24.952Z"
+      "last_updated": "2026-04-03T17:35:17.860Z"
     },
     {
       "id": 165,
@@ -5302,7 +5302,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/acwcoIuYD1ZXbk45gJPBy11onto2/0XP3BDfFSu46hiNWhOj-t?w=797&h=970&fit=clip",
-      "last_updated": "2026-04-03T16:41:25.960Z"
+      "last_updated": "2026-04-03T17:35:18.807Z"
     },
     {
       "id": 166,
@@ -5334,7 +5334,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:41:26.873Z"
+      "last_updated": "2026-04-03T17:35:19.708Z"
     },
     {
       "id": 167,
@@ -5365,7 +5365,7 @@
       "start_time": "1:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/CQZO0XxjP3gLnIlhKNaccRwKAiz1/0LKO77UdnHWEdQbnS-CC_?w=800&h=400&fit=clip",
-      "last_updated": "2026-04-03T16:41:27.865Z"
+      "last_updated": "2026-04-03T17:35:20.671Z"
     },
     {
       "id": 168,
@@ -5397,7 +5397,7 @@
       "start_time": "1:30pm",
       "end_time": "6:30pm",
       "image_url": "https://partiful.imgix.net/external/user/ZeaWnW4ad3UHTfUa1jGaPhdLWgw1/VuwAYZS1hFPAZbUNQvJV5?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:28.786Z"
+      "last_updated": "2026-04-03T17:35:21.702Z"
     },
     {
       "id": 169,
@@ -5429,7 +5429,7 @@
       "start_time": "1:45 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/udWBQaNpZ0g8WCCqqqycT7l674t1/mE5-73h7Jg_PWevzDl0-h?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:41:29.740Z"
+      "last_updated": "2026-04-03T17:35:22.654Z"
     },
     {
       "id": 170,
@@ -5461,7 +5461,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/GZAmybS7baT28lYDzBoynFdKjeX2/MHwL12ED600RMmefw43J1?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:30.729Z"
+      "last_updated": "2026-04-03T17:35:23.625Z"
     },
     {
       "id": 171,
@@ -5493,7 +5493,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:31.686Z"
+      "last_updated": "2026-04-03T17:35:24.830Z"
     },
     {
       "id": 172,
@@ -5524,7 +5524,7 @@
       "start_time": "2:00pm",
       "end_time": "3:15pm",
       "image_url": "https://partiful.imgix.net/external/user/vhzlGZO0FTMDMUh5Aaj4RnVht7n2/43ZbrgPnoM4SgdigjarLy?w=784&h=766&fit=clip",
-      "last_updated": "2026-04-03T16:41:32.656Z"
+      "last_updated": "2026-04-03T17:35:25.835Z"
     },
     {
       "id": 173,
@@ -5556,7 +5556,7 @@
       "start_time": "2:00pm",
       "end_time": "4:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:33.595Z"
+      "last_updated": "2026-04-03T17:35:26.740Z"
     },
     {
       "id": 174,
@@ -5588,7 +5588,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/1b0c7dOZ5tUHui1YjxdOQeTmVxv1/89EZF095EP3IjG1JShVF4?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:34.555Z"
+      "last_updated": "2026-04-03T17:35:27.648Z"
     },
     {
       "id": 175,
@@ -5620,7 +5620,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/FLyIvQPdPfUvbtMnfSD3x9dTob23/35vG4eOqbiPN-qKXqzMRI?w=800&h=600&fit=clip",
-      "last_updated": "2026-04-03T16:41:35.518Z"
+      "last_updated": "2026-04-03T17:35:28.600Z"
     },
     {
       "id": 176,
@@ -5651,7 +5651,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/6wnJ9WeBZnXyj2KuB3Sy66JCBZE2/116P651zpFnCNbmlJ2tl4?w=1000&h=1247&fit=clip",
-      "last_updated": "2026-04-03T16:41:36.503Z"
+      "last_updated": "2026-04-03T17:35:29.590Z"
     },
     {
       "id": 177,
@@ -5683,7 +5683,7 @@
       "start_time": "3:30 pm",
       "end_time": "6:30 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:37.402Z"
+      "last_updated": "2026-04-03T17:35:30.518Z"
     },
     {
       "id": 178,
@@ -5715,7 +5715,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/055HRIJvwVUXyLXTsaNm/9Zb0Of1XceouuXOq7iYm1?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:38.404Z"
+      "last_updated": "2026-04-03T17:35:31.462Z"
     },
     {
       "id": 179,
@@ -5745,7 +5745,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:39.344Z"
+      "last_updated": "2026-04-03T17:35:32.385Z"
     },
     {
       "id": 180,
@@ -5776,7 +5776,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/4Q4TP6dTAIXF1iQv7X2O/PV2dd-qPaCZveqEyR8H8w?w=500&h=500&fit=clip",
-      "last_updated": "2026-04-03T16:41:40.637Z"
+      "last_updated": "2026-04-03T17:35:33.383Z"
     },
     {
       "id": 181,
@@ -5808,7 +5808,7 @@
       "start_time": "4:00pm",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/quZ4yMN76ycynbw6jRSSZpix2T52/hR_EfzBYZoB1rGfl3-J1n?w=1000&h=1500&fit=clip",
-      "last_updated": "2026-04-03T16:41:41.581Z"
+      "last_updated": "2026-04-03T17:35:34.346Z"
     },
     {
       "id": 182,
@@ -5840,7 +5840,7 @@
       "start_time": "4:00pm",
       "end_time": "7:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:42.478Z"
+      "last_updated": "2026-04-03T17:35:35.274Z"
     },
     {
       "id": 183,
@@ -5872,7 +5872,7 @@
       "start_time": "4:30 pm",
       "end_time": "4:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:43.409Z"
+      "last_updated": "2026-04-03T17:35:36.218Z"
     },
     {
       "id": 184,
@@ -5904,7 +5904,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/I7yitk3ob0YJXKOtPvRmop2AMa42/bhW6ZpEhJQj9x0bg7jEgU?w=945&h=945&fit=clip",
-      "last_updated": "2026-04-03T16:41:44.351Z"
+      "last_updated": "2026-04-03T17:35:37.192Z"
     },
     {
       "id": 185,
@@ -5936,7 +5936,7 @@
       "start_time": "5:00 pm",
       "end_time": "3:15 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:45.258Z"
+      "last_updated": "2026-04-03T17:35:38.136Z"
     },
     {
       "id": 186,
@@ -5967,7 +5967,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:46.219Z"
+      "last_updated": "2026-04-03T17:35:39.092Z"
     },
     {
       "id": 187,
@@ -5999,7 +5999,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ftuucavgh1P2FaJbcAg16f7hIro1/joGjPgJma0QQ7nH2ra4pm?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-03T16:41:47.162Z"
+      "last_updated": "2026-04-03T17:35:40.106Z"
     },
     {
       "id": 188,
@@ -6029,7 +6029,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/G3tzZSHH0Raig3QqEzfOduX9c3I2/o3Ses4NdfTt4ex_2_1h2Z?w=1000&h=1500&fit=clip",
-      "last_updated": "2026-04-03T16:41:48.144Z"
+      "last_updated": "2026-04-03T17:35:41.082Z"
     },
     {
       "id": 189,
@@ -6061,7 +6061,7 @@
       "start_time": "5:00pm",
       "end_time": "7:00pm",
       "image_url": "https://partiful.imgix.net/external/user/UAUXXxIAxQde6Ld3eDM3XQ6Ohqy2/WVAXD9EaexuzZvsphp1j5?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:49.125Z"
+      "last_updated": "2026-04-03T17:35:42.060Z"
     },
     {
       "id": 190,
@@ -6077,7 +6077,7 @@
         "Networking & Social"
       ],
       "going": 0,
-      "interested": 10,
+      "interested": 11,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -6092,7 +6092,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ZN3pmFs4HieL31gw7dBhoHPD7Vp2/ls_DXjtArXUrry6okSGSM?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:50.090Z"
+      "last_updated": "2026-04-03T17:35:43.022Z"
     },
     {
       "id": 191,
@@ -6124,7 +6124,7 @@
       "start_time": "5:30 pm",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/WRyP3YpmMmMRcH1ighUZ1CwPk0q2/nUaKQYnS1DgBLwSCVl5Ox?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:51.219Z"
+      "last_updated": "2026-04-03T17:35:44.052Z"
     },
     {
       "id": 192,
@@ -6156,7 +6156,7 @@
       "start_time": "5:30 pm",
       "end_time": "7:30 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:52.142Z"
+      "last_updated": "2026-04-03T17:35:44.960Z"
     },
     {
       "id": 193,
@@ -6188,7 +6188,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/M4w7ZUTkCEhXHxwuh2xJ4qA4hTX2/m3uNToVvNZRWSGCFRaYqs?w=1000&h=1400&fit=clip",
-      "last_updated": "2026-04-03T16:41:53.091Z"
+      "last_updated": "2026-04-03T17:35:46.001Z"
     },
     {
       "id": 194,
@@ -6219,7 +6219,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:54.110Z"
+      "last_updated": "2026-04-03T17:35:46.969Z"
     },
     {
       "id": 195,
@@ -6251,7 +6251,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/XHfkgiqAfsQBgiKrWIsGsItUZzs1/6l7Z6xUmrBfgNmj6YULso?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:41:55.117Z"
+      "last_updated": "2026-04-03T17:35:47.944Z"
     },
     {
       "id": 196,
@@ -6282,7 +6282,7 @@
       "start_time": "6:00 pm",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/sQ7tozIWpGY637sOOx54t1SmxLz2/gBbYCxChZUXnt-uxph6K_?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-03T16:41:56.072Z"
+      "last_updated": "2026-04-03T17:35:48.942Z"
     },
     {
       "id": 197,
@@ -6314,7 +6314,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:41:57.020Z"
+      "last_updated": "2026-04-03T17:35:49.927Z"
     },
     {
       "id": 198,
@@ -6346,7 +6346,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://media3.giphy.com/media/BzTIzchA2o4wg/giphy.gif?cid=c00e53c6wkrcapyrblhrskzaid6giofn5hfh4cyn5c5o6wny&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-      "last_updated": "2026-04-03T16:41:57.982Z"
+      "last_updated": "2026-04-03T17:35:51.257Z"
     },
     {
       "id": 199,
@@ -6378,7 +6378,7 @@
       "start_time": "6:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/6gli4SWc1EYGhTnOMHRO4qOyjO12/zaVg-dIzoGc88dlmokmMK?w=984&h=984&fit=clip",
-      "last_updated": "2026-04-03T16:41:58.922Z"
+      "last_updated": "2026-04-03T17:35:52.183Z"
     },
     {
       "id": 200,
@@ -6397,7 +6397,7 @@
       "interested": 9,
       "maybe": 0,
       "capacity": 100,
-      "spots_left": 34,
+      "spots_left": 32,
       "invite_only": false,
       "day_of_week": "Wednesday",
       "date": "April 8",
@@ -6409,7 +6409,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/PMUcRuS7LvWG6Us6Ugd9LqDkB7h1/YLsizmVTIkwBc6-y2WNr7?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:41:59.880Z"
+      "last_updated": "2026-04-03T17:35:53.156Z"
     },
     {
       "id": 201,
@@ -6440,7 +6440,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/FKaL_AmSIkG3VPZGkTjo6?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:00.843Z"
+      "last_updated": "2026-04-03T17:35:54.118Z"
     },
     {
       "id": 202,
@@ -6472,7 +6472,7 @@
       "start_time": "7:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Ex08vDWOoZWNqIC6i6E3yBB7gVe2/5ZG4XKDj9wV2sCbV5KFDo?w=1000&h=525&fit=clip",
-      "last_updated": "2026-04-03T16:42:01.800Z"
+      "last_updated": "2026-04-03T17:35:55.098Z"
     },
     {
       "id": 203,
@@ -6504,7 +6504,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:02.766Z"
+      "last_updated": "2026-04-03T17:35:56.018Z"
     },
     {
       "id": 204,
@@ -6536,7 +6536,7 @@
       "start_time": "8:00am",
       "end_time": "10:00am",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/ceK6sM8jgMaFV0sq3HRU7?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:03.713Z"
+      "last_updated": "2026-04-03T17:35:56.977Z"
     },
     {
       "id": 205,
@@ -6567,7 +6567,7 @@
       "start_time": "8:00am",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/jkPaAy3Zzhc7JzW24zXCNIq5g5x2/dy-jNvldg7MN5ZsZ111il?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:04.639Z"
+      "last_updated": "2026-04-03T17:35:57.880Z"
     },
     {
       "id": 206,
@@ -6599,7 +6599,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/UncTeZ5KR1f2e7VJWSQe9xxD7qD3/z32aToPhexk78fX4T8ckk?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:05.592Z"
+      "last_updated": "2026-04-03T17:35:58.861Z"
     },
     {
       "id": 207,
@@ -6614,11 +6614,11 @@
         "AI & Machine Learning",
         "Manufacturing & Hardware"
       ],
-      "going": 79,
+      "going": 81,
       "interested": 14,
       "maybe": 3,
       "capacity": 100,
-      "spots_left": 21,
+      "spots_left": 19,
       "invite_only": false,
       "day_of_week": "Wednesday",
       "date": "April 8",
@@ -6630,7 +6630,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/OsBICFlORDWl1ZWCsQy6Ltognhu1/bz3qnJCQdfjfXgq3FWq-H?w=1000&h=523&fit=clip",
-      "last_updated": "2026-04-03T16:42:06.557Z"
+      "last_updated": "2026-04-03T17:35:59.860Z"
     },
     {
       "id": 208,
@@ -6661,7 +6661,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yzfBwp9XwgI0QaWtVq57m?w=399&h=492&fit=clip",
-      "last_updated": "2026-04-03T16:42:07.446Z"
+      "last_updated": "2026-04-03T17:36:00.800Z"
     },
     {
       "id": 209,
@@ -6692,7 +6692,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ok8fDzjQLeMLVOMBYsDKIzW9B9u1/69z5WcaN7zuxvxi_jtLwQ?w=920&h=920&fit=clip",
-      "last_updated": "2026-04-03T16:42:08.408Z"
+      "last_updated": "2026-04-03T17:36:01.769Z"
     },
     {
       "id": 210,
@@ -6722,7 +6722,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/aDpYkinOsGfRFjotg0VZK5ujfJL2/eWN1eBihZCfJ70zJO-1MI?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:42:09.386Z"
+      "last_updated": "2026-04-03T17:36:02.747Z"
     },
     {
       "id": 211,
@@ -6754,7 +6754,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:10.309Z"
+      "last_updated": "2026-04-03T17:36:03.677Z"
     },
     {
       "id": 212,
@@ -6786,7 +6786,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:11.220Z"
+      "last_updated": "2026-04-03T17:36:04.592Z"
     },
     {
       "id": 213,
@@ -6818,7 +6818,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:12.223Z"
+      "last_updated": "2026-04-03T17:36:05.559Z"
     },
     {
       "id": 214,
@@ -6849,7 +6849,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/CUBEegVRH-JfiERndmMzz?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:13.247Z"
+      "last_updated": "2026-04-03T17:36:06.520Z"
     },
     {
       "id": 215,
@@ -6881,7 +6881,7 @@
       "start_time": "9:00 am",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/nzzMicwiYvvTBDcBukgCc?w=924&h=794&fit=clip",
-      "last_updated": "2026-04-03T16:42:14.276Z"
+      "last_updated": "2026-04-03T17:36:07.544Z"
     },
     {
       "id": 216,
@@ -6913,7 +6913,7 @@
       "start_time": "9:00am \\u2013 7:00pm",
       "end_time": "10:00 am",
       "image_url": "https://partiful.imgix.net/external/user/UAUXXxIAxQde6Ld3eDM3XQ6Ohqy2/H-s0xTPGUhfDFp2DakxPB?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:15.248Z"
+      "last_updated": "2026-04-03T17:36:08.519Z"
     },
     {
       "id": 217,
@@ -6943,7 +6943,7 @@
       "start_time": "9:00am",
       "end_time": "11:00am",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:16.156Z"
+      "last_updated": "2026-04-03T17:36:09.433Z"
     },
     {
       "id": 218,
@@ -6975,7 +6975,7 @@
       "start_time": "9:00am",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/pwOoK1ukQLVwWLoQGAVCs4EpR7m1/XbVFHOD4k9T96BnIQlONy?w=920&h=920&fit=clip",
-      "last_updated": "2026-04-03T16:42:17.086Z"
+      "last_updated": "2026-04-03T17:36:10.363Z"
     },
     {
       "id": 219,
@@ -7007,7 +7007,7 @@
       "start_time": "9:00am",
       "end_time": "9:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:18.019Z"
+      "last_updated": "2026-04-03T17:36:11.320Z"
     },
     {
       "id": 220,
@@ -7038,7 +7038,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=920&h=920",
-      "last_updated": "2026-04-03T16:42:18.977Z"
+      "last_updated": "2026-04-03T17:36:12.285Z"
     },
     {
       "id": 221,
@@ -7070,7 +7070,7 @@
       "start_time": "9:30am",
       "end_time": "1:00pm",
       "image_url": "https://partiful.imgix.net/external/user/D9wVwx2s6xgdNddPMOONtGH8Xdf1/Kwg3ts_bnPJG9S0zbURZU?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:19.956Z"
+      "last_updated": "2026-04-03T17:36:13.206Z"
     },
     {
       "id": 222,
@@ -7086,23 +7086,23 @@
         "Tours & Demos",
         "Arts & Entertainment"
       ],
-      "going": 37,
+      "going": 36,
       "interested": 0,
       "maybe": 1,
       "capacity": 37,
-      "spots_left": 0,
+      "spots_left": 1,
       "invite_only": false,
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Morning",
-      "sold_out": true,
+      "sold_out": false,
       "space_limited": true,
       "duration": "8 hrs",
       "duration_minutes": 480,
       "start_time": "10:00 am",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/186MiaV6LghPfKBKEbwfdOpyJzR2/-dMWKY2cuBV6bX9Ah8wev?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-03T16:42:20.915Z"
+      "last_updated": "2026-04-03T17:36:14.111Z"
     },
     {
       "id": 223,
@@ -7132,7 +7132,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:21.861Z"
+      "last_updated": "2026-04-03T17:36:15.061Z"
     },
     {
       "id": 224,
@@ -7164,7 +7164,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/icPCPdNpNggbJMQCP5esb0dOamP2/d4W8pryI1xI-nUIlrIvyr?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:22.823Z"
+      "last_updated": "2026-04-03T17:36:16.017Z"
     },
     {
       "id": 225,
@@ -7196,7 +7196,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/88E_TCOC3INMgihxjUR0g?w=912&h=936&fit=clip",
-      "last_updated": "2026-04-03T16:42:23.831Z"
+      "last_updated": "2026-04-03T17:36:16.980Z"
     },
     {
       "id": 226,
@@ -7228,7 +7228,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:24.831Z"
+      "last_updated": "2026-04-03T17:36:17.931Z"
     },
     {
       "id": 227,
@@ -7260,7 +7260,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/CQZO0XxjP3gLnIlhKNaccRwKAiz1/8v9gyLvaGi-VoFM-5nbId?w=1000&h=983&fit=clip",
-      "last_updated": "2026-04-03T16:42:25.773Z"
+      "last_updated": "2026-04-03T17:36:18.921Z"
     },
     {
       "id": 228,
@@ -7275,7 +7275,7 @@
         "Legal & Policy",
         "Arts & Entertainment"
       ],
-      "going": 5,
+      "going": 6,
       "interested": 2,
       "maybe": 0,
       "capacity": null,
@@ -7291,7 +7291,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:26.763Z"
+      "last_updated": "2026-04-03T17:36:19.884Z"
     },
     {
       "id": 229,
@@ -7323,7 +7323,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:27.699Z"
+      "last_updated": "2026-04-03T17:36:20.818Z"
     },
     {
       "id": 230,
@@ -7354,7 +7354,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:42:28.629Z"
+      "last_updated": "2026-04-03T17:36:21.780Z"
     },
     {
       "id": 231,
@@ -7385,7 +7385,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:42:29.547Z"
+      "last_updated": "2026-04-03T17:36:22.714Z"
     },
     {
       "id": 232,
@@ -7417,7 +7417,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/BImCSiaKMMMcJOo6dZvyq9yIVi43/oNxIAjzOcssb4zcsxhGbI?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:30.552Z"
+      "last_updated": "2026-04-03T17:36:23.689Z"
     },
     {
       "id": 233,
@@ -7449,7 +7449,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:31.530Z"
+      "last_updated": "2026-04-03T17:36:24.744Z"
     },
     {
       "id": 234,
@@ -7480,7 +7480,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:42:32.447Z"
+      "last_updated": "2026-04-03T17:36:25.663Z"
     },
     {
       "id": 235,
@@ -7512,7 +7512,7 @@
       "start_time": "10:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/vtHE53OxhOhsdpX74uQbecBfZR92/7iurSoHzTgpAo91j2GArp?w=1000&h=881&fit=clip",
-      "last_updated": "2026-04-03T16:42:33.387Z"
+      "last_updated": "2026-04-03T17:36:26.639Z"
     },
     {
       "id": 236,
@@ -7544,7 +7544,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-03T16:42:34.289Z"
+      "last_updated": "2026-04-03T17:36:27.563Z"
     },
     {
       "id": 237,
@@ -7576,7 +7576,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/c6ofpowOTxq4KEGSdRc6_?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:35.220Z"
+      "last_updated": "2026-04-03T17:36:28.506Z"
     },
     {
       "id": 238,
@@ -7607,7 +7607,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6n_Xlm1pRGss9WoNMXNAO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:36.219Z"
+      "last_updated": "2026-04-03T17:36:29.443Z"
     },
     {
       "id": 239,
@@ -7639,7 +7639,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6pkUaCJvsGtSjN1_r2RYt?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:37.153Z"
+      "last_updated": "2026-04-03T17:36:30.382Z"
     },
     {
       "id": 240,
@@ -7671,7 +7671,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/x9v__bg_1AwrioOeTyUQO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:38.106Z"
+      "last_updated": "2026-04-03T17:36:31.299Z"
     },
     {
       "id": 241,
@@ -7703,7 +7703,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/VIgVks3vp1W3bMdn8sJ1o?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:39.030Z"
+      "last_updated": "2026-04-03T17:36:32.225Z"
     },
     {
       "id": 242,
@@ -7735,7 +7735,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/Hw9MeqlPgFoVs9DrlVte0?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:40.077Z"
+      "last_updated": "2026-04-03T17:36:33.149Z"
     },
     {
       "id": 243,
@@ -7767,7 +7767,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yIzWayg369ZRcVrD_v3c1?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:40.996Z"
+      "last_updated": "2026-04-03T17:36:34.069Z"
     },
     {
       "id": 244,
@@ -7799,7 +7799,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/tvh601MsHxcwNS01YzfO6?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:42:41.918Z"
+      "last_updated": "2026-04-03T17:36:34.980Z"
     },
     {
       "id": 245,
@@ -7815,11 +7815,11 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 8,
+      "going": 9,
       "interested": 4,
       "maybe": 2,
       "capacity": 100,
-      "spots_left": 92,
+      "spots_left": 91,
       "invite_only": true,
       "day_of_week": "Thursday",
       "date": "April 9",
@@ -7831,7 +7831,7 @@
       "start_time": "11:00am",
       "end_time": "4:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:42.855Z"
+      "last_updated": "2026-04-03T17:36:35.942Z"
     },
     {
       "id": 246,
@@ -7891,7 +7891,7 @@
       "start_time": "11:45am",
       "end_time": "1:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:50.866Z"
+      "last_updated": "2026-04-03T17:36:43.981Z"
     },
     {
       "id": 248,
@@ -7923,7 +7923,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JkPnx3v2IKgsnGN4l3eEDdkEmck1/tlz0oNzRqW9dYZQCkeXmR?w=1000&h=750&fit=clip",
-      "last_updated": "2026-04-03T16:42:51.821Z"
+      "last_updated": "2026-04-03T17:36:44.967Z"
     },
     {
       "id": 249,
@@ -7954,7 +7954,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/bPRZ3WRrkJQiE2Sqnt6T6gWPgeo2/2zoP-6OxQFSbkR1GC4-jC?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:52.728Z"
+      "last_updated": "2026-04-03T17:36:45.921Z"
     },
     {
       "id": 250,
@@ -7986,7 +7986,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/CkxVylgsYobNLQdVyk8a1?w=369&h=148&fit=clip",
-      "last_updated": "2026-04-03T16:42:53.724Z"
+      "last_updated": "2026-04-03T17:36:46.875Z"
     },
     {
       "id": 251,
@@ -8018,7 +8018,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:54.618Z"
+      "last_updated": "2026-04-03T17:36:47.819Z"
     },
     {
       "id": 252,
@@ -8050,7 +8050,7 @@
       "start_time": "12:00pm",
       "end_time": "1:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:42:55.604Z"
+      "last_updated": "2026-04-03T17:36:48.757Z"
     },
     {
       "id": 253,
@@ -8082,7 +8082,7 @@
       "start_time": "12:00pm",
       "end_time": "1:30pm",
       "image_url": "https://partiful.imgix.net/external/user/ytCoDkIUv8hCeKoTjFuqM204waq1/MuCyVeQ90KLbtrVnkxr0Q?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:42:56.546Z"
+      "last_updated": "2026-04-03T17:36:49.665Z"
     },
     {
       "id": 254,
@@ -8114,7 +8114,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/unknown/bqCWBqZEOY0iAK28mtY2y?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:57.539Z"
+      "last_updated": "2026-04-03T17:36:50.637Z"
     },
     {
       "id": 255,
@@ -8145,7 +8145,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/TyxkJGleusTsEs5QsLdd23lF34p2/Z-Bpnqdh1bQQJC7tUd5YY?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:58.497Z"
+      "last_updated": "2026-04-03T17:36:51.609Z"
     },
     {
       "id": 256,
@@ -8176,7 +8176,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/aXW6lZoBhFOeYG1BrEkP0uXb1hp2/8ER1bVmyOYcgEzqDXZraQ?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:42:59.427Z"
+      "last_updated": "2026-04-03T17:36:52.539Z"
     },
     {
       "id": 257,
@@ -8207,7 +8207,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/aXW6lZoBhFOeYG1BrEkP0uXb1hp2/8ER1bVmyOYcgEzqDXZraQ?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:00.322Z"
+      "last_updated": "2026-04-03T17:36:53.444Z"
     },
     {
       "id": 258,
@@ -8239,7 +8239,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:43:01.240Z"
+      "last_updated": "2026-04-03T17:36:54.395Z"
     },
     {
       "id": 259,
@@ -8271,7 +8271,7 @@
       "start_time": "1:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RwyjmNeO56Pk217JGhhRU8rXqdw1/-sM-3yMvKYUrpCostU-Eg?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:02.152Z"
+      "last_updated": "2026-04-03T17:36:55.321Z"
     },
     {
       "id": 260,
@@ -8303,7 +8303,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/H8wvOFz9DTgPB5xRR2k5f5DUMZ83/mQQ3AFePXRbLwTlPPxJGM?w=1000&h=1778&fit=clip",
-      "last_updated": "2026-04-03T16:43:03.176Z"
+      "last_updated": "2026-04-03T17:36:56.283Z"
     },
     {
       "id": 261,
@@ -8320,7 +8320,7 @@
         "General Tech"
       ],
       "going": 0,
-      "interested": 0,
+      "interested": 1,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
@@ -8335,7 +8335,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JkPnx3v2IKgsnGN4l3eEDdkEmck1/sbt12OtrCU7vAFlBM6cU8?w=225&h=225&fit=clip",
-      "last_updated": "2026-04-03T16:43:04.163Z"
+      "last_updated": "2026-04-03T17:36:57.273Z"
     },
     {
       "id": 262,
@@ -8350,11 +8350,11 @@
         "AI & Machine Learning",
         "Education & Workforce"
       ],
-      "going": 4,
+      "going": 5,
       "interested": 3,
       "maybe": 0,
       "capacity": 250,
-      "spots_left": 246,
+      "spots_left": 245,
       "invite_only": false,
       "day_of_week": "Thursday",
       "date": "April 9",
@@ -8366,7 +8366,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/k6q46SiO2UZLzVEl5zox1UYWB4h1/wLRG_cnFDsPA4c8IV7lvN?w=1000&h=791&fit=clip",
-      "last_updated": "2026-04-03T16:43:05.132Z"
+      "last_updated": "2026-04-03T17:36:58.239Z"
     },
     {
       "id": 263,
@@ -8398,7 +8398,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/5SM2H1HNTZVHxWcGxnBgd3BhWAi1/wG7ebT_RqqipVFfco5bRN?w=1&h=1&fit=clip",
-      "last_updated": "2026-04-03T16:43:06.101Z"
+      "last_updated": "2026-04-03T17:36:59.242Z"
     },
     {
       "id": 264,
@@ -8430,7 +8430,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:07.029Z"
+      "last_updated": "2026-04-03T17:37:00.210Z"
     },
     {
       "id": 265,
@@ -8462,7 +8462,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/S5wxHpLllLaGXXLxdBd7bIYlZS92/ijKAbV-MF2mWGJpvK6-7c?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:07.992Z"
+      "last_updated": "2026-04-03T17:37:01.585Z"
     },
     {
       "id": 266,
@@ -8494,7 +8494,7 @@
       "start_time": "3:00 pm",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/BXLW4gUfRtUsBZT9DeJp2Cb4Qjm2/yO3GZ5876889S6EvA0W5d?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:08.938Z"
+      "last_updated": "2026-04-03T17:37:02.538Z"
     },
     {
       "id": 267,
@@ -8526,7 +8526,7 @@
       "start_time": "3:00pm",
       "end_time": "5:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:09.837Z"
+      "last_updated": "2026-04-03T17:37:03.472Z"
     },
     {
       "id": 268,
@@ -8558,7 +8558,7 @@
       "start_time": "3:00pm",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/rEgDhSA2ubSg4ijSClq2JNvrZGx2/YGM_5usnqDnVkhnbizxXz?w=1000&h=999&fit=clip",
-      "last_updated": "2026-04-03T16:43:10.751Z"
+      "last_updated": "2026-04-03T17:37:04.393Z"
     },
     {
       "id": 269,
@@ -8589,7 +8589,7 @@
       "start_time": "3:30pm",
       "end_time": "4:30pm",
       "image_url": "https://partiful.imgix.net/external/user/ttC5GsloTAZSu14cxhE0TlcemM02/sp13kW7x6Qa-BpC8add86?w=920&h=920&fit=clip",
-      "last_updated": "2026-04-03T16:43:11.727Z"
+      "last_updated": "2026-04-03T17:37:05.362Z"
     },
     {
       "id": 270,
@@ -8621,7 +8621,7 @@
       "start_time": "4:00 pm",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/nh2SPxh4dBUQPRvGemTd2Kz3aHs2/I9Bg4IF_OFhHmHeXTJgM6?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:12.718Z"
+      "last_updated": "2026-04-03T17:37:06.337Z"
     },
     {
       "id": 271,
@@ -8652,7 +8652,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Omzc10OKE9PbskY0VBJSYOweNoH2/oWYl-ELkf7wPPrNs2Yy4B?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:13.703Z"
+      "last_updated": "2026-04-03T17:37:07.297Z"
     },
     {
       "id": 272,
@@ -8684,7 +8684,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/zJNlZxHZuAehIMKCG8HlXfqvUVj1/6khoWf5rUtILeiEkl5Lut?w=1000&h=1294&fit=clip",
-      "last_updated": "2026-04-03T16:43:14.617Z"
+      "last_updated": "2026-04-03T17:37:08.221Z"
     },
     {
       "id": 273,
@@ -8716,7 +8716,7 @@
       "start_time": "4:00pm",
       "end_time": "7:00pm",
       "image_url": "https://partiful.imgix.net/external/user/eJe6v0cT0jaTEmH4pPFrAf7gTC82/iKeXaO9Od-R0_HUVvLKFs?w=767&h=950&fit=clip",
-      "last_updated": "2026-04-03T16:43:15.571Z"
+      "last_updated": "2026-04-03T17:37:09.123Z"
     },
     {
       "id": 274,
@@ -8748,7 +8748,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/9KQyWqWaBVeAYaJKOq6oJNWV4q73/9DJFjp2f44cNdmDvNn0H0?w=1000&h=1340&fit=clip",
-      "last_updated": "2026-04-03T16:43:16.586Z"
+      "last_updated": "2026-04-03T17:37:10.035Z"
     },
     {
       "id": 275,
@@ -8779,7 +8779,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/IvZc21S1M1lVs71_EQFFG?w=800&h=800&fit=clip",
-      "last_updated": "2026-04-03T16:43:17.641Z"
+      "last_updated": "2026-04-03T17:37:11.014Z"
     },
     {
       "id": 276,
@@ -8809,7 +8809,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/3TeXmHqy0ra3V1FdTeJ2v3nUBLi2/PtW2s4b4dpSBmgip1-FNY?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:18.581Z"
+      "last_updated": "2026-04-03T17:37:11.966Z"
     },
     {
       "id": 277,
@@ -8841,7 +8841,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/186MiaV6LghPfKBKEbwfdOpyJzR2/f7k1Hc-dswd0hQjM0_AEc?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-03T16:43:19.497Z"
+      "last_updated": "2026-04-03T17:37:12.888Z"
     },
     {
       "id": 278,
@@ -8872,7 +8872,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/H8wvOFz9DTgPB5xRR2k5f5DUMZ83/Obpo9mIHZblV38-W05CVG?w=1000&h=1778&fit=clip",
-      "last_updated": "2026-04-03T16:43:20.440Z"
+      "last_updated": "2026-04-03T17:37:13.813Z"
     },
     {
       "id": 279,
@@ -8904,7 +8904,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/9KQyWqWaBVeAYaJKOq6oJNWV4q73/esVZGF34EsiKuCzujB8yC?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:43:21.460Z"
+      "last_updated": "2026-04-03T17:37:14.733Z"
     },
     {
       "id": 280,
@@ -8936,7 +8936,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/orH0rYZxqXXMeDS6yTtyipqHL5D3/3gzlPJnAEmpPKyOO1_E8T?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:43:22.402Z"
+      "last_updated": "2026-04-03T17:37:15.712Z"
     },
     {
       "id": 281,
@@ -8967,7 +8967,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/G3tzZSHH0Raig3QqEzfOduX9c3I2/MvowPn7f1CYUQCQbnBTmw?w=1000&h=1294&fit=clip",
-      "last_updated": "2026-04-03T16:43:23.390Z"
+      "last_updated": "2026-04-03T17:37:16.705Z"
     },
     {
       "id": 282,
@@ -8999,7 +8999,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:24.295Z"
+      "last_updated": "2026-04-03T17:37:17.653Z"
     },
     {
       "id": 283,
@@ -9030,7 +9030,7 @@
       "duration_minutes": 0,
       "start_time": "5:30 pm",
       "end_time": "",
-      "last_updated": "2026-04-03T16:43:25.310Z"
+      "last_updated": "2026-04-03T17:37:18.600Z"
     },
     {
       "id": 284,
@@ -9046,11 +9046,11 @@
         "Education & Workforce",
         "General Tech"
       ],
-      "going": 15,
+      "going": 17,
       "interested": 2,
       "maybe": 2,
       "capacity": 50,
-      "spots_left": 35,
+      "spots_left": 33,
       "invite_only": false,
       "day_of_week": "Thursday",
       "date": "April 9",
@@ -9061,7 +9061,7 @@
       "duration_minutes": 180,
       "start_time": "5:30 pm",
       "end_time": "8:30 pm",
-      "last_updated": "2026-04-03T16:43:26.271Z"
+      "last_updated": "2026-04-03T17:37:19.637Z"
     },
     {
       "id": 285,
@@ -9093,7 +9093,7 @@
       "start_time": "5:30pm",
       "end_time": "8:30pm",
       "image_url": "https://partiful.imgix.net/external/user/lUfOGBxd0MQpcQEteACkS1kNcPv2/U_ui-9P0N51AoXzv8M9oA?w=1000&h=1306&fit=clip",
-      "last_updated": "2026-04-03T16:43:27.208Z"
+      "last_updated": "2026-04-03T17:37:20.559Z"
     },
     {
       "id": 286,
@@ -9125,7 +9125,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/AF9gXWLw3qcBVe38XUKyBBto4Jj2/BZviWkSPLn9XyAgV_js74?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-03T16:43:28.192Z"
+      "last_updated": "2026-04-03T17:37:21.526Z"
     },
     {
       "id": 287,
@@ -9157,7 +9157,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:29.129Z"
+      "last_updated": "2026-04-03T17:37:22.475Z"
     },
     {
       "id": 288,
@@ -9189,7 +9189,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/GZAmybS7baT28lYDzBoynFdKjeX2/vfBm7OTGRj1dJzW7obMFd?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:30.067Z"
+      "last_updated": "2026-04-03T17:37:23.502Z"
     },
     {
       "id": 289,
@@ -9219,7 +9219,7 @@
       "duration_minutes": 0,
       "start_time": "6:00 pm",
       "end_time": "",
-      "last_updated": "2026-04-03T16:43:31.093Z"
+      "last_updated": "2026-04-03T17:37:24.474Z"
     },
     {
       "id": 290,
@@ -9249,7 +9249,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JkPnx3v2IKgsnGN4l3eEDdkEmck1/prs0uWk1kvzrMWy-J6oT9?w=1000&h=851&fit=clip",
-      "last_updated": "2026-04-03T16:43:32.143Z"
+      "last_updated": "2026-04-03T17:37:25.441Z"
     },
     {
       "id": 291,
@@ -9281,7 +9281,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/njeaADRlg6NDU1POeYVCSKOBn6x1/uvaGDWLx_e-Vz-mYUKeEt?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:43:33.082Z"
+      "last_updated": "2026-04-03T17:37:26.360Z"
     },
     {
       "id": 292,
@@ -9312,7 +9312,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:34.036Z"
+      "last_updated": "2026-04-03T17:37:27.301Z"
     },
     {
       "id": 293,
@@ -9343,7 +9343,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/sQ7tozIWpGY637sOOx54t1SmxLz2/gBbYCxChZUXnt-uxph6K_?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-03T16:43:34.970Z"
+      "last_updated": "2026-04-03T17:37:28.250Z"
     },
     {
       "id": 294,
@@ -9375,7 +9375,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:35.928Z"
+      "last_updated": "2026-04-03T17:37:29.246Z"
     },
     {
       "id": 295,
@@ -9391,11 +9391,11 @@
         "Sales & Marketing",
         "Startups & Entrepreneurship"
       ],
-      "going": 20,
+      "going": 21,
       "interested": 9,
-      "maybe": 2,
+      "maybe": 1,
       "capacity": 40,
-      "spots_left": 20,
+      "spots_left": 19,
       "invite_only": false,
       "day_of_week": "Thursday",
       "date": "April 9",
@@ -9407,7 +9407,7 @@
       "start_time": "8:00am",
       "end_time": "10:00am",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/9DwcYFODCDBa3773m4ogk?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:36.903Z"
+      "last_updated": "2026-04-03T17:37:30.207Z"
     },
     {
       "id": 296,
@@ -9439,7 +9439,7 @@
       "start_time": "8:00am",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/wDoGXu5ppMSYTCEN0hkaNm6MvVt1/XOlFVxy0ikBMwqm4VUQyi?w=1000&h=550&fit=clip",
-      "last_updated": "2026-04-03T16:43:37.845Z"
+      "last_updated": "2026-04-03T17:37:31.201Z"
     },
     {
       "id": 297,
@@ -9471,7 +9471,7 @@
       "start_time": "8:30am",
       "end_time": "9:30am",
       "image_url": "https://partiful.imgix.net/external/user/O9OywFyhPLTVM58JBJTQaMwGJNP2/ecIwdxzJ8kfUiE4Jr4z83?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:38.763Z"
+      "last_updated": "2026-04-03T17:37:32.144Z"
     },
     {
       "id": 298,
@@ -9502,7 +9502,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/SJdDnwtJY1dvT5oA7VYKWUZkeLA2/9BNOJ_CwqlduPBoKE2f7j?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-03T16:43:39.767Z"
+      "last_updated": "2026-04-03T17:37:33.109Z"
     },
     {
       "id": 299,
@@ -9534,7 +9534,7 @@
       "start_time": "9:00 am",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/MQzrEmlLeIVfMPxbiamCBTufbXp2/GmloGnTEJiiMLyCN4RwKi?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:40.743Z"
+      "last_updated": "2026-04-03T17:37:34.096Z"
     },
     {
       "id": 300,
@@ -9565,7 +9565,7 @@
       "start_time": "9:00am",
       "end_time": "12:00pm",
       "image_url": "https://partiful.imgix.net/external/user/RwyjmNeO56Pk217JGhhRU8rXqdw1/0y4D_m-GP7iF2hZmqvpxi?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:41.676Z"
+      "last_updated": "2026-04-03T17:37:35.062Z"
     },
     {
       "id": 301,
@@ -9597,7 +9597,7 @@
       "start_time": "9:00am",
       "end_time": "4:00pm",
       "image_url": "https://partiful.imgix.net/external/user/aHkdTBLeqsZWYaHdlH7Yrz7keo23/CMOfh0ETIvSI9pvQxxmWZ?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:42.640Z"
+      "last_updated": "2026-04-03T17:37:36.046Z"
     },
     {
       "id": 302,
@@ -9629,7 +9629,7 @@
       "start_time": "9:00am",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/HpyRsCribFZCbjM2KhpR/iumas0LKA61Crq7XTx7N6?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:43.612Z"
+      "last_updated": "2026-04-03T17:37:36.984Z"
     },
     {
       "id": 303,
@@ -9659,7 +9659,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:44.567Z"
+      "last_updated": "2026-04-03T17:37:37.970Z"
     },
     {
       "id": 304,
@@ -9690,7 +9690,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=920&h=920",
-      "last_updated": "2026-04-03T16:43:45.526Z"
+      "last_updated": "2026-04-03T17:37:38.940Z"
     },
     {
       "id": 305,
@@ -9722,7 +9722,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/adX27svllThZRfBZrX4E0HS4BYt2/a8CK-Eimb-rUaVdMkYgzX?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:43:46.464Z"
+      "last_updated": "2026-04-03T17:37:39.936Z"
     },
     {
       "id": 306,
@@ -9754,7 +9754,7 @@
       "start_time": "10:00am",
       "end_time": "5:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:43:47.370Z"
+      "last_updated": "2026-04-03T17:37:40.886Z"
     },
     {
       "id": 307,
@@ -9785,7 +9785,7 @@
       "start_time": "10:00am — 3:00pm",
       "end_time": "4:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:43:48.277Z"
+      "last_updated": "2026-04-03T17:37:41.849Z"
     },
     {
       "id": 308,
@@ -9815,7 +9815,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/IrwxSQUGR8UL7HAwDheoN587G4t2/koeICE4tjDMyKiBeqcens?w=1000&h=667&fit=clip",
-      "last_updated": "2026-04-03T16:43:49.253Z"
+      "last_updated": "2026-04-03T17:37:42.828Z"
     },
     {
       "id": 309,
@@ -9847,7 +9847,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-03T16:43:50.197Z"
+      "last_updated": "2026-04-03T17:37:43.755Z"
     },
     {
       "id": 310,
@@ -9879,7 +9879,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/c6ofpowOTxq4KEGSdRc6_?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:51.132Z"
+      "last_updated": "2026-04-03T17:37:45.409Z"
     },
     {
       "id": 311,
@@ -9910,7 +9910,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6n_Xlm1pRGss9WoNMXNAO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:52.085Z"
+      "last_updated": "2026-04-03T17:37:46.436Z"
     },
     {
       "id": 312,
@@ -9942,7 +9942,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/x9v__bg_1AwrioOeTyUQO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:53.017Z"
+      "last_updated": "2026-04-03T17:37:47.370Z"
     },
     {
       "id": 313,
@@ -9974,7 +9974,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6pkUaCJvsGtSjN1_r2RYt?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:53.936Z"
+      "last_updated": "2026-04-03T17:37:48.293Z"
     },
     {
       "id": 314,
@@ -10006,7 +10006,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/VIgVks3vp1W3bMdn8sJ1o?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:54.861Z"
+      "last_updated": "2026-04-03T17:37:49.207Z"
     },
     {
       "id": 315,
@@ -10038,7 +10038,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/Hw9MeqlPgFoVs9DrlVte0?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:55.779Z"
+      "last_updated": "2026-04-03T17:37:50.269Z"
     },
     {
       "id": 316,
@@ -10070,7 +10070,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yIzWayg369ZRcVrD_v3c1?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:56.693Z"
+      "last_updated": "2026-04-03T17:37:51.190Z"
     },
     {
       "id": 317,
@@ -10102,7 +10102,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/tvh601MsHxcwNS01YzfO6?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:43:57.596Z"
+      "last_updated": "2026-04-03T17:37:52.113Z"
     },
     {
       "id": 318,
@@ -10134,7 +10134,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/186MiaV6LghPfKBKEbwfdOpyJzR2/AGVzj8r7TvoFsH9eAhZRw?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-03T16:43:58.518Z"
+      "last_updated": "2026-04-03T17:37:53.090Z"
     },
     {
       "id": 319,
@@ -10166,7 +10166,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/6v79lN5DrgeH1iAKhBOI4B4D4v03/5aF6fZXRLJ5DI2P9mM0nP?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-03T16:43:59.502Z"
+      "last_updated": "2026-04-03T17:37:54.127Z"
     },
     {
       "id": 320,
@@ -10198,7 +10198,7 @@
       "start_time": "11:00 am",
       "end_time": "2:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/wEvKtsPnaqBWOmWh_kxfc?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:00.450Z"
+      "last_updated": "2026-04-03T17:37:55.141Z"
     },
     {
       "id": 321,
@@ -10230,7 +10230,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-03T16:44:01.346Z"
+      "last_updated": "2026-04-03T17:37:56.116Z"
     },
     {
       "id": 322,
@@ -10262,7 +10262,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/c6ofpowOTxq4KEGSdRc6_?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:02.246Z"
+      "last_updated": "2026-04-03T17:37:57.060Z"
     },
     {
       "id": 323,
@@ -10293,7 +10293,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6n_Xlm1pRGss9WoNMXNAO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:03.149Z"
+      "last_updated": "2026-04-03T17:37:57.982Z"
     },
     {
       "id": 324,
@@ -10325,7 +10325,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/x9v__bg_1AwrioOeTyUQO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:04.144Z"
+      "last_updated": "2026-04-03T17:37:58.899Z"
     },
     {
       "id": 325,
@@ -10357,7 +10357,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6pkUaCJvsGtSjN1_r2RYt?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:05.064Z"
+      "last_updated": "2026-04-03T17:37:59.841Z"
     },
     {
       "id": 326,
@@ -10389,7 +10389,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/VIgVks3vp1W3bMdn8sJ1o?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:05.964Z"
+      "last_updated": "2026-04-03T17:38:00.807Z"
     },
     {
       "id": 327,
@@ -10421,7 +10421,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/Hw9MeqlPgFoVs9DrlVte0?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:06.862Z"
+      "last_updated": "2026-04-03T17:38:01.755Z"
     },
     {
       "id": 328,
@@ -10453,7 +10453,7 @@
       "start_time": "11:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/kZnKMeRROUQmFEZlavVsTNjFCPw2/Bxct1GlkUTRsthUh4L1Y6?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:07.830Z"
+      "last_updated": "2026-04-03T17:38:02.760Z"
     },
     {
       "id": 329,
@@ -10483,7 +10483,7 @@
       "duration_minutes": 0,
       "start_time": "12:00 pm",
       "end_time": "",
-      "last_updated": "2026-04-03T16:44:08.824Z"
+      "last_updated": "2026-04-03T17:38:03.793Z"
     },
     {
       "id": 330,
@@ -10515,7 +10515,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/x5qjtICr4YIBtqtMBdXUZ?w=924&h=794&fit=clip",
-      "last_updated": "2026-04-03T16:44:09.906Z"
+      "last_updated": "2026-04-03T17:38:04.829Z"
     },
     {
       "id": 331,
@@ -10547,7 +10547,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/8bENpZqjYXTUppDp71FrMGBEpOA2/y0xGwFKhJuRwQxdklvCfW?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:10.857Z"
+      "last_updated": "2026-04-03T17:38:05.816Z"
     },
     {
       "id": 332,
@@ -10579,7 +10579,7 @@
       "start_time": "12:00 pm",
       "end_time": "5:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:11.779Z"
+      "last_updated": "2026-04-03T17:38:06.746Z"
     },
     {
       "id": 333,
@@ -10609,7 +10609,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/vhzlGZO0FTMDMUh5Aaj4RnVht7n2/TB-CQe1sXdXsNqqTFdaP1?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:12.723Z"
+      "last_updated": "2026-04-03T17:38:07.732Z"
     },
     {
       "id": 334,
@@ -10641,7 +10641,7 @@
       "start_time": "12:00pm",
       "end_time": "2:00pm",
       "image_url": "https://partiful.imgix.net/external/user/6doXkZc42pfO8Vvo6g17N9TN8ro1/rCXLs2C4vP1XNMs3qhSpT?w=940&h=788&fit=clip",
-      "last_updated": "2026-04-03T16:44:13.627Z"
+      "last_updated": "2026-04-03T17:38:08.655Z"
     },
     {
       "id": 335,
@@ -10673,7 +10673,7 @@
       "start_time": "1:00 pm",
       "end_time": "11:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/U4MSka0kO7bpS2demnZK0PCgRse2/mdhy0LBwPFZy02cNg2Gt7?w=1000&h=1295&fit=clip",
-      "last_updated": "2026-04-03T16:44:14.580Z"
+      "last_updated": "2026-04-03T17:38:09.640Z"
     },
     {
       "id": 336,
@@ -10705,7 +10705,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gE2hkVgFtaS9XIMJkH7gKrCNM0s1/XRbDs_EZ5hrGcBq2lI_fR?w=1000&h=1294&fit=clip",
-      "last_updated": "2026-04-03T16:44:15.543Z"
+      "last_updated": "2026-04-03T17:38:10.594Z"
     },
     {
       "id": 337,
@@ -10736,7 +10736,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/PQ5gzMjJSEZgNKUvmIS4US4JH5J2/jxukVPcYqOE9ruokmnVIC?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:44:16.544Z"
+      "last_updated": "2026-04-03T17:38:11.571Z"
     },
     {
       "id": 338,
@@ -10768,7 +10768,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-03T16:44:17.542Z"
+      "last_updated": "2026-04-03T17:38:12.503Z"
     },
     {
       "id": 339,
@@ -10799,7 +10799,7 @@
       "start_time": "2:00pm",
       "end_time": "5:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:18.518Z"
+      "last_updated": "2026-04-03T17:38:13.472Z"
     },
     {
       "id": 340,
@@ -10830,7 +10830,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Rk3LLQqc6JTDOLTs45BkHtwHS823/sL1786HyOA7FKS9DXfGMr?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:19.478Z"
+      "last_updated": "2026-04-03T17:38:14.467Z"
     },
     {
       "id": 341,
@@ -10862,7 +10862,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/2M13FFiZ_I2YUY2yCzVxF?w=924&h=794&fit=clip",
-      "last_updated": "2026-04-03T16:44:20.475Z"
+      "last_updated": "2026-04-03T17:38:15.446Z"
     },
     {
       "id": 342,
@@ -10894,7 +10894,7 @@
       "start_time": "3:30pm",
       "end_time": "11:30pm",
       "image_url": "https://partiful.imgix.net/external/user/f9PDDt54sLd6ft3CeSNSL6sHvdA2/b1ZDQikCvaTRRkQf_X-3v?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:21.421Z"
+      "last_updated": "2026-04-03T17:38:16.377Z"
     },
     {
       "id": 343,
@@ -10926,7 +10926,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/wGVXTWFtgLgISkskkGai9?w=874&h=876&fit=clip",
-      "last_updated": "2026-04-03T16:44:22.356Z"
+      "last_updated": "2026-04-03T17:38:17.349Z"
     },
     {
       "id": 344,
@@ -10958,7 +10958,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/N3lf4V2UYMQGMKGrGjjsYC4KvWy2/f2qfDbxy3aK9nHdGDvX1-?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:23.340Z"
+      "last_updated": "2026-04-03T17:38:18.290Z"
     },
     {
       "id": 345,
@@ -10990,7 +10990,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DZjmmxlwixgEd1vUajZ8XziO2zQ2/NLHEp0lXgFjVhOJj_inbi?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:24.279Z"
+      "last_updated": "2026-04-03T17:38:19.260Z"
     },
     {
       "id": 346,
@@ -11021,7 +11021,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/zybACcfraKRYPXeYHgtGLE7iO4m2/HJ6YXv8Lqir-lvI4-tHjv?w=1000&h=475&fit=clip",
-      "last_updated": "2026-04-03T16:44:25.309Z"
+      "last_updated": "2026-04-03T17:38:20.226Z"
     },
     {
       "id": 347,
@@ -11051,7 +11051,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/2ZYxwwdulYNr8grRlFH9qyoI8av2/UMnnqMLrEVLkGP_A-XjQG?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-03T16:44:26.268Z"
+      "last_updated": "2026-04-03T17:38:21.201Z"
     },
     {
       "id": 348,
@@ -11083,7 +11083,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/zg0VGSyQDKaRtiNToqqYMLsHBrF2/CHCN90KbYWxoio4jbnNUP?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-03T16:44:27.239Z"
+      "last_updated": "2026-04-03T17:38:22.181Z"
     },
     {
       "id": 349,
@@ -11115,7 +11115,7 @@
       "start_time": "6:00 pm",
       "end_time": "2:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/ytCoDkIUv8hCeKoTjFuqM204waq1/2dgcf3uBvTY_KbKpEW03Z?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:44:28.187Z"
+      "last_updated": "2026-04-03T17:38:23.115Z"
     },
     {
       "id": 350,
@@ -11146,7 +11146,7 @@
       "start_time": "6:00 pm",
       "end_time": "10:00 am",
       "image_url": "https://partiful.imgix.net/external/user/sQ7tozIWpGY637sOOx54t1SmxLz2/gBbYCxChZUXnt-uxph6K_?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-03T16:44:29.154Z"
+      "last_updated": "2026-04-03T17:38:24.089Z"
     },
     {
       "id": 351,
@@ -11178,7 +11178,7 @@
       "start_time": "6:00pm",
       "end_time": "10:00pm",
       "image_url": "https://partiful.imgix.net/external/user/fU20xBEhydQmk3enFN5rtd0Pi3R2/gq7xx3oCjcn-phHSeuEte?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:44:30.078Z"
+      "last_updated": "2026-04-03T17:38:25.022Z"
     },
     {
       "id": 352,
@@ -11209,7 +11209,7 @@
       "start_time": "7:00 am",
       "end_time": "5:30 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:31.046Z"
+      "last_updated": "2026-04-03T17:38:25.995Z"
     },
     {
       "id": 353,
@@ -11241,7 +11241,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/U4MSka0kO7bpS2demnZK0PCgRse2/zKPWubldEvG_8r4vVyL3P?w=1000&h=1295&fit=clip",
-      "last_updated": "2026-04-03T16:44:31.995Z"
+      "last_updated": "2026-04-03T17:38:26.919Z"
     },
     {
       "id": 354,
@@ -11272,7 +11272,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:32.957Z"
+      "last_updated": "2026-04-03T17:38:28.008Z"
     },
     {
       "id": 355,
@@ -11304,7 +11304,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ZN3pmFs4HieL31gw7dBhoHPD7Vp2/lZ5DWNY_-991h_CH1QMoL?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:33.962Z"
+      "last_updated": "2026-04-03T17:38:28.964Z"
     },
     {
       "id": 356,
@@ -11334,7 +11334,7 @@
       "start_time": "9:00am",
       "end_time": "10:00am",
       "image_url": "https://partiful.imgix.net/external/user/mbXl1V59o9PsC8ZRyTqebUz7uQm2/wipLZHjH8Ik21iRggXCwy?w=824&h=651&fit=clip",
-      "last_updated": "2026-04-03T16:44:34.970Z"
+      "last_updated": "2026-04-03T17:38:29.928Z"
     },
     {
       "id": 357,
@@ -11350,7 +11350,7 @@
         "Tours & Demos",
         "General Tech"
       ],
-      "going": 24,
+      "going": 25,
       "interested": 0,
       "maybe": 4,
       "capacity": null,
@@ -11366,7 +11366,7 @@
       "start_time": "9:00am",
       "end_time": "2:30pm",
       "image_url": "https://partiful.imgix.net/external/user/HavAKSm4GregZDxPXTlU2fCAMGr1/4hNuGIO8-ClznU0wh4TXO?w=800&h=1200&fit=clip",
-      "last_updated": "2026-04-03T16:44:35.886Z"
+      "last_updated": "2026-04-03T17:38:30.842Z"
     },
     {
       "id": 358,
@@ -11398,7 +11398,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yIzWayg369ZRcVrD_v3c1?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:36.789Z"
+      "last_updated": "2026-04-03T17:38:31.768Z"
     },
     {
       "id": 359,
@@ -11430,7 +11430,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/tvh601MsHxcwNS01YzfO6?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:37.692Z"
+      "last_updated": "2026-04-03T17:38:32.695Z"
     },
     {
       "id": 360,
@@ -11462,7 +11462,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-03T16:44:38.590Z"
+      "last_updated": "2026-04-03T17:38:33.637Z"
     },
     {
       "id": 361,
@@ -11494,7 +11494,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/c6ofpowOTxq4KEGSdRc6_?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:39.508Z"
+      "last_updated": "2026-04-03T17:38:34.564Z"
     },
     {
       "id": 362,
@@ -11525,7 +11525,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6n_Xlm1pRGss9WoNMXNAO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:40.417Z"
+      "last_updated": "2026-04-03T17:38:35.537Z"
     },
     {
       "id": 363,
@@ -11557,7 +11557,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/x9v__bg_1AwrioOeTyUQO?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:41.335Z"
+      "last_updated": "2026-04-03T17:38:36.472Z"
     },
     {
       "id": 364,
@@ -11589,7 +11589,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/6pkUaCJvsGtSjN1_r2RYt?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:42.251Z"
+      "last_updated": "2026-04-03T17:38:37.391Z"
     },
     {
       "id": 365,
@@ -11621,7 +11621,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/VIgVks3vp1W3bMdn8sJ1o?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:43.185Z"
+      "last_updated": "2026-04-03T17:38:38.333Z"
     },
     {
       "id": 366,
@@ -11652,7 +11652,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/Hw9MeqlPgFoVs9DrlVte0?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:44.102Z"
+      "last_updated": "2026-04-03T17:38:39.253Z"
     },
     {
       "id": 367,
@@ -11684,7 +11684,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/yIzWayg369ZRcVrD_v3c1?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:45.017Z"
+      "last_updated": "2026-04-03T17:38:40.205Z"
     },
     {
       "id": 368,
@@ -11716,7 +11716,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/tvh601MsHxcwNS01YzfO6?w=1000&h=803&fit=clip",
-      "last_updated": "2026-04-03T16:44:45.996Z"
+      "last_updated": "2026-04-03T17:38:41.153Z"
     },
     {
       "id": 369,
@@ -11748,7 +11748,7 @@
       "start_time": "2:00 pm",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/hHPL4LQFeQROqjegVN6FXh8niZ03/sS5y4tOTvTk89vztRRbVk?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:44:46.944Z"
+      "last_updated": "2026-04-03T17:38:42.101Z"
     },
     {
       "id": 370,
@@ -11810,7 +11810,7 @@
       "start_time": "3:00 pm",
       "end_time": "10:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/9plUwQqGKQUfmEkEQ8E9O?w=285&h=389&fit=clip",
-      "last_updated": "2026-04-03T16:44:47.881Z"
+      "last_updated": "2026-04-03T17:38:43.070Z"
     },
     {
       "id": 372,
@@ -11842,7 +11842,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:48.807Z"
+      "last_updated": "2026-04-03T17:38:44.006Z"
     },
     {
       "id": 373,
@@ -11903,7 +11903,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:49.710Z"
+      "last_updated": "2026-04-03T17:38:44.950Z"
     },
     {
       "id": 375,
@@ -11934,7 +11934,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/0T81AxlBzsYLcFIx0MaIYBOayYR2/LZqBt1mt5tyTJ2-YhpJHO?w=612&h=792&fit=clip",
-      "last_updated": "2026-04-03T16:44:50.650Z"
+      "last_updated": "2026-04-03T17:38:45.893Z"
     },
     {
       "id": 376,
@@ -12050,7 +12050,7 @@
       "start_time": "5:00pm",
       "end_time": "7:00pm",
       "image_url": "https://partiful.imgix.net/external/user/oUiwVjiiPAgUETCK6VMgV1OsqJe2/KNWg_FyGD9JZv4lLmR-Q1?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-03T16:44:51.669Z"
+      "last_updated": "2026-04-03T17:38:46.889Z"
     },
     {
       "id": 380,
@@ -12082,7 +12082,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/GKGt2IcoQQ7dfq2eFxAN/U4FRRTeJUMCIX64a7qYoW?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-03T16:44:52.659Z"
+      "last_updated": "2026-04-03T17:38:47.865Z"
     },
     {
       "id": 381,
@@ -12113,7 +12113,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/sQ7tozIWpGY637sOOx54t1SmxLz2/gBbYCxChZUXnt-uxph6K_?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-03T16:44:53.609Z"
+      "last_updated": "2026-04-03T17:38:48.821Z"
     },
     {
       "id": 382,
@@ -12144,7 +12144,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/LIMlSUGgqbSL1aFopqGUDRXiGC72/sVZYeVB0J4itUZHw_QTta?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:44:54.520Z"
+      "last_updated": "2026-04-03T17:38:49.724Z"
     },
     {
       "id": 383,
@@ -12233,7 +12233,7 @@
       "start_time": "8:30am",
       "end_time": "10:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:55.468Z"
+      "last_updated": "2026-04-03T17:38:50.705Z"
     },
     {
       "id": 386,
@@ -12664,7 +12664,7 @@
       "start_time": "3:00 pm",
       "end_time": null,
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:56.374Z"
+      "last_updated": "2026-04-03T17:38:51.635Z"
     },
     {
       "id": "402",
@@ -12701,7 +12701,7 @@
       "start_time": "3:45 pm",
       "end_time": "5:30 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:57.273Z"
+      "last_updated": "2026-04-03T17:38:52.580Z"
     },
     {
       "id": "403",
@@ -12735,7 +12735,7 @@
       "start_time": "12:30 am",
       "end_time": "1:30 am",
       "image_url": "https://partiful.imgix.net/external/user/6I828rZ6z8WucTtKiYxFEqbi6YH2/0synYPYpFuUmgYSkU-YyI?w=1000&h=1294&fit=clip",
-      "last_updated": "2026-04-03T16:44:58.255Z"
+      "last_updated": "2026-04-03T17:38:53.552Z"
     },
     {
       "id": "404",
@@ -12769,7 +12769,7 @@
       "start_time": "12:30 am",
       "end_time": "2:30 am",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:44:59.212Z"
+      "last_updated": "2026-04-03T17:38:54.558Z"
     },
     {
       "id": "405",
@@ -12807,7 +12807,7 @@
       "start_time": "4:00 pm",
       "end_time": null,
       "image_url": "https://partiful.imgix.net/external/user/XNBmqXB6kdFIMvoencNP/zxpDEy4OIKpzctjsN7VJI?w=978&h=978&fit=clip",
-      "last_updated": "2026-04-03T16:45:00.211Z"
+      "last_updated": "2026-04-03T17:38:55.531Z"
     },
     {
       "id": "406",
@@ -12842,7 +12842,7 @@
       "start_time": "11:30 pm",
       "end_time": null,
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:45:01.126Z"
+      "last_updated": "2026-04-03T17:38:56.475Z"
     },
     {
       "id": "407",
@@ -12876,7 +12876,7 @@
       "start_time": "8:00 pm",
       "end_time": "11:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/PQ5gzMjJSEZgNKUvmIS4US4JH5J2/jxukVPcYqOE9ruokmnVIC?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:45:02.118Z"
+      "last_updated": "2026-04-03T17:38:57.475Z"
     },
     {
       "id": "408",
@@ -12909,7 +12909,7 @@
       "start_time": "6:00 pm",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/EP-uhlSfaMCKempIkD-Oy?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:45:03.114Z"
+      "last_updated": "2026-04-03T17:38:58.462Z"
     },
     {
       "id": "409",
@@ -12943,7 +12943,7 @@
       "start_time": "9:00 pm",
       "end_time": null,
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:45:04.150Z"
+      "last_updated": "2026-04-03T17:38:59.455Z"
     },
     {
       "id": "410",
@@ -12977,7 +12977,7 @@
       "start_time": "5:00 pm",
       "end_time": "6:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/qYZRF_Qw_xz24oTSs5lis?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:45:05.335Z"
+      "last_updated": "2026-04-03T17:39:00.435Z"
     },
     {
       "id": "411",
@@ -13011,7 +13011,7 @@
       "start_time": "8:30 pm",
       "end_time": "10:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/rly2Enr7Q7ZzoLNwvExVNkfYrUG2/2cNlwxdJFtKzXd5Wd8rME?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-03T16:45:06.262Z"
+      "last_updated": "2026-04-03T17:39:01.365Z"
     },
     {
       "id": "413",
@@ -13045,7 +13045,7 @@
       "start_time": "6:00 pm",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/vrd0ZY-0tABZbqSq52mmZ?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:45:07.211Z"
+      "last_updated": "2026-04-03T17:39:02.317Z"
     },
     {
       "id": "414",
@@ -13080,7 +13080,7 @@
       "start_time": "9:00 pm",
       "end_time": "12:00 am",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-03T16:45:08.150Z"
+      "last_updated": "2026-04-03T17:39:03.274Z"
     },
     {
       "id": "416",
@@ -13114,7 +13114,7 @@
       "start_time": "5:00 pm",
       "end_time": "6:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/v4v3qmMqJnbl3so0jQOpL3s22JC3/WyngGoIrnEXYrNjBeOyQY?w=834&h=834&fit=clip",
-      "last_updated": "2026-04-03T16:45:09.110Z"
+      "last_updated": "2026-04-03T17:39:04.249Z"
     },
     {
       "id": "419",
@@ -13149,10 +13149,10 @@
       "start_time": "4:00 pm",
       "end_time": "6:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/BTisiBLg3ydmyTe1JhpD/NGXuGu-aPKG9KUnAqRWSu?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-03T16:45:10.102Z"
+      "last_updated": "2026-04-03T17:39:05.232Z"
     }
   ],
-  "last_scraped": "2026-04-03T16:45:10.102Z",
+  "last_scraped": "2026-04-03T17:39:05.232Z",
   "scrape_stats": {
     "total": 393,
     "updated": 391,
