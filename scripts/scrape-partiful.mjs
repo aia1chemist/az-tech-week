@@ -116,6 +116,43 @@ async function scrapePartifulEvent(url) {
   return null;
 }
 
+/* ── Category & city normalization ── */
+const CATEGORY_MERGES = {
+  FinTech: "Fintech",
+  "Blockchain & Web3": "Blockchain & Crypto",
+  "Space & Defense": "Space & Aerospace",
+  "Clean Energy & Sustainability": "Energy & Sustainability",
+  "Hardware & Manufacturing": "Manufacturing & Hardware",
+  Networking: "Networking & Social",
+  "Health Tech": "Health & Biotech",
+  "Marketing & Growth": "Sales & Marketing",
+  "Gaming & Entertainment": "Arts & Entertainment",
+  "Real Estate & PropTech": "Real Estate",
+  "Cloud & DevOps": "DevOps & Engineering",
+};
+
+const CITY_FIXES = {
+  "850 PBC": "Phoenix",
+  "Pima Community College West Campus | HG10": "Tucson",
+  "The Funding Studio": "Phoenix",
+  "Town of Prescott Valley": "Prescott Valley",
+  "Arizona Commerce Authority": "Phoenix",
+  "Dean Simms": "Phoenix",
+};
+
+function normalizeEvent(event) {
+  return {
+    ...event,
+    city: CITY_FIXES[event.city] || event.city,
+    categories: [...new Set(event.categories.map((c) => CATEGORY_MERGES[c] || c))],
+  };
+}
+
+function rebuildMetadata(data) {
+  data.cities = [...new Set(data.events.map((e) => e.city))].sort();
+  data.categories = [...new Set(data.events.flatMap((e) => e.categories))].sort();
+}
+
 async function main() {
   console.log("=== Partiful Scraper ===");
   console.log(`Started at: ${new Date().toISOString()}`);
@@ -123,6 +160,11 @@ async function main() {
   // Read current events.json
   const raw = readFileSync(EVENTS_PATH, "utf-8");
   const data = JSON.parse(raw);
+
+  // Normalize categories and cities on load
+  data.events = data.events.map(normalizeEvent);
+  rebuildMetadata(data);
+
   const events = data.events;
 
   // Filter to Partiful events only
