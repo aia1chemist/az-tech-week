@@ -9,7 +9,6 @@
     "Sunday, April 12"
   ],
   "cities": [
-    "850 PBC",
     "Avondale",
     "Buckeye",
     "Chandler",
@@ -27,8 +26,8 @@
     "Payson",
     "Peoria",
     "Phoenix",
-    "Pima Community College West Campus | HG10",
     "Prescott",
+    "Prescott Valley",
     "Sahuarita",
     "San Luis",
     "Scottsdale",
@@ -38,8 +37,6 @@
     "Surprise",
     "TBD",
     "Tempe",
-    "The Funding Studio",
-    "Town of Prescott Valley",
     "Tucson",
     "Virtual",
     "Yuma"
@@ -48,32 +45,21 @@
     "AI & Machine Learning",
     "Arts & Entertainment",
     "Blockchain & Crypto",
-    "Blockchain & Web3",
-    "Clean Energy & Sustainability",
-    "Cloud & DevOps",
     "Cybersecurity",
     "Data & Analytics",
     "DevOps & Engineering",
     "Education & Workforce",
     "Energy & Sustainability",
-    "FinTech",
     "Fintech",
-    "Gaming & Entertainment",
     "General Tech",
-    "Hardware & Manufacturing",
     "Health & Biotech",
-    "Health Tech",
     "Investing & VC",
     "Legal & Policy",
     "Manufacturing & Hardware",
-    "Marketing & Growth",
-    "Networking",
     "Networking & Social",
     "Real Estate",
-    "Real Estate & PropTech",
     "Sales & Marketing",
     "Space & Aerospace",
-    "Space & Defense",
     "Startups & Entrepreneurship",
     "Tours & Demos",
     "Women in Tech"
@@ -906,7 +892,7 @@
     {
       "id": 27,
       "title": "SMART AGING & HOME CARE",
-      "city": "850 PBC",
+      "city": "Phoenix",
       "time": "2:00 pm",
       "organizer": "yien yang, Arizona Tech Week",
       "description": "Discover how smart technology is redefining care beyond hospital walls. Join our guide for a curated tour of breakthrough solutions, including Huijia Health’s zero-contact fiber-optic vital sensing, A",
@@ -3029,7 +3015,7 @@
     {
       "id": 94,
       "title": "ARTS ENTREPRENEURIAL TALKS WITH JOSEPH O'CONNELL",
-      "city": "Pima Community College West Campus | HG10",
+      "city": "Tucson",
       "time": "3:00pm – 5:00pm",
       "organizer": "Sue Oliver, Arizona Tech Week, holden burns, Lydia Kennedy",
       "description": "Arizona’s innovation economy is taking the spotlight for the first-ever AZ Tech Week, and we’re bringing the celebration to Pima West! Pima Arts + SATEC Presents Joseph O’Connell, founder of Creativ",
@@ -12647,9 +12633,9 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
         "Education & Workforce",
-        "Real Estate & PropTech",
-        "Hardware & Manufacturing",
-        "Gaming & Entertainment",
+        "Real Estate",
+        "Manufacturing & Hardware",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12683,10 +12669,10 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
         "Education & Workforce",
-        "FinTech",
-        "Hardware & Manufacturing",
-        "Cloud & DevOps",
-        "Gaming & Entertainment",
+        "Fintech",
+        "Manufacturing & Hardware",
+        "DevOps & Engineering",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12720,7 +12706,7 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
         "Education & Workforce",
-        "Gaming & Entertainment",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12752,9 +12738,9 @@
       "full_date": "Wed, April 8, 2026",
       "categories": [
         "Startups & Entrepreneurship",
-        "Networking",
-        "Clean Energy & Sustainability",
-        "Gaming & Entertainment",
+        "Networking & Social",
+        "Energy & Sustainability",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12787,12 +12773,12 @@
       "categories": [
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
-        "Networking",
-        "Clean Energy & Sustainability",
+        "Networking & Social",
+        "Energy & Sustainability",
         "Education & Workforce",
         "Cybersecurity",
-        "Cloud & DevOps",
-        "Gaming & Entertainment",
+        "DevOps & Engineering",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12825,9 +12811,9 @@
       "categories": [
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
-        "Networking",
+        "Networking & Social",
         "Education & Workforce",
-        "Gaming & Entertainment",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12861,7 +12847,7 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
         "Education & Workforce",
-        "Gaming & Entertainment",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 21,
@@ -12893,8 +12879,8 @@
       "full_date": "Tue, April 7, 2026",
       "categories": [
         "Education & Workforce",
-        "FinTech",
-        "Gaming & Entertainment",
+        "Fintech",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12926,9 +12912,9 @@
       "full_date": "Tue, April 7, 2026",
       "categories": [
         "Startups & Entrepreneurship",
-        "Space & Defense",
+        "Space & Aerospace",
         "Education & Workforce",
-        "Gaming & Entertainment",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12961,8 +12947,8 @@
       "categories": [
         "AI & Machine Learning",
         "Education & Workforce",
-        "FinTech",
-        "Gaming & Entertainment",
+        "Fintech",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -12994,9 +12980,9 @@
       "full_date": "Tue, April 7, 2026",
       "categories": [
         "AI & Machine Learning",
-        "Blockchain & Web3",
-        "Marketing & Growth",
-        "Gaming & Entertainment",
+        "Blockchain & Crypto",
+        "Sales & Marketing",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -13029,8 +13015,8 @@
       "categories": [
         "AI & Machine Learning",
         "Education & Workforce",
-        "FinTech",
-        "Gaming & Entertainment",
+        "Fintech",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -13063,9 +13049,9 @@
       "categories": [
         "AI & Machine Learning",
         "Startups & Entrepreneurship",
-        "Health Tech",
+        "Health & Biotech",
         "Education & Workforce",
-        "Gaming & Entertainment",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -13096,10 +13082,10 @@
       "link": "https://partiful.com/e/zuvuSStI1k3yJEdQBzLy",
       "full_date": "Tue, April 7, 2026",
       "categories": [
-        "Health Tech",
+        "Health & Biotech",
         "Education & Workforce",
-        "Hardware & Manufacturing",
-        "Gaming & Entertainment",
+        "Manufacturing & Hardware",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 0,
@@ -13131,10 +13117,10 @@
       "full_date": "Tue, April 7, 2026",
       "categories": [
         "Startups & Entrepreneurship",
-        "Networking",
-        "Space & Defense",
+        "Networking & Social",
+        "Space & Aerospace",
         "Education & Workforce",
-        "Gaming & Entertainment",
+        "Arts & Entertainment",
         "Women in Tech"
       ],
       "going": 68,
@@ -13488,7 +13474,7 @@
     {
       "id": 431,
       "title": "REDUCE TURNOVER WITHOUT RAISING PAY - #AZTECHWEEK",
-      "city": "The Funding Studio",
+      "city": "Phoenix",
       "time": "10:00 am",
       "organizer": "Techquity Advisors",
       "description": "",
@@ -13518,7 +13504,7 @@
     {
       "id": 432,
       "title": "SUPPLY CHAIN INNOVATION LUNCHEON",
-      "city": "Town of Prescott Valley",
+      "city": "Prescott Valley",
       "time": "11:00 am",
       "organizer": "PLUG AND PLAY",
       "description": "",
@@ -13698,7 +13684,7 @@
     {
       "id": 438,
       "title": "KITT PEAK OBSERVATORY TOUR - #AZTECHWEEK",
-      "city": "Arizona Commerce Authority",
+      "city": "Phoenix",
       "time": "9:30 am",
       "organizer": "SCOP",
       "description": "",
@@ -13848,7 +13834,7 @@
     {
       "id": 443,
       "title": "ASU TEM LAB SHOWCASE - 2026 COHORT - #AZTECHWEEK",
-      "city": "Dean Simms",
+      "city": "Phoenix",
       "time": "5:30 pm",
       "organizer": "Honeywell Aerospace",
       "description": "",
