@@ -282,7 +282,7 @@ export default function Home() {
               <svg className="w-3.5 h-3.5 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>Last updated: April 4, 2026 (evening)</span>
+              <span>Last updated: April 5, 2026 (morning)</span>
               <span className="text-gray-300 dark:text-gray-600">|</span>
               <span className="text-gray-400 dark:text-gray-500">Updated every 12 hours</span>
             </div>

@@ -181,7 +181,7 @@
       "city": "Scottsdale",
       "time": "10:00 am",
       "organizer": "ASU Core Facilities and Econ Dev",
-      "description": "ASU Core Research Facilities provide access to advanced tools and subject matter expertise to help you achieve your research goals on any budget, scale or timeline. Come see how we can support you at ",
+      "description": "[CANCELLED] ASU Core Research Facilities provide access to advanced tools and subject matter expertise to help you achieve your research goals on any budget, scale or timeline. Come see how we can support you at ",
       "link": "https://partiful.com/e/BVEF8d2CNUqV0qOhxEoF",
       "full_date": "Monday, April 6",
       "categories": [
@@ -198,14 +198,14 @@
       "day_of_week": "Monday",
       "date": "April 6",
       "time_of_day": "Morning",
-      "sold_out": false,
+      "sold_out": true,
       "space_limited": true,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/olLoRen3WqbmfxfM3tjdQVzoAGN2/nBZdQCgjWEam21HnYEFfq?w=960&h=960&fit=clip",
-      "last_updated": "2026-04-05T10:32:08.665Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 5,
@@ -252,7 +252,7 @@
         "Data & Analytics",
         "Manufacturing & Hardware"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 5,
       "maybe": 0,
       "capacity": 100,
@@ -268,7 +268,7 @@
       "start_time": "10:30 am",
       "end_time": "",
       "image_url": "https://images.unsplash.com/photo-1624952911535-cfe35fbb4d8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxOTg2Nzh8MHwxfHNlYXJjaHw1fHxMaWdodGVuaW5nfGVufDB8Mnx8fDE3NzMyNjYzMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "last_updated": "2026-04-05T10:32:10.810Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 7,
@@ -538,7 +538,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -554,7 +554,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-05T10:32:20.515Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 16,
@@ -569,10 +569,10 @@
         "Networking & Social",
         "General Tech"
       ],
-      "going": 0,
+      "going": 26,
       "interested": 14,
       "maybe": 0,
-      "capacity": 20,
+      "capacity": 26,
       "spots_left": -6,
       "invite_only": true,
       "day_of_week": "Monday",
@@ -585,7 +585,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/X3dA8pcOVwWlcK5WD7GnQwqYBvH2/-Psp0lLSAVzEsB6R2tKhh?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:32:21.572Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 17,
@@ -601,7 +601,7 @@
         "Networking & Social",
         "Sales & Marketing"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": 20,
@@ -617,7 +617,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://media3.giphy.com/media/hVP3ippY6MdtJ2Yd3X/giphy.gif?cid=c00e53c6550bypauyxpkgogljx91ktz0eezpdywpizx4qwgn&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-      "last_updated": "2026-04-05T10:32:22.557Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 18,
@@ -695,7 +695,7 @@
         "Tours & Demos",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -711,7 +711,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:32:25.749Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 21,
@@ -725,7 +725,7 @@
       "categories": [
         "General Tech"
       ],
-      "going": 0,
+      "going": 12,
       "interested": 4,
       "maybe": 0,
       "capacity": 16,
@@ -741,7 +741,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:32:26.819Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 22,
@@ -757,7 +757,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 9,
       "interested": 0,
       "maybe": 0,
       "capacity": 40,
@@ -773,7 +773,7 @@
       "start_time": "1:00pm",
       "end_time": "4:00pm",
       "image_url": "https://partiful.imgix.net/external/user/Mz0MkTv31mfmWi0HYlKRnMw69f33/h9C5ssS-1PobBkzz0O_PL?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:32:27.815Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 23,
@@ -794,7 +794,7 @@
       "maybe": 0,
       "capacity": 70,
       "spots_left": 48,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Monday",
       "date": "April 6",
       "time_of_day": "Afternoon",
@@ -885,7 +885,7 @@
         "Sales & Marketing",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 20,
       "interested": 4,
       "maybe": 0,
       "capacity": 50,
@@ -901,7 +901,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:32:31.939Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 27,
@@ -917,7 +917,7 @@
         "Blockchain & Crypto",
         "Tours & Demos"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 5,
       "maybe": 0,
       "capacity": null,
@@ -933,7 +933,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:32:32.973Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 28,
@@ -981,7 +981,7 @@
         "Education & Workforce",
         "General Tech"
       ],
-      "going": 0,
+      "going": 18,
       "interested": 0,
       "maybe": 0,
       "capacity": 30,
@@ -997,7 +997,7 @@
       "start_time": "3:30 pm",
       "end_time": "4:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/Jk8cYx31AhTLlNOfiuZ167wvBJO2/84Pm-odV8P5kMcaaIMfxq?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:32:35.122Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 30,
@@ -1108,7 +1108,7 @@
         "Startups & Entrepreneurship",
         "Sales & Marketing"
       ],
-      "going": 0,
+      "going": 28,
       "interested": 8,
       "maybe": 0,
       "capacity": null,
@@ -1124,7 +1124,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:32:39.334Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 34,
@@ -1143,7 +1143,7 @@
       "maybe": 7,
       "capacity": 200,
       "spots_left": 151,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Monday",
       "date": "April 6",
       "time_of_day": "Evening",
@@ -1233,7 +1233,7 @@
         "Investing & VC",
         "Networking & Social"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 10,
       "maybe": 0,
       "capacity": 250,
@@ -1249,7 +1249,7 @@
       "start_time": "5:30pm",
       "end_time": "7:30pm",
       "image_url": "https://partiful.imgix.net/external/user/4Dy0T5ZQcvY2Kos7MwqpNTGJIEW2/yfCCzFvhR-67pdxze7Tcn?w=654&h=644&fit=clip",
-      "last_updated": "2026-04-05T10:32:43.556Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 38,
@@ -1265,7 +1265,7 @@
         "Networking & Social",
         "Energy & Sustainability"
       ],
-      "going": 0,
+      "going": 326,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -1281,7 +1281,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/oSt21QGVpQeY1GpGbOxvKJSC5ri2/aur81QPh7ZB1zh50IitK0?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:32:44.574Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 39,
@@ -1424,7 +1424,7 @@
         "Investing & VC",
         "Networking & Social"
       ],
-      "going": 0,
+      "going": 53,
       "interested": 5,
       "maybe": 0,
       "capacity": 53,
@@ -1440,7 +1440,7 @@
       "start_time": "7:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/a2M0fe6TzFhbJ2thegFJ0nHD4jf1/kfTFrVv1k6WrTHeCMLYOU?w=800&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:32:49.918Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 44,
@@ -1465,14 +1465,14 @@
       "day_of_week": "Monday",
       "date": "April 6",
       "time_of_day": "Morning",
-      "sold_out": true,
+      "sold_out": false,
       "space_limited": true,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/zd7C9NZS6k8b67LH15gzh?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:32:50.960Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 45,
@@ -1497,14 +1497,14 @@
       "day_of_week": "Monday",
       "date": "April 6",
       "time_of_day": "Morning",
-      "sold_out": false,
+      "sold_out": true,
       "space_limited": false,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/IVjtbYMOmFW2MbLvK8ZNp3QqMF92/AmdUtDlKR-A_UTD9OnZZo?w=1000&h=1166&fit=clip",
-      "last_updated": "2026-04-05T10:32:51.931Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 46,
@@ -1552,7 +1552,7 @@
         "Networking & Social",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -1568,7 +1568,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:32:54.017Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 48,
@@ -1584,7 +1584,7 @@
         "Sales & Marketing",
         "General Tech"
       ],
-      "going": 0,
+      "going": 307,
       "interested": 18,
       "maybe": 0,
       "capacity": 350,
@@ -1600,7 +1600,7 @@
       "start_time": "8:00 am",
       "end_time": "7:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/Ww3eodd8amvo1nmnH_2s8?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:32:55.088Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 49,
@@ -1616,7 +1616,7 @@
         "Investing & VC",
         "General Tech"
       ],
-      "going": 0,
+      "going": 48,
       "interested": 11,
       "maybe": 0,
       "capacity": 75,
@@ -1632,7 +1632,7 @@
       "start_time": "8:00am",
       "end_time": "12:00pm",
       "image_url": "https://partiful.imgix.net/external/user/a2M0fe6TzFhbJ2thegFJ0nHD4jf1/pd1eysi3Qys64gDuT1BNz?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:32:56.145Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 50,
@@ -1678,7 +1678,7 @@
       "categories": [
         "General Tech"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 4,
       "maybe": 0,
       "capacity": 100,
@@ -1694,7 +1694,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://media3.giphy.com/media/8F3bK4aq1tCo0TLkf7/giphy.gif?cid=c00e53c6hb6rxgsa95q7ws838zs6hzdw5o3dq2j8hrjbtzsu&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-      "last_updated": "2026-04-05T10:32:58.309Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 52,
@@ -1741,7 +1741,7 @@
         "Sales & Marketing",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 37,
       "interested": 11,
       "maybe": 0,
       "capacity": null,
@@ -1757,7 +1757,7 @@
       "start_time": "9:30 am",
       "end_time": "12:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:33:00.363Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 54,
@@ -1890,7 +1890,7 @@
       "city": "Tucson",
       "time": "10:00 am",
       "organizer": "U of A Research and Partnerships",
-      "description": "The Water & Energy Sustainable Technology (WEST) Center is the University of Arizona’s leading facility for developing innovative solutions to water scarcity and advancing water‑reuse technologies. Loc",
+      "description": "[DELETED] The Water & Energy Sustainable Technology (WEST) Center is the University of Arizona’s leading facility for developing innovative solutions to water scarcity and advancing water‑reuse technologies. Loc",
       "link": "https://partiful.com/e/CaR3D5OBiEuRlDr2vq3D",
       "full_date": "Tuesday, April 7",
       "categories": [
@@ -1907,14 +1907,14 @@
       "day_of_week": "Tuesday",
       "date": "April 7",
       "time_of_day": "Morning",
-      "sold_out": false,
+      "sold_out": true,
       "space_limited": true,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/CQZO0XxjP3gLnIlhKNaccRwKAiz1/KoZPODU8SnZCGLab3pgJr?w=1000&h=985&fit=clip",
-      "last_updated": "2026-04-02T21:36:48.815Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 59,
@@ -1993,7 +1993,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -2009,7 +2009,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:33:15.019Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 62,
@@ -2056,7 +2056,7 @@
         "Health & Biotech",
         "General Tech"
       ],
-      "going": 0,
+      "going": 51,
       "interested": 7,
       "maybe": 0,
       "capacity": null,
@@ -2072,7 +2072,7 @@
       "start_time": "10:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:33:17.031Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 64,
@@ -2215,7 +2215,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -2231,7 +2231,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-05T10:33:22.260Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 69,
@@ -2471,7 +2471,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 19,
       "interested": 1,
       "maybe": 0,
       "capacity": 75,
@@ -2487,7 +2487,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/G3tzZSHH0Raig3QqEzfOduX9c3I2/ZZg79M7pip8VBYJOYd_aj?w=1000&h=857&fit=clip",
-      "last_updated": "2026-04-05T10:33:30.915Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 77,
@@ -2503,7 +2503,7 @@
         "Energy & Sustainability",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 1,
       "maybe": 0,
       "capacity": 125,
@@ -2519,7 +2519,7 @@
       "start_time": "11:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/knwt5hGjajZksWD7UUk3qX83snc2/jqKD-iWS47JDhZNnmDxfO?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:33:32.002Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 78,
@@ -2534,7 +2534,7 @@
         "Startups & Entrepreneurship",
         "Sales & Marketing"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 8,
       "maybe": 0,
       "capacity": null,
@@ -2550,7 +2550,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/O9OywFyhPLTVM58JBJTQaMwGJNP2/arzKo5oWFYx_-8R4I_tWl?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:33:33.146Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 79,
@@ -2628,23 +2628,23 @@
         "Legal & Policy",
         "General Tech"
       ],
-      "going": 0,
+      "going": 3,
       "interested": 0,
       "maybe": 0,
-      "capacity": null,
+      "capacity": 25,
       "spots_left": null,
       "invite_only": true,
       "day_of_week": "Tuesday",
       "date": "April 7",
       "time_of_day": "Afternoon",
       "sold_out": false,
-      "space_limited": false,
+      "space_limited": true,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/bPRZ3WRrkJQiE2Sqnt6T6gWPgeo2/oSss0ewwwRyefxEMksAR2?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:33:36.240Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 82,
@@ -2692,7 +2692,7 @@
         "Sales & Marketing",
         "General Tech"
       ],
-      "going": 0,
+      "going": 38,
       "interested": 0,
       "maybe": 0,
       "capacity": 45,
@@ -2708,7 +2708,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/oSt21QGVpQeY1GpGbOxvKJSC5ri2/D6o57T59Mtm_lTqJAQbUe?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-05T10:33:38.286Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 84,
@@ -2724,7 +2724,7 @@
         "Legal & Policy",
         "General Tech"
       ],
-      "going": 0,
+      "going": 4,
       "interested": 0,
       "maybe": 0,
       "capacity": 15,
@@ -2740,7 +2740,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/5GAJ0PEZMhMxSjlxsU03REBLZJD3/M7j24bqdLUnoAkoP2sRRD?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:33:39.280Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 85,
@@ -2820,7 +2820,7 @@
         "Tours & Demos",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -2836,7 +2836,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:33:42.449Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 88,
@@ -2884,7 +2884,7 @@
         "Education & Workforce",
         "General Tech"
       ],
-      "going": 0,
+      "going": 10,
       "interested": 2,
       "maybe": 0,
       "capacity": null,
@@ -2900,7 +2900,7 @@
       "start_time": "1:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/zY7H6ToaKst8Oxd7rSX2u?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:33:44.517Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 90,
@@ -2916,7 +2916,7 @@
         "Space & Aerospace",
         "Tours & Demos"
       ],
-      "going": 0,
+      "going": 107,
       "interested": 8,
       "maybe": 0,
       "capacity": null,
@@ -2932,7 +2932,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/3jQxCuTyL5coz4yoQMpEHbZLKQJ2/s0LvC_rSlNeNAN1tM_LiX?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:33:45.582Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 91,
@@ -2948,7 +2948,7 @@
         "Data & Analytics",
         "General Tech"
       ],
-      "going": 0,
+      "going": 14,
       "interested": 3,
       "maybe": 0,
       "capacity": null,
@@ -2964,7 +2964,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:33:46.644Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 92,
@@ -3072,7 +3072,7 @@
         "AI & Machine Learning",
         "Investing & VC"
       ],
-      "going": 0,
+      "going": 56,
       "interested": 8,
       "maybe": 0,
       "capacity": null,
@@ -3088,7 +3088,7 @@
       "start_time": "3:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/SYRHRN7prONrIyCDgh6GuK96l1l1/4FN8J6Fit3hk3A3HNctX8?w=1000&h=667&fit=clip",
-      "last_updated": "2026-04-05T10:33:50.970Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 96,
@@ -3104,7 +3104,7 @@
         "Education & Workforce",
         "General Tech"
       ],
-      "going": 0,
+      "going": 15,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3120,7 +3120,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/vQ5cga40tkauTXyXhTpLYJ28KL02/MgIuq1xUchxvxiCW3x0dL?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:33:51.947Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 97,
@@ -3136,7 +3136,7 @@
         "Cybersecurity",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 31,
       "interested": 2,
       "maybe": 0,
       "capacity": null,
@@ -3152,7 +3152,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/CinMzxOgcaQXKKauh8RVcJCR55V2/82n3Lc-p2fmq3IMOod-Uk?w=1000&h=1500&fit=clip",
-      "last_updated": "2026-04-05T10:33:53.028Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 98,
@@ -3167,7 +3167,7 @@
         "Startups & Entrepreneurship",
         "Sales & Marketing"
       ],
-      "going": 0,
+      "going": 22,
       "interested": 0,
       "maybe": 0,
       "capacity": 40,
@@ -3183,7 +3183,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Wpvl8YMO8YN1svQFB7kR0GmomDe2/RMLWEBFQOcyfAQZwjwhWf?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:33:54.077Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 99,
@@ -3323,7 +3323,7 @@
         "Legal & Policy",
         "General Tech"
       ],
-      "going": 0,
+      "going": 20,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3339,7 +3339,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VY4cqhQoiBhJ9W9fLIqC/NVKr9DQg19eXeeVrUdvq0?w=480&h=600&fit=clip",
-      "last_updated": "2026-04-05T10:33:59.252Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 104,
@@ -3355,7 +3355,7 @@
         "Blockchain & Crypto",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 18,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3371,7 +3371,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:00.330Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 105,
@@ -3387,7 +3387,7 @@
         "DevOps & Engineering",
         "Investing & VC"
       ],
-      "going": 0,
+      "going": 31,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3403,7 +3403,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/VSz8NLIHd2TABOuFM78FNJoWwbg2/DYP22uPAa4m3FGp0eabIX?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:01.398Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 106,
@@ -3419,7 +3419,7 @@
         "Networking & Social",
         "General Tech"
       ],
-      "going": 0,
+      "going": 3,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -3435,7 +3435,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Y5JpWsmDv8RkA1PTNistcKxmrSz1/fucpEwXvvChxnPa4BA7xm?w=512&h=512&fit=clip",
-      "last_updated": "2026-04-05T10:34:02.477Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 107,
@@ -3443,14 +3443,14 @@
       "city": "Phoenix",
       "time": "5:00 pm",
       "organizer": "Heart of New Earth x Goodmans x Sexsmith Architects",
-      "description": "Traditional business strategy is not ready for this era: Join founders, designers, and business leaders discovering how material choices create competitive advantage—driving customer satisfaction, mark",
+      "description": "[CANCELLED] Traditional business strategy is not ready for this era: Join founders, designers, and business leaders discovering how material choices create competitive advantage—driving customer satisfaction, mark",
       "link": "https://partiful.com/e/SPK192dWuKuXJXNx9Mpz",
       "full_date": "Tuesday, April 7",
       "categories": [
         "Startups & Entrepreneurship",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 2,
       "maybe": 0,
       "capacity": 30,
@@ -3459,14 +3459,14 @@
       "day_of_week": "Tuesday",
       "date": "April 7",
       "time_of_day": "Evening",
-      "sold_out": false,
+      "sold_out": true,
       "space_limited": true,
       "duration": "1 hr",
       "duration_minutes": 60,
       "start_time": "5:00 pm",
       "end_time": "3:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:03.590Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 108,
@@ -3482,7 +3482,7 @@
         "Legal & Policy",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 21,
       "interested": 3,
       "maybe": 0,
       "capacity": 40,
@@ -3498,7 +3498,7 @@
       "start_time": "5:00pm",
       "end_time": "7:00pm",
       "image_url": "https://partiful.imgix.net/external/user/tNarEUahagZ87qous5A53nvrF2l1/3xtDPw0WOyI3qtKg6-nZs?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:04.723Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 109,
@@ -3513,7 +3513,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 5,
       "maybe": 0,
       "capacity": null,
@@ -3529,7 +3529,7 @@
       "start_time": "5:30 pm",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/1NtQj3q29IUBiyrwT5UO1BuPl4y1/m98idNhxHSF5m5kO7c_fR?w=512&h=208&fit=clip",
-      "last_updated": "2026-04-05T10:34:05.774Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 110,
@@ -3577,7 +3577,7 @@
         "Startups & Entrepreneurship",
         "Investing & VC"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 3,
       "maybe": 0,
       "capacity": 150,
@@ -3593,7 +3593,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:07.948Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 112,
@@ -3609,7 +3609,7 @@
         "Networking & Social",
         "Blockchain & Crypto"
       ],
-      "going": 0,
+      "going": 42,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3625,7 +3625,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:08.988Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 113,
@@ -3649,14 +3649,14 @@
       "day_of_week": "Tuesday",
       "date": "April 7",
       "time_of_day": "Evening",
-      "sold_out": true,
+      "sold_out": false,
       "space_limited": true,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/wP0ZHLabolPJMsQEgbwG5Q0mW3n2/f51gwHQgmu_KmIlGSQszg?w=1000&h=1211&fit=clip",
-      "last_updated": "2026-04-05T10:34:10.087Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 114,
@@ -3672,7 +3672,7 @@
         "Networking & Social",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 53,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3688,7 +3688,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/L375SDBDVvZRAp416j5hyRs18Bn1/JPKKmGjb1vLv_gzyXF-pc?w=1000&h=1499&fit=clip",
-      "last_updated": "2026-04-05T10:34:11.084Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 115,
@@ -3704,10 +3704,10 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 111,
       "interested": 25,
       "maybe": 0,
-      "capacity": 70,
+      "capacity": 111,
       "spots_left": -41,
       "invite_only": true,
       "day_of_week": "Tuesday",
@@ -3720,7 +3720,7 @@
       "start_time": "7:00 pm",
       "end_time": "6:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/exHurTZSTsYKXPTXtlBsXiXUXd83/Fhmkpqn3o4jUjLt9OE0ac?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:12.202Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 116,
@@ -3830,7 +3830,7 @@
         "Networking & Social",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3846,7 +3846,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:16.657Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 120,
@@ -3862,7 +3862,7 @@
         "Startups & Entrepreneurship",
         "Arts & Entertainment"
       ],
-      "going": 40,
+      "going": 52,
       "interested": 7,
       "maybe": 0,
       "capacity": 40,
@@ -3878,7 +3878,7 @@
       "start_time": "8:00 am",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/1WZSQESBzL2eeMMxQSDJx?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:17.793Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 121,
@@ -3894,7 +3894,7 @@
         "Networking & Social",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3910,7 +3910,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:18.784Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 122,
@@ -3935,14 +3935,14 @@
       "day_of_week": "Tuesday",
       "date": "April 7",
       "time_of_day": "Morning",
-      "sold_out": true,
+      "sold_out": false,
       "space_limited": true,
       "duration": "2 hrs",
       "duration_minutes": 120,
       "start_time": "8:00am",
       "end_time": "10:00am",
       "image_url": "https://partiful.imgix.net/external/user/RCAHBPMn6zajhMri3n9MrZk3H2z1/2xO4cqSeZwHGAoIo9P1TH?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:19.817Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 123,
@@ -3958,7 +3958,7 @@
         "Manufacturing & Hardware",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 14,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -3974,7 +3974,7 @@
       "start_time": "8:00am",
       "end_time": "5:30pm",
       "image_url": "https://partiful.imgix.net/external/user/jkPaAy3Zzhc7JzW24zXCNIq5g5x2/Kmtr8NyEZWJv2pa5YZ4fe?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:20.866Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 124,
@@ -3990,7 +3990,7 @@
         "Legal & Policy",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 50,
       "interested": 6,
       "maybe": 0,
       "capacity": 100,
@@ -4006,7 +4006,7 @@
       "start_time": "8:00am",
       "end_time": "5:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:21.934Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 125,
@@ -4054,7 +4054,7 @@
         "Sales & Marketing",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 0,
       "maybe": 0,
       "capacity": 20,
@@ -4070,7 +4070,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/O9OywFyhPLTVM58JBJTQaMwGJNP2/nFD4EvVGklCjHmWX90gSl?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:24.008Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 127,
@@ -4148,11 +4148,11 @@
       "categories": [
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 44,
       "interested": 0,
       "maybe": 0,
       "capacity": 75,
-      "spots_left": 31,
+      "spots_left": 431,
       "invite_only": true,
       "day_of_week": "Tuesday",
       "date": "April 7",
@@ -4164,7 +4164,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:27.135Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 130,
@@ -4180,7 +4180,7 @@
         "Investing & VC",
         "Education & Workforce"
       ],
-      "going": 0,
+      "going": 95,
       "interested": 16,
       "maybe": 0,
       "capacity": 125,
@@ -4196,7 +4196,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/dDcIXqy0hkVFRfn3VV6GZ7lb0OC2/ZMfcpBzBFHvwWXTx7JmlN?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:28.247Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 131,
@@ -4212,7 +4212,7 @@
         "DevOps & Engineering",
         "General Tech"
       ],
-      "going": 0,
+      "going": 3,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -4228,7 +4228,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:29.249Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 132,
@@ -4243,7 +4243,7 @@
         "Tours & Demos",
         "General Tech"
       ],
-      "going": 0,
+      "going": 11,
       "interested": 3,
       "maybe": 0,
       "capacity": 25,
@@ -4259,7 +4259,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/G3tzZSHH0Raig3QqEzfOduX9c3I2/sTNbZLj49dOT7-6G2bmxg?w=1000&h=739&fit=clip",
-      "last_updated": "2026-04-05T10:34:30.301Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 133,
@@ -4275,7 +4275,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 9,
       "interested": 4,
       "maybe": 0,
       "capacity": 80,
@@ -4291,7 +4291,7 @@
       "start_time": "9:00 am",
       "end_time": "5:30 pm",
       "image_url": "https://media1.giphy.com/media/4uKGppPmeVBCzwfnMK/giphy.gif?cid=c00e53c6cevamzfzwygrujk7brro73v4mjg40h1xipul9qvo&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-      "last_updated": "2026-04-05T10:34:31.418Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 134,
@@ -4307,7 +4307,7 @@
         "Space & Aerospace",
         "Education & Workforce"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": 1000,
@@ -4323,7 +4323,7 @@
       "start_time": "9:00 am",
       "end_time": "5:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/c_JHVsN3aGtd95Bk83ZOB?w=672&h=396&fit=clip",
-      "last_updated": "2026-04-05T10:34:32.475Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 135,
@@ -4401,7 +4401,7 @@
         "Startups & Entrepreneurship",
         "General Tech"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -4417,7 +4417,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=920&h=920",
-      "last_updated": "2026-04-05T10:34:35.647Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 138,
@@ -4559,7 +4559,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -4575,7 +4575,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:34:40.993Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 143,
@@ -4591,7 +4591,7 @@
         "Space & Aerospace",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 0,
       "maybe": 0,
       "capacity": 50,
@@ -4607,7 +4607,7 @@
       "start_time": "10:00am",
       "end_time": "12:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:42.081Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 144,
@@ -4685,7 +4685,7 @@
         "AI & Machine Learning",
         "DevOps & Engineering"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 3,
       "maybe": 0,
       "capacity": null,
@@ -4701,7 +4701,7 @@
       "start_time": "11:00 am",
       "end_time": "1:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:45.309Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 147,
@@ -4717,7 +4717,7 @@
         "Health & Biotech",
         "Data & Analytics"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 0,
       "maybe": 0,
       "capacity": 1000,
@@ -4733,7 +4733,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/NVpxjwW4hTFlINcvF5201?w=1000&h=667&fit=clip",
-      "last_updated": "2026-04-05T10:34:46.330Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 148,
@@ -4749,7 +4749,7 @@
         "Legal & Policy",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 4,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -4765,7 +4765,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:47.337Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 149,
@@ -4781,7 +4781,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -4797,7 +4797,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-05T10:34:48.309Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 150,
@@ -5066,7 +5066,7 @@
       "categories": [
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 2,
       "maybe": 0,
       "capacity": 55,
@@ -5082,7 +5082,7 @@
       "start_time": "11:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/8qLhbo4vufNc6DfNpAY8utRWFLZ2/Hq1Yt0PWUvt6hdns_0lEF?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:34:57.764Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 159,
@@ -5098,7 +5098,7 @@
         "Cybersecurity",
         "General Tech"
       ],
-      "going": 0,
+      "going": 24,
       "interested": 10,
       "maybe": 0,
       "capacity": null,
@@ -5114,7 +5114,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:34:58.771Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 160,
@@ -5193,7 +5193,7 @@
         "Sales & Marketing",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -5209,7 +5209,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/g9WSVDEoL7sXE3iuPf86/crsVjkN0JYiowt_7Me-8A?w=1000&h=1015&fit=clip",
-      "last_updated": "2026-04-05T10:35:01.941Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 163,
@@ -5321,7 +5321,7 @@
         "Tours & Demos",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5337,7 +5337,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:35:06.102Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 167,
@@ -5384,7 +5384,7 @@
         "Tours & Demos",
         "DevOps & Engineering"
       ],
-      "going": 0,
+      "going": 12,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5400,7 +5400,7 @@
       "start_time": "1:30pm",
       "end_time": "6:30pm",
       "image_url": "https://partiful.imgix.net/external/user/ZeaWnW4ad3UHTfUa1jGaPhdLWgw1/VuwAYZS1hFPAZbUNQvJV5?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:08.221Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 169,
@@ -5416,7 +5416,7 @@
         "Legal & Policy",
         "Energy & Sustainability"
       ],
-      "going": 0,
+      "going": 39,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5432,7 +5432,7 @@
       "start_time": "1:45 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/udWBQaNpZ0g8WCCqqqycT7l674t1/mE5-73h7Jg_PWevzDl0-h?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:35:09.240Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 170,
@@ -5448,7 +5448,7 @@
         "Blockchain & Crypto",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 58,
       "interested": 7,
       "maybe": 0,
       "capacity": null,
@@ -5464,7 +5464,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/GZAmybS7baT28lYDzBoynFdKjeX2/MHwL12ED600RMmefw43J1?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:10.281Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 171,
@@ -5511,7 +5511,7 @@
         "AI & Machine Learning",
         "General Tech"
       ],
-      "going": 0,
+      "going": 8,
       "interested": 1,
       "maybe": 0,
       "capacity": 75,
@@ -5527,7 +5527,7 @@
       "start_time": "2:00pm",
       "end_time": "3:15pm",
       "image_url": "https://partiful.imgix.net/external/user/vhzlGZO0FTMDMUh5Aaj4RnVht7n2/43ZbrgPnoM4SgdigjarLy?w=784&h=766&fit=clip",
-      "last_updated": "2026-04-05T10:35:12.470Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 173,
@@ -5543,7 +5543,7 @@
         "Networking & Social",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 18,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5559,7 +5559,7 @@
       "start_time": "2:00pm",
       "end_time": "4:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:13.500Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 174,
@@ -5575,7 +5575,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 2,
       "maybe": 0,
       "capacity": null,
@@ -5591,7 +5591,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/1b0c7dOZ5tUHui1YjxdOQeTmVxv1/89EZF095EP3IjG1JShVF4?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:14.541Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 175,
@@ -5670,7 +5670,7 @@
         "Education & Workforce",
         "General Tech"
       ],
-      "going": 0,
+      "going": 9,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5686,7 +5686,7 @@
       "start_time": "3:30 pm",
       "end_time": "6:30 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:17.937Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 178,
@@ -5732,7 +5732,7 @@
       "categories": [
         "General Tech"
       ],
-      "going": 0,
+      "going": 29,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5748,7 +5748,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:19.956Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 180,
@@ -5763,7 +5763,7 @@
         "Real Estate",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 7,
       "interested": 2,
       "maybe": 0,
       "capacity": 50,
@@ -5779,7 +5779,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/4Q4TP6dTAIXF1iQv7X2O/PV2dd-qPaCZveqEyR8H8w?w=500&h=500&fit=clip",
-      "last_updated": "2026-04-05T10:35:20.990Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 181,
@@ -5827,7 +5827,7 @@
         "Investing & VC",
         "Education & Workforce"
       ],
-      "going": 0,
+      "going": 114,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5843,7 +5843,7 @@
       "start_time": "4:00pm",
       "end_time": "7:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:23.186Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 183,
@@ -5923,7 +5923,7 @@
         "Legal & Policy",
         "Investing & VC"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -5939,7 +5939,7 @@
       "start_time": "5:00 pm",
       "end_time": "3:15 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:26.281Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 186,
@@ -5954,7 +5954,7 @@
         "Networking & Social",
         "General Tech"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -5970,7 +5970,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:27.356Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 187,
@@ -5986,7 +5986,7 @@
         "DevOps & Engineering",
         "General Tech"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 3,
       "maybe": 0,
       "capacity": null,
@@ -6002,7 +6002,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ftuucavgh1P2FaJbcAg16f7hIro1/joGjPgJma0QQ7nH2ra4pm?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-05T10:35:28.344Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 188,
@@ -6079,7 +6079,7 @@
         "AI & Machine Learning",
         "Networking & Social"
       ],
-      "going": 0,
+      "going": 39,
       "interested": 12,
       "maybe": 0,
       "capacity": null,
@@ -6095,7 +6095,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ZN3pmFs4HieL31gw7dBhoHPD7Vp2/ls_DXjtArXUrry6okSGSM?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:31.513Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 191,
@@ -6111,7 +6111,7 @@
         "Startups & Entrepreneurship",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 9,
       "interested": 1,
       "maybe": 0,
       "capacity": 50,
@@ -6127,7 +6127,7 @@
       "start_time": "5:30 pm",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/WRyP3YpmMmMRcH1ighUZ1CwPk0q2/nUaKQYnS1DgBLwSCVl5Ox?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:32.570Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 192,
@@ -6175,7 +6175,7 @@
         "DevOps & Engineering",
         "Tours & Demos"
       ],
-      "going": 0,
+      "going": 25,
       "interested": 3,
       "maybe": 0,
       "capacity": 30,
@@ -6191,7 +6191,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/M4w7ZUTkCEhXHxwuh2xJ4qA4hTX2/m3uNToVvNZRWSGCFRaYqs?w=1000&h=1400&fit=clip",
-      "last_updated": "2026-04-05T10:35:34.649Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 194,
@@ -6238,7 +6238,7 @@
         "Networking & Social",
         "Fintech"
       ],
-      "going": 0,
+      "going": 9,
       "interested": 2,
       "maybe": 0,
       "capacity": null,
@@ -6254,7 +6254,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/XHfkgiqAfsQBgiKrWIsGsItUZzs1/6l7Z6xUmrBfgNmj6YULso?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:35:36.764Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 196,
@@ -6301,7 +6301,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 7,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -6317,7 +6317,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:38.869Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 198,
@@ -6396,7 +6396,7 @@
         "Energy & Sustainability",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 74,
       "interested": 8,
       "maybe": 0,
       "capacity": 100,
@@ -6412,7 +6412,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/PMUcRuS7LvWG6Us6Ugd9LqDkB7h1/YLsizmVTIkwBc6-y2WNr7?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:42.048Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 201,
@@ -6491,7 +6491,7 @@
         "Networking & Social",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -6507,7 +6507,7 @@
       "start_time": "8:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:45.136Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 204,
@@ -6554,7 +6554,7 @@
         "Networking & Social",
         "General Tech"
       ],
-      "going": 0,
+      "going": 5,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -6570,7 +6570,7 @@
       "start_time": "8:00am",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/jkPaAy3Zzhc7JzW24zXCNIq5g5x2/dy-jNvldg7MN5ZsZ111il?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:47.266Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 206,
@@ -6586,7 +6586,7 @@
         "Sales & Marketing",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 54,
       "interested": 8,
       "maybe": 0,
       "capacity": null,
@@ -6602,7 +6602,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/UncTeZ5KR1f2e7VJWSQe9xxD7qD3/z32aToPhexk78fX4T8ckk?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:35:48.334Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 207,
@@ -6773,7 +6773,7 @@
         "Education & Workforce",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -6789,7 +6789,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:54.540Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 213,
@@ -6868,7 +6868,7 @@
         "Investing & VC",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": 1000,
@@ -6884,7 +6884,7 @@
       "start_time": "9:00 am",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/nzzMicwiYvvTBDcBukgCc?w=924&h=794&fit=clip",
-      "last_updated": "2026-04-05T10:35:57.728Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 216,
@@ -6905,7 +6905,7 @@
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Wednesday",
       "date": "April 8",
       "time_of_day": "Morning",
@@ -6930,7 +6930,7 @@
       "categories": [
         "Investing & VC"
       ],
-      "going": 0,
+      "going": 44,
       "interested": 0,
       "maybe": 0,
       "capacity": 55,
@@ -6946,7 +6946,7 @@
       "start_time": "9:00am",
       "end_time": "11:00am",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:35:59.829Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 218,
@@ -6962,7 +6962,7 @@
         "Energy & Sustainability",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 5,
       "interested": 0,
       "maybe": 0,
       "capacity": 150,
@@ -6978,7 +6978,7 @@
       "start_time": "9:00am",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/pwOoK1ukQLVwWLoQGAVCs4EpR7m1/XbVFHOD4k9T96BnIQlONy?w=920&h=920&fit=clip",
-      "last_updated": "2026-04-05T10:36:00.853Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 219,
@@ -6994,7 +6994,7 @@
         "Sales & Marketing",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7010,7 +7010,7 @@
       "start_time": "9:00am",
       "end_time": "9:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:36:01.890Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 220,
@@ -7025,7 +7025,7 @@
         "Startups & Entrepreneurship",
         "General Tech"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -7041,7 +7041,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=920&h=920",
-      "last_updated": "2026-04-05T10:36:02.963Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 221,
@@ -7057,7 +7057,7 @@
         "Sales & Marketing",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 43,
       "interested": 0,
       "maybe": 0,
       "capacity": 50,
@@ -7073,7 +7073,7 @@
       "start_time": "9:30am",
       "end_time": "1:00pm",
       "image_url": "https://partiful.imgix.net/external/user/D9wVwx2s6xgdNddPMOONtGH8Xdf1/Kwg3ts_bnPJG9S0zbURZU?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:36:03.947Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 222,
@@ -7119,7 +7119,7 @@
       "categories": [
         "General Tech"
       ],
-      "going": 0,
+      "going": 28,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7135,7 +7135,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:36:05.939Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 224,
@@ -7151,10 +7151,10 @@
         "Legal & Policy",
         "General Tech"
       ],
-      "going": 0,
+      "going": 87,
       "interested": 20,
       "maybe": 0,
-      "capacity": 55,
+      "capacity": 87,
       "spots_left": -32,
       "invite_only": true,
       "day_of_week": "Thursday",
@@ -7167,7 +7167,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/icPCPdNpNggbJMQCP5esb0dOamP2/d4W8pryI1xI-nUIlrIvyr?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:36:06.966Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 225,
@@ -7183,7 +7183,7 @@
         "Education & Workforce",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 21,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7199,7 +7199,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/88E_TCOC3INMgihxjUR0g?w=912&h=936&fit=clip",
-      "last_updated": "2026-04-05T10:36:08.056Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 226,
@@ -7215,7 +7215,7 @@
         "Manufacturing & Hardware",
         "General Tech"
       ],
-      "going": 0,
+      "going": 7,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7231,7 +7231,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:36:09.083Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 227,
@@ -7341,7 +7341,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7357,7 +7357,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:36:13.264Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 231,
@@ -7372,7 +7372,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7388,7 +7388,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:36:14.232Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 232,
@@ -7436,7 +7436,7 @@
         "Startups & Entrepreneurship",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 34,
       "interested": 8,
       "maybe": 0,
       "capacity": 60,
@@ -7452,7 +7452,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:36:16.407Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 234,
@@ -7467,7 +7467,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7483,7 +7483,7 @@
       "start_time": "10:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:36:17.373Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 235,
@@ -7531,7 +7531,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7547,7 +7547,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-05T10:36:19.434Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 237,
@@ -7842,7 +7842,7 @@
       "city": "Phoenix",
       "time": "11:30 am",
       "organizer": "Plug and Play accelerateAZ",
-      "description": "Join us to Build a Resilient Grid Arizona can be the proving ground for the most ambitious energy transition in history. As our industrial landscape expands with massive semiconductor foundries and hy",
+      "description": "[DELETED] Join us to Build a Resilient Grid Arizona can be the proving ground for the most ambitious energy transition in history. As our industrial landscape expands with massive semiconductor foundries and hy",
       "link": "https://partiful.com/e/dwz6kwO6xyRKL6BQ2mkL",
       "full_date": "Thursday, April 9",
       "categories": [
@@ -7859,12 +7859,13 @@
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Morning",
-      "sold_out": false,
+      "sold_out": true,
       "space_limited": false,
       "duration": "1 hr 15 min",
       "duration_minutes": 75,
       "start_time": "11:30 am",
-      "end_time": "1:00 pm"
+      "end_time": "1:00 pm",
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 247,
@@ -7878,7 +7879,7 @@
       "categories": [
         "AI & Machine Learning"
       ],
-      "going": 0,
+      "going": 3,
       "interested": 0,
       "maybe": 0,
       "capacity": 15,
@@ -7894,7 +7895,7 @@
       "start_time": "11:45am",
       "end_time": "1:00pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:36:36.863Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 248,
@@ -7910,7 +7911,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 5,
       "interested": 4,
       "maybe": 0,
       "capacity": 25,
@@ -7926,7 +7927,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JkPnx3v2IKgsnGN4l3eEDdkEmck1/tlz0oNzRqW9dYZQCkeXmR?w=1000&h=750&fit=clip",
-      "last_updated": "2026-04-05T10:36:37.888Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 249,
@@ -7941,7 +7942,7 @@
         "Investing & VC",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -7957,7 +7958,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/bPRZ3WRrkJQiE2Sqnt6T6gWPgeo2/2zoP-6OxQFSbkR1GC4-jC?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:36:38.910Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 250,
@@ -7973,7 +7974,7 @@
         "Investing & VC",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 0,
       "maybe": 0,
       "capacity": 1000,
@@ -7989,7 +7990,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/CkxVylgsYobNLQdVyk8a1?w=369&h=148&fit=clip",
-      "last_updated": "2026-04-05T10:36:39.982Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 251,
@@ -8163,7 +8164,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 27,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8179,7 +8180,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/aXW6lZoBhFOeYG1BrEkP0uXb1hp2/8ER1bVmyOYcgEzqDXZraQ?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:36:46.362Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 257,
@@ -8194,7 +8195,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 27,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8210,7 +8211,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/aXW6lZoBhFOeYG1BrEkP0uXb1hp2/8ER1bVmyOYcgEzqDXZraQ?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:36:47.336Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 258,
@@ -8226,7 +8227,7 @@
         "Tours & Demos",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8242,7 +8243,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:36:48.377Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 259,
@@ -8258,7 +8259,7 @@
         "Investing & VC",
         "Sales & Marketing"
       ],
-      "going": 0,
+      "going": 5,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8274,7 +8275,7 @@
       "start_time": "1:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/RwyjmNeO56Pk217JGhhRU8rXqdw1/-sM-3yMvKYUrpCostU-Eg?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:36:49.363Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 260,
@@ -8290,7 +8291,7 @@
         "Manufacturing & Hardware",
         "AI & Machine Learning"
       ],
-      "going": 0,
+      "going": 39,
       "interested": 2,
       "maybe": 0,
       "capacity": null,
@@ -8306,7 +8307,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/H8wvOFz9DTgPB5xRR2k5f5DUMZ83/mQQ3AFePXRbLwTlPPxJGM?w=1000&h=1778&fit=clip",
-      "last_updated": "2026-04-05T10:36:50.394Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 261,
@@ -8322,7 +8323,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 2,
       "maybe": 0,
       "capacity": null,
@@ -8338,7 +8339,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JkPnx3v2IKgsnGN4l3eEDdkEmck1/sbt12OtrCU7vAFlBM6cU8?w=225&h=225&fit=clip",
-      "last_updated": "2026-04-05T10:36:51.474Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 262,
@@ -8385,12 +8386,12 @@
         "DevOps & Engineering",
         "Education & Workforce"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Afternoon",
@@ -8401,7 +8402,7 @@
       "start_time": "2:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/5SM2H1HNTZVHxWcGxnBgd3BhWAi1/wG7ebT_RqqipVFfco5bRN?w=1&h=1&fit=clip",
-      "last_updated": "2026-04-05T10:36:53.672Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 264,
@@ -8417,7 +8418,7 @@
         "Investing & VC",
         "Sales & Marketing"
       ],
-      "going": 0,
+      "going": 6,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8433,7 +8434,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:36:54.686Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 265,
@@ -8449,7 +8450,7 @@
         "AI & Machine Learning",
         "Sales & Marketing"
       ],
-      "going": 0,
+      "going": 38,
       "interested": 5,
       "maybe": 0,
       "capacity": 100,
@@ -8465,7 +8466,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/S5wxHpLllLaGXXLxdBd7bIYlZS92/ijKAbV-MF2mWGJpvK6-7c?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:36:55.706Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 266,
@@ -8545,7 +8546,7 @@
         "Manufacturing & Hardware",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8561,7 +8562,7 @@
       "start_time": "3:00pm",
       "end_time": "5:00pm",
       "image_url": "https://partiful.imgix.net/external/user/rEgDhSA2ubSg4ijSClq2JNvrZGx2/YGM_5usnqDnVkhnbizxXz?w=1000&h=999&fit=clip",
-      "last_updated": "2026-04-05T10:36:58.710Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 269,
@@ -8617,14 +8618,14 @@
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Afternoon",
-      "sold_out": true,
+      "sold_out": false,
       "space_limited": true,
       "duration": "3 hrs",
       "duration_minutes": 180,
       "start_time": "4:00 pm",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/nh2SPxh4dBUQPRvGemTd2Kz3aHs2/I9Bg4IF_OFhHmHeXTJgM6?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:37:00.803Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 271,
@@ -8639,7 +8640,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 53,
       "interested": 4,
       "maybe": 0,
       "capacity": null,
@@ -8655,7 +8656,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Omzc10OKE9PbskY0VBJSYOweNoH2/oWYl-ELkf7wPPrNs2Yy4B?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:37:01.824Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 272,
@@ -8703,10 +8704,10 @@
         "Startups & Entrepreneurship",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 38,
       "interested": 0,
       "maybe": 0,
-      "capacity": 35,
+      "capacity": 38,
       "spots_left": -3,
       "invite_only": true,
       "day_of_week": "Thursday",
@@ -8719,7 +8720,7 @@
       "start_time": "4:00pm",
       "end_time": "7:00pm",
       "image_url": "https://partiful.imgix.net/external/user/eJe6v0cT0jaTEmH4pPFrAf7gTC82/iKeXaO9Od-R0_HUVvLKFs?w=767&h=950&fit=clip",
-      "last_updated": "2026-04-05T10:37:03.900Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 274,
@@ -8735,7 +8736,7 @@
         "Investing & VC",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 103,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8751,7 +8752,7 @@
       "start_time": "4:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/9KQyWqWaBVeAYaJKOq6oJNWV4q73/9DJFjp2f44cNdmDvNn0H0?w=1000&h=1340&fit=clip",
-      "last_updated": "2026-04-05T10:37:04.934Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 275,
@@ -8820,7 +8821,7 @@
       "city": "Mesa",
       "time": "5:00 pm",
       "organizer": "Niko, Arizona Tech Week",
-      "description": "University-Industry-Stakeholders cooperation, engaging and connecting companies, employees, faculty, students, and stakeholders in a meaningful experience, while developing intrapreneurial mindset and ",
+      "description": "[CANCELLED] University-Industry-Stakeholders cooperation, engaging and connecting companies, employees, faculty, students, and stakeholders in a meaningful experience, while developing intrapreneurial mindset and ",
       "link": "https://partiful.com/e/937OF5lJf2MuT0mephrj",
       "full_date": "Thursday, April 9",
       "categories": [
@@ -8837,14 +8838,14 @@
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Evening",
-      "sold_out": false,
+      "sold_out": true,
       "space_limited": true,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/186MiaV6LghPfKBKEbwfdOpyJzR2/f7k1Hc-dswd0hQjM0_AEc?w=630&h=630&fit=clip",
-      "last_updated": "2026-04-05T10:37:07.981Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 278,
@@ -8859,7 +8860,7 @@
         "Networking & Social",
         "General Tech"
       ],
-      "going": 0,
+      "going": 33,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8875,7 +8876,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/H8wvOFz9DTgPB5xRR2k5f5DUMZ83/Obpo9mIHZblV38-W05CVG?w=1000&h=1778&fit=clip",
-      "last_updated": "2026-04-05T10:37:09.012Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 279,
@@ -8891,7 +8892,7 @@
         "Education & Workforce",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 125,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -8907,7 +8908,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/9KQyWqWaBVeAYaJKOq6oJNWV4q73/esVZGF34EsiKuCzujB8yC?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:37:10.031Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 280,
@@ -8986,12 +8987,12 @@
         "Real Estate",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Evening",
@@ -9002,7 +9003,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:37:13.126Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 283,
@@ -9080,7 +9081,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 78,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -9096,7 +9097,7 @@
       "start_time": "5:30pm",
       "end_time": "8:30pm",
       "image_url": "https://partiful.imgix.net/external/user/lUfOGBxd0MQpcQEteACkS1kNcPv2/U_ui-9P0N51AoXzv8M9oA?w=1000&h=1306&fit=clip",
-      "last_updated": "2026-04-05T10:37:16.180Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 286,
@@ -9112,7 +9113,7 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 54,
       "interested": 5,
       "maybe": 0,
       "capacity": 175,
@@ -9128,7 +9129,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/AF9gXWLw3qcBVe38XUKyBBto4Jj2/BZviWkSPLn9XyAgV_js74?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-05T10:37:17.253Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 287,
@@ -9136,7 +9137,7 @@
       "city": "Sahuarita",
       "time": "6:00 pm",
       "organizer": "Sonoran AI Consulting",
-      "description": "Join us for a collaborative evening of innovation and connection at our upcoming local Sahuarita and Green Valley tech event. Attendees can expect a mix of brief talks from industry professionals and ",
+      "description": "[DELETED] Join us for a collaborative evening of innovation and connection at our upcoming local Sahuarita and Green Valley tech event. Attendees can expect a mix of brief talks from industry professionals and ",
       "link": "https://partiful.com/e/VZe3oyERDsrGrDrouI8l",
       "full_date": "Thursday, April 9",
       "categories": [
@@ -9153,14 +9154,14 @@
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Evening",
-      "sold_out": false,
+      "sold_out": true,
       "space_limited": false,
       "duration": "",
       "duration_minutes": 0,
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-04T02:05:10.084Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 288,
@@ -9176,7 +9177,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 23,
       "interested": 9,
       "maybe": 0,
       "capacity": null,
@@ -9192,7 +9193,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/GZAmybS7baT28lYDzBoynFdKjeX2/vfBm7OTGRj1dJzW7obMFd?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:37:25.644Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 289,
@@ -9236,7 +9237,7 @@
       "categories": [
         "General Tech"
       ],
-      "going": 0,
+      "going": 13,
       "interested": 4,
       "maybe": 0,
       "capacity": null,
@@ -9252,7 +9253,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JkPnx3v2IKgsnGN4l3eEDdkEmck1/prs0uWk1kvzrMWy-J6oT9?w=1000&h=851&fit=clip",
-      "last_updated": "2026-04-05T10:37:27.715Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 291,
@@ -9268,7 +9269,7 @@
         "Manufacturing & Hardware",
         "AI & Machine Learning"
       ],
-      "going": 0,
+      "going": 15,
       "interested": 0,
       "maybe": 0,
       "capacity": 40,
@@ -9284,7 +9285,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/njeaADRlg6NDU1POeYVCSKOBn6x1/uvaGDWLx_e-Vz-mYUKeEt?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:37:28.780Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 292,
@@ -9299,7 +9300,7 @@
         "AI & Machine Learning",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 8,
       "interested": 0,
       "maybe": 0,
       "capacity": 80,
@@ -9315,7 +9316,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:37:29.812Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 293,
@@ -9362,7 +9363,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 39,
       "interested": 6,
       "maybe": 0,
       "capacity": 65,
@@ -9378,7 +9379,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:37:31.894Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 295,
@@ -9431,7 +9432,7 @@
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Thursday",
       "date": "April 9",
       "time_of_day": "Morning",
@@ -9458,7 +9459,7 @@
         "Sales & Marketing",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 12,
       "interested": 0,
       "maybe": 0,
       "capacity": 20,
@@ -9474,7 +9475,7 @@
       "start_time": "8:30am",
       "end_time": "9:30am",
       "image_url": "https://partiful.imgix.net/external/user/O9OywFyhPLTVM58JBJTQaMwGJNP2/ecIwdxzJ8kfUiE4Jr4z83?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:37:35.008Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 298,
@@ -9489,7 +9490,7 @@
         "AI & Machine Learning",
         "Data & Analytics"
       ],
-      "going": 0,
+      "going": 35,
       "interested": 6,
       "maybe": 0,
       "capacity": null,
@@ -9505,7 +9506,7 @@
       "start_time": "9:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/SJdDnwtJY1dvT5oA7VYKWUZkeLA2/9BNOJ_CwqlduPBoKE2f7j?w=1000&h=563&fit=clip",
-      "last_updated": "2026-04-05T10:37:36.081Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 299,
@@ -9521,7 +9522,7 @@
         "Arts & Entertainment",
         "General Tech"
       ],
-      "going": 0,
+      "going": 21,
       "interested": 5,
       "maybe": 0,
       "capacity": null,
@@ -9537,7 +9538,7 @@
       "start_time": "9:00 am",
       "end_time": "5:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/MQzrEmlLeIVfMPxbiamCBTufbXp2/GmloGnTEJiiMLyCN4RwKi?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:37:37.112Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 300,
@@ -9677,7 +9678,7 @@
         "Startups & Entrepreneurship",
         "General Tech"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -9693,7 +9694,7 @@
       "start_time": "9:30 am",
       "end_time": "",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=920&h=920",
-      "last_updated": "2026-04-05T10:37:42.349Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 305,
@@ -9741,7 +9742,7 @@
         "Investing & VC",
         "Education & Workforce"
       ],
-      "going": 0,
+      "going": 16,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -9757,7 +9758,7 @@
       "start_time": "10:00am",
       "end_time": "5:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:37:44.556Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 307,
@@ -9772,7 +9773,7 @@
         "Education & Workforce",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -9788,7 +9789,7 @@
       "start_time": "10:00am — 3:00pm",
       "end_time": "4:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/WdOW0YDZJGbkKIhRn95kl?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:37:45.533Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 308,
@@ -9802,7 +9803,7 @@
       "categories": [
         "Manufacturing & Hardware"
       ],
-      "going": 0,
+      "going": 3,
       "interested": 0,
       "maybe": 0,
       "capacity": 20,
@@ -9818,7 +9819,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/IrwxSQUGR8UL7HAwDheoN587G4t2/koeICE4tjDMyKiBeqcens?w=1000&h=667&fit=clip",
-      "last_updated": "2026-04-05T10:37:46.710Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 309,
@@ -9834,7 +9835,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -9850,7 +9851,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-05T10:37:47.705Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 310,
@@ -10217,7 +10218,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -10233,7 +10234,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-05T10:38:00.064Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 322,
@@ -10502,7 +10503,7 @@
         "Investing & VC",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 5,
       "interested": 1,
       "maybe": 0,
       "capacity": 1000,
@@ -10518,7 +10519,7 @@
       "start_time": "12:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/x5qjtICr4YIBtqtMBdXUZ?w=924&h=794&fit=clip",
-      "last_updated": "2026-04-05T10:38:09.209Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 331,
@@ -10539,7 +10540,7 @@
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Friday",
       "date": "April 10",
       "time_of_day": "Afternoon",
@@ -10566,7 +10567,7 @@
         "Education & Workforce",
         "Tours & Demos"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -10582,7 +10583,7 @@
       "start_time": "12:00 pm",
       "end_time": "5:00 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:38:11.268Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 333,
@@ -10628,7 +10629,7 @@
         "Tours & Demos",
         "Startups & Entrepreneurship"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -10644,7 +10645,7 @@
       "start_time": "12:00pm",
       "end_time": "2:00pm",
       "image_url": "https://partiful.imgix.net/external/user/6doXkZc42pfO8Vvo6g17N9TN8ro1/rCXLs2C4vP1XNMs3qhSpT?w=940&h=788&fit=clip",
-      "last_updated": "2026-04-05T10:38:13.311Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 335,
@@ -10660,7 +10661,7 @@
         "AI & Machine Learning",
         "DevOps & Engineering"
       ],
-      "going": 0,
+      "going": 14,
       "interested": 2,
       "maybe": 0,
       "capacity": 60,
@@ -10676,7 +10677,7 @@
       "start_time": "1:00 pm",
       "end_time": "11:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/U4MSka0kO7bpS2demnZK0PCgRse2/mdhy0LBwPFZy02cNg2Gt7?w=1000&h=1295&fit=clip",
-      "last_updated": "2026-04-05T10:38:14.460Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 336,
@@ -10755,7 +10756,7 @@
         "Tours & Demos",
         "Legal & Policy"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -10771,7 +10772,7 @@
       "start_time": "1:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/gdA2TGSPbjXiNOgb5Dd5DuqaCSl1/w0BrKehAlx-QZdIeEHbz2?w=1000&h=1001&fit=clip",
-      "last_updated": "2026-04-05T10:38:17.700Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 339,
@@ -10817,7 +10818,7 @@
         "Startups & Entrepreneurship",
         "Education & Workforce"
       ],
-      "going": 0,
+      "going": 77,
       "interested": 8,
       "maybe": 0,
       "capacity": 100,
@@ -10833,7 +10834,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/Rk3LLQqc6JTDOLTs45BkHtwHS823/sL1786HyOA7FKS9DXfGMr?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:38:19.863Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 341,
@@ -10849,7 +10850,7 @@
         "Investing & VC",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 5,
       "interested": 3,
       "maybe": 0,
       "capacity": 1000,
@@ -10865,7 +10866,7 @@
       "start_time": "3:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/DYSfE4zf0gYgRPce64v33dHBfa72/2M13FFiZ_I2YUY2yCzVxF?w=924&h=794&fit=clip",
-      "last_updated": "2026-04-05T10:38:20.953Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 342,
@@ -10913,7 +10914,7 @@
         "Legal & Policy",
         "Investing & VC"
       ],
-      "going": 0,
+      "going": 23,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -10929,7 +10930,7 @@
       "start_time": "4:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/wGVXTWFtgLgISkskkGai9?w=874&h=876&fit=clip",
-      "last_updated": "2026-04-05T10:38:22.998Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 344,
@@ -11008,7 +11009,7 @@
         "Education & Workforce",
         "Networking & Social"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 5,
       "maybe": 0,
       "capacity": null,
@@ -11024,7 +11025,7 @@
       "start_time": "5:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/zybACcfraKRYPXeYHgtGLE7iO4m2/HJ6YXv8Lqir-lvI4-tHjv?w=1000&h=475&fit=clip",
-      "last_updated": "2026-04-05T10:38:26.114Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 347,
@@ -11070,7 +11071,7 @@
         "Manufacturing & Hardware",
         "AI & Machine Learning"
       ],
-      "going": 0,
+      "going": 69,
       "interested": 11,
       "maybe": 0,
       "capacity": null,
@@ -11086,7 +11087,7 @@
       "start_time": "5:30 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/zg0VGSyQDKaRtiNToqqYMLsHBrF2/CHCN90KbYWxoio4jbnNUP?w=1000&h=1334&fit=clip",
-      "last_updated": "2026-04-05T10:38:28.201Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 349,
@@ -11165,7 +11166,7 @@
         "Sales & Marketing",
         "Tours & Demos"
       ],
-      "going": 0,
+      "going": 107,
       "interested": 0,
       "maybe": 0,
       "capacity": 400,
@@ -11181,7 +11182,7 @@
       "start_time": "6:00pm",
       "end_time": "10:00pm",
       "image_url": "https://partiful.imgix.net/external/user/fU20xBEhydQmk3enFN5rtd0Pi3R2/gq7xx3oCjcn-phHSeuEte?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:38:31.360Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 352,
@@ -11228,7 +11229,7 @@
         "Data & Analytics",
         "General Tech"
       ],
-      "going": 0,
+      "going": 33,
       "interested": 0,
       "maybe": 0,
       "capacity": 40,
@@ -11244,7 +11245,7 @@
       "start_time": "7:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/U4MSka0kO7bpS2demnZK0PCgRse2/zKPWubldEvG_8r4vVyL3P?w=1000&h=1295&fit=clip",
-      "last_updated": "2026-04-05T10:38:33.477Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 354,
@@ -11291,7 +11292,7 @@
         "Startups & Entrepreneurship",
         "Networking & Social"
       ],
-      "going": 0,
+      "going": 52,
       "interested": 6,
       "maybe": 0,
       "capacity": null,
@@ -11307,7 +11308,7 @@
       "start_time": "8:30 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/ZN3pmFs4HieL31gw7dBhoHPD7Vp2/lZ5DWNY_-991h_CH1QMoL?w=1000&h=1000&fit=clip",
-      "last_updated": "2026-04-05T10:38:35.564Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 356,
@@ -11449,7 +11450,7 @@
         "DevOps & Engineering",
         "Arts & Entertainment"
       ],
-      "going": 0,
+      "going": 17,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -11465,7 +11466,7 @@
       "start_time": "11:00 am",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/JZfekG6JAbTcgVNirCeNPufOmpn2/_SQfF6mrJ7zLXWTjXbdQS?w=800&h=450&fit=clip",
-      "last_updated": "2026-04-05T10:38:40.682Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 361,
@@ -11735,7 +11736,7 @@
         "Energy & Sustainability",
         "Tours & Demos"
       ],
-      "going": 0,
+      "going": 22,
       "interested": 8,
       "maybe": 0,
       "capacity": null,
@@ -11751,7 +11752,7 @@
       "start_time": "2:00 pm",
       "end_time": "7:00 pm",
       "image_url": "https://partiful.imgix.net/external/user/hHPL4LQFeQROqjegVN6FXh8niZ03/sS5y4tOTvTk89vztRRbVk?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:38:50.125Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 370,
@@ -11797,7 +11798,7 @@
         "Networking & Social",
         "DevOps & Engineering"
       ],
-      "going": 0,
+      "going": 12,
       "interested": 1,
       "maybe": 0,
       "capacity": null,
@@ -11813,7 +11814,7 @@
       "start_time": "3:00 pm",
       "end_time": "10:30 pm",
       "image_url": "https://partiful.imgix.net/external/user/j8jYKdx4QfWSvjBxhRenN4Xl7Wj1/9plUwQqGKQUfmEkEQ8E9O?w=285&h=389&fit=clip",
-      "last_updated": "2026-04-05T10:38:51.236Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 372,
@@ -12131,7 +12132,7 @@
         "Networking & Social",
         "General Tech"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -12147,7 +12148,7 @@
       "start_time": "6:00 pm",
       "end_time": "",
       "image_url": "https://partiful.imgix.net/external/user/LIMlSUGgqbSL1aFopqGUDRXiGC72/sVZYeVB0J4itUZHw_QTta?w=1000&h=1250&fit=clip",
-      "last_updated": "2026-04-05T10:38:58.560Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 383,
@@ -12220,7 +12221,7 @@
         "Education & Workforce",
         "General Tech"
       ],
-      "going": 0,
+      "going": 27,
       "interested": 10,
       "maybe": 0,
       "capacity": null,
@@ -12236,7 +12237,7 @@
       "start_time": "8:30am",
       "end_time": "10:30pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:38:59.623Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": 386,
@@ -12651,7 +12652,7 @@
         "Gaming & Entertainment",
         "Women in Tech"
       ],
-      "going": 0,
+      "going": 5,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -12667,7 +12668,7 @@
       "start_time": "3:00 pm",
       "end_time": null,
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:39:00.644Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": "402",
@@ -12688,7 +12689,7 @@
         "Gaming & Entertainment",
         "Women in Tech"
       ],
-      "going": 0,
+      "going": 2,
       "interested": 0,
       "maybe": 0,
       "capacity": 22,
@@ -12704,7 +12705,7 @@
       "start_time": "3:45 pm",
       "end_time": "5:30 pm",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:39:01.663Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": "403",
@@ -12722,12 +12723,12 @@
         "Gaming & Entertainment",
         "Women in Tech"
       ],
-      "going": 0,
+      "going": 1,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Thu",
       "date": "2026-04-09",
       "time_of_day": "afternoon",
@@ -12738,7 +12739,7 @@
       "start_time": "12:30 am",
       "end_time": "1:30 am",
       "image_url": "https://partiful.imgix.net/external/user/6I828rZ6z8WucTtKiYxFEqbi6YH2/0synYPYpFuUmgYSkU-YyI?w=1000&h=1294&fit=clip",
-      "last_updated": "2026-04-05T10:39:02.687Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": "404",
@@ -12756,7 +12757,7 @@
         "Gaming & Entertainment",
         "Women in Tech"
       ],
-      "going": 0,
+      "going": 4,
       "interested": 0,
       "maybe": 0,
       "capacity": null,
@@ -12772,7 +12773,7 @@
       "start_time": "12:30 am",
       "end_time": "2:30 am",
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:39:03.689Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": "405",
@@ -12901,7 +12902,7 @@
       "maybe": 0,
       "capacity": null,
       "spots_left": null,
-      "invite_only": false,
+      "invite_only": true,
       "day_of_week": "Tue",
       "date": "2026-04-07",
       "time_of_day": "evening",
@@ -12930,7 +12931,7 @@
         "Gaming & Entertainment",
         "Women in Tech"
       ],
-      "going": 0,
+      "going": 14,
       "interested": 3,
       "maybe": 0,
       "capacity": null,
@@ -12946,7 +12947,7 @@
       "start_time": "9:00 pm",
       "end_time": null,
       "image_url": "https://partiful-posters.imgix.net/techweek_az_20251024?fit=max&w=1000&h=1000",
-      "last_updated": "2026-04-05T10:39:09.833Z"
+      "last_updated": "2026-04-05T11:28:14.889005+00:00"
     },
     {
       "id": "410",
@@ -13935,11 +13936,11 @@
       "last_updated": "2026-04-04T23:29:17.149957+00:00"
     }
   ],
-  "last_scraped": "2026-04-05T10:39:16.034Z",
+  "last_scraped": "2026-04-05T11:28:14.889005+00:00",
   "scrape_stats": {
     "total": 393,
-    "updated": 390,
-    "failed": 3,
-    "skipped": 0
+    "updated": 177,
+    "failed": 0,
+    "skipped": 47
   }
 }
