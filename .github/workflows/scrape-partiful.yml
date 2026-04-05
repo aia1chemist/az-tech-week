@@ -22,6 +22,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Discover new events from AZ Commerce calendar
+        run: node scripts/discover-events.mjs
+
       - name: Run Partiful scraper
         run: node scripts/scrape-partiful.mjs
 
