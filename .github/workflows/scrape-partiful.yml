@@ -42,21 +42,3 @@ jobs:
           git commit -m "chore: auto-update event data from Partiful [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
           git pull --rebase
           git push
-
-      - name: Sync event data to Manus site
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          echo "Syncing updated events.json to Manus..."
-          HTTP_STATUS=$(curl -s -o /tmp/sync-response.json -w "%{http_code}" \
-            -X POST "https://aztechweek.manus.space/api/sync-events" \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.MANUS_WEBHOOK_SECRET }}" \
-            --data-binary @client/src/data/events.json \
-            --max-time 30 )
-          echo "Response status: $HTTP_STATUS"
-          cat /tmp/sync-response.json
-          if [ "$HTTP_STATUS" != "200" ]; then
-            echo "Warning: Sync to Manus failed with status $HTTP_STATUS (non-blocking)"
-          else
-            echo "Successfully synced to Manus!"
-          fi
